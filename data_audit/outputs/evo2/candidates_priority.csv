@@ -1,0 +1,433 @@
+gene_window,rsid,chromosome,position,end,ref,alt,n_alleles,consequence,clinical_significance
+BST1,rs1719630953,4,15703148,15703148,G,A,2,missense_variant,['uncertain significance']
+BST1,rs1169757714,4,15703158,15703158,G,"A,C",3,missense_variant,['uncertain significance']
+BST1,rs752630803,4,15703170,15703170,C,G,2,missense_variant,['uncertain significance']
+BST1,rs1263970637,4,15703188,15703188,T,"A,G",3,missense_variant,['uncertain significance']
+BST1,rs977615317,4,15703202,15703202,C,T,2,missense_variant,['uncertain significance']
+BST1,rs781454882,4,15703224,15703224,C,T,2,missense_variant,['uncertain significance']
+BST1,rs1399049961,4,15703232,15703232,G,A,2,missense_variant,['uncertain significance']
+BST1,rs775887512,4,15703236,15703236,G,C,2,missense_variant,['likely benign']
+BST1,rs531107943,4,15703256,15703256,G,"A,T",3,missense_variant,['uncertain significance']
+BST1,rs375955431,4,15703287,15703287,T,C,2,missense_variant,['uncertain significance']
+BST1,rs539558371,4,15703293,15703293,G,"A,C",3,missense_variant,['uncertain significance']
+BST1,rs184852747,4,15703301,15703301,G,A,2,missense_variant,['uncertain significance']
+BST1,rs2476310545,4,15703328,15703328,C,G,2,missense_variant,['uncertain significance']
+BST1,rs971320175,4,15703149,15703149,C,T,2,missense_variant,
+BST1,rs750078136,4,15703151,15703151,G,"C,T",3,missense_variant,
+BST1,rs760383985,4,15703152,15703152,C,"G,T",3,missense_variant,
+BST1,rs753333693,4,15703155,15703155,A,"C,G",3,missense_variant,
+BST1,rs867696611,4,15703156,15703156,G,"C,T",3,missense_variant,
+BST1,rs908777440,4,15703157,15703157,G,"A,C",3,missense_variant,
+BST1,rs1230993200,4,15703160,15703160,T,G,2,missense_variant,
+BST1,rs771126935,4,15703161,15703161,G,"C,T",3,missense_variant,
+BST1,rs1719633730,4,15703163,15703163,G,A,2,missense_variant,
+BST1,rs370174845,4,15703164,15703164,C,T,2,missense_variant,
+BST1,rs1355739514,4,15703166,15703166,G,"A,T",3,missense_variant,
+BST1,rs1348810266,4,15703167,15703167,C,T,2,missense_variant,
+BST1,rs1719634852,4,15703169,15703169,T,C,2,missense_variant,
+BST1,rs1229404993,4,15703181,15703181,C,A,2,missense_variant,
+BST1,rs1719636492,4,15703187,15703187,C,G,2,missense_variant,
+BST1,rs967573452,4,15703191,15703191,T,"C,G",3,missense_variant,
+BST1,rs1719637751,4,15703199,15703199,C,G,2,missense_variant,
+BST1,rs1719638461,4,15703206,15703206,T,C,2,missense_variant,
+BST1,rs757611440,4,15703209,15703209,T,"A,C",3,missense_variant,
+BST1,rs1413065784,4,15703217,15703217,C,A,2,missense_variant,
+BST1,rs1719640037,4,15703218,15703218,T,G,2,missense_variant,
+BST1,rs1560274245,4,15703221,15703221,C,T,2,missense_variant,
+BST1,rs941558395,4,15703226,15703226,G,A,2,missense_variant,
+BST1,rs769882140,4,15703229,15703229,G,C,2,missense_variant,
+BST1,rs923544011,4,15703233,15703233,C,"A,G",3,missense_variant,
+BST1,rs1051090020,4,15703241,15703241,C,"G,T",3,missense_variant,
+BST1,rs749740674,4,15703244,15703244,T,G,2,missense_variant,
+BST1,rs769144887,4,15703248,15703248,G,T,2,missense_variant,
+BST1,rs762139985,4,15703250,15703250,G,"A,C",3,missense_variant,
+BST1,rs2302468,4,15703251,15703251,G,"A,C",3,missense_variant,
+BST1,rs1018318205,4,15703254,15703254,A,G,2,missense_variant,
+BST1,rs1471784060,4,15703262,15703262,A,G,2,missense_variant,
+BST1,rs1719645507,4,15703268,15703268,C,T,2,missense_variant,
+BST1,rs1319919724,4,15703269,15703269,A,"C,T",3,missense_variant,
+BST1,rs758989090,4,15703270,15703270,C,"A,G,T",4,missense_variant,
+BST1,rs1560274396,4,15703274,15703274,C,"G,T",3,missense_variant,
+BST1,rs764744464,4,15703275,15703275,G,A,2,missense_variant,
+BST1,rs551222169,4,15703280,15703280,A,"G,T",3,missense_variant,
+BST1,rs1719647024,4,15703283,15703283,T,A,2,missense_variant,
+BST1,rs1310561126,4,15703295,15703295,T,C,2,missense_variant,
+BST1,rs757046830,4,15703297,15703297,C,G,2,missense_variant,
+BST1,rs2148873543,4,15703299,15703299,C,G,2,missense_variant,
+BST1,rs1719649131,4,15703303,15703303,G,C,2,missense_variant,
+BST1,rs2148873567,4,15703305,15703305,A,G,2,missense_variant,
+BST1,rs1003143065,4,15703307,15703307,C,G,2,missense_variant,
+BST1,rs1052319486,4,15703308,15703308,G,C,2,missense_variant,
+BST1,rs1305682548,4,15703310,15703310,G,T,2,missense_variant,
+CD38,rs781666306,4,15778448,15778448,G,A,2,missense_variant,['uncertain significance']
+CD38,rs772703691,4,15778466,15778466,C,T,2,missense_variant,['uncertain significance']
+CD38,rs139513331,4,15778467,15778467,T,G,2,missense_variant,['uncertain significance']
+CD38,rs1316800434,4,15778572,15778572,C,"A,T",3,missense_variant,['uncertain significance']
+CD38,rs550670064,4,15778592,15778592,C,"G,T",3,missense_variant,['uncertain significance']
+CD38,rs78580781,4,15778624,15778624,C,T,2,synonymous_variant,['benign']
+CD38,rs2474445799,4,15778640,15778640,G,C,2,missense_variant,['uncertain significance']
+CD38,rs1335278237,4,15778419,15778419,C,G,2,missense_variant,
+CD38,rs1277207861,4,15778422,15778422,A,G,2,missense_variant,
+CD38,rs752432092,4,15778424,15778424,T,"A,G",3,missense_variant,
+CD38,rs758688312,4,15778425,15778425,G,"A,C",3,missense_variant,
+CD38,rs1722602762,4,15778427,15778427,G,A,2,missense_variant,
+CD38,rs1180459430,4,15778430,15778430,T,C,2,missense_variant,
+CD38,rs919530245,4,15778434,15778434,G,C,2,missense_variant,
+CD38,rs142149974,4,15778435,15778435,C,G,2,missense_variant,
+CD38,rs78988986,4,15778437,15778437,C,T,2,missense_variant,
+CD38,rs757244051,4,15778439,15778439,G,A,2,missense_variant,
+CD38,rs1722603426,4,15778440,15778440,T,G,2,missense_variant,
+CD38,rs1577626713,4,15778453,15778453,A,C,2,missense_variant,
+CD38,rs746314417,4,15778454,15778454,C,A,2,missense_variant,
+CD38,rs201888432,4,15778460,15778460,T,C,2,missense_variant,
+CD38,rs540438203,4,15778463,15778463,C,T,2,missense_variant,
+CD38,rs771783257,4,15778464,15778464,G,"A,C,T",4,missense_variant,
+CD38,rs1273347760,4,15778473,15778473,G,A,2,missense_variant,
+CD38,rs559868075,4,15778476,15778476,G,C,2,missense_variant,
+CD38,rs759615714,4,15778478,15778478,G,C,2,missense_variant,
+CD38,rs573496532,4,15778479,15778479,C,"A,T",3,missense_variant,
+CD38,rs200626991,4,15778483,15778483,A,"C,G",3,missense_variant,
+CD38,rs762606276,4,15778484,15778484,C,"A,T",3,missense_variant,
+CD38,rs1722605042,4,15778485,15778485,T,A,2,missense_variant,
+CD38,rs561829761,4,15778488,15778488,G,"A,C",3,missense_variant,
+CD38,rs530962009,4,15778490,15778490,C,T,2,missense_variant,
+CD38,rs757340410,4,15778491,15778491,T,C,2,missense_variant,
+CD38,rs767639629,4,15778493,15778493,G,A,2,missense_variant,
+CD38,rs750494618,4,15778496,15778496,G,A,2,missense_variant,
+CD38,rs1722605770,4,15778500,15778500,G,A,2,missense_variant,
+CD38,rs1722605841,4,15778502,15778502,A,G,2,missense_variant,
+CD38,rs756650552,4,15778504,15778504,C,"A,G",3,missense_variant,
+CD38,rs535465598,4,15778505,15778505,C,"G,T",3,missense_variant,
+CD38,rs749699166,4,15778517,15778517,C,A,2,missense_variant,
+CD38,rs1432308360,4,15778520,15778520,G,A,2,missense_variant,
+CD38,rs1722606938,4,15778527,15778527,T,C,2,missense_variant,
+CD38,rs1218838179,4,15778529,15778529,C,"G,T",3,missense_variant,
+CD38,rs1722607421,4,15778532,15778532,G,A,2,missense_variant,
+CD38,rs1325533591,4,15778533,15778533,C,"G,T",3,missense_variant,
+CD38,rs1722607621,4,15778535,15778535,G,"A,C",3,missense_variant,
+CD38,rs746701203,4,15778539,15778539,T,C,2,missense_variant,
+CD38,rs1449179627,4,15778545,15778545,C,T,2,missense_variant,
+CD38,rs1553871567,4,15778548,15778548,G,T,2,missense_variant,
+CD38,rs769875535,4,15778553,15778553,C,G,2,missense_variant,
+CD38,rs1447909044,4,15778554,15778554,G,"A,T",3,missense_variant,
+CD38,rs775251330,4,15778557,15778557,A,T,2,missense_variant,
+CD38,rs77549972,4,15778559,15778559,C,"A,G",3,missense_variant,
+CD38,rs1162374999,4,15778561,15778561,G,"A,C",3,missense_variant,
+CD38,rs762810678,4,15778562,15778562,T,C,2,missense_variant,
+CD38,rs1402338139,4,15778564,15778564,G,C,2,missense_variant,
+CD38,rs763737168,4,15778567,15778567,C,"A,T",3,missense_variant,
+CD38,rs774180934,4,15778568,15778568,G,"A,T",3,missense_variant,
+CD38,rs1432224761,4,15778571,15778571,C,A,2,missense_variant,
+CD38,rs762086977,4,15778574,15778574,G,"A,C",3,missense_variant,
+IL6,rs142930253,7,22725249,22725249,C,"A,T",3,intergenic_variant,['uncertain significance']
+IL6,rs1800797,7,22726602,22726602,A,"C,G,T",4,non_coding_transcript_exon_variant,['benign']
+IL6,rs1800795,7,22727026,22727026,C,"G,T",3,5_prime_UTR_variant,"['other', 'risk factor']"
+IL6,rs142759801,7,22727515,22727515,C,"A,T",3,missense_variant,['benign']
+IL6,rs2069830,7,22727518,22727518,C,T,2,missense_variant,['benign']
+IL6,rs1360685977,7,22727543,22727543,C,"A,G,T",4,missense_variant,['uncertain significance']
+IL6,rs202138427,7,22727587,22727587,A,G,2,missense_variant,['likely benign']
+IL6,rs199925567,7,22727592,22727592,A,C,2,missense_variant,['likely benign']
+IL6,rs140764737,7,22727607,22727607,C,T,2,synonymous_variant,['likely benign']
+IL6,rs201410817,7,22727619,22727619,A,C,2,synonymous_variant,['likely benign']
+IL6,rs200700194,7,22727267,22727267,A,T,2,missense_variant,
+IL6,rs958965295,7,22727272,22727272,T,G,2,missense_variant,
+IL6,rs1224052258,7,22727276,22727276,C,T,2,missense_variant,
+IL6,rs569143621,7,22727278,22727278,A,G,2,missense_variant,
+IL6,rs774003579,7,22727279,22727279,C,T,2,missense_variant,
+IL6,rs1212373109,7,22727281,22727281,A,G,2,missense_variant,
+IL6,rs766513767,7,22727287,22727287,T,G,2,missense_variant,
+IL6,rs776934129,7,22727288,22727288,G,A,2,missense_variant,
+IL6,rs759723222,7,22727290,22727290,A,"C,G,T",4,missense_variant,
+IL6,rs778852405,7,22727300,22727300,T,C,2,missense_variant,
+IL6,rs758819517,7,22727303,22727303,C,T,2,missense_variant,
+IL6,rs764590152,7,22727309,22727309,A,T,2,missense_variant,
+IL6,rs1784023847,7,22727312,22727312,T,G,2,missense_variant,
+IL6,rs879118485,7,22727318,22727318,C,T,2,missense_variant,
+IL6,rs1393265463,7,22727321,22727321,C,T,2,missense_variant,
+IL6,rs199719913,7,22727324,22727324,T,"A,G",3,missense_variant,
+IL6,rs755658631,7,22727329,22727329,C,"A,G,T",4,missense_variant,
+IL6,rs749300991,7,22727332,22727332,T,A,2,missense_variant,
+IL6,rs769639272,7,22727333,22727333,G,"A,C",3,missense_variant,
+IL6,rs1583431642,7,22727338,22727338,A,G,2,missense_variant,
+IL6,rs1368356822,7,22727339,22727339,G,A,2,missense_variant,
+IL6,rs2128174012,7,22727341,22727341,G,C,2,missense_variant,
+IL6,rs1784025019,7,22727342,22727342,A,G,2,missense_variant,
+IL6,rs1784025079,7,22727343,22727343,G,C,2,missense_variant,
+IL6,rs1583431660,7,22727347,22727347,T,G,2,missense_variant,
+IL6,rs747908591,7,22727348,22727348,G,A,2,missense_variant,
+IL6,rs1583431667,7,22727349,22727349,T,"C,G",3,missense_variant,
+IL6,rs771943009,7,22727353,22727353,G,A,2,missense_variant,
+IL6,rs533650970,7,22727360,22727360,G,C,2,missense_variant,
+IL6,rs922460894,7,22727362,22727362,G,C,2,missense_variant,
+IL6,rs867032078,7,22727363,22727363,G,"A,T",3,missense_variant,
+IL6,rs1784026518,7,22727365,22727365,C,"G,T",3,missense_variant,
+IL6,rs1372637551,7,22727366,22727366,T,C,2,missense_variant,
+IL6,rs1784026651,7,22727368,22727368,G,T,2,missense_variant,
+IL6,rs1784026797,7,22727371,22727371,G,A,2,missense_variant,
+IL6,rs1784027001,7,22727374,22727374,G,A,2,missense_variant,
+IL6,rs1278612226,7,22727384,22727384,A,G,2,missense_variant,
+IL6,rs1391926652,7,22727387,22727387,G,"A,T",3,missense_variant,
+IL6,rs750121043,7,22727389,22727389,C,G,2,missense_variant,
+IL6,rs553784698,7,22727390,22727390,A,T,2,missense_variant,
+IL6,rs1784027597,7,22727391,22727391,G,C,2,missense_variant,
+IL6,rs1784027663,7,22727392,22727392,G,T,2,missense_variant,
+IL6,rs977613653,7,22727395,22727395,C,T,2,missense_variant,
+IL6,rs779605333,7,22727396,22727396,C,A,2,missense_variant,
+IL6,rs1224571713,7,22727398,22727398,A,G,2,missense_variant,
+IL6,rs748751521,7,22727399,22727399,G,"A,C",3,missense_variant,
+IL6,rs1784027959,7,22727400,22727400,C,A,2,missense_variant,
+IL6,rs376047818,7,22727401,22727401,T,"A,C",3,missense_variant,
+IL6,rs1313256877,7,22727402,22727402,G,A,2,missense_variant,
+IL6,rs1784028180,7,22727405,22727405,C,T,2,missense_variant,
+NAMPT,rs1792928329,7,106289304,106289304,A,T,2,TF_binding_site_variant,
+NAMPT,rs1370447785,7,106289306,106289306,T,C,2,TF_binding_site_variant,
+NAMPT,rs1046254209,7,106289312,106289312,C,T,2,TF_binding_site_variant,
+NAMPT,rs2115867932,7,106289313,106289313,C,G,2,TF_binding_site_variant,
+NAMPT,rs1792928370,7,106289315,106289315,C,A,2,TF_binding_site_variant,
+NAMPT,rs1306770923,7,106289317,106289317,A,G,2,TF_binding_site_variant,
+NAMPT,rs1287180294,7,106290194,106290194,C,T,2,TF_binding_site_variant,
+NAMPT,rs899834794,7,106290195,106290195,A,G,2,TF_binding_site_variant,
+NAMPT,rs551618001,7,106290197,106290197,G,"C,T",3,TF_binding_site_variant,
+NAMPT,rs1366162597,7,106290198,106290198,T,G,2,TF_binding_site_variant,
+NAMPT,rs1317963098,7,106290199,106290199,G,A,2,TF_binding_site_variant,
+NAMPT,rs1330396422,7,106290204,106290204,A,G,2,TF_binding_site_variant,
+SIRT1,rs995528945,10,67884727,67884727,G,"A,T",3,synonymous_variant,['likely benign']
+SIRT1,rs1589064382,10,67884732,67884732,A,C,2,missense_variant,['uncertain significance']
+SIRT1,rs772520587,10,67884736,67884736,G,"A,T",3,synonymous_variant,['likely benign']
+SIRT1,rs2131841433,10,67884744,67884744,C,T,2,missense_variant,['uncertain significance']
+SIRT1,rs190121724,10,67884745,67884745,C,"A,T",3,synonymous_variant,['likely benign']
+SIRT1,rs2492880564,10,67884747,67884747,T,C,2,missense_variant,['uncertain significance']
+SIRT1,rs200005116,10,67884758,67884758,G,T,2,missense_variant,['uncertain significance']
+SIRT1,rs201230502,10,67884761,67884761,T,C,2,missense_variant,"['uncertain significance', 'likely benign']"
+SIRT1,rs1163052650,10,67884763,67884763,C,T,2,synonymous_variant,['likely benign']
+SIRT1,rs1368006921,10,67884765,67884765,C,T,2,missense_variant,['uncertain significance']
+SIRT1,rs995901311,10,67884768,67884768,C,T,2,missense_variant,['uncertain significance']
+SIRT1,rs202116523,10,67884769,67884769,G,A,2,synonymous_variant,"['benign', 'likely benign']"
+SIRT1,rs1431102999,10,67884774,67884774,C,"G,T",3,missense_variant,['uncertain significance']
+SIRT1,rs2492880737,10,67884777,67884777,G,C,2,missense_variant,['likely benign']
+SIRT1,rs2131841526,10,67884780,67884780,C,G,2,missense_variant,['uncertain significance']
+SIRT1,rs2131841542,10,67884783,67884783,A,"C,G",3,missense_variant,['uncertain significance']
+SIRT1,rs1038835513,10,67884790,67884790,G,A,2,synonymous_variant,['likely benign']
+SIRT1,rs1202064844,10,67884797,67884797,T,"A,C,G",4,missense_variant,['uncertain significance']
+SIRT1,rs1489985293,10,67884798,67884798,C,T,2,missense_variant,['uncertain significance']
+SIRT1,rs948757989,10,67884809,67884809,G,A,2,missense_variant,['uncertain significance']
+SIRT1,rs1344714636,10,67884830,67884830,C,"A,G",3,missense_variant,['uncertain significance']
+SIRT1,rs548590752,10,67884831,67884831,C,T,2,missense_variant,"['benign', 'likely benign']"
+SIRT1,rs1053224730,10,67884852,67884852,T,A,2,missense_variant,['uncertain significance']
+SIRT1,rs1466187737,10,67884856,67884856,G,T,2,missense_variant,['uncertain significance']
+SIRT1,rs1011345346,10,67884863,67884863,C,T,2,missense_variant,['uncertain significance']
+SIRT1,rs568432780,10,67884864,67884864,C,T,2,missense_variant,['uncertain significance']
+SIRT1,rs1446726608,10,67884903,67884903,C,"A,G,T",4,missense_variant,['uncertain significance']
+SIRT1,rs550763057,10,67884905,67884936,GCGGCGGCCAGGGGCTGCCCGGGTGCGGCGGC,GCGGCGGC,2,inframe_deletion,"['benign', 'likely benign']"
+SIRT1,rs964485281,10,67884909,67884909,C,T,2,missense_variant,['uncertain significance']
+SIRT1,rs531048058,10,67884917,67884917,G,"C,T",3,missense_variant,['uncertain significance']
+SIRT1,rs1450691401,10,67884924,67884924,C,"G,T",3,missense_variant,['uncertain significance']
+SIRT1,rs1405762679,10,67884925,67884925,G,"A,C",3,synonymous_variant,['likely benign']
+SIRT1,rs1471411863,10,67884928,67884928,T,G,2,synonymous_variant,['likely benign']
+SIRT1,rs751564985,10,67884930,67884930,C,T,2,missense_variant,"['uncertain significance', 'likely benign']"
+SIRT1,rs983336735,10,67884931,67884931,G,A,2,synonymous_variant,['likely benign']
+SIRT1,rs1461061909,10,67884936,67884936,C,T,2,missense_variant,['uncertain significance']
+SIRT1,rs1366858346,10,67884940,67884940,G,T,2,synonymous_variant,['likely benign']
+SIRT1,rs864309601,10,67884954,67884954,A,G,2,missense_variant,['uncertain significance']
+SIRT1,rs1842450833,10,67884956,67884956,G,C,2,missense_variant,['uncertain significance']
+SIRT1,rs1564880865,10,67884957,67884957,C,"G,T",3,missense_variant,['uncertain significance']
+SIRT1,rs550317521,10,67885011,67885011,C,"A,T",3,missense_variant,['likely benign']
+SIRT1,rs990065260,10,67885021,67885021,A,"C,G",3,missense_variant,['uncertain significance']
+SIRT1,rs913135320,10,67885022,67885022,G,A,2,missense_variant,['uncertain significance']
+SIRT1,rs978078516,10,67885029,67885029,A,G,2,missense_variant,['uncertain significance']
+SIRT1,rs755862606,10,67885040,67885040,C,T,2,synonymous_variant,['likely benign']
+SIRT1,rs587776957,10,67885041,67885041,T,C,2,missense_variant,['uncertain significance']
+SIRT1,rs182199697,10,67885062,67885062,C,A,2,missense_variant,"['benign', 'likely benign']"
+SIRT1,rs1842453200,10,67885074,67885074,A,G,2,missense_variant,['uncertain significance']
+SIRT1,rs1405935125,10,67885078,67885078,C,"G,T",3,missense_variant,['likely benign']
+SIRT1,rs1406007212,10,67885113,67885113,A,G,2,missense_variant,['uncertain significance']
+SIRT1,rs36062014,10,67885123,67885138,GGCGGCGGCGGCGGCG,"GGCGGCGGCG,GGCGGCGGCGGCG,GGCGGCGGCGGCGGCGGCG,GGCGGCGGCGGCGGCGGCGGCG",5,inframe_insertion,"['uncertain significance', 'likely benign']"
+SIRT1,rs772263354,10,67885126,67885126,G,A,2,synonymous_variant,['likely benign']
+SIRT1,rs1842446814,10,67884725,67884725,G,A,2,missense_variant,
+SIRT1,rs1165843217,10,67884726,67884726,C,T,2,missense_variant,
+SIRT1,rs35671182,10,67884730,67884730,C,"A,G,T",4,missense_variant,
+SIRT1,rs955794368,10,67884735,67884735,C,T,2,missense_variant,
+SIRT1,rs1485737596,10,67884740,67884740,C,T,2,missense_variant,
+SIRT1,rs2131841427,10,67884741,67884741,T,C,2,missense_variant,
+SIRT1,rs1291063294,10,67884746,67884746,C,T,2,missense_variant,
+SIRT1,rs1842447305,10,67884750,67884750,A,G,2,missense_variant,
+SIRT3,rs763739958,11,236063,236063,C,"G,T",3,missense_variant,['uncertain significance']
+SIRT3,rs1291727215,11,236075,236075,G,A,2,missense_variant,['uncertain significance']
+SIRT3,rs1405061216,11,236081,236081,G,"A,T",3,missense_variant,['uncertain significance']
+SIRT3,rs201270739,11,236087,236087,C,T,2,missense_variant,['uncertain significance']
+SIRT3,rs28365927,11,236091,236091,G,A,2,missense_variant,['benign']
+SIRT3,rs143632880,11,236094,236094,A,G,2,missense_variant,"['benign', 'likely benign']"
+SIRT3,rs2539064349,11,236099,236099,C,G,2,missense_variant,['uncertain significance']
+SIRT3,rs746336444,11,236109,236109,C,"G,T",3,missense_variant,['uncertain significance']
+SIRT3,rs971883909,11,236130,236130,A,"G,T",3,missense_variant,['uncertain significance']
+SIRT3,rs1368171849,11,236132,236132,G,"A,C",3,missense_variant,['uncertain significance']
+SIRT3,rs1326672519,11,236160,236160,G,C,2,missense_variant,['uncertain significance']
+SIRT3,rs889056482,11,236170,236170,G,T,2,missense_variant,['uncertain significance']
+SIRT3,rs1590235385,11,236183,236183,C,"A,G",3,missense_variant,['uncertain significance']
+SIRT3,rs200731329,11,236193,236193,C,G,2,splice_donor_variant,['uncertain significance']
+SIRT3,rs550597420,11,236196,236196,C,"A,T",3,missense_variant,['uncertain significance']
+SIRT3,rs747301698,11,236202,236202,T,C,2,missense_variant,['uncertain significance']
+SIRT3,rs2539066832,11,236240,236240,G,A,2,missense_variant,['uncertain significance']
+SIRT3,rs1221864223,11,236256,236256,C,"G,T",3,missense_variant,['uncertain significance']
+SIRT3,rs1323950591,11,236258,236258,G,A,2,missense_variant,['uncertain significance']
+SIRT3,rs201049682,11,236296,236296,G,A,2,synonymous_variant,['likely benign']
+SIRT3,rs1349465628,11,236303,236303,G,"A,C",3,missense_variant,['likely benign']
+SIRT3,rs1409376174,11,236324,236324,G,"A,T",3,missense_variant,['uncertain significance']
+SIRT3,rs147924046,11,236337,236337,C,"A,G,T",4,5_prime_UTR_variant,['benign']
+SIRT3,rs12293349,11,237030,237030,C,T,2,5_prime_UTR_variant,['likely benign']
+SIRT3,rs758762295,11,237059,237059,G,"A,C,T",4,missense_variant,['uncertain significance']
+SIRT3,rs201217300,11,237095,237095,C,T,2,missense_variant,['uncertain significance']
+SIRT3,rs571839484,11,237138,237138,C,"A,G,T",4,missense_variant,['uncertain significance']
+SIRT3,rs1859023729,11,236051,236051,G,A,2,missense_variant,
+SIRT3,rs1859024213,11,236052,236052,A,C,2,missense_variant,
+SIRT3,rs1590233762,11,236053,236053,A,T,2,missense_variant,
+SIRT3,rs1209778060,11,236057,236057,A,G,2,missense_variant,
+SIRT3,rs200341664,11,236059,236059,G,"A,C",3,missense_variant,
+SIRT3,rs762551016,11,236062,236062,A,T,2,missense_variant,
+SIRT3,rs1411558954,11,236064,236064,T,"A,C",3,missense_variant,
+SIRT3,rs767326385,11,236066,236066,G,"A,T",3,missense_variant,
+SIRT3,rs145855642,11,236067,236067,G,A,2,missense_variant,
+SIRT3,rs1457285289,11,236069,236069,G,"A,C",3,missense_variant,
+SIRT3,rs1859030868,11,236070,236070,C,T,2,missense_variant,
+SIRT3,rs756032062,11,236078,236078,C,T,2,missense_variant,
+SIRT3,rs199548975,11,236090,236090,C,T,2,missense_variant,
+SIRT3,rs758638762,11,236093,236093,A,T,2,missense_variant,
+SIRT3,rs1859036840,11,236102,236102,G,A,2,missense_variant,
+SIRT3,rs1859037290,11,236103,236103,G,A,2,missense_variant,
+SIRT3,rs771078215,11,236106,236106,C,T,2,missense_variant,
+SIRT3,rs776978443,11,236108,236108,T,G,2,missense_variant,
+SIRT3,rs770314797,11,236111,236111,G,A,2,missense_variant,
+SIRT3,rs1590234381,11,236112,236112,G,A,2,missense_variant,
+SIRT3,rs199765649,11,236114,236114,C,A,2,missense_variant,
+SIRT3,rs775763981,11,236118,236118,G,"A,T",3,missense_variant,
+SIRT3,rs1423046045,11,236120,236120,G,"A,C",3,missense_variant,
+SIRT3,rs763367247,11,236122,236122,C,"A,T",3,missense_variant,
+SIRT3,rs1859044579,11,236125,236125,C,G,2,missense_variant,
+SIRT3,rs1859045073,11,236126,236126,T,C,2,missense_variant,
+SIRT3,rs202242338,11,236133,236133,G,C,2,missense_variant,
+SIRT3,rs1374461500,11,236135,236135,C,T,2,missense_variant,
+SIRT3,rs1859049861,11,236136,236136,G,"A,C",3,missense_variant,
+SIRT3,rs371539456,11,236141,236141,G,A,2,missense_variant,
+SIRT3,rs1164182613,11,236144,236144,T,"C,G",3,missense_variant,
+SIRT3,rs1416470354,11,236145,236145,C,G,2,missense_variant,
+SIRT3,rs201665713,11,236147,236147,A,C,2,missense_variant,
+SIRT6,rs201488566,19,4180881,4180881,C,T,2,missense_variant,['likely benign']
+SIRT6,rs34786277,19,4180904,4180904,G,A,2,synonymous_variant,['likely benign']
+SIRT6,rs1484727737,19,4182511,4182511,G,"A,T",3,stop_gained,['uncertain significance']
+SIRT6,rs1328750644,19,4180788,4180788,T,G,2,missense_variant,
+SIRT6,rs779174928,19,4180789,4180789,C,"G,T",3,missense_variant,
+SIRT6,rs1374849951,19,4180791,4180791,G,C,2,missense_variant,
+SIRT6,rs1234349413,19,4180792,4180792,G,A,2,missense_variant,
+SIRT6,rs200709134,19,4180800,4180800,G,"A,C",3,missense_variant,
+SIRT6,rs1229376892,19,4180803,4180803,G,A,2,missense_variant,
+SIRT6,rs138839184,19,4180804,4180804,C,T,2,missense_variant,
+SIRT6,rs1967591900,19,4180816,4180816,C,T,2,missense_variant,
+SIRT6,rs780761507,19,4180819,4180819,C,G,2,missense_variant,
+SIRT6,rs1967592676,19,4180821,4180821,C,T,2,missense_variant,
+SIRT6,rs1239750468,19,4180822,4180822,C,T,2,missense_variant,
+SIRT6,rs990727487,19,4180824,4180824,G,A,2,missense_variant,
+SIRT6,rs1967593747,19,4180828,4180828,G,A,2,missense_variant,
+SIRT6,rs747077908,19,4180829,4180829,G,T,2,missense_variant,
+SIRT6,rs1314510418,19,4180831,4180831,A,"C,G",3,missense_variant,
+SIRT6,rs1711709946,19,4180834,4180834,C,A,2,missense_variant,
+SIRT6,rs200869088,19,4180836,4180836,A,G,2,missense_variant,
+SIRT6,rs352493,19,4180839,4180839,C,"G,T",3,missense_variant,
+SIRT6,rs978026827,19,4180842,4180842,G,A,2,missense_variant,
+SIRT6,rs2145179799,19,4180845,4180845,G,T,2,missense_variant,
+SIRT6,rs949022023,19,4180851,4180851,C,A,2,missense_variant,
+SIRT6,rs773989035,19,4180854,4180854,A,C,2,missense_variant,
+SIRT6,rs200195079,19,4180855,4180855,C,T,2,missense_variant,
+SIRT6,rs745727264,19,4180859,4180859,C,"A,G",3,missense_variant,
+SIRT6,rs775473710,19,4180863,4180863,G,"A,T",3,missense_variant,
+SIRT6,rs1967598310,19,4180870,4180870,C,G,2,missense_variant,
+SIRT6,rs371751675,19,4180871,4180871,C,A,2,missense_variant,
+SIRT6,rs1599370864,19,4180875,4180875,A,"C,G",3,missense_variant,
+SIRT6,rs1401434365,19,4180876,4180876,C,A,2,missense_variant,
+SIRT6,rs1339589717,19,4180882,4180882,G,"A,C",3,missense_variant,
+SIRT6,rs1967600352,19,4180885,4180885,C,T,2,missense_variant,
+SIRT6,rs368678471,19,4180888,4180888,G,C,2,missense_variant,
+SIRT6,rs199878780,19,4180893,4180893,T,A,2,missense_variant,
+SIRT6,rs776306176,19,4180894,4180894,C,T,2,missense_variant,
+SIRT6,rs200217515,19,4180896,4180896,G,"A,C",3,missense_variant,
+SIRT6,rs758896879,19,4180897,4180897,G,A,2,missense_variant,
+SIRT6,rs1967603890,19,4180899,4180899,G,A,2,missense_variant,
+SIRT6,rs200466806,19,4180901,4180901,G,"A,T",3,missense_variant,
+SIRT6,rs752121167,19,4180903,4180903,C,T,2,missense_variant,
+SIRT6,rs898685252,19,4180909,4180909,T,C,2,missense_variant,
+SIRT6,rs1967767522,19,4182479,4182479,G,A,2,missense_variant,
+SIRT6,rs1459450449,19,4182481,4182481,A,G,2,missense_variant,
+SIRT6,rs1599377618,19,4182490,4182490,T,G,2,missense_variant,
+SIRT6,rs772687363,19,4182497,4182497,T,C,2,missense_variant,
+SIRT6,rs762729347,19,4182500,4182500,C,T,2,missense_variant,
+SIRT6,rs1967769500,19,4182502,4182502,G,A,2,missense_variant,
+SIRT6,rs1192567764,19,4182503,4182503,C,T,2,missense_variant,
+SIRT6,rs774836980,19,4182505,4182505,T,C,2,missense_variant,
+SIRT6,rs1173618166,19,4182508,4182508,G,"A,C",3,missense_variant,
+SIRT6,rs1183226757,19,4182509,4182509,G,A,2,missense_variant,
+SIRT6,rs1599377778,19,4182512,4182512,A,C,2,missense_variant,
+SIRT6,rs534210497,19,4182515,4182515,G,T,2,missense_variant,
+SIRT6,rs1786525989,19,4182517,4182517,C,G,2,missense_variant,
+SIRT6,rs753254418,19,4182520,4182520,G,"A,T",3,missense_variant,
+SIRT6,rs1368492676,19,4182523,4182523,G,A,2,missense_variant,
+SIRT6,rs1219041828,19,4182524,4182524,C,T,2,missense_variant,
+SIRT6,rs1967774308,19,4182526,4182526,T,A,2,missense_variant,
+TNF,rs2533230278,6,31573586,31573586,G,A,2,missense_variant,['uncertain significance']
+TNF,rs1800630,6,31574699,31574699,C,"A,G",3,intergenic_variant,['protective']
+TNF,rs1799724,6,31574705,31574705,C,T,2,intergenic_variant,['risk factor']
+TNF,rs1800750,6,31575186,31575186,G,A,2,regulatory_region_variant,['risk factor']
+TNF,rs1800629,6,31575254,31575254,G,A,2,regulatory_region_variant,"['uncertain significance', 'drug response', 'risk factor', 'affects']"
+TNF,rs361525,6,31575324,31575324,G,A,2,regulatory_region_variant,['uncertain significance']
+TNF,rs2150388461,6,31575758,31575758,T,A,2,missense_variant,['uncertain significance']
+TNF,rs1471476571,6,31575780,31575780,C,"A,T",3,synonymous_variant,['likely benign']
+TNF,rs2228088,6,31575828,31575828,G,"A,C,T",4,synonymous_variant,['benign']
+TNF,rs558678940,6,31575862,31575862,G,"A,T",3,missense_variant,['uncertain significance']
+TNF,rs897338372,6,31576782,31576782,C,A,2,missense_variant,['uncertain significance']
+TNF,rs4645843,6,31576785,31576785,C,"G,T",3,missense_variant,"['benign', 'likely benign']"
+TNF,rs758704433,6,31577155,31577155,G,A,2,missense_variant,['uncertain significance']
+TNF,rs281865419,6,31577157,31577157,C,T,2,missense_variant,['pathogenic']
+TNF,rs774032100,6,31577185,31577185,T,C,2,missense_variant,['uncertain significance']
+TNF,rs747751043,6,31577189,31577189,G,A,2,synonymous_variant,['likely benign']
+TNF,rs757398208,6,31577312,31577312,C,T,2,synonymous_variant,['likely benign']
+TNF,rs747910356,6,31577324,31577324,C,T,2,synonymous_variant,['likely benign']
+TNF,rs1342407234,6,31573559,31573559,C,T,2,missense_variant,
+TNF,rs2150385621,6,31573576,31573576,G,A,2,missense_variant,
+TNF,rs769344065,6,31573583,31573583,G,A,2,missense_variant,
+TNF,rs1770982841,6,31573589,31573589,G,A,2,missense_variant,
+TNF,rs566451995,6,31573590,31573590,C,T,2,missense_variant,
+TNF,rs267600955,6,31573631,31573631,G,A,2,missense_variant,
+TNF,rs1178767592,6,31573644,31573644,A,G,2,missense_variant,
+TNF,rs1428078404,6,31573649,31573649,G,"A,C",3,missense_variant,
+TNF,rs762480543,6,31573652,31573652,C,T,2,missense_variant,
+TNF,rs1770988389,6,31573657,31573657,C,G,2,missense_variant,
+TNF,rs142240704,6,31573661,31573661,A,T,2,missense_variant,
+TNF,rs1770989222,6,31573664,31573664,A,G,2,missense_variant,
+TNF,rs1770989499,6,31573667,31573667,G,C,2,missense_variant,
+TNF,rs1169549387,6,31573685,31573685,G,A,2,missense_variant,
+TNF,rs2150388436,6,31575746,31575746,G,A,2,missense_variant,
+TNF,rs1771144082,6,31575748,31575748,A,"C,G",3,missense_variant,
+TNF,rs953747858,6,31575751,31575751,G,C,2,missense_variant,
+TNF,rs1445719601,6,31575752,31575752,A,G,2,missense_variant,
+TNF,rs747694851,6,31575754,31575754,A,C,2,missense_variant,
+TNF,rs771650207,6,31575755,31575755,G,A,2,missense_variant,
+TNF,rs1288613011,6,31575761,31575761,T,C,2,missense_variant,
+TNF,rs374531985,6,31575763,31575763,C,T,2,missense_variant,
+TNF,rs201502336,6,31575764,31575764,G,"A,C",3,missense_variant,
+TNF,rs982610810,6,31575766,31575766,G,A,2,missense_variant,
+TNF,rs759696973,6,31575769,31575769,G,"A,T",3,missense_variant,
+TNF,rs775506502,6,31575781,31575781,G,A,2,missense_variant,
+TNF,rs972459518,6,31575784,31575784,G,A,2,missense_variant,
+TNF,rs763000109,6,31575788,31575788,C,"G,T",3,missense_variant,
+TNF,rs1395544606,6,31575790,31575790,C,G,2,missense_variant,
+TNF,rs1375111873,6,31575793,31575793,C,T,2,missense_variant,
+TNF,rs377338702,6,31575797,31575797,A,"C,G",3,missense_variant,
+TNF,rs1326672610,6,31575799,31575799,A,G,2,missense_variant,
+TNF,rs1771149240,6,31575800,31575800,A,G,2,missense_variant,
+TNF,rs1160009797,6,31575803,31575803,C,T,2,missense_variant,
+TNF,rs753713562,6,31575805,31575805,G,A,2,missense_variant,
+TNF,rs1405990400,6,31575806,31575806,G,A,2,missense_variant,
+TNF,rs1353047835,6,31575808,31575808,G,A,2,missense_variant,
+TNF,rs1234547532,6,31575809,31575809,G,"A,T",3,missense_variant,
+TNF,rs754639425,6,31575811,31575811,C,"A,G,T",4,missense_variant,
+TNF,rs764955335,6,31575814,31575814,C,G,2,missense_variant,
+TNF,rs1271411982,6,31575818,31575818,G,"A,C",3,missense_variant,
+TNF,rs1192279581,6,31575824,31575824,G,A,2,missense_variant,
