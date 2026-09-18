@@ -88,17 +88,23 @@ def fetch_ref(gene: str) -> tuple[str, int]:
     return seq, start
 
 
-def build_alt(seq: str, offset: int, ref: str, alt: str) -> str:
-    """Substitute the ALT allele into the sequence at 0-based offset.
+def first_alt(alt: str) -> str:
+    return alt.split(",")[0].strip().upper()
 
+
+def build_alt(seq: str, offset: int, ref: str, alt: str) -> str:
+    """Build the ALT allele sequence at 0-based offset in `seq`.
+
+    Handles both SNP (ref len == alt len) and indel (delete ref, insert alt).
     For multiallelic variants only the first ALT is used; the rest are noted
     in the output. Ref bases are validated against the reference at offset.
     """
-    alt_first = alt.split(",")[0].strip().upper()
+    alt_first = first_alt(alt)
     ref_upper = ref.strip().upper()
     observed = seq[offset:offset + len(ref_upper)].upper()
     if observed != ref_upper:
         return None  # mismatch: skip with note
+    # delete ref allele, insert alt allele
     return seq[:offset] + alt_first + seq[offset + len(ref_upper):]
 
 
@@ -137,6 +143,7 @@ def main() -> None:
             "chrom": chrom, "start": start + lo, "end": start + hi,
             "gene": gene, "rsid": r["rsid"], "ref_allele": ref_allele,
             "alt_allele": alt_allele, "window_bp": WINDOW_SIZES[0],
+            "variant_class": "indel" if len(ref_allele) != len(first_alt(r["alt"])) else "snp",
         })
         fasta_entries.append(f">{r['rsid']}_ref_{gene}")
         fasta_entries.append(win_ref)
@@ -146,7 +153,8 @@ def main() -> None:
     bed_path = os.path.join(OUT_DIR, "windows.bed")
     with open(bed_path, "w", newline="", encoding="utf-8") as f:
         w = csv.DictWriter(f, fieldnames=["chrom", "start", "end", "gene", "rsid",
-                                          "ref_allele", "alt_allele", "window_bp"],
+                                          "ref_allele", "alt_allele", "window_bp",
+                                          "variant_class"],
                            delimiter="\t")
         w.writeheader()
         for row in bed_rows:
