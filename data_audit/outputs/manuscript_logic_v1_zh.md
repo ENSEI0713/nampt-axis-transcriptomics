@@ -101,6 +101,9 @@ Evo2-40B 的合理位置不是替代生物实验，而是作为 DNA 序列层面
 
 ### 第一轮预设对照的主要方向
 
+> **新增（2026-09-18）**：随机效应 meta（DerSimonian-Laird）已完成，见 `outputs/meta/`。运动层 12 对照：NAMPT_z 汇总 +0.85（92% 方向一致，p=1.8e-7）、balance_score −0.62（83%，p=0.016）；肥胖层 3 对照仅方向性。轴结构分析（`outputs/axis_structure/`）与轴内免疫负荷代理（`outputs/cell_composition/`）见 Result 1-3 更新。
+
+
 这些结果是方向性筛查，不是最终统计结论：
 
 - GSE312393 6 周训练后，NAMPT_z 上升 1.107，repair_score 上升 0.430，balance_score 上升 0.269，提示训练适应可能更偏修复/代谢重塑。
@@ -117,23 +120,23 @@ Evo2-40B 的合理位置不是替代生物实验，而是作为 DNA 序列层面
 
 问题：如何把 iNAMPT/eNAMPT、NAD、NF-kB、线粒体和修复放入同一个可检验模型？
 
-做法：构建 59 个 NAMPT 轴基因，分成 inflammatory、repair 和 both 三类。表达矩阵内部按基因 z-score，计算 NAMPT_z、inflammatory_score、repair_score 和 balance_score。
+做法：构建 59 个 NAMPT 轴基因，分成 inflammatory、repair 和 both 三类。表达矩阵内部按基因 z-score，计算 NAMPT_z、inflammatory_score、repair_score 和 balance_score。**结构验证（新增）**：对每个数据集计算模块内 Cronbach alpha 与模块间相关矩阵，检验"炎症程序 / 修复程序"是否在公共数据中形成真实共表达单元而非人为基因清单。初步结构证据：大队列（GSE272133 n=51、GSE305038、GSE32575）中 nad_salvage_core、sirtuin_repair、ampk_mitochondria_repair、oxidative_stress_repair 等修复模块 alpha 达 0.7–0.9，支持双程序框架；小样本队列（GSE312393、GSE282850）alpha 不稳定（含负值），模块一致性证据应优先引自大队列并如实披露小样本局限。
 
-预期主张：这个评分框架能把 NAMPT 的免疫炎症侧和代谢修复侧分开，使后续跨数据集比较变得可解释。
+预期主张：这个评分框架能把 NAMPT 的免疫炎症侧和代谢修复侧分开，使后续跨数据集比较变得可解释；结构一致性（alpha）为"两个程序"提供独立于先验基因清单的统计支持。
 
 ### Result 2：运动诱导 NAMPT 轴的急性应激与训练适应不同
 
 问题：运动后 NAMPT 相关变化是炎症还是修复？
 
-做法：整合 GSE312393、GSE305038、GSE292369 和 GSE318937。
+做法：整合 GSE312393、GSE305038、GSE292369 和 GSE318937。**随机效应 meta（新增）**：对 12 个运动类配对对照按指标汇总（DerSimonian-Laird）：NAMPT_z 汇总效应 +0.85（95%CI 0.53–1.17，方向一致 92%，p=1.8e-7）；balance_score 汇总 −0.62（95%CI −1.12–−0.12，方向一致 83%，p=0.016）；inflammatory_score 汇总 +0.28（ns）；repair_score 汇总 −0.33。高 I²（64–98%）表明效应方向一致但幅度随背景变化——这是状态依赖性的统计特征而非噪声。
 
-预期主张：急性运动可出现 NAMPT 与炎症样转录信号的短暂上升；训练或合适活动背景下，repair_score 和 balance_score 更能反映适应性重塑。运动不是简单抗炎，而是时间、训练状态和营养背景依赖的应激-修复过程。
+预期主张：急性运动可出现 NAMPT 与炎症样转录信号的短暂上升；训练或合适活动背景下，repair_score 和 balance_score 更能反映适应性重塑。meta 层面 NAMPT_z 上调与 balance 转负并存，说明运动诱导的 NAMPT 上升并非自动等于修复——而是时间、训练状态和营养背景依赖的应激-修复过程。**轴内免疫负荷（新增）**：部分运动数据集（GSE318937、GSE305038）的 inflammatory_score 与轴内单核/巨噬基因负担代理高相关（r=0.7–0.9），提示急性炎症样信号主要由轴内免疫基因驱动，与 Phase 1b 敏感性中 NF-kB 模块脆弱性结论互为印证。
 
 ### Result 3：肥胖和减重状态中的 NAMPT 轴具有组织与疾病背景依赖性
 
 问题：肥胖人群的 NAMPT 变化是否可以标记低度慢性炎症？
 
-做法：整合 GSE32575、GSE272133、GSE294150 及后续脂肪/血液数据。
+做法：整合 GSE32575、GSE272133、GSE294150 及后续脂肪/血液数据。**随机效应 meta（新增）**：肥胖层 3 个对照的 NAMPT_z 汇总 +0.14（I²=0%），inflammatory_score 汇总 +0.57（方向一致 67%，高异质性 I²=95%）；因对照数少且异质性高，仅作方向性证据。**轴内免疫负荷（新增）**：GSE32575 单核细胞中 NAMPT_z 与 macro/mono 负担代理 r=+0.75，inflammatory_score r=+0.91——肥胖免疫细胞中 NAMPT 炎症轴与轴内免疫基因表达强共变，支持"肥胖背景下 NAMPT 更接近免疫炎症负荷"的状态依赖解释，但无法区分因果与组成混杂。
 
 预期主张：NAMPT_z 在肥胖免疫细胞中升高，但综合炎症/修复程序需要结合组织、时间点和代谢病背景解释。NAMPT mRNA 本身不足以定义 eNAMPT 或低度慢性炎症，需要蛋白和代谢物证据增强。
 
