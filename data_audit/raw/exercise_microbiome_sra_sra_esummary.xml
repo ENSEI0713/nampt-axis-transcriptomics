@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eSummaryResult PUBLIC "-//NLM//DTD esummary v1 20041029//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20041029/esummary-v1.dtd">
+<eSummaryResult>
+<DocSum>
+	<Id>43508648</Id>
+	<Item Name="ExpXml" Type="String">&lt;Summary&gt;&lt;Title&gt;Amplicon seq of human gut microbiome&lt;/Title&gt;&lt;Platform instrument_model="NextSeq 2000"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs="1" total_spots="160108" total_bases="96184112" total_size="34652897" load_done="true" cluster_name="public"/&gt;&lt;/Summary&gt;&lt;Submitter acc="SRA2355999" center_name="Comenius University in Bratislava Faculty of Physi" contact_name="Ivan Hric" lab_name="Department of Biological and Medical Science"/&gt;&lt;Experiment acc="SRX32588742" ver="1" status="public" name="Amplicon seq of human gut microbiome"/&gt;&lt;Study acc="SRP685485" name="Effects of Probiotic Supplementation and Physical Exercise on Gut Microbiota in Pediatric Acute Lymphoblastic Leukemia Patients in Remission"/&gt;&lt;Organism taxid="408170" ScientificName="human gut metagenome"/&gt;&lt;Sample acc="SRS28476290" name=""/&gt;&lt;Instrument ILLUMINA="NextSeq 2000"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;15OA&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1440226&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN56607748&lt;/Biosample&gt;</Item>
+	<Item Name="Runs" Type="String">&lt;Run acc="SRR37711155" total_spots="160108" total_bases="96184112" load_done="true" is_public="true" cluster_name="public" static_data_available="true"/&gt;</Item>
+	<Item Name="ExtLinks" Type="String"></Item>
+	<Item Name="CreateDate" Type="String">2026/03/20</Item>
+	<Item Name="UpdateDate" Type="String">2026/03/20</Item>
+</DocSum>
+
+<DocSum>
+	<Id>43508647</Id>
+	<Item Name="ExpXml" Type="String">&lt;Summary&gt;&lt;Title&gt;Amplicon seq of human gut microbiome&lt;/Title&gt;&lt;Platform instrument_model="NextSeq 2000"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs="1" total_spots="78213" total_bases="46990599" total_size="16803903" load_done="true" cluster_name="public"/&gt;&lt;/Summary&gt;&lt;Submitter acc="SRA2355999" center_name="Comenius University in Bratislava Faculty of Physi" contact_name="Ivan Hric" lab_name="Department of Biological and Medical Science"/&gt;&lt;Experiment acc="SRX32588741" ver="1" status="public" name="Amplicon seq of human gut microbiome"/&gt;&lt;Study acc="SRP685485" name="Effects of Probiotic Supplementation and Physical Exercise on Gut Microbiota in Pediatric Acute Lymphoblastic Leukemia Patients in Remission"/&gt;&lt;Organism taxid="408170" ScientificName="human gut metagenome"/&gt;&lt;Sample acc="SRS28476288" name=""/&gt;&lt;Instrument ILLUMINA="NextSeq 2000"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;14OA&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1440226&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN56607747&lt;/Biosample&gt;</Item>
+	<Item Name="Runs" Type="String">&lt;Run acc="SRR37711156" total_spots="78213" total_bases="46990599" load_done="true" is_public="true" cluster_name="public" static_data_available="true"/&gt;</Item>
+	<Item Name="ExtLinks" Type="String"></Item>
+	<Item Name="CreateDate" Type="String">2026/03/20</Item>
+	<Item Name="UpdateDate" Type="String">2026/03/20</Item>
+</DocSum>
+
+<DocSum>
+	<Id>43508646</Id>
+	<Item Name="ExpXml" Type="String">&lt;Summary&gt;&lt;Title&gt;Amplicon seq of human gut microbiome&lt;/Title&gt;&lt;Platform instrument_model="NextSeq 2000"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs="1" total_spots="104454" total_bases="62752745" total_size="22549536" load_done="true" cluster_name="public"/&gt;&lt;/Summary&gt;&lt;Submitter acc="SRA2355999" center_name="Comenius University in Bratislava Faculty of Physi" contact_name="Ivan Hric" lab_name="Department of Biological and Medical Science"/&gt;&lt;Experiment acc="SRX32588740" ver="1" status="public" name="Amplicon seq of human gut microbiome"/&gt;&lt;Study acc="SRP685485" name="Effects of Probiotic Supplementation and Physical Exercise on Gut Microbiota in Pediatric Acute Lymphoblastic Leukemia Patients in Remission"/&gt;&lt;Organism taxid="408170" ScientificName="human gut metagenome"/&gt;&lt;Sample acc="SRS28476287" name=""/&gt;&lt;Instrument ILLUMINA="NextSeq 2000"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;11OA&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1440226&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN56607746&lt;/Biosample&gt;</Item>
+	<Item Name="Runs" Type="String">&lt;Run acc="SRR37711157" total_spots="104454" total_bases="62752745" load_done="true" is_public="true" cluster_name="public" static_data_available="true"/&gt;</Item>
+	<Item Name="ExtLinks" Type="String"></Item>
+	<Item Name="CreateDate" Type="String">2026/03/20</Item>
+	<Item Name="UpdateDate" Type="String">2026/03/20</Item>
+</DocSum>
+
+<DocSum>
+	<Id>43508645</Id>
+	<Item Name="ExpXml" Type="String">&lt;Summary&gt;&lt;Title&gt;Amplicon seq of human gut microbiome&lt;/Title&gt;&lt;Platform instrument_model="NextSeq 2000"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs="1" total_spots="137938" total_bases="82860442" total_size="29784500" load_done="true" cluster_name="public"/&gt;&lt;/Summary&gt;&lt;Submitter acc="SRA2355999" center_name="Comenius University in Bratislava Faculty of Physi" contact_name="Ivan Hric" lab_name="Department of Biological and Medical Science"/&gt;&lt;Experiment acc="SRX32588739" ver="1" status="public" name="Amplicon seq of human gut microbiome"/&gt;&lt;Study acc="SRP685485" name="Effects of Probiotic Supplementation and Physical Exercise on Gut Microbiota in Pediatric Acute Lymphoblastic Leukemia Patients in Remission"/&gt;&lt;Organism taxid="408170" ScientificName="human gut metagenome"/&gt;&lt;Sample acc="SRS28476286" name=""/&gt;&lt;Instrument ILLUMINA="NextSeq 2000"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;10OA&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1440226&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN56607745&lt;/Biosample&gt;</Item>
+	<Item Name="Runs" Type="String">&lt;Run acc="SRR37711158" total_spots="137938" total_bases="82860442" load_done="true" is_public="true" cluster_name="public" static_data_available="true"/&gt;</Item>
+	<Item Name="ExtLinks" Type="String"></Item>
+	<Item Name="CreateDate" Type="String">2026/03/20</Item>
+	<Item Name="UpdateDate" Type="String">2026/03/20</Item>
+</DocSum>
+
+<DocSum>
+	<Id>43508644</Id>
+	<Item Name="ExpXml" Type="String">&lt;Summary&gt;&lt;Title&gt;Amplicon seq of human gut microbiome&lt;/Title&gt;&lt;Platform instrument_model="NextSeq 2000"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs="1" total_spots="107801" total_bases="64748252" total_size="23639622" load_done="true" cluster_name="public"/&gt;&lt;/Summary&gt;&lt;Submitter acc="SRA2355999" center_name="Comenius University in Bratislava Faculty of Physi" contact_name="Ivan Hric" lab_name="Department of Biological and Medical Science"/&gt;&lt;Experiment acc="SRX32588738" ver="1" status="public" name="Amplicon seq of human gut microbiome"/&gt;&lt;Study acc="SRP685485" name="Effects of Probiotic Supplementation and Physical Exercise on Gut Microbiota in Pediatric Acute Lymphoblastic Leukemia Patients in Remission"/&gt;&lt;Organism taxid="408170" ScientificName="human gut metagenome"/&gt;&lt;Sample acc="SRS28476284" name=""/&gt;&lt;Instrument ILLUMINA="NextSeq 2000"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;14ACT&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1440226&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN56607790&lt;/Biosample&gt;</Item>
+	<Item Name="Runs" Type="String">&lt;Run acc="SRR37711159" total_spots="107801" total_bases="64748252" load_done="true" is_public="true" cluster_name="public" static_data_available="true"/&gt;</Item>
+	<Item Name="ExtLinks" Type="String"></Item>
+	<Item Name="CreateDate" Type="String">2026/03/20</Item>
+	<Item Name="UpdateDate" Type="String">2026/03/20</Item>
+</DocSum>
+
+<DocSum>
+	<Id>43508643</Id>
+	<Item Name="ExpXml" Type="String">&lt;Summary&gt;&lt;Title&gt;Amplicon seq of human gut microbiome&lt;/Title&gt;&lt;Platform instrument_model="NextSeq 2000"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs="1" total_spots="125915" total_bases="75648399" total_size="27721700" load_done="true" cluster_name="public"/&gt;&lt;/Summary&gt;&lt;Submitter acc="SRA2355999" center_name="Comenius University in Bratislava Faculty of Physi" contact_name="Ivan Hric" lab_name="Department of Biological and Medical Science"/&gt;&lt;Experiment acc="SRX32588737" ver="1" status="public" name="Amplicon seq of human gut microbiome"/&gt;&lt;Study acc="SRP685485" name="Effects of Probiotic Supplementation and Physical Exercise on Gut Microbiota in Pediatric Acute Lymphoblastic Leukemia Patients in Remission"/&gt;&lt;Organism taxid="408170" ScientificName="human gut metagenome"/&gt;&lt;Sample acc="SRS28476285" name=""/&gt;&lt;Instrument ILLUMINA="NextSeq 2000"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;13ACT&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1440226&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN56607789&lt;/Biosample&gt;</Item>
+	<Item Name="Runs" Type="String">&lt;Run acc="SRR37711160" total_spots="125915" total_bases="75648399" load_done="true" is_public="true" cluster_name="public" static_data_available="true"/&gt;</Item>
+	<Item Name="ExtLinks" Type="String"></Item>
+	<Item Name="CreateDate" Type="String">2026/03/20</Item>
+	<Item Name="UpdateDate" Type="String">2026/03/20</Item>
+</DocSum>
+
+<DocSum>
+	<Id>43508642</Id>
+	<Item Name="ExpXml" Type="String">&lt;Summary&gt;&lt;Title&gt;Amplicon seq of human gut microbiome&lt;/Title&gt;&lt;Platform instrument_model="NextSeq 2000"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs="1" total_spots="84419" total_bases="50731678" total_size="18357397" load_done="true" cluster_name="public"/&gt;&lt;/Summary&gt;&lt;Submitter acc="SRA2355999" center_name="Comenius University in Bratislava Faculty of Physi" contact_name="Ivan Hric" lab_name="Department of Biological and Medical Science"/&gt;&lt;Experiment acc="SRX32588736" ver="1" status="public" name="Amplicon seq of human gut microbiome"/&gt;&lt;Study acc="SRP685485" name="Effects of Probiotic Supplementation and Physical Exercise on Gut Microbiota in Pediatric Acute Lymphoblastic Leukemia Patients in Remission"/&gt;&lt;Organism taxid="408170" ScientificName="human gut metagenome"/&gt;&lt;Sample acc="SRS28476283" name=""/&gt;&lt;Instrument ILLUMINA="NextSeq 2000"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;9OA&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1440226&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN56607744&lt;/Biosample&gt;</Item>
+	<Item Name="Runs" Type="String">&lt;Run acc="SRR37711161" total_spots="84419" total_bases="50731678" load_done="true" is_public="true" cluster_name="public" static_data_available="true"/&gt;</Item>
+	<Item Name="ExtLinks" Type="String"></Item>
+	<Item Name="CreateDate" Type="String">2026/03/20</Item>
+	<Item Name="UpdateDate" Type="String">2026/03/20</Item>
+</DocSum>
+
+<DocSum>
+	<Id>43508641</Id>
+	<Item Name="ExpXml" Type="String">&lt;Summary&gt;&lt;Title&gt;Amplicon seq of human gut microbiome&lt;/Title&gt;&lt;Platform instrument_model="NextSeq 2000"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs="1" total_spots="148121" total_bases="88988447" total_size="32321960" load_done="true" cluster_name="public"/&gt;&lt;/Summary&gt;&lt;Submitter acc="SRA2355999" center_name="Comenius University in Bratislava Faculty of Physi" contact_name="Ivan Hric" lab_name="Department of Biological and Medical Science"/&gt;&lt;Experiment acc="SRX32588735" ver="1" status="public" name="Amplicon seq of human gut microbiome"/&gt;&lt;Study acc="SRP685485" name="Effects of Probiotic Supplementation and Physical Exercise on Gut Microbiota in Pediatric Acute Lymphoblastic Leukemia Patients in Remission"/&gt;&lt;Organism taxid="408170" ScientificName="human gut metagenome"/&gt;&lt;Sample acc="SRS28476282" name=""/&gt;&lt;Instrument ILLUMINA="NextSeq 2000"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;12ACT&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1440226&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN56607788&lt;/Biosample&gt;</Item>
+	<Item Name="Runs" Type="String">&lt;Run acc="SRR37711162" total_spots="148121" total_bases="88988447" load_done="true" is_public="true" cluster_name="public" static_data_available="true"/&gt;</Item>
+	<Item Name="ExtLinks" Type="String"></Item>
+	<Item Name="CreateDate" Type="String">2026/03/20</Item>
+	<Item Name="UpdateDate" Type="String">2026/03/20</Item>
+</DocSum>
+
+<DocSum>
+	<Id>43508640</Id>
+	<Item Name="ExpXml" Type="String">&lt;Summary&gt;&lt;Title&gt;Amplicon seq of human gut microbiome&lt;/Title&gt;&lt;Platform instrument_model="NextSeq 2000"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs="1" total_spots="131503" total_bases="78993635" total_size="28534280" load_done="true" cluster_name="public"/&gt;&lt;/Summary&gt;&lt;Submitter acc="SRA2355999" center_name="Comenius University in Bratislava Faculty of Physi" contact_name="Ivan Hric" lab_name="Department of Biological and Medical Science"/&gt;&lt;Experiment acc="SRX32588734" ver="1" status="public" name="Amplicon seq of human gut microbiome"/&gt;&lt;Study acc="SRP685485" name="Effects of Probiotic Supplementation and Physical Exercise on Gut Microbiota in Pediatric Acute Lymphoblastic Leukemia Patients in Remission"/&gt;&lt;Organism taxid="408170" ScientificName="human gut metagenome"/&gt;&lt;Sample acc="SRS28476281" name=""/&gt;&lt;Instrument ILLUMINA="NextSeq 2000"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;11ACT&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1440226&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN56607787&lt;/Biosample&gt;</Item>
+	<Item Name="Runs" Type="String">&lt;Run acc="SRR37711163" total_spots="131503" total_bases="78993635" load_done="true" is_public="true" cluster_name="public" static_data_available="true"/&gt;</Item>
+	<Item Name="ExtLinks" Type="String"></Item>
+	<Item Name="CreateDate" Type="String">2026/03/20</Item>
+	<Item Name="UpdateDate" Type="String">2026/03/20</Item>
+</DocSum>
+
+<DocSum>
+	<Id>43508639</Id>
+	<Item Name="ExpXml" Type="String">&lt;Summary&gt;&lt;Title&gt;Amplicon seq of human gut microbiome&lt;/Title&gt;&lt;Platform instrument_model="NextSeq 2000"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs="1" total_spots="179570" total_bases="107891730" total_size="39052315" load_done="true" cluster_name="public"/&gt;&lt;/Summary&gt;&lt;Submitter acc="SRA2355999" center_name="Comenius University in Bratislava Faculty of Physi" contact_name="Ivan Hric" lab_name="Department of Biological and Medical Science"/&gt;&lt;Experiment acc="SRX32588733" ver="1" status="public" name="Amplicon seq of human gut microbiome"/&gt;&lt;Study acc="SRP685485" name="Effects of Probiotic Supplementation and Physical Exercise on Gut Microbiota in Pediatric Acute Lymphoblastic Leukemia Patients in Remission"/&gt;&lt;Organism taxid="408170" ScientificName="human gut metagenome"/&gt;&lt;Sample acc="SRS28476280" name=""/&gt;&lt;Instrument ILLUMINA="NextSeq 2000"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;10ACT&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1440226&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN56607786&lt;/Biosample&gt;</Item>
+	<Item Name="Runs" Type="String">&lt;Run acc="SRR37711164" total_spots="179570" total_bases="107891730" load_done="true" is_public="true" cluster_name="public" static_data_available="true"/&gt;</Item>
+	<Item Name="ExtLinks" Type="String"></Item>
+	<Item Name="CreateDate" Type="String">2026/03/20</Item>
+	<Item Name="UpdateDate" Type="String">2026/03/20</Item>
+</DocSum>
+
+<DocSum>
+	<Id>43508638</Id>
+	<Item Name="ExpXml" Type="String">&lt;Summary&gt;&lt;Title&gt;Amplicon seq of human gut microbiome&lt;/Title&gt;&lt;Platform instrument_model="NextSeq 2000"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs="1" total_spots="121342" total_bases="72897170" total_size="26085531" load_done="true" cluster_name="public"/&gt;&lt;/Summary&gt;&lt;Submitter acc="SRA2355999" center_name="Comenius University in Bratislava Faculty of Physi" contact_name="Ivan Hric" lab_name="Department of Biological and Medical Science"/&gt;&lt;Experiment acc="SRX32588732" ver="1" status="public" name="Amplicon seq of human gut microbiome"/&gt;&lt;Study acc="SRP685485" name="Effects of Probiotic Supplementation and Physical Exercise on Gut Microbiota in Pediatric Acute Lymphoblastic Leukemia Patients in Remission"/&gt;&lt;Organism taxid="408170" ScientificName="human gut metagenome"/&gt;&lt;Sample acc="SRS28476279" name=""/&gt;&lt;Instrument ILLUMINA="NextSeq 2000"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;9ACT&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1440226&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN56607785&lt;/Biosample&gt;</Item>
+	<Item Name="Runs" Type="String">&lt;Run acc="SRR37711165" total_spots="121342" total_bases="72897170" load_done="true" is_public="true" cluster_name="public" static_data_available="true"/&gt;</Item>
+	<Item Name="ExtLinks" Type="String"></Item>
+	<Item Name="CreateDate" Type="String">2026/03/20</Item>
+	<Item Name="UpdateDate" Type="String">2026/03/20</Item>
+</DocSum>
+
+<DocSum>
+	<Id>43508637</Id>
+	<Item Name="ExpXml" Type="String">&lt;Summary&gt;&lt;Title&gt;Amplicon seq of human gut microbiome&lt;/Title&gt;&lt;Platform instrument_model="NextSeq 2000"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs="1" total_spots="134307" total_bases="80686767" total_size="29494769" load_done="true" cluster_name="public"/&gt;&lt;/Summary&gt;&lt;Submitter acc="SRA2355999" center_name="Comenius University in Bratislava Faculty of Physi" contact_name="Ivan Hric" lab_name="Department of Biological and Medical Science"/&gt;&lt;Experiment acc="SRX32588731" ver="1" status="public" name="Amplicon seq of human gut microbiome"/&gt;&lt;Study acc="SRP685485" name="Effects of Probiotic Supplementation and Physical Exercise on Gut Microbiota in Pediatric Acute Lymphoblastic Leukemia Patients in Remission"/&gt;&lt;Organism taxid="408170" ScientificName="human gut metagenome"/&gt;&lt;Sample acc="SRS28476277" name=""/&gt;&lt;Instrument ILLUMINA="NextSeq 2000"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;8ACT&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1440226&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN56607784&lt;/Biosample&gt;</Item>
+	<Item Name="Runs" Type="String">&lt;Run acc="SRR37711166" total_spots="134307" total_bases="80686767" load_done="true" is_public="true" cluster_name="public" static_data_available="true"/&gt;</Item>
+	<Item Name="ExtLinks" Type="String"></Item>
+	<Item Name="CreateDate" Type="String">2026/03/20</Item>
+	<Item Name="UpdateDate" Type="String">2026/03/20</Item>
+</DocSum>
+
+<DocSum>
+	<Id>43508636</Id>
+	<Item Name="ExpXml" Type="String">&lt;Summary&gt;&lt;Title&gt;Amplicon seq of human gut microbiome&lt;/Title&gt;&lt;Platform instrument_model="NextSeq 2000"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs="1" total_spots="173652" total_bases="104320415" total_size="37554722" load_done="true" cluster_name="public"/&gt;&lt;/Summary&gt;&lt;Submitter acc="SRA2355999" center_name="Comenius University in Bratislava Faculty of Physi" contact_name="Ivan Hric" lab_name="Department of Biological and Medical Science"/&gt;&lt;Experiment acc="SRX32588730" ver="1" status="public" name="Amplicon seq of human gut microbiome"/&gt;&lt;Study acc="SRP685485" name="Effects of Probiotic Supplementation and Physical Exercise on Gut Microbiota in Pediatric Acute Lymphoblastic Leukemia Patients in Remission"/&gt;&lt;Organism taxid="408170" ScientificName="human gut metagenome"/&gt;&lt;Sample acc="SRS28476278" name=""/&gt;&lt;Instrument ILLUMINA="NextSeq 2000"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;7ACT&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1440226&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN56607783&lt;/Biosample&gt;</Item>
+	<Item Name="Runs" Type="String">&lt;Run acc="SRR37711167" total_spots="173652" total_bases="104320415" load_done="true" is_public="true" cluster_name="public" static_data_available="true"/&gt;</Item>
+	<Item Name="ExtLinks" Type="String"></Item>
+	<Item Name="CreateDate" Type="String">2026/03/20</Item>
+	<Item Name="UpdateDate" Type="String">2026/03/20</Item>
+</DocSum>
+
+<DocSum>
+	<Id>43508635</Id>
+	<Item Name="ExpXml" Type="String">&lt;Summary&gt;&lt;Title&gt;Amplicon seq of human gut microbiome&lt;/Title&gt;&lt;Platform instrument_model="NextSeq 2000"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs="1" total_spots="113192" total_bases="68007501" total_size="24748048" load_done="true" cluster_name="public"/&gt;&lt;/Summary&gt;&lt;Submitter acc="SRA2355999" center_name="Comenius University in Bratislava Faculty of Physi" contact_name="Ivan Hric" lab_name="Department of Biological and Medical Science"/&gt;&lt;Experiment acc="SRX32588729" ver="1" status="public" name="Amplicon seq of human gut microbiome"/&gt;&lt;Study acc="SRP685485" name="Effects of Probiotic Supplementation and Physical Exercise on Gut Microbiota in Pediatric Acute Lymphoblastic Leukemia Patients in Remission"/&gt;&lt;Organism taxid="408170" ScientificName="human gut metagenome"/&gt;&lt;Sample acc="SRS28476276" name=""/&gt;&lt;Instrument ILLUMINA="NextSeq 2000"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;6ACT&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1440226&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN56607782&lt;/Biosample&gt;</Item>
+	<Item Name="Runs" Type="String">&lt;Run acc="SRR37711168" total_spots="113192" total_bases="68007501" load_done="true" is_public="true" cluster_name="public" static_data_available="true"/&gt;</Item>
+	<Item Name="ExtLinks" Type="String"></Item>
+	<Item Name="CreateDate" Type="String">2026/03/20</Item>
+	<Item Name="UpdateDate" Type="String">2026/03/20</Item>
+</DocSum>
+
+<DocSum>
+	<Id>43508634</Id>
+	<Item Name="ExpXml" Type="String">&lt;Summary&gt;&lt;Title&gt;Amplicon seq of human gut microbiome&lt;/Title&gt;&lt;Platform instrument_model="NextSeq 2000"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs="1" total_spots="126609" total_bases="76053526" total_size="27796392" load_done="true" cluster_name="public"/&gt;&lt;/Summary&gt;&lt;Submitter acc="SRA2355999" center_name="Comenius University in Bratislava Faculty of Physi" contact_name="Ivan Hric" lab_name="Department of Biological and Medical Science"/&gt;&lt;Experiment acc="SRX32588728" ver="1" status="public" name="Amplicon seq of human gut microbiome"/&gt;&lt;Study acc="SRP685485" name="Effects of Probiotic Supplementation and Physical Exercise on Gut Microbiota in Pediatric Acute Lymphoblastic Leukemia Patients in Remission"/&gt;&lt;Organism taxid="408170" ScientificName="human gut metagenome"/&gt;&lt;Sample acc="SRS28476275" name=""/&gt;&lt;Instrument ILLUMINA="NextSeq 2000"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;5ACT&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1440226&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN56607781&lt;/Biosample&gt;</Item>
+	<Item Name="Runs" Type="String">&lt;Run acc="SRR37711169" total_spots="126609" total_bases="76053526" load_done="true" is_public="true" cluster_name="public" static_data_available="true"/&gt;</Item>
+	<Item Name="ExtLinks" Type="String"></Item>
+	<Item Name="CreateDate" Type="String">2026/03/20</Item>
+	<Item Name="UpdateDate" Type="String">2026/03/20</Item>
+</DocSum>
+
+<DocSum>
+	<Id>43508633</Id>
+	<Item Name="ExpXml" Type="String">&lt;Summary&gt;&lt;Title&gt;Amplicon seq of human gut microbiome&lt;/Title&gt;&lt;Platform instrument_model="NextSeq 2000"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs="1" total_spots="134723" total_bases="80925301" total_size="29125525" load_done="true" cluster_name="public"/&gt;&lt;/Summary&gt;&lt;Submitter acc="SRA2355999" center_name="Comenius University in Bratislava Faculty of Physi" contact_name="Ivan Hric" lab_name="Department of Biological and Medical Science"/&gt;&lt;Experiment acc="SRX32588727" ver="1" status="public" name="Amplicon seq of human gut microbiome"/&gt;&lt;Study acc="SRP685485" name="Effects of Probiotic Supplementation and Physical Exercise on Gut Microbiota in Pediatric Acute Lymphoblastic Leukemia Patients in Remission"/&gt;&lt;Organism taxid="408170" ScientificName="human gut metagenome"/&gt;&lt;Sample acc="SRS28476274" name=""/&gt;&lt;Instrument ILLUMINA="NextSeq 2000"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;4ACT&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1440226&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN56607780&lt;/Biosample&gt;</Item>
+	<Item Name="Runs" Type="String">&lt;Run acc="SRR37711170" total_spots="134723" total_bases="80925301" load_done="true" is_public="true" cluster_name="public" static_data_available="true"/&gt;</Item>
+	<Item Name="ExtLinks" Type="String"></Item>
+	<Item Name="CreateDate" Type="String">2026/03/20</Item>
+	<Item Name="UpdateDate" Type="String">2026/03/20</Item>
+</DocSum>
+
+<DocSum>
+	<Id>43508632</Id>
+	<Item Name="ExpXml" Type="String">&lt;Summary&gt;&lt;Title&gt;Amplicon seq of human gut microbiome&lt;/Title&gt;&lt;Platform instrument_model="NextSeq 2000"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs="1" total_spots="11662" total_bases="7006812" total_size="2754905" load_done="true" cluster_name="public"/&gt;&lt;/Summary&gt;&lt;Submitter acc="SRA2355999" center_name="Comenius University in Bratislava Faculty of Physi" contact_name="Ivan Hric" lab_name="Department of Biological and Medical Science"/&gt;&lt;Experiment acc="SRX32588726" ver="1" status="public" name="Amplicon seq of human gut microbiome"/&gt;&lt;Study acc="SRP685485" name="Effects of Probiotic Supplementation and Physical Exercise on Gut Microbiota in Pediatric Acute Lymphoblastic Leukemia Patients in Remission"/&gt;&lt;Organism taxid="408170" ScientificName="human gut metagenome"/&gt;&lt;Sample acc="SRS28476273" name=""/&gt;&lt;Instrument ILLUMINA="NextSeq 2000"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;3ACT&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1440226&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN56607779&lt;/Biosample&gt;</Item>
+	<Item Name="Runs" Type="String">&lt;Run acc="SRR37711171" total_spots="11662" total_bases="7006812" load_done="true" is_public="true" cluster_name="public" static_data_available="true"/&gt;</Item>
+	<Item Name="ExtLinks" Type="String"></Item>
+	<Item Name="CreateDate" Type="String">2026/03/20</Item>
+	<Item Name="UpdateDate" Type="String">2026/03/20</Item>
+</DocSum>
+
+<DocSum>
+	<Id>43508631</Id>
+	<Item Name="ExpXml" Type="String">&lt;Summary&gt;&lt;Title&gt;Amplicon seq of human gut microbiome&lt;/Title&gt;&lt;Platform instrument_model="NextSeq 2000"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs="1" total_spots="124132" total_bases="74583487" total_size="26853016" load_done="true" cluster_name="public"/&gt;&lt;/Summary&gt;&lt;Submitter acc="SRA2355999" center_name="Comenius University in Bratislava Faculty of Physi" contact_name="Ivan Hric" lab_name="Department of Biological and Medical Science"/&gt;&lt;Experiment acc="SRX32588725" ver="1" status="public" name="Amplicon seq of human gut microbiome"/&gt;&lt;Study acc="SRP685485" name="Effects of Probiotic Supplementation and Physical Exercise on Gut Microbiota in Pediatric Acute Lymphoblastic Leukemia Patients in Remission"/&gt;&lt;Organism taxid="408170" ScientificName="human gut metagenome"/&gt;&lt;Sample acc="SRS28476272" name=""/&gt;&lt;Instrument ILLUMINA="NextSeq 2000"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;7OA&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1440226&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN56607743&lt;/Biosample&gt;</Item>
+	<Item Name="Runs" Type="String">&lt;Run acc="SRR37711172" total_spots="124132" total_bases="74583487" load_done="true" is_public="true" cluster_name="public" static_data_available="true"/&gt;</Item>
+	<Item Name="ExtLinks" Type="String"></Item>
+	<Item Name="CreateDate" Type="String">2026/03/20</Item>
+	<Item Name="UpdateDate" Type="String">2026/03/20</Item>
+</DocSum>
+
+<DocSum>
+	<Id>43508630</Id>
+	<Item Name="ExpXml" Type="String">&lt;Summary&gt;&lt;Title&gt;Amplicon seq of human gut microbiome&lt;/Title&gt;&lt;Platform instrument_model="NextSeq 2000"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs="1" total_spots="17071" total_bases="10254027" total_size="3934315" load_done="true" cluster_name="public"/&gt;&lt;/Summary&gt;&lt;Submitter acc="SRA2355999" center_name="Comenius University in Bratislava Faculty of Physi" contact_name="Ivan Hric" lab_name="Department of Biological and Medical Science"/&gt;&lt;Experiment acc="SRX32588724" ver="1" status="public" name="Amplicon seq of human gut microbiome"/&gt;&lt;Study acc="SRP685485" name="Effects of Probiotic Supplementation and Physical Exercise on Gut Microbiota in Pediatric Acute Lymphoblastic Leukemia Patients in Remission"/&gt;&lt;Organism taxid="408170" ScientificName="human gut metagenome"/&gt;&lt;Sample acc="SRS28476270" name=""/&gt;&lt;Instrument ILLUMINA="NextSeq 2000"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;2ACT&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1440226&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN56607778&lt;/Biosample&gt;</Item>
+	<Item Name="Runs" Type="String">&lt;Run acc="SRR37711173" total_spots="17071" total_bases="10254027" load_done="true" is_public="true" cluster_name="public" static_data_available="true"/&gt;</Item>
+	<Item Name="ExtLinks" Type="String"></Item>
+	<Item Name="CreateDate" Type="String">2026/03/20</Item>
+	<Item Name="UpdateDate" Type="String">2026/03/20</Item>
+</DocSum>
+
+<DocSum>
+	<Id>43508629</Id>
+	<Item Name="ExpXml" Type="String">&lt;Summary&gt;&lt;Title&gt;Amplicon seq of human gut microbiome&lt;/Title&gt;&lt;Platform instrument_model="NextSeq 2000"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs="1" total_spots="13366" total_bases="8031109" total_size="3084934" load_done="true" cluster_name="public"/&gt;&lt;/Summary&gt;&lt;Submitter acc="SRA2355999" center_name="Comenius University in Bratislava Faculty of Physi" contact_name="Ivan Hric" lab_name="Department of Biological and Medical Science"/&gt;&lt;Experiment acc="SRX32588723" ver="1" status="public" name="Amplicon seq of human gut microbiome"/&gt;&lt;Study acc="SRP685485" name="Effects of Probiotic Supplementation and Physical Exercise on Gut Microbiota in Pediatric Acute Lymphoblastic Leukemia Patients in Remission"/&gt;&lt;Organism taxid="408170" ScientificName="human gut metagenome"/&gt;&lt;Sample acc="SRS28476271" name=""/&gt;&lt;Instrument ILLUMINA="NextSeq 2000"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;1ACT&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1440226&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN56607777&lt;/Biosample&gt;</Item>
+	<Item Name="Runs" Type="String">&lt;Run acc="SRR37711174" total_spots="13366" total_bases="8031109" load_done="true" is_public="true" cluster_name="public" static_data_available="true"/&gt;</Item>
+	<Item Name="ExtLinks" Type="String"></Item>
+	<Item Name="CreateDate" Type="String">2026/03/20</Item>
+	<Item Name="UpdateDate" Type="String">2026/03/20</Item>
+</DocSum>
+
+<DocSum>
+	<Id>43508628</Id>
+	<Item Name="ExpXml" Type="String">&lt;Summary&gt;&lt;Title&gt;Amplicon seq of human gut microbiome&lt;/Title&gt;&lt;Platform instrument_model="NextSeq 2000"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs="1" total_spots="74492" total_bases="44769992" total_size="16207387" load_done="true" cluster_name="public"/&gt;&lt;/Summary&gt;&lt;Submitter acc="SRA2355999" center_name="Comenius University in Bratislava Faculty of Physi" contact_name="Ivan Hric" lab_name="Department of Biological and Medical Science"/&gt;&lt;Experiment acc="SRX32588722" ver="1" status="public" name="Amplicon seq of human gut microbiome"/&gt;&lt;Study acc="SRP685485" name="Effects of Probiotic Supplementation and Physical Exercise on Gut Microbiota in Pediatric Acute Lymphoblastic Leukemia Patients in Remission"/&gt;&lt;Organism taxid="408170" ScientificName="human gut metagenome"/&gt;&lt;Sample acc="SRS28476269" name=""/&gt;&lt;Instrument ILLUMINA="NextSeq 2000"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;30OB&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1440226&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN56607776&lt;/Biosample&gt;</Item>
+	<Item Name="Runs" Type="String">&lt;Run acc="SRR37711175" total_spots="74492" total_bases="44769992" load_done="true" is_public="true" cluster_name="public" static_data_available="true"/&gt;</Item>
+	<Item Name="ExtLinks" Type="String"></Item>
+	<Item Name="CreateDate" Type="String">2026/03/20</Item>
+	<Item Name="UpdateDate" Type="String">2026/03/20</Item>
+</DocSum>
+
+<DocSum>
+	<Id>43508627</Id>
+	<Item Name="ExpXml" Type="String">&lt;Summary&gt;&lt;Title&gt;Amplicon seq of human gut microbiome&lt;/Title&gt;&lt;Platform instrument_model="NextSeq 2000"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs="1" total_spots="138620" total_bases="83284566" total_size="30365292" load_done="true" cluster_name="public"/&gt;&lt;/Summary&gt;&lt;Submitter acc="SRA2355999" center_name="Comenius University in Bratislava Faculty of Physi" contact_name="Ivan Hric" lab_name="Department of Biological and Medical Science"/&gt;&lt;Experiment acc="SRX32588721" ver="1" status="public" name="Amplicon seq of human gut microbiome"/&gt;&lt;Study acc="SRP685485" name="Effects of Probiotic Supplementation and Physical Exercise on Gut Microbiota in Pediatric Acute Lymphoblastic Leukemia Patients in Remission"/&gt;&lt;Organism taxid="408170" ScientificName="human gut metagenome"/&gt;&lt;Sample acc="SRS28476268" name=""/&gt;&lt;Instrument ILLUMINA="NextSeq 2000"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;27OB&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1440226&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN56607775&lt;/Biosample&gt;</Item>
+	<Item Name="Runs" Type="String">&lt;Run acc="SRR37711176" total_spots="138620" total_bases="83284566" load_done="true" is_public="true" cluster_name="public" static_data_available="true"/&gt;</Item>
+	<Item Name="ExtLinks" Type="String"></Item>
+	<Item Name="CreateDate" Type="String">2026/03/20</Item>
+	<Item Name="UpdateDate" Type="String">2026/03/20</Item>
+</DocSum>
+
+<DocSum>
+	<Id>43508626</Id>
+	<Item Name="ExpXml" Type="String">&lt;Summary&gt;&lt;Title&gt;Amplicon seq of human gut microbiome&lt;/Title&gt;&lt;Platform instrument_model="NextSeq 2000"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs="1" total_spots="104812" total_bases="62971003" total_size="22857967" load_done="true" cluster_name="public"/&gt;&lt;/Summary&gt;&lt;Submitter acc="SRA2355999" center_name="Comenius University in Bratislava Faculty of Physi" contact_name="Ivan Hric" lab_name="Department of Biological and Medical Science"/&gt;&lt;Experiment acc="SRX32588720" ver="1" status="public" name="Amplicon seq of human gut microbiome"/&gt;&lt;Study acc="SRP685485" name="Effects of Probiotic Supplementation and Physical Exercise on Gut Microbiota in Pediatric Acute Lymphoblastic Leukemia Patients in Remission"/&gt;&lt;Organism taxid="408170" ScientificName="human gut metagenome"/&gt;&lt;Sample acc="SRS28476267" name=""/&gt;&lt;Instrument ILLUMINA="NextSeq 2000"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;26OB&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1440226&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN56607774&lt;/Biosample&gt;</Item>
+	<Item Name="Runs" Type="String">&lt;Run acc="SRR37711177" total_spots="104812" total_bases="62971003" load_done="true" is_public="true" cluster_name="public" static_data_available="true"/&gt;</Item>
+	<Item Name="ExtLinks" Type="String"></Item>
+	<Item Name="CreateDate" Type="String">2026/03/20</Item>
+	<Item Name="UpdateDate" Type="String">2026/03/20</Item>
+</DocSum>
+
+<DocSum>
+	<Id>43508625</Id>
+	<Item Name="ExpXml" Type="String">&lt;Summary&gt;&lt;Title&gt;Amplicon seq of human gut microbiome&lt;/Title&gt;&lt;Platform instrument_model="NextSeq 2000"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs="1" total_spots="113182" total_bases="68002271" total_size="24602504" load_done="true" cluster_name="public"/&gt;&lt;/Summary&gt;&lt;Submitter acc="SRA2355999" center_name="Comenius University in Bratislava Faculty of Physi" contact_name="Ivan Hric" lab_name="Department of Biological and Medical Science"/&gt;&lt;Experiment acc="SRX32588719" ver="1" status="public" name="Amplicon seq of human gut microbiome"/&gt;&lt;Study acc="SRP685485" name="Effects of Probiotic Supplementation and Physical Exercise on Gut Microbiota in Pediatric Acute Lymphoblastic Leukemia Patients in Remission"/&gt;&lt;Organism taxid="408170" ScientificName="human gut metagenome"/&gt;&lt;Sample acc="SRS28476266" name=""/&gt;&lt;Instrument ILLUMINA="NextSeq 2000"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;24OB&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1440226&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN56607773&lt;/Biosample&gt;</Item>
+	<Item Name="Runs" Type="String">&lt;Run acc="SRR37711178" total_spots="113182" total_bases="68002271" load_done="true" is_public="true" cluster_name="public" static_data_available="true"/&gt;</Item>
+	<Item Name="ExtLinks" Type="String"></Item>
+	<Item Name="CreateDate" Type="String">2026/03/20</Item>
+	<Item Name="UpdateDate" Type="String">2026/03/20</Item>
+</DocSum>
+
+<DocSum>
+	<Id>43508624</Id>
+	<Item Name="ExpXml" Type="String">&lt;Summary&gt;&lt;Title&gt;Amplicon seq of human gut microbiome&lt;/Title&gt;&lt;Platform instrument_model="NextSeq 2000"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs="1" total_spots="151987" total_bases="91322575" total_size="33152448" load_done="true" cluster_name="public"/&gt;&lt;/Summary&gt;&lt;Submitter acc="SRA2355999" center_name="Comenius University in Bratislava Faculty of Physi" contact_name="Ivan Hric" lab_name="Department of Biological and Medical Science"/&gt;&lt;Experiment acc="SRX32588718" ver="1" status="public" name="Amplicon seq of human gut microbiome"/&gt;&lt;Study acc="SRP685485" name="Effects of Probiotic Supplementation and Physical Exercise on Gut Microbiota in Pediatric Acute Lymphoblastic Leukemia Patients in Remission"/&gt;&lt;Organism taxid="408170" ScientificName="human gut metagenome"/&gt;&lt;Sample acc="SRS28476265" name=""/&gt;&lt;Instrument ILLUMINA="NextSeq 2000"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;22OB&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1440226&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN56607772&lt;/Biosample&gt;</Item>
+	<Item Name="Runs" Type="String">&lt;Run acc="SRR37711179" total_spots="151987" total_bases="91322575" load_done="true" is_public="true" cluster_name="public" static_data_available="true"/&gt;</Item>
+	<Item Name="ExtLinks" Type="String"></Item>
+	<Item Name="CreateDate" Type="String">2026/03/20</Item>
+	<Item Name="UpdateDate" Type="String">2026/03/20</Item>
+</DocSum>
+
+<DocSum>
+	<Id>43508623</Id>
+	<Item Name="ExpXml" Type="String">&lt;Summary&gt;&lt;Title&gt;Amplicon seq of human gut microbiome&lt;/Title&gt;&lt;Platform instrument_model="NextSeq 2000"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs="1" total_spots="250679" total_bases="150590837" total_size="53963547" load_done="true" cluster_name="public"/&gt;&lt;/Summary&gt;&lt;Submitter acc="SRA2355999" center_name="Comenius University in Bratislava Faculty of Physi" contact_name="Ivan Hric" lab_name="Department of Biological and Medical Science"/&gt;&lt;Experiment acc="SRX32588717" ver="1" status="public" name="Amplicon seq of human gut microbiome"/&gt;&lt;Study acc="SRP685485" name="Effects of Probiotic Supplementation and Physical Exercise on Gut Microbiota in Pediatric Acute Lymphoblastic Leukemia Patients in Remission"/&gt;&lt;Organism taxid="408170" ScientificName="human gut metagenome"/&gt;&lt;Sample acc="SRS28476264" name=""/&gt;&lt;Instrument ILLUMINA="NextSeq 2000"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;21OB&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1440226&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN56607771&lt;/Biosample&gt;</Item>
+	<Item Name="Runs" Type="String">&lt;Run acc="SRR37711180" total_spots="250679" total_bases="150590837" load_done="true" is_public="true" cluster_name="public" static_data_available="true"/&gt;</Item>
+	<Item Name="ExtLinks" Type="String"></Item>
+	<Item Name="CreateDate" Type="String">2026/03/20</Item>
+	<Item Name="UpdateDate" Type="String">2026/03/20</Item>
+</DocSum>
+
+<DocSum>
+	<Id>43508622</Id>
+	<Item Name="ExpXml" Type="String">&lt;Summary&gt;&lt;Title&gt;Amplicon seq of human gut microbiome&lt;/Title&gt;&lt;Platform instrument_model="NextSeq 2000"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs="1" total_spots="179437" total_bases="107797185" total_size="39364075" load_done="true" cluster_name="public"/&gt;&lt;/Summary&gt;&lt;Submitter acc="SRA2355999" center_name="Comenius University in Bratislava Faculty of Physi" contact_name="Ivan Hric" lab_name="Department of Biological and Medical Science"/&gt;&lt;Experiment acc="SRX32588716" ver="1" status="public" name="Amplicon seq of human gut microbiome"/&gt;&lt;Study acc="SRP685485" name="Effects of Probiotic Supplementation and Physical Exercise on Gut Microbiota in Pediatric Acute Lymphoblastic Leukemia Patients in Remission"/&gt;&lt;Organism taxid="408170" ScientificName="human gut metagenome"/&gt;&lt;Sample acc="SRS28476263" name=""/&gt;&lt;Instrument ILLUMINA="NextSeq 2000"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;20OB&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1440226&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN56607770&lt;/Biosample&gt;</Item>
+	<Item Name="Runs" Type="String">&lt;Run acc="SRR37711181" total_spots="179437" total_bases="107797185" load_done="true" is_public="true" cluster_name="public" static_data_available="true"/&gt;</Item>
+	<Item Name="ExtLinks" Type="String"></Item>
+	<Item Name="CreateDate" Type="String">2026/03/20</Item>
+	<Item Name="UpdateDate" Type="String">2026/03/20</Item>
+</DocSum>
+
+<DocSum>
+	<Id>43508621</Id>
+	<Item Name="ExpXml" Type="String">&lt;Summary&gt;&lt;Title&gt;Amplicon seq of human gut microbiome&lt;/Title&gt;&lt;Platform instrument_model="NextSeq 2000"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs="1" total_spots="168259" total_bases="101085853" total_size="36625980" load_done="true" cluster_name="public"/&gt;&lt;/Summary&gt;&lt;Submitter acc="SRA2355999" center_name="Comenius University in Bratislava Faculty of Physi" contact_name="Ivan Hric" lab_name="Department of Biological and Medical Science"/&gt;&lt;Experiment acc="SRX32588715" ver="1" status="public" name="Amplicon seq of human gut microbiome"/&gt;&lt;Study acc="SRP685485" name="Effects of Probiotic Supplementation and Physical Exercise on Gut Microbiota in Pediatric Acute Lymphoblastic Leukemia Patients in Remission"/&gt;&lt;Organism taxid="408170" ScientificName="human gut metagenome"/&gt;&lt;Sample acc="SRS28476262" name=""/&gt;&lt;Instrument ILLUMINA="NextSeq 2000"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;19OB&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1440226&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN56607769&lt;/Biosample&gt;</Item>
+	<Item Name="Runs" Type="String">&lt;Run acc="SRR37711182" total_spots="168259" total_bases="101085853" load_done="true" is_public="true" cluster_name="public" static_data_available="true"/&gt;</Item>
+	<Item Name="ExtLinks" Type="String"></Item>
+	<Item Name="CreateDate" Type="String">2026/03/20</Item>
+	<Item Name="UpdateDate" Type="String">2026/03/20</Item>
+</DocSum>
+
+<DocSum>
+	<Id>43508620</Id>
+	<Item Name="ExpXml" Type="String">&lt;Summary&gt;&lt;Title&gt;Amplicon seq of human gut microbiome&lt;/Title&gt;&lt;Platform instrument_model="NextSeq 2000"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs="1" total_spots="135379" total_bases="81336612" total_size="29605733" load_done="true" cluster_name="public"/&gt;&lt;/Summary&gt;&lt;Submitter acc="SRA2355999" center_name="Comenius University in Bratislava Faculty of Physi" contact_name="Ivan Hric" lab_name="Department of Biological and Medical Science"/&gt;&lt;Experiment acc="SRX32588714" ver="1" status="public" name="Amplicon seq of human gut microbiome"/&gt;&lt;Study acc="SRP685485" name="Effects of Probiotic Supplementation and Physical Exercise on Gut Microbiota in Pediatric Acute Lymphoblastic Leukemia Patients in Remission"/&gt;&lt;Organism taxid="408170" ScientificName="human gut metagenome"/&gt;&lt;Sample acc="SRS28476261" name=""/&gt;&lt;Instrument ILLUMINA="NextSeq 2000"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;6OA&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1440226&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN56607742&lt;/Biosample&gt;</Item>
+	<Item Name="Runs" Type="String">&lt;Run acc="SRR37711183" total_spots="135379" total_bases="81336612" load_done="true" is_public="true" cluster_name="public" static_data_available="true"/&gt;</Item>
+	<Item Name="ExtLinks" Type="String"></Item>
+	<Item Name="CreateDate" Type="String">2026/03/20</Item>
+	<Item Name="UpdateDate" Type="String">2026/03/20</Item>
+</DocSum>
+
+<DocSum>
+	<Id>43508619</Id>
+	<Item Name="ExpXml" Type="String">&lt;Summary&gt;&lt;Title&gt;Amplicon seq of human gut microbiome&lt;/Title&gt;&lt;Platform instrument_model="NextSeq 2000"&gt;ILLUMINA&lt;/Platform&gt;&lt;Statistics total_runs="1" total_spots="165757" total_bases="99586861" total_size="35687662" load_done="true" cluster_name="public"/&gt;&lt;/Summary&gt;&lt;Submitter acc="SRA2355999" center_name="Comenius University in Bratislava Faculty of Physi" contact_name="Ivan Hric" lab_name="Department of Biological and Medical Science"/&gt;&lt;Experiment acc="SRX32588713" ver="1" status="public" name="Amplicon seq of human gut microbiome"/&gt;&lt;Study acc="SRP685485" name="Effects of Probiotic Supplementation and Physical Exercise on Gut Microbiota in Pediatric Acute Lymphoblastic Leukemia Patients in Remission"/&gt;&lt;Organism taxid="408170" ScientificName="human gut metagenome"/&gt;&lt;Sample acc="SRS28476260" name=""/&gt;&lt;Instrument ILLUMINA="NextSeq 2000"/&gt;&lt;Library_descriptor&gt;&lt;LIBRARY_NAME&gt;16OB&lt;/LIBRARY_NAME&gt;&lt;LIBRARY_STRATEGY&gt;AMPLICON&lt;/LIBRARY_STRATEGY&gt;&lt;LIBRARY_SOURCE&gt;METAGENOMIC&lt;/LIBRARY_SOURCE&gt;&lt;LIBRARY_SELECTION&gt;PCR&lt;/LIBRARY_SELECTION&gt;&lt;LIBRARY_LAYOUT&gt;&lt;PAIRED/&gt;&lt;/LIBRARY_LAYOUT&gt;&lt;/Library_descriptor&gt;&lt;Bioproject&gt;PRJNA1440226&lt;/Bioproject&gt;&lt;Biosample&gt;SAMN56607768&lt;/Biosample&gt;</Item>
+	<Item Name="Runs" Type="String">&lt;Run acc="SRR37711184" total_spots="165757" total_bases="99586861" load_done="true" is_public="true" cluster_name="public" static_data_available="true"/&gt;</Item>
+	<Item Name="ExtLinks" Type="String"></Item>
+	<Item Name="CreateDate" Type="String">2026/03/20</Item>
+	<Item Name="UpdateDate" Type="String">2026/03/20</Item>
+</DocSum>
+
+</eSummaryResult>

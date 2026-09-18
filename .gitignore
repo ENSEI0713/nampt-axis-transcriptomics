@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# 临时/测试脚本（非正式管线）
+_quick_test.py
+
+# 密钥文件（绝不入库）
+.env
+.env.*
+*.key
+!*.key.pdf
+
+# 大体积原始下载（如需版本管理请改用 Git LFS）
+data_audit/downloads/
+
+# 系统文件
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# 编辑器
+.vscode/
+.idea/

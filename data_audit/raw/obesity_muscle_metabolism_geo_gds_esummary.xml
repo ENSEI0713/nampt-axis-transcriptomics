@@ -1,0 +1,3174 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eSummaryResult PUBLIC "-//NLM//DTD esummary v1 20041029//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20041029/esummary-v1.dtd">
+<eSummaryResult>
+<DocSum>
+	<Id>200326952</Id>
+	<Item Name="Accession" Type="String">GSE326952</Item>
+	<Item Name="GDS" Type="String"></Item>
+	<Item Name="title" Type="String">Semaglutide-induced Loss of Skeletal Muscle Mass is Blunted by Co-administration of Ketone Esters</Item>
+	<Item Name="summary" Type="String">Building on our recent work demonstrating that ketone ester therapy prevents semaglutide-induced cardiac mass loss in obese mice, we investigated whether ketone therapy could also preserve skeletal muscle mass during semaglutide treatment. To characterize the molecular changes associated with this treatment, we performed RNA-seq transcriptomic analysis of gastrocnemius muscle from obese mice treated with vehicle, semaglutide, or semaglutide + ketone ester. Our analysis identified 5 dominant transcriptomic clusters enriched for pathways related to mitochondrial function, muscle contraction, translation, proteostasis, and extracellular matrix organization. Semaglutide increased expression of genes related to proteostasis and translation, whereas these changes were normalized with ketone ester co-treatment. In addition, semaglutide suppressed several mitochondrial genes, which were restored with ketone ester co-treatment. Furthermore, semaglutide reduced the expression of genes involved in the mitochondrial electron transport chain while increasing the expression of atrophy related genes, both of which were reversed by ketone ester co-treatment. Collectively, these findings suggest that ketone ester co-therapy mitigates semaglutide-induced transcriptomic alterations in skeletal muscle, providing mechanistic insight into how ketone therapy may help preserve muscle function during GLP-1based weight-loss therapy.</Item>
+	<Item Name="GPL" Type="String">30172</Item>
+	<Item Name="GSE" Type="String">326952</Item>
+	<Item Name="taxon" Type="String">Mus musculus</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String"></Item>
+	<Item Name="valType" Type="String"></Item>
+	<Item Name="SSInfo" Type="String"></Item>
+	<Item Name="subsetInfo" Type="String"></Item>
+	<Item Name="PDAT" Type="String">2026/05/27</Item>
+	<Item Name="suppFile" Type="String">CSV</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9644273</Item>
+			<Item Name="Title" Type="String">OZEM9-4G</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9644270</Item>
+			<Item Name="Title" Type="String">OZEM9-1G</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9644276</Item>
+			<Item Name="Title" Type="String">OZEM9-14G</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9644279</Item>
+			<Item Name="Title" Type="String">OZEM9-17G</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9644282</Item>
+			<Item Name="Title" Type="String">OZEM9-22G</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9644274</Item>
+			<Item Name="Title" Type="String">OZEM9-5G</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9644271</Item>
+			<Item Name="Title" Type="String">OZEM9-2G</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9644280</Item>
+			<Item Name="Title" Type="String">OZEM9-19G</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9644277</Item>
+			<Item Name="Title" Type="String">OZEM9-15G</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9644275</Item>
+			<Item Name="Title" Type="String">OZEM9-13G</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9644278</Item>
+			<Item Name="Title" Type="String">OZEM9-16G</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9644272</Item>
+			<Item Name="Title" Type="String">OZEM9-3G</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9644281</Item>
+			<Item Name="Title" Type="String">OZEM9-21G</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List"></Item>
+	<Item Name="ExtRelations" Type="List"></Item>
+	<Item Name="n_samples" Type="Integer">13</Item>
+	<Item Name="SeriesTitle" Type="String"></Item>
+	<Item Name="PlatformTitle" Type="String"></Item>
+	<Item Name="PlatformTaxa" Type="String"></Item>
+	<Item Name="SamplesTaxa" Type="String"></Item>
+	<Item Name="PubMedIds" Type="List"></Item>
+	<Item Name="Projects" Type="List"></Item>
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE326nnn/GSE326952/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200283692</Id>
+	<Item Name="Accession" Type="String">GSE283692</Item>
+	<Item Name="GDS" Type="String"></Item>
+	<Item Name="title" Type="String">A ketogenic diet and voluntary exercise modify the sciatic nerve and gastrocnemius transcriptome in diet-induced obese mice</Item>
+	<Item Name="summary" Type="String">The metabolic syndrome (MetS), an increasingly prevalent condition, causes peripheral nerve and skeletal muscle damage. Lifestyle interventions, such as a ketogenic diet (KD) and exercise (EX), are recommended to improve MetS and prevent peripheral nerve and skeletal muscle injury. However, a comprehensive understanding of the underlying protective effects of diet and EX on peripheral nerve and skeletal muscle health and a direct comparison of the two is currently lacking. Here, we measured peripheral nerve and skeletal muscle outcomes and examined transcriptomic profiles in the sciatic nerve (SCN) and gastrocnemius muscle (GASTROC) from mice fed standard (SD), 60% high-fat (HFD), or KD. We also evaluated the effect of switching HFD mice to SD, KD, and/or exercise (EX) on SCN and GASTROC. Long-term KD preserved peripheral nerve function while dietary and/or EX interventions improved HFD-induced peripheral neuropathy. Differentially expressed gene analyses followed by mFuzz and pathway enrichment analyses identified alterations in biological processes related to cytoskeletal dynamics, lipid metabolism, and amino acid metabolism by diet or interventions in the SCN and GASTROC. Additionally, diet and interventions led to cell-specific changes within the SCN and GASTROC. Collectively, our findings highlight the importance of a healthy diet and regular EX in promoting peripheral nerve and muscle health. We also highlight new and clinically relevant avenues for therapy.</Item>
+	<Item Name="GPL" Type="String">21103</Item>
+	<Item Name="GSE" Type="String">283692</Item>
+	<Item Name="taxon" Type="String">Mus musculus</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String"></Item>
+	<Item Name="valType" Type="String"></Item>
+	<Item Name="SSInfo" Type="String"></Item>
+	<Item Name="subsetInfo" Type="String"></Item>
+	<Item Name="PDAT" Type="String">2026/05/27</Item>
+	<Item Name="suppFile" Type="String">TXT</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669685</Item>
+			<Item Name="Title" Type="String">CP135</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669665</Item>
+			<Item Name="Title" Type="String">CP112</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669682</Item>
+			<Item Name="Title" Type="String">CP132</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669645</Item>
+			<Item Name="Title" Type="String">CP87</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669662</Item>
+			<Item Name="Title" Type="String">CP109</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669688</Item>
+			<Item Name="Title" Type="String">CP138</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669625</Item>
+			<Item Name="Title" Type="String">CP42</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669642</Item>
+			<Item Name="Title" Type="String">CP80</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669631</Item>
+			<Item Name="Title" Type="String">CP52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669622</Item>
+			<Item Name="Title" Type="String">CP39</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669668</Item>
+			<Item Name="Title" Type="String">CP115</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669611</Item>
+			<Item Name="Title" Type="String">CP15</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669694</Item>
+			<Item Name="Title" Type="String">CP144</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669608</Item>
+			<Item Name="Title" Type="String">CP5</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669628</Item>
+			<Item Name="Title" Type="String">CP46</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669691</Item>
+			<Item Name="Title" Type="String">CP141</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669648</Item>
+			<Item Name="Title" Type="String">CP93</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669674</Item>
+			<Item Name="Title" Type="String">CP121</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669634</Item>
+			<Item Name="Title" Type="String">CP57</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669697</Item>
+			<Item Name="Title" Type="String">CP147</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669614</Item>
+			<Item Name="Title" Type="String">CP20</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669654</Item>
+			<Item Name="Title" Type="String">CP101</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669630</Item>
+			<Item Name="Title" Type="String">CP51</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669651</Item>
+			<Item Name="Title" Type="String">CP96</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669671</Item>
+			<Item Name="Title" Type="String">CP118</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669647</Item>
+			<Item Name="Title" Type="String">CP92</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669627</Item>
+			<Item Name="Title" Type="String">CP45</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669667</Item>
+			<Item Name="Title" Type="String">CP114</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669653</Item>
+			<Item Name="Title" Type="String">CP100</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669673</Item>
+			<Item Name="Title" Type="String">CP120</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669650</Item>
+			<Item Name="Title" Type="String">CP95</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669610</Item>
+			<Item Name="Title" Type="String">CP11</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669693</Item>
+			<Item Name="Title" Type="String">CP143</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669607</Item>
+			<Item Name="Title" Type="String">CP4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669690</Item>
+			<Item Name="Title" Type="String">CP140</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669676</Item>
+			<Item Name="Title" Type="String">CP124</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669670</Item>
+			<Item Name="Title" Type="String">CP117</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669656</Item>
+			<Item Name="Title" Type="String">CP103</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669636</Item>
+			<Item Name="Title" Type="String">CP64</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669687</Item>
+			<Item Name="Title" Type="String">CP137</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669679</Item>
+			<Item Name="Title" Type="String">CP128</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669633</Item>
+			<Item Name="Title" Type="String">CP56</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669639</Item>
+			<Item Name="Title" Type="String">CP74</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669619</Item>
+			<Item Name="Title" Type="String">CP35</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669659</Item>
+			<Item Name="Title" Type="String">CP106</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669695</Item>
+			<Item Name="Title" Type="String">CP145</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669675</Item>
+			<Item Name="Title" Type="String">CP122</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669699</Item>
+			<Item Name="Title" Type="String">CP150</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669616</Item>
+			<Item Name="Title" Type="String">CP22</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669696</Item>
+			<Item Name="Title" Type="String">CP146</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669612</Item>
+			<Item Name="Title" Type="String">CP17</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669613</Item>
+			<Item Name="Title" Type="String">CP19</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669672</Item>
+			<Item Name="Title" Type="String">CP119</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669698</Item>
+			<Item Name="Title" Type="String">CP148</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669615</Item>
+			<Item Name="Title" Type="String">CP21</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669658</Item>
+			<Item Name="Title" Type="String">CP105</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669678</Item>
+			<Item Name="Title" Type="String">CP126</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669621</Item>
+			<Item Name="Title" Type="String">CP37</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669609</Item>
+			<Item Name="Title" Type="String">CP8</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669635</Item>
+			<Item Name="Title" Type="String">CP63</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669655</Item>
+			<Item Name="Title" Type="String">CP102</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669652</Item>
+			<Item Name="Title" Type="String">CP98</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669701</Item>
+			<Item Name="Title" Type="String">CP152</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669618</Item>
+			<Item Name="Title" Type="String">CP33</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669681</Item>
+			<Item Name="Title" Type="String">CP130</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669624</Item>
+			<Item Name="Title" Type="String">CP41</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669638</Item>
+			<Item Name="Title" Type="String">CP70</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669632</Item>
+			<Item Name="Title" Type="String">CP54</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669640</Item>
+			<Item Name="Title" Type="String">CP76</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669620</Item>
+			<Item Name="Title" Type="String">CP36</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669664</Item>
+			<Item Name="Title" Type="String">CP111</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669644</Item>
+			<Item Name="Title" Type="String">CP86</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669684</Item>
+			<Item Name="Title" Type="String">CP134</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669637</Item>
+			<Item Name="Title" Type="String">CP68</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669617</Item>
+			<Item Name="Title" Type="String">CP29</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669663</Item>
+			<Item Name="Title" Type="String">CP110</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669641</Item>
+			<Item Name="Title" Type="String">CP77</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669661</Item>
+			<Item Name="Title" Type="String">CP108</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669660</Item>
+			<Item Name="Title" Type="String">CP107</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669657</Item>
+			<Item Name="Title" Type="String">CP104</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669683</Item>
+			<Item Name="Title" Type="String">CP133</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669649</Item>
+			<Item Name="Title" Type="String">CP94</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669677</Item>
+			<Item Name="Title" Type="String">CP125</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669666</Item>
+			<Item Name="Title" Type="String">CP113</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669646</Item>
+			<Item Name="Title" Type="String">CP90</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669680</Item>
+			<Item Name="Title" Type="String">CP129</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669692</Item>
+			<Item Name="Title" Type="String">CP142</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669643</Item>
+			<Item Name="Title" Type="String">CP83</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669700</Item>
+			<Item Name="Title" Type="String">CP151</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669686</Item>
+			<Item Name="Title" Type="String">CP136</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669669</Item>
+			<Item Name="Title" Type="String">CP116</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669629</Item>
+			<Item Name="Title" Type="String">CP47</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669606</Item>
+			<Item Name="Title" Type="String">CP2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669689</Item>
+			<Item Name="Title" Type="String">CP139</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669626</Item>
+			<Item Name="Title" Type="String">CP43</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8669623</Item>
+			<Item Name="Title" Type="String">CP40</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List"></Item>
+	<Item Name="ExtRelations" Type="List"></Item>
+	<Item Name="n_samples" Type="Integer">96</Item>
+	<Item Name="SeriesTitle" Type="String"></Item>
+	<Item Name="PlatformTitle" Type="String"></Item>
+	<Item Name="PlatformTaxa" Type="String"></Item>
+	<Item Name="SamplesTaxa" Type="String"></Item>
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">41861283</Item>
+	</Item>
+	<Item Name="Projects" Type="List"></Item>
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE283nnn/GSE283692/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200309217</Id>
+	<Item Name="Accession" Type="String">GSE309217</Item>
+	<Item Name="GDS" Type="String"></Item>
+	<Item Name="title" Type="String">Effect of Sleep Restriction on Skeletal Muscle in Post-menopausal women</Item>
+	<Item Name="summary" Type="String">Purpose: To identify the skeletal muscle adaptations to short-term sleep restriction in postmenopausal women. We conducted a randomized crossover study during which study participants were exposed to either 4 nights of habitual or restricted sleep duration (60% of habitual sleep). Skeletal muscle biopsies were obtained after the two sleep periods.</Item>
+	<Item Name="GPL" Type="String">18573</Item>
+	<Item Name="GSE" Type="String">309217</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String"></Item>
+	<Item Name="valType" Type="String"></Item>
+	<Item Name="SSInfo" Type="String"></Item>
+	<Item Name="subsetInfo" Type="String"></Item>
+	<Item Name="PDAT" Type="String">2026/05/15</Item>
+	<Item Name="suppFile" Type="String">TXT</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9263307</Item>
+			<Item Name="Title" Type="String">AA_A_MusRNA_8</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9263310</Item>
+			<Item Name="Title" Type="String">W_B_MusRNA_9</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9263301</Item>
+			<Item Name="Title" Type="String">W_B_MusRNA_12</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9263304</Item>
+			<Item Name="Title" Type="String">W_B_MusRNA_13</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9263305</Item>
+			<Item Name="Title" Type="String">W_A_MusRNA_14</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9263308</Item>
+			<Item Name="Title" Type="String">W_B_MusRNA_3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9263302</Item>
+			<Item Name="Title" Type="String">W_B_MusRNA_15</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9263296</Item>
+			<Item Name="Title" Type="String">I_A_MusRNA_5</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9263297</Item>
+			<Item Name="Title" Type="String">I_B_MusRNA_6</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9263299</Item>
+			<Item Name="Title" Type="String">W_B_MusRNA_18</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9263300</Item>
+			<Item Name="Title" Type="String">W_A_MusRNA_11</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9263311</Item>
+			<Item Name="Title" Type="String">W_A_MusRNA_10</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9263303</Item>
+			<Item Name="Title" Type="String">W_A_MusRNA_16</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9263298</Item>
+			<Item Name="Title" Type="String">W_A_MusRNA_17</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9263306</Item>
+			<Item Name="Title" Type="String">AA_B_MusRNA_7</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9263309</Item>
+			<Item Name="Title" Type="String">W_A_MusRNA_4</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List"></Item>
+	<Item Name="ExtRelations" Type="List"></Item>
+	<Item Name="n_samples" Type="Integer">16</Item>
+	<Item Name="SeriesTitle" Type="String"></Item>
+	<Item Name="PlatformTitle" Type="String"></Item>
+	<Item Name="PlatformTaxa" Type="String"></Item>
+	<Item Name="SamplesTaxa" Type="String"></Item>
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">41902670</Item>
+	</Item>
+	<Item Name="Projects" Type="List"></Item>
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE309nnn/GSE309217/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200310028</Id>
+	<Item Name="Accession" Type="String">GSE310028</Item>
+	<Item Name="GDS" Type="String"></Item>
+	<Item Name="title" Type="String">Dissecting Semaglutide-dependent transcriptome response in obesity and osteoarthritis across tissues at single-cell resolution</Item>
+	<Item Name="summary" Type="String">The clinical observations of semaglutide cannot be fully explained by the classical GLP-1R signaling, indicating that semaglutide may exert its effects through a more complex multi tissue regulatory network. Based on this background, this study utilized high-fat diet (HFD) - induced obesity and surgery induced osteoarthritis (OA) models to simulate metabolic joint complications. By systematically collecting peripheral blood (PB), bone marrow (BM), liver, brain tissue, and skeletal muscle from C57BL/6 mice, and integrating 10x Genomics single-cell transcriptome sequencing, we constructed a cross tissue cell atlas that covers the immune, nervous, and motor metabolic systems under treatment with semaglutide. In addition, we compared the gene expression disturbances in mouse tissues after administration of semaglutide. Through these comparisons, we can more accurately decipher the specific effects of semaglutide treatment on gene expression in mice, thereby gaining a deeper understanding of their mechanisms of action in vivo.</Item>
+	<Item Name="GPL" Type="String">24247</Item>
+	<Item Name="GSE" Type="String">310028</Item>
+	<Item Name="taxon" Type="String">Mus musculus</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String"></Item>
+	<Item Name="valType" Type="String"></Item>
+	<Item Name="SSInfo" Type="String"></Item>
+	<Item Name="subsetInfo" Type="String"></Item>
+	<Item Name="PDAT" Type="String">2026/05/06</Item>
+	<Item Name="suppFile" Type="String">MTX, TSV</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9286798</Item>
+			<Item Name="Title" Type="String">brain, common diet, sham operation, semaglutide-injection</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9286804</Item>
+			<Item Name="Title" Type="String">brain, high-fat diet, osterarthritis, semaglutide-injection</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9286801</Item>
+			<Item Name="Title" Type="String">brain, common diet, osteoarthritis, saline-injection</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9286789</Item>
+			<Item Name="Title" Type="String">bone marrow, common diet, sham operation, saline-injection</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9286795</Item>
+			<Item Name="Title" Type="String">bone marrow, high-fat diet, osterarthritis, saline-injection</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9286812</Item>
+			<Item Name="Title" Type="String">muscle, high-fat diet, osterarthritis, semaglutide-injection</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9286792</Item>
+			<Item Name="Title" Type="String">bone marrow, high-fat diet, sham operation, semaglutide-injection</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9286799</Item>
+			<Item Name="Title" Type="String">brain, high-fat diet, sham operation, saline-injection</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9286793</Item>
+			<Item Name="Title" Type="String">bone marrow, common diet, osteoarthritis, saline-injection</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9286796</Item>
+			<Item Name="Title" Type="String">bone marrow, high-fat diet, osterarthritis, semaglutide-injection</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9286790</Item>
+			<Item Name="Title" Type="String">bone marrow, common diet, sham operation, semaglutide-injection</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9286807</Item>
+			<Item Name="Title" Type="String">muscle, high-fat diet, sham operation, saline-injection</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9286787</Item>
+			<Item Name="Title" Type="String">liver, common diet, osteoarthritis, saline-injection</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9286810</Item>
+			<Item Name="Title" Type="String">muscle, common diet, osteoarthritis, semaglutide-injection</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9286791</Item>
+			<Item Name="Title" Type="String">bone marrow, high-fat diet, sham operation, saline-injection</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9286794</Item>
+			<Item Name="Title" Type="String">bone marrow, common diet, osteoarthritis, semaglutide-injection</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9286808</Item>
+			<Item Name="Title" Type="String">muscle, high-fat diet, sham operation, semaglutide-injection</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9286788</Item>
+			<Item Name="Title" Type="String">liver, common diet, sham operation, saline-injection</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9286811</Item>
+			<Item Name="Title" Type="String">muscle, high-fat diet, osterarthritis, saline-injection</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9286809</Item>
+			<Item Name="Title" Type="String">muscle, common diet, osteoarthritis, saline-injection</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9286805</Item>
+			<Item Name="Title" Type="String">muscle, common diet, sham operation, saline-injection</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9286806</Item>
+			<Item Name="Title" Type="String">muscle, common diet, sham operation, semaglutide-injection</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9286802</Item>
+			<Item Name="Title" Type="String">brain, common diet, osteoarthritis, semaglutide-injection</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9286785</Item>
+			<Item Name="Title" Type="String">blood, common diet, osteoarthritis, saline-injection</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9286803</Item>
+			<Item Name="Title" Type="String">brain, high-fat diet, osterarthritis, saline-injection</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9286800</Item>
+			<Item Name="Title" Type="String">brain, high-fat diet, sham operation, semaglutide-injection</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9286797</Item>
+			<Item Name="Title" Type="String">brain, common diet, sham operation, saline-injection</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9286786</Item>
+			<Item Name="Title" Type="String">blood, common diet, sham operation, saline-injection</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List"></Item>
+	<Item Name="ExtRelations" Type="List"></Item>
+	<Item Name="n_samples" Type="Integer">28</Item>
+	<Item Name="SeriesTitle" Type="String"></Item>
+	<Item Name="PlatformTitle" Type="String"></Item>
+	<Item Name="PlatformTaxa" Type="String"></Item>
+	<Item Name="SamplesTaxa" Type="String"></Item>
+	<Item Name="PubMedIds" Type="List"></Item>
+	<Item Name="Projects" Type="List"></Item>
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE310nnn/GSE310028/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200315575</Id>
+	<Item Name="Accession" Type="String">GSE315575</Item>
+	<Item Name="GDS" Type="String"></Item>
+	<Item Name="title" Type="String">A decline in skeletal muscle NOX4 abrogates exercise-induced adaptive homeostasis and exacerbates biological ageing</Item>
+	<Item Name="summary" Type="String">A decline in NFE2L2-orchestrated adaptive homeostasis and oxidative distress are thought to be key features of ageing. In contracting skeletal muscle, the ROS-producing enzyme NADPH oxidase 4 (NOX4) is a potent inducer of NFE2L2 adaptive homeostasis. Here we report that skeletal muscle NOX4 levels decline in aged mice and humans, resulting in abrogated NFE2L2 adaptive homeostasis, increased protein oxidative damage and decreased muscle function. We show that deleting NOX4 in skeletal muscle exacerbates the physiological decline associated with ageing, resulting in overt sarcopenia and frailty, characterised by physical inactivity, increased adiposity, systemic inflammation, whole-body insulin resistance and advanced liver disease in aged chow-fed mice. The systems-wide physiological decline in aged skeletal muscle NOX4-deficient mice could be corrected by restoring NOX4 using viral approaches or activating NFE2L2 downstream with sulforaphane and reinstating adaptive homeostatic responses otherwise induced by exercise. Our findings provide important insights into the basis for the decline in NFE2L2-orchestrated adaptive homeostasis that accompanies physical inactivity with age and identify key mechanisms by which exercise may promote healthy ageing.</Item>
+	<Item Name="GPL" Type="String">34328</Item>
+	<Item Name="GSE" Type="String">315575</Item>
+	<Item Name="taxon" Type="String">Mus musculus</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String"></Item>
+	<Item Name="valType" Type="String"></Item>
+	<Item Name="SSInfo" Type="String"></Item>
+	<Item Name="subsetInfo" Type="String"></Item>
+	<Item Name="PDAT" Type="String">2026/04/08</Item>
+	<Item Name="suppFile" Type="String">CSV</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9431903</Item>
+			<Item Name="Title" Type="String">Gastrocnemius, Control 4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9431900</Item>
+			<Item Name="Title" Type="String">Gastrocnemius, Control 1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9431906</Item>
+			<Item Name="Title" Type="String">Gastrocnemius, KO 3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9431902</Item>
+			<Item Name="Title" Type="String">Gastrocnemius, Control 3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9431905</Item>
+			<Item Name="Title" Type="String">Gastrocnemius, KO 2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9431907</Item>
+			<Item Name="Title" Type="String">Gastrocnemius, KO 4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9431904</Item>
+			<Item Name="Title" Type="String">Gastrocnemius, KO 1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9431901</Item>
+			<Item Name="Title" Type="String">Gastrocnemius, Control 2</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List"></Item>
+	<Item Name="ExtRelations" Type="List"></Item>
+	<Item Name="n_samples" Type="Integer">8</Item>
+	<Item Name="SeriesTitle" Type="String"></Item>
+	<Item Name="PlatformTitle" Type="String"></Item>
+	<Item Name="PlatformTaxa" Type="String"></Item>
+	<Item Name="SamplesTaxa" Type="String"></Item>
+	<Item Name="PubMedIds" Type="List"></Item>
+	<Item Name="Projects" Type="List"></Item>
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE315nnn/GSE315575/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200315263</Id>
+	<Item Name="Accession" Type="String">GSE315263</Item>
+	<Item Name="GDS" Type="String"></Item>
+	<Item Name="title" Type="String">Periodontitis induces skeletal muscle atrophy by increasing circulating levels of activin A</Item>
+	<Item Name="summary" Type="String">Periodontitis, a chronic inflammatory disease, has been linked to various systemic conditions, including cardiovascular disease, type 2 diabetes, and premature birth. However, its impact on skeletal muscle remains unclear. Here, we utilize a ligature-induced periodontitis (LIP) mouse model and show that periodontitis significantly reduces muscle and bone mass without affecting fat mass or food intake. Interestingly, activin A, a well-documented inducer of muscle atrophy, was highly expressed in periodontitis-affected gingiva, surpassing its expression in the liver, a primary activin A-expressing organ. The activin A gene (Inhba) was highly expressed, particularly in gingival fibroblasts and epithelial cells, which undergo significant proliferation as periodontitis progresses, as well as in myeloid cells infiltrating inflamed periodontal tissues and in myeloid cell-derived osteoclasts. A similar upregulation pattern of INHBA was also confirmed in periodontitis-affected human tissues by scRNA-seq analysis. Furthermore, we demonstrate that serum activin A levels significantly increased in periodontitis-affected mice, while the intra-gingival injection of siInhba significantly reduced activin A levels and restored muscle mass and myofiber size compared to the siCtrl injection. Our findings indicate that activin A is a key mediator of muscle atrophy in periodontitis and that local injection of siInhba can prevent periodontitis-induced muscle atrophy without causing systemic adverse effects.</Item>
+	<Item Name="GPL" Type="String">30172</Item>
+	<Item Name="GSE" Type="String">315263</Item>
+	<Item Name="taxon" Type="String">Mus musculus</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String"></Item>
+	<Item Name="valType" Type="String"></Item>
+	<Item Name="SSInfo" Type="String"></Item>
+	<Item Name="subsetInfo" Type="String"></Item>
+	<Item Name="PDAT" Type="String">2026/03/23</Item>
+	<Item Name="suppFile" Type="String">MTX, TSV</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9424033</Item>
+			<Item Name="Title" Type="String">Ctrl2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9424036</Item>
+			<Item Name="Title" Type="String">LIP2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9424032</Item>
+			<Item Name="Title" Type="String">Ctrl1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9424035</Item>
+			<Item Name="Title" Type="String">LIP1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9424037</Item>
+			<Item Name="Title" Type="String">LIP3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9424034</Item>
+			<Item Name="Title" Type="String">Ctrl3</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List"></Item>
+	<Item Name="ExtRelations" Type="List"></Item>
+	<Item Name="n_samples" Type="Integer">6</Item>
+	<Item Name="SeriesTitle" Type="String"></Item>
+	<Item Name="PlatformTitle" Type="String"></Item>
+	<Item Name="PlatformTaxa" Type="String"></Item>
+	<Item Name="SamplesTaxa" Type="String"></Item>
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">42091891</Item>
+	</Item>
+	<Item Name="Projects" Type="List"></Item>
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE315nnn/GSE315263/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200324755</Id>
+	<Item Name="Accession" Type="String">GSE324755</Item>
+	<Item Name="GDS" Type="String"></Item>
+	<Item Name="title" Type="String">Effects of liraglutide on skeletal muscle transcriptome in diet-induced obese C57BL/6 mice</Item>
+	<Item Name="summary" Type="String">Metabolic diseases have become a major global health burden. Insulin resistance plays a critical role in the development and progression of metabolism‑related disorders. Glucagon‑like peptide‑1 receptor agonists (GLP‑1RAs) have emerged as groundbreaking therapeutic agents for the management of a wide spectrum of metabolic diseases. As skeletal muscle is the primary site of insulin‑stimulated glucose disposal, and muscle insulin resistance is a central feature of abnormal glucose metabolism in obesity. To investigate the effects of GLP‑1RAs on the transcriptomic profile of skeletal muscle, we administered liraglutide to diet‑induced obese (DIO) mice and collected skeletal muscle tissues for transcriptome sequencing.</Item>
+	<Item Name="GPL" Type="String">21273</Item>
+	<Item Name="GSE" Type="String">324755</Item>
+	<Item Name="taxon" Type="String">Mus musculus</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String"></Item>
+	<Item Name="valType" Type="String"></Item>
+	<Item Name="SSInfo" Type="String"></Item>
+	<Item Name="subsetInfo" Type="String"></Item>
+	<Item Name="PDAT" Type="String">2026/03/18</Item>
+	<Item Name="suppFile" Type="String">XLSX</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9584959</Item>
+			<Item Name="Title" Type="String">Mus musculus, Liraglutide3-C28_muscle</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9584962</Item>
+			<Item Name="Title" Type="String">Mus musculus, Model2-C38_muscle</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9584957</Item>
+			<Item Name="Title" Type="String">Mus musculus, Liraglutide1-C19_muscle</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9584960</Item>
+			<Item Name="Title" Type="String">Mus musculus, Liraglutide4-C31_muscle</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9584963</Item>
+			<Item Name="Title" Type="String">Mus musculus, Model3-C39_muscle</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9584958</Item>
+			<Item Name="Title" Type="String">Mus musculus, Liraglutide2-C20_muscle</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9584961</Item>
+			<Item Name="Title" Type="String">Mus musculus, Model1-C73_muscle</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9584964</Item>
+			<Item Name="Title" Type="String">Mus musculus, Model4-C45_muscle</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List"></Item>
+	<Item Name="ExtRelations" Type="List"></Item>
+	<Item Name="n_samples" Type="Integer">8</Item>
+	<Item Name="SeriesTitle" Type="String"></Item>
+	<Item Name="PlatformTitle" Type="String"></Item>
+	<Item Name="PlatformTaxa" Type="String"></Item>
+	<Item Name="SamplesTaxa" Type="String"></Item>
+	<Item Name="PubMedIds" Type="List"></Item>
+	<Item Name="Projects" Type="List"></Item>
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE324nnn/GSE324755/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200319603</Id>
+	<Item Name="Accession" Type="String">GSE319603</Item>
+	<Item Name="GDS" Type="String"></Item>
+	<Item Name="title" Type="String">Transcriptomic Insights into Aerobic Exercise-Mediated Attenuation of High-Fat Diet–Induced Muscle Wasting</Item>
+	<Item Name="summary" Type="String">Chronic consumption of high-fat diet (HFD) induces obesity and metabolic dysfunction and is accompanied by progressive skeletal muscle wasting. Although aerobic exercise is generally considered less effective for maintaining muscle mass, accumulating evidence suggests that it can attenuate HFD-induced muscle wasting. However, the molecular mechanisms underlying this protective effect remain poorly defined. In this study, we investigated the effects of moderate-intensity continuous training (MICT) on HFD-induced muscle wasting and characterized the associated transcriptomic adaptations in the mouse gastrocnemius muscle. Twenty-one weeks of HFD feeding increased body weight and serum glucose levels and induced marked muscle wasting, as evidenced by reduced gastrocnemius muscle index, impaired normalized forelimb grip strength, decreased muscle fiber cross-sectional area, and excessive intramuscular lipid accumulation. These pathological alterations were significantly attenuated by an 8-week MICT intervention. RNA sequencing revealed that HFD predominantly induced a lipid-centered transcriptional program characterized by enhanced fatty acid uptake, trafficking, and β-oxidation. In contrast, MICT predominantly suppressed atrophy-associated genes (Foxo1, Fbxo32, and Trim63), while exerting minimal effects on myogenic genes (Pax7, Myod1, and Myog). Functional enrichment analyses further indicated that MICT modulated signaling pathways related to FoxO, PI3K–Akt, MAPK, and insulin signaling, together with biological processes associated with angiogenesis and calcium signaling. Collectively, these results suggest that MICT mitigates HFD-induced muscle wasting primarily by reprogramming the transcriptome from a lipotoxic, atrophic state toward a more insulin-sensitive, pro-angiogenic profile, with limited myogenic activation.</Item>
+	<Item Name="GPL" Type="String">24247</Item>
+	<Item Name="GSE" Type="String">319603</Item>
+	<Item Name="taxon" Type="String">Mus musculus</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String"></Item>
+	<Item Name="valType" Type="String"></Item>
+	<Item Name="SSInfo" Type="String"></Item>
+	<Item Name="subsetInfo" Type="String"></Item>
+	<Item Name="PDAT" Type="String">2026/02/20</Item>
+	<Item Name="suppFile" Type="String">XLSX</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9521104</Item>
+			<Item Name="Title" Type="String">control5</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9521107</Item>
+			<Item Name="Title" Type="String">high-fat diet2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9521110</Item>
+			<Item Name="Title" Type="String">high-fat diet5</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9521116</Item>
+			<Item Name="Title" Type="String">high-fat diet with MICT intervention5</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9521115</Item>
+			<Item Name="Title" Type="String">high-fat diet with MICT intervention4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9521113</Item>
+			<Item Name="Title" Type="String">high-fat diet with MICT intervention2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9521112</Item>
+			<Item Name="Title" Type="String">high-fat diet with MICT intervention1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9521101</Item>
+			<Item Name="Title" Type="String">control2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9521117</Item>
+			<Item Name="Title" Type="String">high-fat diet with MICT intervention6</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9521100</Item>
+			<Item Name="Title" Type="String">control1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9521109</Item>
+			<Item Name="Title" Type="String">high-fat diet4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9521105</Item>
+			<Item Name="Title" Type="String">control6</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9521106</Item>
+			<Item Name="Title" Type="String">high-fat diet1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9521103</Item>
+			<Item Name="Title" Type="String">control4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9521102</Item>
+			<Item Name="Title" Type="String">control3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9521114</Item>
+			<Item Name="Title" Type="String">high-fat diet with MICT intervention3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9521108</Item>
+			<Item Name="Title" Type="String">high-fat diet3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9521111</Item>
+			<Item Name="Title" Type="String">high-fat diet6</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List"></Item>
+	<Item Name="ExtRelations" Type="List"></Item>
+	<Item Name="n_samples" Type="Integer">18</Item>
+	<Item Name="SeriesTitle" Type="String"></Item>
+	<Item Name="PlatformTitle" Type="String"></Item>
+	<Item Name="PlatformTaxa" Type="String"></Item>
+	<Item Name="SamplesTaxa" Type="String"></Item>
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">41835150</Item>
+	</Item>
+	<Item Name="Projects" Type="List"></Item>
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE319nnn/GSE319603/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200316731</Id>
+	<Item Name="Accession" Type="String">GSE316731</Item>
+	<Item Name="GDS" Type="String"></Item>
+	<Item Name="title" Type="String">Endothelial Cell-specific Activation of NOX1 Drives Obesity and Metabolic Syndrome via Skeletal Muscle Mitochondrial Dysfunction with Novel Genetic Signatures</Item>
+	<Item Name="summary" Type="String">Presently, we investigated hypothesized roles and mechanisms of cell type-specific, selective activation of different vascular NADPH oxidase (NOX) isoforms in obesity and metabolic syndrome. Expression of NOX1 was significantly upregulated in WT mice fed high-fat diet. Global knockout of NOX1 (NOX1-/y), rather than of NOX2/NOX4, markedly abrogated high-fat feeding induced body weight/fat mass gain, preadipocyte differentiation, fatty liver, glucose intolerance, and insulin/leptin resistance. Intriguingly, endothelial-specific NOX1 knockout (Cdh5cre-NOX1CKO), rather than vascular smooth muscle-specific NOX1 knockout (Myh11cre-NOX1CKO), substantially alleviated these features of obesity and metabolic syndrome. Consistently, endothelial-specific NOX1 knockin mice (Cdh5cre-NOX1CKI) fed high-fat diet displayed exaggerated metabolic disorders. Endothelial cell (EC)-specific knockout/knockin of NOX1 was confirmed using EC washout experiments. Food/water intakes were not different from corresponding controls in high-fat fed NOX1-/y, Cdh5cre-NOX1CKO or Cdh5cre-NOX1CKI mice, indicating no difference in energy intake. Instead, spontaneous activity, exercise capacity, mitochondrial oxygen consumption/ATP production, skeletal muscle mitochondrial function (ROS production and swelling activity), and mitochondrial cristae structure were all substantially improved in NOX1-/y or Cdh5cre-NOX1CKO mice, indicating augmented energy expenditure attributed to preserved skeletal muscle mitochondrial function. Supportively, Cdh5cre-NOX1CKI mice displayed deteriorated exercise capacity and skeletal muscle mitochondrial dysfunction. Endothelium-dependent vasorelaxation was restored in high-fat fed NOX1-/y or Cdh5cre-NOX1CKO mice, confirming improved endothelial function. RNA-seq identified 4 genes (Cntnap4, Sgsm1, Tll2 and Syt9) and 7 genes (Odf3l2, Col9a1, Cldn23, Atp5g2, Nkx6-3, Ntsr2 and Zfp69) significantly down/upregulated in high-fat fed Cdh5cre-NOX1CKO mice, among which Cntnap4 and COL9A1 linked to muscular disorders. Importantly, we observed marked upregulation of NOX1 in isolated coronary arteries from human obese patients. Taken together, our data for the first time establish a novel and paradigm-shifting concept that endothelial NOX1 drives systematic metabolic phenotypes, via impairment in skeletal muscle mitochondrial dysfunction with novel genetic signatures. Tissue-specific targeting of endothelial NOX1 and novel candidate genes may prove to be robustly effective in treating obesity and metabolic syndrome.</Item>
+	<Item Name="GPL" Type="String">21493</Item>
+	<Item Name="GSE" Type="String">316731</Item>
+	<Item Name="taxon" Type="String">Mus musculus</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String"></Item>
+	<Item Name="valType" Type="String"></Item>
+	<Item Name="SSInfo" Type="String"></Item>
+	<Item Name="subsetInfo" Type="String"></Item>
+	<Item Name="PDAT" Type="String">2026/01/20</Item>
+	<Item Name="suppFile" Type="String">TXT</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9459073</Item>
+			<Item Name="Title" Type="String">#969, soleus muscles, Cdh5Cre-NOX1CKO, chow diet</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9459070</Item>
+			<Item Name="Title" Type="String">#971, soleus muscles, Cdh5cre-WT mice, chow diet</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9459076</Item>
+			<Item Name="Title" Type="String">#1133, soleus muscles, Cdh5cre-WT mice, high fat diet</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9459079</Item>
+			<Item Name="Title" Type="String">#1134, soleus muscles, Cdh5Cre-NOX1CKO, high fat diet</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9459081</Item>
+			<Item Name="Title" Type="String">#1270, soleus muscles, Cdh5Cre-NOX1CKO, high fat diet</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9459078</Item>
+			<Item Name="Title" Type="String">#1185, soleus muscles, Cdh5cre-WT mice, high fat diet</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9459075</Item>
+			<Item Name="Title" Type="String">#970, soleus muscles, Cdh5Cre-NOX1CKO, chow diet</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9459080</Item>
+			<Item Name="Title" Type="String">#1201, soleus muscles, Cdh5Cre-NOX1CKO, high fat diet</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9459072</Item>
+			<Item Name="Title" Type="String">#1009, soleus muscles, Cdh5cre-WT mice, chow diet</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9459074</Item>
+			<Item Name="Title" Type="String">#1089, soleus muscles, Cdh5Cre-NOX1CKO, chow diet</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9459071</Item>
+			<Item Name="Title" Type="String">#1088, soleus muscles, Cdh5cre-WT mice, chow diet</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9459077</Item>
+			<Item Name="Title" Type="String">#1200, soleus muscles, Cdh5cre-WT mice, high fat diet</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List"></Item>
+	<Item Name="ExtRelations" Type="List"></Item>
+	<Item Name="n_samples" Type="Integer">12</Item>
+	<Item Name="SeriesTitle" Type="String"></Item>
+	<Item Name="PlatformTitle" Type="String"></Item>
+	<Item Name="PlatformTaxa" Type="String"></Item>
+	<Item Name="SamplesTaxa" Type="String"></Item>
+	<Item Name="PubMedIds" Type="List"></Item>
+	<Item Name="Projects" Type="List"></Item>
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE316nnn/GSE316731/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200309212</Id>
+	<Item Name="Accession" Type="String">GSE309212</Item>
+	<Item Name="GDS" Type="String"></Item>
+	<Item Name="title" Type="String">microRNA-22 Inhibition Stimulates Mitochondrial Homeostasis and Intracellular Degradation Pathways to Prevent Muscle Wasting</Item>
+	<Item Name="summary" Type="String">MicroRNA-22 (miR-22) is a negative regulator of mitochondrial biogenesis as well as lipid and glucose metabolism in metabolically active tissues. Silencing miR-22 holds promise as a potential treatment of obesity and metabolic syndrome as it restores metabolic capacity – enhancing oxidative metabolism – and reduces ectopic fat in chronic obesity, a driver of impaired metabolic flexibility and muscle mass loss. Intramuscular adipose accumulation and defective mitochondrial function are features associated with obese-mediated muscle atrophy and hallmarks of neuromuscular disorders such as Duchenne muscular dystrophy. Therefore, miR-22 could represent a compelling molecular target to improve muscle health across various muscle-wasting conditions. This study describes a pharmacological strategy for inhibition of miR-22 in skeletal muscle by employing a mixmer antisense oligonucleotide (ASO, anti-miR-22). Administration of the ASO in a mouse model of obesity positively modulated myogenesis, while it protected dystrophic mice from muscle function decline enhancing fatigue resistance and limiting pathological fibrotic remodeling. Mechanistically, we show that anti-miR-22 treatment promotes derepression of genes involved in mitochondrial homeostasis favoring oxidative fiber content regardless of the disease model, thus promoting a more resilient phenotype. Furthermore, we suggest that miR-22 inhibition increases autophagy by transcriptional activation of multiple negative regulators of mammalian target of rapamycin (mTOR) signaling to decrease immune infiltration and fibrosis. These findings position miR-22 as a promising therapeutic target for muscle-wasting conditions and support its potential to restore muscle health.</Item>
+	<Item Name="GPL" Type="String">32159</Item>
+	<Item Name="GSE" Type="String">309212</Item>
+	<Item Name="taxon" Type="String">Mus musculus</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String"></Item>
+	<Item Name="valType" Type="String"></Item>
+	<Item Name="SSInfo" Type="String"></Item>
+	<Item Name="subsetInfo" Type="String"></Item>
+	<Item Name="PDAT" Type="String">2025/12/03</Item>
+	<Item Name="suppFile" Type="String">TXT</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9263232</Item>
+			<Item Name="Title" Type="String">DIOmouse_VHL_GAS_3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9263233</Item>
+			<Item Name="Title" Type="String">DIOmouse_VHL_GAS_4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9263230</Item>
+			<Item Name="Title" Type="String">DIOmouse_VHL_GAS_1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9263227</Item>
+			<Item Name="Title" Type="String">DIOmouse_LNA_GAS_3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9263234</Item>
+			<Item Name="Title" Type="String">DIOmouse_VHL_GAS_5</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9263231</Item>
+			<Item Name="Title" Type="String">DIOmouse_VHL_GAS_2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9263228</Item>
+			<Item Name="Title" Type="String">DIOmouse_LNA_GAS_4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9263225</Item>
+			<Item Name="Title" Type="String">DIOmouse_LNA_GAS_1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9263229</Item>
+			<Item Name="Title" Type="String">DIOmouse_LNA_GAS_5</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9263226</Item>
+			<Item Name="Title" Type="String">DIOmouse_LNA_GAS_2</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List"></Item>
+	<Item Name="ExtRelations" Type="List"></Item>
+	<Item Name="n_samples" Type="Integer">10</Item>
+	<Item Name="SeriesTitle" Type="String"></Item>
+	<Item Name="PlatformTitle" Type="String"></Item>
+	<Item Name="PlatformTaxa" Type="String"></Item>
+	<Item Name="SamplesTaxa" Type="String"></Item>
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">41155200</Item>
+	</Item>
+	<Item Name="Projects" Type="List"></Item>
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE309nnn/GSE309212/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200247455</Id>
+	<Item Name="Accession" Type="String">GSE247455</Item>
+	<Item Name="GDS" Type="String"></Item>
+	<Item Name="title" Type="String">Single-nucleus chromatin and gene expression profiling across hundreds of skeletal muscle samples reveals context-specific regulation</Item>
+	<Item Name="summary" Type="String">Skeletal muscle is relevant to several polygenic metabolic traits and diseases including type 2 diabetes (T2D). Identifying genetic mechanisms underlying these traits requires pinpointing the relevant cell-types, regulatory elements, target genes, and causal variants. Here, we used genetic multiplexing to generate population-scale single nucleus (sn) chromatin accessibility (snATAC-seq) and transcriptome (snRNA-seq) maps across 287 frozen human skeletal muscle biopsies representing 456,880 nuclei. We identified 13 cell-types that collectively represented 983,155 ATAC summits. We integrated genetic information to identify 6,866 expression quantitative trait loci (eQTL) and 100,928 chromatin accessibility QTL (caQTL) (5% FDR) across the five most abundant cell-types, and show atlas-level snATAC maps often miss peaks. We identified 12,046 e-caQTL colocalizations and inferred causality between chromatin accessibility and gene expression through mediation analyses. 3,378 genome-wide association study (GWAS) signals across 43 relevant traits colocalized with sn e/caQTL, 52% in a cell-type-specific manner. 77% (3,616) GWAS signals colocalized with caQTLs and not eQTL, highlighting the importance of sn-caQTL maps for GWAS functional studies. GWAS-e/caQTL colocalization showed distinct cell-type-specific regulatory paradigms. For example, a C2CD4A/B T2D GWAS signal colocalized with caQTLs in muscle fibers and imputed chromatin contacts nominated VPS13C - a glucose uptake gene. The caQTL peak overlapping caSNP rs7163757 showed allelic regulatory activity differences in a human myocyte cell line massively parallel reporter assay. These results illuminate the genetic regulatory architecture of human skeletal muscle at high-resolution epigenomic, transcriptomic, and cell state scales and serve as a template for population-scale multi-omic mapping in complex tissues and traits.</Item>
+	<Item Name="GPL" Type="String">24676</Item>
+	<Item Name="GSE" Type="String">247455</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Other</Item>
+	<Item Name="ptechType" Type="String"></Item>
+	<Item Name="valType" Type="String"></Item>
+	<Item Name="SSInfo" Type="String"></Item>
+	<Item Name="subsetInfo" Type="String"></Item>
+	<Item Name="PDAT" Type="String">2025/11/30</Item>
+	<Item Name="suppFile" Type="String">TXT</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7890201</Item>
+			<Item Name="Title" Type="String">gDNA_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7890204</Item>
+			<Item Name="Title" Type="String">RNA_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7890207</Item>
+			<Item Name="Title" Type="String">gDNA_rep4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7890208</Item>
+			<Item Name="Title" Type="String">RNA_rep4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7890205</Item>
+			<Item Name="Title" Type="String">gDNA_rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7890202</Item>
+			<Item Name="Title" Type="String">RNA_rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7890203</Item>
+			<Item Name="Title" Type="String">gDNA_rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7890206</Item>
+			<Item Name="Title" Type="String">RNA_rep3</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List"></Item>
+	<Item Name="ExtRelations" Type="List"></Item>
+	<Item Name="n_samples" Type="Integer">8</Item>
+	<Item Name="SeriesTitle" Type="String"></Item>
+	<Item Name="PlatformTitle" Type="String"></Item>
+	<Item Name="PlatformTaxa" Type="String"></Item>
+	<Item Name="SamplesTaxa" Type="String"></Item>
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">41952336</Item>
+	</Item>
+	<Item Name="Projects" Type="List"></Item>
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE247nnn/GSE247455/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200307642</Id>
+	<Item Name="Accession" Type="String">GSE307642</Item>
+	<Item Name="GDS" Type="String"></Item>
+	<Item Name="title" Type="String">Extracellular vesicles secreted from human myotubes of T2D and NGT donors</Item>
+	<Item Name="summary" Type="String">Type 2 diabetes (T2D) is associated with increased morbidity, mortality, and substantial healthcare costs. Peripheral insulin resistance, involving interconnected dysregulation of multiple organs, is considered a major driver of T2D. Extracellular vesicles (EVs) are suggested as mediators of this dysregulation based on their properties in intercellular communication. Given the role of skeletal muscle in glucose metabolism, the content of skeletal muscle-derived EVs may provide insights into mechanisms of T2D. To examine this, myotubes from severely obese female T2D donors and matched women with normal glucose tolerance (NGT) were cultured. Small EVs (sEVs) were isolated by differential centrifugation and filter columns and characterized by nanoparticle tracking analysis, flow cytometry, and transmission electron microscopy. The micro-RNA (miR) content of sEV was analyzed via Affymetrix GeneChip miRNA 4.0, while proteins were detected by LC-MS/MS.</Item>
+	<Item Name="GPL" Type="String">19117</Item>
+	<Item Name="GSE" Type="String">307642</Item>
+	<Item Name="taxon" Type="String">synthetic construct; Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Non-coding RNA profiling by array</Item>
+	<Item Name="ptechType" Type="String"></Item>
+	<Item Name="valType" Type="String"></Item>
+	<Item Name="SSInfo" Type="String"></Item>
+	<Item Name="subsetInfo" Type="String"></Item>
+	<Item Name="PDAT" Type="String">2025/11/21</Item>
+	<Item Name="suppFile" Type="String">CEL</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9228619</Item>
+			<Item Name="Title" Type="String">small extracellular vesicles from myotubes of normal glucose tolerance donor, biological rep5</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9228613</Item>
+			<Item Name="Title" Type="String">small extracellular vesicles from myotubes of type 2 diabetes donor, biological rep5</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9228616</Item>
+			<Item Name="Title" Type="String">small extracellular vesicles from myotubes of normal glucose tolerance donor, biological rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9228610</Item>
+			<Item Name="Title" Type="String">small extracellular vesicles from myotubes of type 2 diabetes donor, biological rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9228611</Item>
+			<Item Name="Title" Type="String">small extracellular vesicles from myotubes of type 2 diabetes donor, biological rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9228614</Item>
+			<Item Name="Title" Type="String">small extracellular vesicles from myotubes of type 2 diabetes donor, biological rep6</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9228609</Item>
+			<Item Name="Title" Type="String">small extracellular vesicles from myotubes of type 2 diabetes donor, biological rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9228617</Item>
+			<Item Name="Title" Type="String">small extracellular vesicles from myotubes of normal glucose tolerance donor, biological rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9228612</Item>
+			<Item Name="Title" Type="String">small extracellular vesicles from myotubes of type 2 diabetes donor, biological rep4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9228615</Item>
+			<Item Name="Title" Type="String">small extracellular vesicles from myotubes of normal glucose tolerance donor, biological rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM9228618</Item>
+			<Item Name="Title" Type="String">small extracellular vesicles from myotubes of normal glucose tolerance donor, biological rep4</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List"></Item>
+	<Item Name="ExtRelations" Type="List"></Item>
+	<Item Name="n_samples" Type="Integer">11</Item>
+	<Item Name="SeriesTitle" Type="String"></Item>
+	<Item Name="PlatformTitle" Type="String"></Item>
+	<Item Name="PlatformTaxa" Type="String"></Item>
+	<Item Name="SamplesTaxa" Type="String"></Item>
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">41347018</Item>
+	</Item>
+	<Item Name="Projects" Type="List"></Item>
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE307nnn/GSE307642/</Item>
+	<Item Name="GEO2R" Type="String">yes</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200206506</Id>
+	<Item Name="Accession" Type="String">GSE206506</Item>
+	<Item Name="GDS" Type="String"></Item>
+	<Item Name="title" Type="String">RNAseq analysis of skeletal muscle transcriptomes from wild type and MLL4SETf/fHSA-Cre mice</Item>
+	<Item Name="summary" Type="String">Enhancers play central role in controlling gene expression in time and space. Primed enhancers are marked by histone H3 lysine 4 (H3K4) mono/di-methylation (H3K4me1/2). Mixed-lineage leukemia 4 (MLL4/KMT2D) is an evolutionarily conserved H3K4me1/2 methyltransferase that is required for enhancer activation. To investigate the physiological importance of MLL4 in skeletal muscle nutrient handling, skeletal muscle-specific Mll4-knockout (MLL4SETf/fHSA-Cre) and wild-type (WT) littermates were placed on HFD (60% kcal from fat). Remarkably, muscle-specific deletion of MLL4 protects against high-fat diet-induced obesity and improves systemic glucose homeostasis. To dissect the underline mechanism, we conducted a comprehensive study of the muscle transcriptome induced by MLL4 deletion, HFD feeding, or the combination. Comparison of gene expression profiles in MLL4SETf/f muscle revealed 638 genes in total whose expression was significantly regulated by HFD, and comparison between WT and MLL4SETf/fHSA-Cre muscle showed 1430 and 1490 genes that were influenced by MLL4 abrogation on CD and HFD, respectively. Categorized into four subgroups, gene ontology (GO) pathway analysis not only showed HFD-induced immune and inflammatory pathways that were suppressed by MLL4 deficiency, but also revealed muscle metabolic and contractile gene networks that were substantially altered by MLL4 abrogation.</Item>
+	<Item Name="GPL" Type="String">24247</Item>
+	<Item Name="GSE" Type="String">206506</Item>
+	<Item Name="taxon" Type="String">Mus musculus</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String"></Item>
+	<Item Name="valType" Type="String"></Item>
+	<Item Name="SSInfo" Type="String"></Item>
+	<Item Name="subsetInfo" Type="String"></Item>
+	<Item Name="PDAT" Type="String">2025/10/18</Item>
+	<Item Name="suppFile" Type="String">DIFF, FPKM_TRACKING</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6255583</Item>
+			<Item Name="Title" Type="String">MLL4SET_HSA-Cre, CD biological rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6255586</Item>
+			<Item Name="Title" Type="String">MLL4SET_HSA-Cre, HFD biological rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6255581</Item>
+			<Item Name="Title" Type="String">WT, HFD biological rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6255584</Item>
+			<Item Name="Title" Type="String">MLL4SET_HSA-Cre, CD biological rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6255582</Item>
+			<Item Name="Title" Type="String">WT, HFD biological rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6255585</Item>
+			<Item Name="Title" Type="String">MLL4SET_HSA-Cre, HFD biological rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6255579</Item>
+			<Item Name="Title" Type="String">WT, CD biological rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM6255580</Item>
+			<Item Name="Title" Type="String">WT, CD biological rep2</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List"></Item>
+	<Item Name="ExtRelations" Type="List"></Item>
+	<Item Name="n_samples" Type="Integer">8</Item>
+	<Item Name="SeriesTitle" Type="String"></Item>
+	<Item Name="PlatformTitle" Type="String"></Item>
+	<Item Name="PlatformTaxa" Type="String"></Item>
+	<Item Name="SamplesTaxa" Type="String"></Item>
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">41298552</Item>
+	</Item>
+	<Item Name="Projects" Type="List"></Item>
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE206nnn/GSE206506/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200261984</Id>
+	<Item Name="Accession" Type="String">GSE261984</Item>
+	<Item Name="GDS" Type="String"></Item>
+	<Item Name="title" Type="String">Effect of a 24h corticosterone treatment on differentiated C2C12 myotubes</Item>
+	<Item Name="summary" Type="String">Long term glucocorticoïds treatment, e.g. corticosterone, induces insulin resistance in vivo and in vitro. In vivo insulin resistance can trigger pancreatic beta cells adaptation in order to maintain glycemia. In particular, we observed that beta-cell mass adaptation can occur via beta-cell proliferation or via beta-cell neogenesis (de novo beta-cell production). Further, we demonstrated that beta-cell neogenesis was not a direct effect of GC, but rather due to the presence of pro-neogenic factors in the serum of GC-treated mice, suggesting a communication in-between insulin resistant tissues and the pancreas (Courty et al., Diabetes, 2019). Hence, the present work aims to decipher the role of the skeletal muscle in pancreatic adaptation in response to insulin resistance. We used an in vitro modeling in-between C2C12 differentiated myotubes treated for 24h with corticosterone (10-7M) or the same volume of solvant ethanol (VEH). Conditioned medium from corticosterone treated cells was tested on pancreatic buds E11.5 and proven to enhance beta-cell and other pro-endocrine lineage cellular differentiation in comparison to VEH conditioned medium. Subsequently, we analyzed the transcriptome of the C2C12 myotubes (n=3 per condition) using RNAsequencing (Illumina, NOVAseq 6000, 150bp paired-end sequencing). We found an enrichement for genes coding for secreted proteins in the CORT-treated myotubes. We narrowed down to 4 myokines candidates and validated the pro-neogenic potential of the candidate myokines using pancreatic buds E11.5 treated with recombinant proteins.</Item>
+	<Item Name="GPL" Type="String">24247</Item>
+	<Item Name="GSE" Type="String">261984</Item>
+	<Item Name="taxon" Type="String">Mus musculus</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String"></Item>
+	<Item Name="valType" Type="String"></Item>
+	<Item Name="SSInfo" Type="String"></Item>
+	<Item Name="subsetInfo" Type="String"></Item>
+	<Item Name="PDAT" Type="String">2025/09/10</Item>
+	<Item Name="suppFile" Type="String">TXT</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8155523</Item>
+			<Item Name="Title" Type="String">C2C12 myotubes treated with corticosterone 10-7M for 24H, rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8155526</Item>
+			<Item Name="Title" Type="String">C2C12 myotubes treated with ethanol (1/1000) for 24H, rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8155524</Item>
+			<Item Name="Title" Type="String">C2C12 myotubes treated with corticosterone 10-7M for 24H, rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8155527</Item>
+			<Item Name="Title" Type="String">C2C12 myotubes treated with ethanol (1/1000) for 24H, rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8155525</Item>
+			<Item Name="Title" Type="String">C2C12 myotubes treated with corticosterone 10-7M for 24H, rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8155528</Item>
+			<Item Name="Title" Type="String">C2C12 myotubes treated with ethanol (1/1000) for 24H, rep3</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List"></Item>
+	<Item Name="ExtRelations" Type="List"></Item>
+	<Item Name="n_samples" Type="Integer">6</Item>
+	<Item Name="SeriesTitle" Type="String"></Item>
+	<Item Name="PlatformTitle" Type="String"></Item>
+	<Item Name="PlatformTaxa" Type="String"></Item>
+	<Item Name="SamplesTaxa" Type="String"></Item>
+	<Item Name="PubMedIds" Type="List"></Item>
+	<Item Name="Projects" Type="List"></Item>
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE261nnn/GSE261984/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200289576</Id>
+	<Item Name="Accession" Type="String">GSE289576</Item>
+	<Item Name="GDS" Type="String"></Item>
+	<Item Name="title" Type="String">A Role for the Transcriptional Coregulator RIP140 in the Control of Muscle Endurance Fitness [RNASeq_MyogeninCre_flat]</Item>
+	<Item Name="summary" Type="String">Poor skeletal muscle fitness contributes to many chronic disease states including obesity, heart failure, primary muscle disorders, and age-related sarcopenia. Receptor Interacting Protein 140 (RIP140) is a striated muscle-enriched nuclear receptor co-regulator. To investigate the role of RIP140 in skeletal muscle, striated muscle-specific RIP140-deficient (strNrip1-/-) mice were generated and characterized. strNrip1-/- mice display a remarkable endurance performance phenotype based on endurance treadmill performance, VO2max testing, and functional assessment of isolated muscle. RNA-sequence analysis of glycolytic fast-twitch muscle from the strNrip1-/- mice identified a broad array of differentially upregulated metabolic and structural muscle genes involved in muscle endurance fitness pathways including mitochondrial biogenesis and respiration, fatty acid oxidation, triglyceride dynamics, muscle fiber type, angiogenesis, and neuromuscular junction (NMJ) remodeling. Assessment of the structural correlates of these processes confirmed the function of RIP140 as placing a “brake” on the transcriptional network controlling these key muscle endurance fitness processes. Integration of the RNA sequence results with CUT&amp;RUN analysis of strNrip1-/- myotubes identified direct RIP140 targets including genes involved in fatty acid metabolism and NMJ biogenesis. We conclude that RIP140 serves as a physiological “rheostat” for a broad network of genes involved in skeletal muscle fitness.</Item>
+	<Item Name="GPL" Type="String">24247</Item>
+	<Item Name="GSE" Type="String">289576</Item>
+	<Item Name="taxon" Type="String">Mus musculus</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String"></Item>
+	<Item Name="valType" Type="String"></Item>
+	<Item Name="SSInfo" Type="String"></Item>
+	<Item Name="subsetInfo" Type="String"></Item>
+	<Item Name="PDAT" Type="String">2025/08/27</Item>
+	<Item Name="suppFile" Type="String">TSV</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8794512</Item>
+			<Item Name="Title" Type="String">TA_muscle, Ctrl, rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8794515</Item>
+			<Item Name="Title" Type="String">TA_muscle, Nrip1KO, rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8794514</Item>
+			<Item Name="Title" Type="String">TA_muscle, Ctrl, rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8794513</Item>
+			<Item Name="Title" Type="String">TA_muscle, Ctrl, rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8794516</Item>
+			<Item Name="Title" Type="String">TA_muscle, Nrip1KO, rep2</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List"></Item>
+	<Item Name="ExtRelations" Type="List"></Item>
+	<Item Name="n_samples" Type="Integer">5</Item>
+	<Item Name="SeriesTitle" Type="String"></Item>
+	<Item Name="PlatformTitle" Type="String"></Item>
+	<Item Name="PlatformTaxa" Type="String"></Item>
+	<Item Name="SamplesTaxa" Type="String"></Item>
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">41118251</Item>
+	</Item>
+	<Item Name="Projects" Type="List"></Item>
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE289nnn/GSE289576/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200289569</Id>
+	<Item Name="Accession" Type="String">GSE289569</Item>
+	<Item Name="GDS" Type="String"></Item>
+	<Item Name="title" Type="String">A Role for the Transcriptional Coregulator RIP140 in the Control of Muscle Endurance Fitness [RNASeq_Training_strKO_flat]</Item>
+	<Item Name="summary" Type="String">Poor skeletal muscle fitness contributes to many chronic disease states including obesity, heart failure, primary muscle disorders, and age-related sarcopenia. Receptor Interacting Protein 140 (RIP140) is a striated muscle-enriched nuclear receptor co-regulator. To investigate the role of RIP140 in skeletal muscle, striated muscle-specific RIP140-deficient (strNrip1-/-) mice were generated and characterized. strNrip1-/- mice display a remarkable endurance performance phenotype based on endurance treadmill performance, VO2max testing, and functional assessment of isolated muscle. RNA-sequence analysis of glycolytic fast-twitch muscle from the strNrip1-/- mice identified a broad array of differentially upregulated metabolic and structural muscle genes involved in muscle endurance fitness pathways including mitochondrial biogenesis and respiration, fatty acid oxidation, triglyceride dynamics, muscle fiber type, angiogenesis, and neuromuscular junction (NMJ) remodeling. Assessment of the structural correlates of these processes confirmed the function of RIP140 as placing a “brake” on the transcriptional network controlling these key muscle endurance fitness processes. Integration of the RNA sequence results with CUT&amp;RUN analysis of strNrip1-/- myotubes identified direct RIP140 targets including genes involved in fatty acid metabolism and NMJ biogenesis. We conclude that RIP140 serves as a physiological “rheostat” for a broad network of genes involved in skeletal muscle fitness.</Item>
+	<Item Name="GPL" Type="String">24247</Item>
+	<Item Name="GSE" Type="String">289569</Item>
+	<Item Name="taxon" Type="String">Mus musculus</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String"></Item>
+	<Item Name="valType" Type="String"></Item>
+	<Item Name="SSInfo" Type="String"></Item>
+	<Item Name="subsetInfo" Type="String"></Item>
+	<Item Name="PDAT" Type="String">2025/08/27</Item>
+	<Item Name="suppFile" Type="String">TSV</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8794386</Item>
+			<Item Name="Title" Type="String">EDL_muscle, Nrip1KO, Trained, rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8794380</Item>
+			<Item Name="Title" Type="String">EDL_muscle, Nrip1KO, Sedentary, rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8794383</Item>
+			<Item Name="Title" Type="String">EDL_muscle, Ctrl, Trained, rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8794385</Item>
+			<Item Name="Title" Type="String">EDL_muscle, Nrip1KO, Trained, rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8794377</Item>
+			<Item Name="Title" Type="String">EDL_muscle, Ctrl, Sedentary, rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8794376</Item>
+			<Item Name="Title" Type="String">EDL_muscle, Ctrl, Sedentary, rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8794379</Item>
+			<Item Name="Title" Type="String">EDL_muscle, Nrip1KO, Sedentary, rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8794378</Item>
+			<Item Name="Title" Type="String">EDL_muscle, Ctrl, Sedentary, rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8794381</Item>
+			<Item Name="Title" Type="String">EDL_muscle, Nrip1KO, Sedentary, rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8794382</Item>
+			<Item Name="Title" Type="String">EDL_muscle, Ctrl, Trained, rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8794387</Item>
+			<Item Name="Title" Type="String">EDL_muscle, Nrip1KO, Trained, rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8794384</Item>
+			<Item Name="Title" Type="String">EDL_muscle, Ctrl, Trained, rep3</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List"></Item>
+	<Item Name="ExtRelations" Type="List"></Item>
+	<Item Name="n_samples" Type="Integer">12</Item>
+	<Item Name="SeriesTitle" Type="String"></Item>
+	<Item Name="PlatformTitle" Type="String"></Item>
+	<Item Name="PlatformTaxa" Type="String"></Item>
+	<Item Name="SamplesTaxa" Type="String"></Item>
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">41118251</Item>
+	</Item>
+	<Item Name="Projects" Type="List"></Item>
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE289nnn/GSE289569/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200249858</Id>
+	<Item Name="Accession" Type="String">GSE249858</Item>
+	<Item Name="GDS" Type="String"></Item>
+	<Item Name="title" Type="String">Unveiling the Molecular Legacy of Transient Insulin Resistance: Implications for Hepatic Metabolic Adaptability [RNA-Seq]</Item>
+	<Item Name="summary" Type="String">Metabolic flexibility (MetF) refers to an organism's capacity to adapt to changes in metabolic supplies and energy demands. MetF involves various organs, such as skeletal muscle, white adipose tissues, and the liver, and plays a critical role in altering fuel selection. Insulin acts as a central coordinator of MetF, regulated at the molecular level through various mechanisms, including signaling cascades, transcriptional responses, and circadian regulation. Insulin resistance (IR) can hinder MetF, leading to the development of type 2 diabetes and obesity. These conditions are primarily linked to long-term, chronic exposure to sedentary lifestyles, unbalanced diets, and disruptions in circadian rhythms. However, transient episodes of IR significantly elevate the risk of later-in-life development of type 2 diabetes, as seen in cases like gestational diabetes and stress-induced hyperglycemia. Despite their significance to human health, the molecular processes underlying metabolic dysregulation after these transient episodes remain poorly understood. In our study, we demonstrate that a temporary and fully reversible insulin receptor blockade in young mice results in later-in-life hepatic abnormalities that impair the PPARα-mediated response to a high-fat diet. This impairment is associated with increased histone repressive marks at PPARα-centered loci and decreased hepatic content of PPARα endogenous ligands. Transient insulin receptor blockade temporarily disrupts the liver's circadian rhythm, and this disruption specifically propagates to high-fat diet-fed animals. Our findings reveal that PPARα ligand responsiveness is critically influenced by the circadian clock, adding another layer of (dys)regulation to hepatic homeostasis due to early transient events. In summary, our data suggest that seemingly reversible and unnoticed metabolic challenges in early adulthood may predispose the liver to exacerbated metabolic dysfunctions when confronted with chronic challenges later in life.</Item>
+	<Item Name="GPL" Type="String">28457</Item>
+	<Item Name="GSE" Type="String">249858</Item>
+	<Item Name="taxon" Type="String">Mus musculus</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String"></Item>
+	<Item Name="valType" Type="String"></Item>
+	<Item Name="SSInfo" Type="String"></Item>
+	<Item Name="subsetInfo" Type="String"></Item>
+	<Item Name="PDAT" Type="String">2025/07/17</Item>
+	<Item Name="suppFile" Type="String">TXT</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7966025</Item>
+			<Item Name="Title" Type="String">DMSO_T24 to T30 Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7966028</Item>
+			<Item Name="Title" Type="String">Pema T0 to T24 Rep 2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7966031</Item>
+			<Item Name="Title" Type="String">DMSO_T24 to T30 Rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7966034</Item>
+			<Item Name="Title" Type="String">Pema T0 to T24 Rep 3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7966037</Item>
+			<Item Name="Title" Type="String">DMSO_T24 to T30 Rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7966033</Item>
+			<Item Name="Title" Type="String">DMSO_T0 to T24 Rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7966036</Item>
+			<Item Name="Title" Type="String">Pema T14 to T20 Rep 3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7966030</Item>
+			<Item Name="Title" Type="String">Pema T14 to T20 Rep 2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7966022</Item>
+			<Item Name="Title" Type="String">Pema T0 to T24 Rep 1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7966035</Item>
+			<Item Name="Title" Type="String">DMSO_T14 to T20 Rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7966038</Item>
+			<Item Name="Title" Type="String">Pema_T24 to t30 Rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7966021</Item>
+			<Item Name="Title" Type="String">DMSO_T0 to T24 Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7966024</Item>
+			<Item Name="Title" Type="String">Pema T14 to T20 Rep 1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7966027</Item>
+			<Item Name="Title" Type="String">DMSO_T0 to T24 Rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7966026</Item>
+			<Item Name="Title" Type="String">Pema_T24 to t30 Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7966029</Item>
+			<Item Name="Title" Type="String">DMSO_T14 to T20 Rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7966023</Item>
+			<Item Name="Title" Type="String">DMSO_T14 to T20 Rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7966032</Item>
+			<Item Name="Title" Type="String">Pema_T24 to t30 Rep2</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List"></Item>
+	<Item Name="ExtRelations" Type="List"></Item>
+	<Item Name="n_samples" Type="Integer">18</Item>
+	<Item Name="SeriesTitle" Type="String"></Item>
+	<Item Name="PlatformTitle" Type="String"></Item>
+	<Item Name="PlatformTaxa" Type="String"></Item>
+	<Item Name="SamplesTaxa" Type="String"></Item>
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">39947330</Item>
+	</Item>
+	<Item Name="Projects" Type="List"></Item>
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE249nnn/GSE249858/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200249841</Id>
+	<Item Name="Accession" Type="String">GSE249841</Item>
+	<Item Name="GDS" Type="String"></Item>
+	<Item Name="title" Type="String">Unveiling the Molecular Legacy of Transient Insulin Resistance: Implications for Hepatic Metabolic Adaptability [ChIP-Seq]</Item>
+	<Item Name="summary" Type="String">Metabolic flexibility (MetF) refers to an organism's capacity to adapt to changes in metabolic supplies and energy demands. MetF involves various organs, such as skeletal muscle, white adipose tissues, and the liver, and plays a critical role in altering fuel selection. Insulin acts as a central coordinator of MetF, regulated at the molecular level through various mechanisms, including signaling cascades, transcriptional responses, and circadian regulation. Insulin resistance (IR) can hinder MetF, leading to the development of type 2 diabetes and obesity. These conditions are primarily linked to long-term, chronic exposure to sedentary lifestyles, unbalanced diets, and disruptions in circadian rhythms. However, transient episodes of IR significantly elevate the risk of later-in-life development of type 2 diabetes, as seen in cases like gestational diabetes and stress-induced hyperglycemia. Despite their significance to human health, the molecular processes underlying metabolic dysregulation after these transient episodes remain poorly understood. In our study, we demonstrate that a temporary and fully reversible insulin receptor blockade in young mice results in later-in-life hepatic abnormalities that impair the PPARα-mediated response to a high-fat diet. This impairment is associated with increased histone repressive marks at PPARα-centered loci and decreased hepatic content of PPARα endogenous ligands. Transient insulin receptor blockade temporarily disrupts the liver's circadian rhythm, and this disruption specifically propagates to high-fat diet-fed animals. Our findings reveal that PPARα ligand responsiveness is critically influenced by the circadian clock, adding another layer of (dys)regulation to hepatic homeostasis due to early transient events. In summary, our data suggest that seemingly reversible and unnoticed metabolic challenges in early adulthood may predispose the liver to exacerbated metabolic dysfunctions when confronted with chronic challenges later in life.</Item>
+	<Item Name="GPL" Type="String">21103</Item>
+	<Item Name="GSE" Type="String">249841</Item>
+	<Item Name="taxon" Type="String">Mus musculus</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Genome binding/occupancy profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String"></Item>
+	<Item Name="valType" Type="String"></Item>
+	<Item Name="SSInfo" Type="String"></Item>
+	<Item Name="subsetInfo" Type="String"></Item>
+	<Item Name="PDAT" Type="String">2025/07/17</Item>
+	<Item Name="suppFile" Type="String">BIGWIG</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7965644</Item>
+			<Item Name="Title" Type="String">K4m-1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7965661</Item>
+			<Item Name="Title" Type="String">Inp 1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7965653</Item>
+			<Item Name="Title" Type="String">K27m-4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7965650</Item>
+			<Item Name="Title" Type="String">K27m-1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7965647</Item>
+			<Item Name="Title" Type="String">K4m-4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7965652</Item>
+			<Item Name="Title" Type="String">K27m-3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7965646</Item>
+			<Item Name="Title" Type="String">K4m-3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7965649</Item>
+			<Item Name="Title" Type="String">K4m-6</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7965658</Item>
+			<Item Name="Title" Type="String">Ac-3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7965655</Item>
+			<Item Name="Title" Type="String">K27m-6</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7965657</Item>
+			<Item Name="Title" Type="String">Ac-2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7965654</Item>
+			<Item Name="Title" Type="String">K27m-5</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7965651</Item>
+			<Item Name="Title" Type="String">K27m-2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7965660</Item>
+			<Item Name="Title" Type="String">Ac-5</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7965659</Item>
+			<Item Name="Title" Type="String">Ac-4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7965656</Item>
+			<Item Name="Title" Type="String">Ac-1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7965662</Item>
+			<Item Name="Title" Type="String">Inp 2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7965648</Item>
+			<Item Name="Title" Type="String">K4m-5</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7965645</Item>
+			<Item Name="Title" Type="String">K4m-2</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List"></Item>
+	<Item Name="ExtRelations" Type="List"></Item>
+	<Item Name="n_samples" Type="Integer">19</Item>
+	<Item Name="SeriesTitle" Type="String"></Item>
+	<Item Name="PlatformTitle" Type="String"></Item>
+	<Item Name="PlatformTaxa" Type="String"></Item>
+	<Item Name="SamplesTaxa" Type="String"></Item>
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">39947330</Item>
+	</Item>
+	<Item Name="Projects" Type="List"></Item>
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE249nnn/GSE249841/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200275079</Id>
+	<Item Name="Accession" Type="String">GSE275079</Item>
+	<Item Name="GDS" Type="String"></Item>
+	<Item Name="title" Type="String">Thyrotropin aggravates insulin resistance by promoting macrophage inflammation in subclinical hypothyroidism.</Item>
+	<Item Name="summary" Type="String">In subclinical hypothyroidism (SH), serum thyroid-stimulating hormone (TSH) correlated positively with insulin resistance; however, the precise mechanism is now unclear. Except for thyroid follicular epithelial cells, macrophages exhibit the highest level of TSHR expression. Thus, we wondered if TSH leads to insulin resistance by macrophages. We established thyroid-stimulating hormone receptor (Tshr) myeloid-specific knockout (TshrMKO) C57BL6 mice, and observed that TshrMKO mice showed improvement on high-fat diet (HFD) induced obesity and insulin resistance, compared to WT mice. TshrMKO animals showed decreased macrophages infiltration and M1 polarization in liver, adipose, and skeletal muscles. Co-culture experiments proved that Tshr deficient macrophages decreased gluconeogenesis in primary hepatocytes but increased glucose uptake in 3T3L1 adipocytes and L6 skeletal muscle cells through improving insulin signaling, versus WT. TSH promoted the release of Il6, Il1a and Il1b cytokines, which upregulated Egr1, Lcn2 and Socs3, reversed by the inhibitors Il6st and Il1ra. Lastly, EGR1 transcriptionally activated LCN2 and SOCS3. In conclusion, TSH promotes the secretion of IL6, IL1A, and IL1B via activating macrophage M1 polarization, which leads to that the upregulation of EGR1, transcriptionally activating LCN2 and SOCS3 and inducing insulin resistance in liver, adipose, and skeletal muscle in SH.</Item>
+	<Item Name="GPL" Type="String">24247</Item>
+	<Item Name="GSE" Type="String">275079</Item>
+	<Item Name="taxon" Type="String">Mus musculus</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String"></Item>
+	<Item Name="valType" Type="String"></Item>
+	<Item Name="SSInfo" Type="String"></Item>
+	<Item Name="subsetInfo" Type="String"></Item>
+	<Item Name="PDAT" Type="String">2025/07/09</Item>
+	<Item Name="suppFile" Type="String">TXT</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8465401</Item>
+			<Item Name="Title" Type="String">Bone marrow derived macrophages(BMDMs), Tshrf/f,Lyz2-Cre, TSH,1ng/mL,24 hours,rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8465398</Item>
+			<Item Name="Title" Type="String">Bone marrow derived macrophages(BMDMs),Tshrf/f, TSH,1ng/mL,24 hours,rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8465409</Item>
+			<Item Name="Title" Type="String">Liver, Tshrf/f,Lyz2-Cre, fed High fat diet for 9 wks,insulin admin (1.5 U/kg) for 5 min in vivo after 8-hr fasting,rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8465407</Item>
+			<Item Name="Title" Type="String">Liver, Tshrf/f,Lyz2-Cre, fed High fat diet for 9 wks,insulin admin (1.5 U/kg) for 5 min in vivo after 8-hr fasting,rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8465404</Item>
+			<Item Name="Title" Type="String">Liver, Tshrf/f, fed High fat diet for 9 wks,insulin admin (1.5 U/kg) for 5 min in vivo after 8-hr fasting,rep1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8465408</Item>
+			<Item Name="Title" Type="String">Liver, Tshrf/f,Lyz2-Cre, fed High fat diet for 9 wks,insulin admin (1.5 U/kg) for 5 min in vivo after 8-hr fasting,rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8465405</Item>
+			<Item Name="Title" Type="String">Liver, Tshrf/f, fed High fat diet for 9 wks,insulin admin (1.5 U/kg) for 5 min in vivo after 8-hr fasting,rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8465402</Item>
+			<Item Name="Title" Type="String">Bone marrow derived macrophages(BMDMs), Tshrf/f,Lyz2-Cre, TSH,1ng/mL,24 hours,rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8465399</Item>
+			<Item Name="Title" Type="String">Bone marrow derived macrophages(BMDMs),Tshrf/f, TSH,1ng/mL,24 hours,rep2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8465406</Item>
+			<Item Name="Title" Type="String">Liver, Tshrf/f, fed High fat diet for 9 wks,insulin admin (1.5 U/kg) for 5 min in vivo after 8-hr fasting,rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8465403</Item>
+			<Item Name="Title" Type="String">Bone marrow derived macrophages(BMDMs), Tshrf/f,Lyz2-Cre, TSH,1ng/mL,24 hours,rep3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8465400</Item>
+			<Item Name="Title" Type="String">Bone marrow derived macrophages(BMDMs),Tshrf/f, TSH,1ng/mL,24 hours,rep3</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List"></Item>
+	<Item Name="ExtRelations" Type="List"></Item>
+	<Item Name="n_samples" Type="Integer">12</Item>
+	<Item Name="SeriesTitle" Type="String"></Item>
+	<Item Name="PlatformTitle" Type="String"></Item>
+	<Item Name="PlatformTaxa" Type="String"></Item>
+	<Item Name="SamplesTaxa" Type="String"></Item>
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">40523992</Item>
+	</Item>
+	<Item Name="Projects" Type="List"></Item>
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE275nnn/GSE275079/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200295025</Id>
+	<Item Name="Accession" Type="String">GSE295025</Item>
+	<Item Name="GDS" Type="String"></Item>
+	<Item Name="title" Type="String">Transcriptomic profiling of mouse skeletal muscle in wildtype and Tas1r2 knockout mice across age and obesity conditions</Item>
+	<Item Name="summary" Type="String">This study aimed to better understand the effects of Tas1r2 loss-of-function on skeletal muscle gene expression across physiological states. Transcriptomic profiling was performed on skeletal muscle from wildtype and Tas1r2 knockout male mice under young, aged, and obese conditions. RNA was obtained from left leg solei of male mice</Item>
+	<Item Name="GPL" Type="String">23038</Item>
+	<Item Name="GSE" Type="String">295025</Item>
+	<Item Name="taxon" Type="String">Mus musculus</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by array</Item>
+	<Item Name="ptechType" Type="String"></Item>
+	<Item Name="valType" Type="String"></Item>
+	<Item Name="SSInfo" Type="String"></Item>
+	<Item Name="subsetInfo" Type="String"></Item>
+	<Item Name="PDAT" Type="String">2025/05/23</Item>
+	<Item Name="suppFile" Type="String">CEL, CHP</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8940478</Item>
+			<Item Name="Title" Type="String">male quadriceps, mouse 644</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8940458</Item>
+			<Item Name="Title" Type="String">male soleus, mouse 1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8940475</Item>
+			<Item Name="Title" Type="String">male quadriceps, mouse 641</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8940481</Item>
+			<Item Name="Title" Type="String">male quadriceps, mouse 763</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8940467</Item>
+			<Item Name="Title" Type="String">male soleus, mouse 12</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8940464</Item>
+			<Item Name="Title" Type="String">male soleus, mouse 9</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8940461</Item>
+			<Item Name="Title" Type="String">male soleus, mouse 5</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8940476</Item>
+			<Item Name="Title" Type="String">male quadriceps, mouse 642</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8940459</Item>
+			<Item Name="Title" Type="String">male soleus, mouse 2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8940473</Item>
+			<Item Name="Title" Type="String">male soleus, mouse 19</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8940470</Item>
+			<Item Name="Title" Type="String">male soleus, mouse 16</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8940482</Item>
+			<Item Name="Title" Type="String">male quadriceps, mouse 784</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8940462</Item>
+			<Item Name="Title" Type="String">male soleus, mouse 6</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8940479</Item>
+			<Item Name="Title" Type="String">male quadriceps, mouse 723</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8940468</Item>
+			<Item Name="Title" Type="String">male soleus, mouse 13</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8940465</Item>
+			<Item Name="Title" Type="String">male soleus, mouse 10</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8940477</Item>
+			<Item Name="Title" Type="String">male quadriceps, mouse 643</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8940474</Item>
+			<Item Name="Title" Type="String">male soleus, mouse 20</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8940471</Item>
+			<Item Name="Title" Type="String">male soleus, mouse 17</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8940469</Item>
+			<Item Name="Title" Type="String">male soleus, mouse 15</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8940460</Item>
+			<Item Name="Title" Type="String">male soleus, mouse 4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8940466</Item>
+			<Item Name="Title" Type="String">male soleus, mouse 11</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8940472</Item>
+			<Item Name="Title" Type="String">male soleus, mouse 18</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8940480</Item>
+			<Item Name="Title" Type="String">male quadriceps, mouse 761</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8940483</Item>
+			<Item Name="Title" Type="String">male quadriceps, mouse 791</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8940463</Item>
+			<Item Name="Title" Type="String">male soleus, mouse 7</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List"></Item>
+	<Item Name="ExtRelations" Type="List"></Item>
+	<Item Name="n_samples" Type="Integer">26</Item>
+	<Item Name="SeriesTitle" Type="String"></Item>
+	<Item Name="PlatformTitle" Type="String"></Item>
+	<Item Name="PlatformTaxa" Type="String"></Item>
+	<Item Name="SamplesTaxa" Type="String"></Item>
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">40507187</Item>
+	</Item>
+	<Item Name="Projects" Type="List"></Item>
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE295nnn/GSE295025/</Item>
+	<Item Name="GEO2R" Type="String">yes</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200282850</Id>
+	<Item Name="Accession" Type="String">GSE282850</Item>
+	<Item Name="GDS" Type="String"></Item>
+	<Item Name="title" Type="String">Functional dissection of metabolic trait-associated variants in steady state and stimulated human skeletal muscle cells [RNA-Seq]</Item>
+	<Item Name="summary" Type="String">Type 2 diabetes (T2D) is a common metabolic disorder characterized by dysregulation of glucose metabolism. Genome-wide association studies have defined hundreds of signals associated with T2D and related metabolic traits, most of which are found in noncoding regions. Given their central role in insulin production and glucose homeostasis, much focus has been devoted to investigating T2D-associated genetic variation in pancreatic islets; however, metabolic disease pathogenesis and risk is distributed across other important metabolic tissues, including the liver, adipose, and skeletal muscle. Here, we performed RNA-seq in human skeletal muscle cells in one of four conditions: (1) undifferentiated or differentiated with (2) basal media, (3) media supplemented with the AMP analog 5-aminoimidazole-4-carboxamide ribonucleotide (AICAR) to mimic physiological effects of exercise or (4) media containing sodium palmitate which is known to induce insulin resistance. We used these profiles to identify how relevant metabolic stimuli influence transcriptome-wide gene regulation.</Item>
+	<Item Name="GPL" Type="String">34281</Item>
+	<Item Name="GSE" Type="String">282850</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String"></Item>
+	<Item Name="valType" Type="String"></Item>
+	<Item Name="SSInfo" Type="String"></Item>
+	<Item Name="subsetInfo" Type="String"></Item>
+	<Item Name="PDAT" Type="String">2025/01/02</Item>
+	<Item Name="suppFile" Type="String">TXT</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8651498</Item>
+			<Item Name="Title" Type="String">LHCN-M2 cells, palmitate, mRNA rep 3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8651495</Item>
+			<Item Name="Title" Type="String">LHCN-M2 cells, AICAR, mRNA rep 4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8651487</Item>
+			<Item Name="Title" Type="String">LHCN-M2 cells, undiff, mRNA rep 3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8651486</Item>
+			<Item Name="Title" Type="String">LHCN-M2 cells, undiff, mRNA rep 2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8651489</Item>
+			<Item Name="Title" Type="String">LHCN-M2 cells, diff, mRNA rep 1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8651492</Item>
+			<Item Name="Title" Type="String">LHCN-M2 cells, diff, mRNA rep 4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8651488</Item>
+			<Item Name="Title" Type="String">LHCN-M2 cells, undiff, mRNA rep 4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8651491</Item>
+			<Item Name="Title" Type="String">LHCN-M2 cells, diff, mRNA rep 3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8651485</Item>
+			<Item Name="Title" Type="String">LHCN-M2 cells, undiff, mRNA rep 1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8651497</Item>
+			<Item Name="Title" Type="String">LHCN-M2 cells, palmitate, mRNA rep 2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8651490</Item>
+			<Item Name="Title" Type="String">LHCN-M2 cells, diff, mRNA rep 2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8651494</Item>
+			<Item Name="Title" Type="String">LHCN-M2 cells, AICAR, mRNA rep 3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8651493</Item>
+			<Item Name="Title" Type="String">LHCN-M2 cells, AICAR, mRNA rep 1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8651496</Item>
+			<Item Name="Title" Type="String">LHCN-M2 cells, palmitate, mRNA rep 1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8651499</Item>
+			<Item Name="Title" Type="String">LHCN-M2 cells, palmitate, mRNA rep 4</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List"></Item>
+	<Item Name="ExtRelations" Type="List"></Item>
+	<Item Name="n_samples" Type="Integer">15</Item>
+	<Item Name="SeriesTitle" Type="String"></Item>
+	<Item Name="PlatformTitle" Type="String"></Item>
+	<Item Name="PlatformTaxa" Type="String"></Item>
+	<Item Name="SamplesTaxa" Type="String"></Item>
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">39677760</Item>
+	</Item>
+	<Item Name="Projects" Type="List"></Item>
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE282nnn/GSE282850/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200278631</Id>
+	<Item Name="Accession" Type="String">GSE278631</Item>
+	<Item Name="GDS" Type="String"></Item>
+	<Item Name="title" Type="String">Single-cell RNA transcriptome reveals embryonic origin of offspring fibrosis due to maternal obesity</Item>
+	<Item Name="summary" Type="String">Over 40% of pregnant American women are obese which negatively affects fetal development with long-term consequences for offspring health. Maternal obesity (MO) leads to fibrotic infiltration in skeletal muscle, brown adipose tissue, and other tissues/organs of offspring, but mechanisms remain to be defined. Using a mouse model of diet-induced obesity and unbiased single-cell RNA-sequencing (scRNA-seq), we tested the effeCONs of MO on embryonic fibrogenesis, which serves as the source of fibrogenic and stromal cells in adults. Embryonic somatic tissues were obtained at E9.5, E11.5 and E13.5 of control (CON) and MO mice. Using unsupervised clustering of scRNA-seq data, we identified three major cell clusters with increasing fibrogenic capacity. Compared to CON, the population of fibrogenic cells increased dramatically due to MO, correlated with the elevated expression of transforming growth factor β (Tgfb) and paired related homeobox 1 (Prrx1), as well as fibrogenic genes.</Item>
+	<Item Name="GPL" Type="String">24247</Item>
+	<Item Name="GSE" Type="String">278631</Item>
+	<Item Name="taxon" Type="String">Mus musculus</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String"></Item>
+	<Item Name="valType" Type="String"></Item>
+	<Item Name="SSInfo" Type="String"></Item>
+	<Item Name="subsetInfo" Type="String"></Item>
+	<Item Name="PDAT" Type="String">2024/12/12</Item>
+	<Item Name="suppFile" Type="String">MTX, TSV</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8551581</Item>
+			<Item Name="Title" Type="String">MO4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8551578</Item>
+			<Item Name="Title" Type="String">MO1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8551575</Item>
+			<Item Name="Title" Type="String">CON2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8551576</Item>
+			<Item Name="Title" Type="String">CON3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8551579</Item>
+			<Item Name="Title" Type="String">MO2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8551574</Item>
+			<Item Name="Title" Type="String">CON1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8551577</Item>
+			<Item Name="Title" Type="String">CON4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8551580</Item>
+			<Item Name="Title" Type="String">MO3</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List"></Item>
+	<Item Name="ExtRelations" Type="List"></Item>
+	<Item Name="n_samples" Type="Integer">8</Item>
+	<Item Name="SeriesTitle" Type="String"></Item>
+	<Item Name="PlatformTitle" Type="String"></Item>
+	<Item Name="PlatformTaxa" Type="String"></Item>
+	<Item Name="SamplesTaxa" Type="String"></Item>
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">39874704</Item>
+	</Item>
+	<Item Name="Projects" Type="List"></Item>
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE278nnn/GSE278631/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200281849</Id>
+	<Item Name="Accession" Type="String">GSE281849</Item>
+	<Item Name="GDS" Type="String"></Item>
+	<Item Name="title" Type="String">Effects of physical activity reduction on the gastrocnemius transcriptome</Item>
+	<Item Name="summary" Type="String">Insufficient physical activity is associated with increased relative risk of cardiometabolic disease and is an independent risk factor for mortality. Experimentally reducing physical activity rapidly induces insulin resistance, impairs glucose handling, and drives metabolic inflexibility. These adaptations manifest during the early stages of physical inactivity, even when energy balance is maintained, suggesting that inactivity-mediated metabolic reprogramming is an early event that precedes changes in body composition. To identify mechanisms that promote metabolic adaptations associated with physical inactivity, we developed a mouse model of physical activity reduction that permits the study of inactivity in animals prior to the onset of overt changes in body composition. Adult mice were randomized into three groups: an inactive control group (standard housing), an active control group (treadmill running for 6-weeks), and an activity reduction group (treadmill running for 4-weeks, followed by 2-weeks of inactivity). Transcriptional profiling of gastrocnemius muscle was performed.</Item>
+	<Item Name="GPL" Type="String">24247</Item>
+	<Item Name="GSE" Type="String">281849</Item>
+	<Item Name="taxon" Type="String">Mus musculus</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String"></Item>
+	<Item Name="valType" Type="String"></Item>
+	<Item Name="SSInfo" Type="String"></Item>
+	<Item Name="subsetInfo" Type="String"></Item>
+	<Item Name="PDAT" Type="String">2024/11/18</Item>
+	<Item Name="suppFile" Type="String">CSV</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8631064</Item>
+			<Item Name="Title" Type="String">Skeletal muscle, trained, replicate 4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8631070</Item>
+			<Item Name="Title" Type="String">Skeletal muscle, activity reduction, replicate 3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8631067</Item>
+			<Item Name="Title" Type="String">Skeletal muscle, inactive, replicate 1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8631073</Item>
+			<Item Name="Title" Type="String">Skeletal muscle, inactive, replicate 5</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8631076</Item>
+			<Item Name="Title" Type="String">Skeletal muscle, activity reduction, replicate 5</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8631075</Item>
+			<Item Name="Title" Type="String">Skeletal muscle, trained, replicate 7</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8631072</Item>
+			<Item Name="Title" Type="String">Skeletal muscle, inactive, replicate 4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8631069</Item>
+			<Item Name="Title" Type="String">Skeletal muscle, inactive, replicate 2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8631061</Item>
+			<Item Name="Title" Type="String">Skeletal muscle, trained, replicate 2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8631074</Item>
+			<Item Name="Title" Type="String">Skeletal muscle, activity reduction, replicate 4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8631078</Item>
+			<Item Name="Title" Type="String">Skeletal muscle, activity reduction, replicate 7</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8631080</Item>
+			<Item Name="Title" Type="String">Skeletal muscle, inactive, replicate 7</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8631077</Item>
+			<Item Name="Title" Type="String">Skeletal muscle, activity reduction, replicate 6</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8631066</Item>
+			<Item Name="Title" Type="String">Skeletal muscle, activity reduction, replicate 2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8631063</Item>
+			<Item Name="Title" Type="String">Skeletal muscle, activity reduction, replicate 1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8631060</Item>
+			<Item Name="Title" Type="String">Skeletal muscle, trained, replicate 1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8631065</Item>
+			<Item Name="Title" Type="String">Skeletal muscle, trained, replicate 5</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8631062</Item>
+			<Item Name="Title" Type="String">Skeletal muscle, trained, replicate 3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8631071</Item>
+			<Item Name="Title" Type="String">Skeletal muscle, inactive, replicate 3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8631079</Item>
+			<Item Name="Title" Type="String">Skeletal muscle, inactive, replicate 6</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8631068</Item>
+			<Item Name="Title" Type="String">Skeletal muscle, trained, replicate 6</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List"></Item>
+	<Item Name="ExtRelations" Type="List"></Item>
+	<Item Name="n_samples" Type="Integer">21</Item>
+	<Item Name="SeriesTitle" Type="String"></Item>
+	<Item Name="PlatformTitle" Type="String"></Item>
+	<Item Name="PlatformTaxa" Type="String"></Item>
+	<Item Name="SamplesTaxa" Type="String"></Item>
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">39609254</Item>
+	</Item>
+	<Item Name="Projects" Type="List"></Item>
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE281nnn/GSE281849/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200245048</Id>
+	<Item Name="Accession" Type="String">GSE245048</Item>
+	<Item Name="GDS" Type="String"></Item>
+	<Item Name="title" Type="String">Loss of atrial natriuretic peptide signaling causes mitochondrial dysfunction, insulin resistance and low endurance capacity</Item>
+	<Item Name="summary" Type="String">Type 2 diabetes (T2D) and obesity are strongly associated with low natriuretic peptide (NP) plasma levels and impaired NP signaling with a down-regulation of NP guanylyl cyclase receptor-A (GCA) in skeletal muscle and adipose tissue. However, no study has so far provided evidence for a causal link between ANP/GCA deficiency and T2D development. Here, we show that both ANP and GCA deficiency in mice promotes metabolic disturbances and prediabetes. In GCA haploinsufficient mice, skeletal muscle insulin resistance is associated with altered mitochondrial function and impaired endurance running capacity. Muscle RNA-seq analyses reveal down-regulation of various gene sets related to mitochondrial protein complexes and translation. Despite normal mitochondrial content, GCA haploinsufficient mice exhibit increased proton leak and reduced content of mitochondrial oxidative phosphorylation (OXPHOS) proteins. Using various clinical studies and cohorts, we further show that GCA is related to various metabolic traits in T2D and positively correlates with markers of oxidative capacity in human skeletal muscle. Altogether, these results indicate that ANP/GCA signaling controls muscle mitochondrial integrity and oxidative capacity in vivo and plays a causal role in the development of T2D.</Item>
+	<Item Name="GPL" Type="String">24247</Item>
+	<Item Name="GSE" Type="String">245048</Item>
+	<Item Name="taxon" Type="String">Mus musculus</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String"></Item>
+	<Item Name="valType" Type="String"></Item>
+	<Item Name="SSInfo" Type="String"></Item>
+	<Item Name="subsetInfo" Type="String"></Item>
+	<Item Name="PDAT" Type="String">2024/11/05</Item>
+	<Item Name="suppFile" Type="String">CSV</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7835274</Item>
+			<Item Name="Title" Type="String">muscle_wildtype_rep1 [S044_10]</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7835288</Item>
+			<Item Name="Title" Type="String">muscle_wildtype_rep6 [S044_9]</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7835282</Item>
+			<Item Name="Title" Type="String">muscle_heterozygous_rep7 [S044_22]</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7835285</Item>
+			<Item Name="Title" Type="String">muscle_wildtype_rep4 [S044_5]</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7835286</Item>
+			<Item Name="Title" Type="String">muscle_wildtype_rep5 [S044_7]</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7835280</Item>
+			<Item Name="Title" Type="String">muscle_heterozygous_rep5 [S044_2]</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7835283</Item>
+			<Item Name="Title" Type="String">muscle_heterozygous_rep8 [S044_3]</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7835277</Item>
+			<Item Name="Title" Type="String">muscle_heterozygous_rep3 [S044_15]</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7835281</Item>
+			<Item Name="Title" Type="String">muscle_heterozygous_rep6 [S044_20]</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7835284</Item>
+			<Item Name="Title" Type="String">muscle_heterozygous_rep9 [S044_4]</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7835278</Item>
+			<Item Name="Title" Type="String">muscle_wildtype_rep3 [S044_17]</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7835275</Item>
+			<Item Name="Title" Type="String">muscle_heterozygous_rep2 [S044_11]</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7835287</Item>
+			<Item Name="Title" Type="String">muscle_heterozygous_rep10 [S044_8]</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7835279</Item>
+			<Item Name="Title" Type="String">muscle_heterozygous_rep4 [S044_18]</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7835276</Item>
+			<Item Name="Title" Type="String">muscle_wildtype_rep2 [S044_12]</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM7835273</Item>
+			<Item Name="Title" Type="String">muscle_heterozygous_rep1 [S044_1]</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List"></Item>
+	<Item Name="ExtRelations" Type="List"></Item>
+	<Item Name="n_samples" Type="Integer">16</Item>
+	<Item Name="SeriesTitle" Type="String"></Item>
+	<Item Name="PlatformTitle" Type="String"></Item>
+	<Item Name="PlatformTaxa" Type="String"></Item>
+	<Item Name="SamplesTaxa" Type="String"></Item>
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">39383215</Item>
+	</Item>
+	<Item Name="Projects" Type="List"></Item>
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE245nnn/GSE245048/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200280525</Id>
+	<Item Name="Accession" Type="String">GSE280525</Item>
+	<Item Name="GDS" Type="String"></Item>
+	<Item Name="title" Type="String">The effect of lnc-ORA knockout on muscle fiber type transformation in mouse leg muscle.</Item>
+	<Item Name="summary" Type="String">Skeletal muscle fiber type conversion is usually regulated by coding and non-coding RNA, which is closely related to obesity, Duchenne muscular dystrophy and sarcopenia. Furthermore, lnc-ORA KO mice were first constructed, and the results showed that lnc-ORA deficiency significantly increased exercise endurance, oxidative myofibers and mitochondrial function. Meanwhile, combining transcriptomic and proteomic data showed that lnc-ORA deficiency improved the biological processes and pathways related to the transformation of skeletal muscle fiber types. Mechanically, MYH7 is a target of lnc-ORA by multi-omics and RNA pull-down data, and it was degraded by interacting with ARIH1 through ubiquitination pathway. Importantly, lnc-ORA overexpression decreased the expression of MYH7 and enhanced the interaction of MYH7 and ARIH1, while lnc-ORA knockdown was the opposite. Overall, integrating transcriptomic and proteomic reveals the positive role of lnc-ORA deficiency on slow myofiber type formation via upregulating the level of MYH7 and inhibiting interaction between MYH7 and ARIH1. Our findings provide novel insights into the regulation of lncRNA on skeletal muscle fiber types.</Item>
+	<Item Name="GPL" Type="String">13112</Item>
+	<Item Name="GSE" Type="String">280525</Item>
+	<Item Name="taxon" Type="String">Mus musculus</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String"></Item>
+	<Item Name="valType" Type="String"></Item>
+	<Item Name="SSInfo" Type="String"></Item>
+	<Item Name="subsetInfo" Type="String"></Item>
+	<Item Name="PDAT" Type="String">2024/11/03</Item>
+	<Item Name="suppFile" Type="String">TXT</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8599798</Item>
+			<Item Name="Title" Type="String">WT3_GAS</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8599801</Item>
+			<Item Name="Title" Type="String">KO2_GAS</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8599799</Item>
+			<Item Name="Title" Type="String">WT4_GAS</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8599802</Item>
+			<Item Name="Title" Type="String">KO3_GAS</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8599800</Item>
+			<Item Name="Title" Type="String">KO1_GAS</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8599797</Item>
+			<Item Name="Title" Type="String">WT2_GAS</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List"></Item>
+	<Item Name="ExtRelations" Type="List"></Item>
+	<Item Name="n_samples" Type="Integer">6</Item>
+	<Item Name="SeriesTitle" Type="String"></Item>
+	<Item Name="PlatformTitle" Type="String"></Item>
+	<Item Name="PlatformTaxa" Type="String"></Item>
+	<Item Name="SamplesTaxa" Type="String"></Item>
+	<Item Name="PubMedIds" Type="List"></Item>
+	<Item Name="Projects" Type="List"></Item>
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE280nnn/GSE280525/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200184366</Id>
+	<Item Name="Accession" Type="String">GSE184366</Item>
+	<Item Name="GDS" Type="String"></Item>
+	<Item Name="title" Type="String">Whole transcriptome analysis of white adipose tissue in high fat diet induced insulin resistance mice</Item>
+	<Item Name="summary" Type="String">To determine the effect of resveratrol or metformin on high fat diet induced insulin resistance mice and elucidate their underlying mechanisms, we conducted a high-throughput sequencing analysis on epididymal fat tissue. LncRNAs and mRNAs were quantified and differentially expressed genes were identified, providing a potential gene signature for pharmacological mechanism of resveratrol and metformin.</Item>
+	<Item Name="GPL" Type="String">24247</Item>
+	<Item Name="GSE" Type="String">184366</Item>
+	<Item Name="taxon" Type="String">Mus musculus</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing; Non-coding RNA profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String"></Item>
+	<Item Name="valType" Type="String"></Item>
+	<Item Name="SSInfo" Type="String"></Item>
+	<Item Name="subsetInfo" Type="String"></Item>
+	<Item Name="PDAT" Type="String">2024/09/13</Item>
+	<Item Name="suppFile" Type="String">TXT</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5585181</Item>
+			<Item Name="Title" Type="String">RH3-3 epididymal fat</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5585178</Item>
+			<Item Name="Title" Type="String">MH8-4 epididymal fat</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5585167</Item>
+			<Item Name="Title" Type="String">C1-1 epididymal fat</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5585170</Item>
+			<Item Name="Title" Type="String">C2-2 epididymal fat</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5585175</Item>
+			<Item Name="Title" Type="String">MH4-3 epididymal fat</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5585169</Item>
+			<Item Name="Title" Type="String">C1-5 epididymal fat</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5585172</Item>
+			<Item Name="Title" Type="String">H7-3 epididymal fat</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5585171</Item>
+			<Item Name="Title" Type="String">H7-2 epididymal fat</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5585174</Item>
+			<Item Name="Title" Type="String">H7-5 epididymal fat</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5585168</Item>
+			<Item Name="Title" Type="String">C1-4 epididymal fat</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5585180</Item>
+			<Item Name="Title" Type="String">RH1-4 epididymal fat</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5585177</Item>
+			<Item Name="Title" Type="String">MH8-2 epididymal fat</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5585173</Item>
+			<Item Name="Title" Type="String">H7-4 epididymal fat</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5585179</Item>
+			<Item Name="Title" Type="String">RH1-2 epididymal fat</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5585176</Item>
+			<Item Name="Title" Type="String">MH6-5 epididymal fat</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5585182</Item>
+			<Item Name="Title" Type="String">RH6-3 epididymal fat</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List"></Item>
+	<Item Name="ExtRelations" Type="List">
+		<Item Name="ExtRelation" Type="Structure">
+			<Item Name="RelationType" Type="String">SRA</Item>
+			<Item Name="TargetObject" Type="String">SRP337630</Item>
+			<Item Name="TargetFTPLink" Type="String">ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP337/SRP337630/</Item>
+		</Item>
+	</Item>
+	<Item Name="n_samples" Type="Integer">16</Item>
+	<Item Name="SeriesTitle" Type="String"></Item>
+	<Item Name="PlatformTitle" Type="String"></Item>
+	<Item Name="PlatformTaxa" Type="String"></Item>
+	<Item Name="SamplesTaxa" Type="String"></Item>
+	<Item Name="PubMedIds" Type="List"></Item>
+	<Item Name="Projects" Type="List"></Item>
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE184nnn/GSE184366/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200181107</Id>
+	<Item Name="Accession" Type="String">GSE181107</Item>
+	<Item Name="GDS" Type="String"></Item>
+	<Item Name="title" Type="String">Dysfunctional BCAAs catabolism protests from diet-induced obesity via IRF4/BCATm pathway in skeletal muscle</Item>
+	<Item Name="summary" Type="String">It is well established that obese animals and humans show deficiencies in skeletal muscle content and metabolism. However, the mechanisms under how skeletal muscle metabolism affects systemic energy homeostasis is not well-defined. Here, we compared the skeletal muscle transcriptome from obese and lean controls in different species. We found an immune-responsive transcription factor interferon regulatory factor 4 (IRF4) was conserved to be increased in obese subjects from the three species (humans, non-human primates and mice). Thus, we demonstrated that loss of IRF4 specifically in skeletal muscle of mice showed protection against the metabolic effects of high-fat diet, with unexpected increased plasma and muscle branched-chain amino acid (BCAA) levels. Conversely, overexpression of skeletal muscle IRF4 caused obesity and insulin resistance, with decreased BCAA contents. Mechanistically, IRF4 can transcriptionally regulate branched-chain aminotransferase isozyme (BCATm) expression, and that overexpression of BCATm can reverse the effects of IRF4 depletion regarding to metabolic phenotypes. Further, we demonstrated ablation of IRF4 in skeletal muscle increased mitochondrial activity and glycogen synthesis in a BCATm- dependent manner. These studies establish IRF4 as a novel driver of BCAA metabolism via BCATm in skeletal muscle and may interpret the BCAAs paradox in obesity.</Item>
+	<Item Name="GPL" Type="String">23227</Item>
+	<Item Name="GSE" Type="String">181107</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String"></Item>
+	<Item Name="valType" Type="String"></Item>
+	<Item Name="SSInfo" Type="String"></Item>
+	<Item Name="subsetInfo" Type="String"></Item>
+	<Item Name="PDAT" Type="String">2024/07/29</Item>
+	<Item Name="suppFile" Type="String">CSV, TXT</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5484652</Item>
+			<Item Name="Title" Type="String">obesity_1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5484653</Item>
+			<Item Name="Title" Type="String">obesity_2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5484649</Item>
+			<Item Name="Title" Type="String">lean_1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5484650</Item>
+			<Item Name="Title" Type="String">lean_2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5484651</Item>
+			<Item Name="Title" Type="String">lean_3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM5484654</Item>
+			<Item Name="Title" Type="String">obesity_3</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List"></Item>
+	<Item Name="ExtRelations" Type="List">
+		<Item Name="ExtRelation" Type="Structure">
+			<Item Name="RelationType" Type="String">SRA</Item>
+			<Item Name="TargetObject" Type="String">SRP330435</Item>
+			<Item Name="TargetFTPLink" Type="String">ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByStudy/sra/SRP/SRP330/SRP330435/</Item>
+		</Item>
+	</Item>
+	<Item Name="n_samples" Type="Integer">6</Item>
+	<Item Name="SeriesTitle" Type="String"></Item>
+	<Item Name="PlatformTitle" Type="String"></Item>
+	<Item Name="PlatformTaxa" Type="String"></Item>
+	<Item Name="SamplesTaxa" Type="String"></Item>
+	<Item Name="PubMedIds" Type="List"></Item>
+	<Item Name="Projects" Type="List"></Item>
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE181nnn/GSE181107/</Item>
+	<Item Name="GEO2R" Type="String">yes</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200263416</Id>
+	<Item Name="Accession" Type="String">GSE263416</Item>
+	<Item Name="GDS" Type="String"></Item>
+	<Item Name="title" Type="String">Endothelial Metabolic Control of Resident Muscle Macrophage Function [bulk RNA-seq]</Item>
+	<Item Name="summary" Type="String">Endothelial cells (ECs) not only form passive blood conduits. They actively contribute to nutrient transport and establish an instructive vascular niche to maintain and restore organ homeostasis. The role of the endothelium in the maintenance of muscle glucose homeostasis is however poorly understood. Here we show that, in skeletal muscle, the endothelial glucose transporter 1 (Glut1/Slc2a1) controls glucose uptake not via affecting transendothelial glucose transport, but via vascular niche control of muscle resident macrophages. Lowering endothelial glut1 via genetic depletion (glut1EC) or upon short-term high-fat diet increased angiocrine osteopontin (OPN/SPP1) secretion, promoting resident muscle macrophage activation and proliferation which impairs muscle insulin sensitivity. Consequently, co-deleting Spp1 from the endothelium prevented macrophage accumulation, reduced muscle OPN levels, and improved insulin sensitivity in glut1EC mice. Mechanistically, glut1-dependent endothelial glucose metabolic rewiring increased OPN in a serine metabolism-dependent fashion. Our data illustrate how the glycolytic endothelium creates a niche that controls resident muscle macrophage phenotype and function and directly links resident muscle macrophages to the development of muscle insulin resistance.</Item>
+	<Item Name="GPL" Type="String">24247</Item>
+	<Item Name="GSE" Type="String">263416</Item>
+	<Item Name="taxon" Type="String">Mus musculus</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String"></Item>
+	<Item Name="valType" Type="String"></Item>
+	<Item Name="SSInfo" Type="String"></Item>
+	<Item Name="subsetInfo" Type="String"></Item>
+	<Item Name="PDAT" Type="String">2024/07/26</Item>
+	<Item Name="suppFile" Type="String">XLSX</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8191406</Item>
+			<Item Name="Title" Type="String">mECDglut1-2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8191403</Item>
+			<Item Name="Title" Type="String">mECwt-2</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8191404</Item>
+			<Item Name="Title" Type="String">mECwt-3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8191407</Item>
+			<Item Name="Title" Type="String">mECDglut1-3</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8191408</Item>
+			<Item Name="Title" Type="String">mECDglut1-4</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8191405</Item>
+			<Item Name="Title" Type="String">mECDglut1-1</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8191402</Item>
+			<Item Name="Title" Type="String">mECwt-1</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List"></Item>
+	<Item Name="ExtRelations" Type="List"></Item>
+	<Item Name="n_samples" Type="Integer">7</Item>
+	<Item Name="SeriesTitle" Type="String"></Item>
+	<Item Name="PlatformTitle" Type="String"></Item>
+	<Item Name="PlatformTaxa" Type="String"></Item>
+	<Item Name="SamplesTaxa" Type="String"></Item>
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">39270655</Item>
+	</Item>
+	<Item Name="Projects" Type="List"></Item>
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE263nnn/GSE263416/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200272137</Id>
+	<Item Name="Accession" Type="String">GSE272137</Item>
+	<Item Name="GDS" Type="String"></Item>
+	<Item Name="title" Type="String">Different effects of bariatric surgery on epigenetic plasticity in skeletal muscle of individuals with and without type 2 diabetes [methylation array]</Item>
+	<Item Name="summary" Type="String">Bariatric surgery is highly effective for the treatment of obesity in individuals without (OB ) and in those with type 2 diabetes (T2D ). However, whether bariatric surgery triggers similar or distinct molecular changes in OB and T2D remains unknown. Given that individuals with type 2 diabetes often exhibit more severe metabolic deterioration, we hypothesized that bariatric surgery induces distinct molecular adaptations in skeletal muscle, the major site of glucose uptake, of OB and T2D after surgery-induced weight loss. All participants (OB, n=13; T2D, n=13) underwent detailed anthropometry before and one year after the surgery. Skeletal muscle biopsies were isolated at both time points and subjected to transcriptome and methylome analyses using a comprehensive bioinformatic pipeline.</Item>
+	<Item Name="GPL" Type="String">21145</Item>
+	<Item Name="GSE" Type="String">272137</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Methylation profiling by array</Item>
+	<Item Name="ptechType" Type="String"></Item>
+	<Item Name="valType" Type="String"></Item>
+	<Item Name="SSInfo" Type="String"></Item>
+	<Item Name="subsetInfo" Type="String"></Item>
+	<Item Name="PDAT" Type="String">2024/07/17</Item>
+	<Item Name="suppFile" Type="String">IDAT, TSV</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394028</Item>
+			<Item Name="Title" Type="String">T2D_Participant_1_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393991</Item>
+			<Item Name="Title" Type="String">OB_Participant_3_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394031</Item>
+			<Item Name="Title" Type="String">T2D_Participant_4_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394011</Item>
+			<Item Name="Title" Type="String">OB_Participant_10_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394008</Item>
+			<Item Name="Title" Type="String">OB_Participant_7_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394019</Item>
+			<Item Name="Title" Type="String">T2D_Participant_5_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394034</Item>
+			<Item Name="Title" Type="String">T2D_Participant_7_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393999</Item>
+			<Item Name="Title" Type="String">OB_Participant_11_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394022</Item>
+			<Item Name="Title" Type="String">T2D_Participant_8_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394002</Item>
+			<Item Name="Title" Type="String">OB_Participant_1_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394025</Item>
+			<Item Name="Title" Type="String">T2D_Participant_11_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394005</Item>
+			<Item Name="Title" Type="String">OB_Participant_4_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394003</Item>
+			<Item Name="Title" Type="String">OB_Participant_2_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394029</Item>
+			<Item Name="Title" Type="String">T2D_Participant_2_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394026</Item>
+			<Item Name="Title" Type="String">T2D_Participant_12_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394006</Item>
+			<Item Name="Title" Type="String">OB_Participant_5_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394000</Item>
+			<Item Name="Title" Type="String">OB_Participant_12_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393994</Item>
+			<Item Name="Title" Type="String">OB_Participant_6_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394023</Item>
+			<Item Name="Title" Type="String">T2D_Participant_9_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394037</Item>
+			<Item Name="Title" Type="String">T2D_Participant_10_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394040</Item>
+			<Item Name="Title" Type="String">T2D_Participant_13_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393997</Item>
+			<Item Name="Title" Type="String">OB_Participant_9_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394038</Item>
+			<Item Name="Title" Type="String">T2D_Participant_11_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394020</Item>
+			<Item Name="Title" Type="String">T2D_Participant_6_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394014</Item>
+			<Item Name="Title" Type="String">OB_Participant_13_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394017</Item>
+			<Item Name="Title" Type="String">T2D_Participant_3_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394018</Item>
+			<Item Name="Title" Type="String">T2D_Participant_4_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394001</Item>
+			<Item Name="Title" Type="String">OB_Participant_13_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394021</Item>
+			<Item Name="Title" Type="String">T2D_Participant_7_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394024</Item>
+			<Item Name="Title" Type="String">T2D_Participant_10_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394009</Item>
+			<Item Name="Title" Type="String">OB_Participant_8_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394012</Item>
+			<Item Name="Title" Type="String">OB_Participant_11_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394015</Item>
+			<Item Name="Title" Type="String">T2D_Participant_1_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394032</Item>
+			<Item Name="Title" Type="String">T2D_Participant_5_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393998</Item>
+			<Item Name="Title" Type="String">OB_Participant_10_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394035</Item>
+			<Item Name="Title" Type="String">T2D_Participant_8_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393992</Item>
+			<Item Name="Title" Type="String">OB_Participant_4_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393995</Item>
+			<Item Name="Title" Type="String">OB_Participant_7_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394039</Item>
+			<Item Name="Title" Type="String">T2D_Participant_12_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393993</Item>
+			<Item Name="Title" Type="String">OB_Participant_5_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393996</Item>
+			<Item Name="Title" Type="String">OB_Participant_8_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393989</Item>
+			<Item Name="Title" Type="String">OB_Participant_1_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394013</Item>
+			<Item Name="Title" Type="String">OB_Participant_12_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394016</Item>
+			<Item Name="Title" Type="String">T2D_Participant_2_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394010</Item>
+			<Item Name="Title" Type="String">OB_Participant_9_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394036</Item>
+			<Item Name="Title" Type="String">T2D_Participant_9_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393990</Item>
+			<Item Name="Title" Type="String">OB_Participant_2_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394033</Item>
+			<Item Name="Title" Type="String">T2D_Participant_6_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394027</Item>
+			<Item Name="Title" Type="String">T2D_Participant_13_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394030</Item>
+			<Item Name="Title" Type="String">T2D_Participant_3_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394004</Item>
+			<Item Name="Title" Type="String">OB_Participant_3_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8394007</Item>
+			<Item Name="Title" Type="String">OB_Participant_6_w52</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List"></Item>
+	<Item Name="ExtRelations" Type="List"></Item>
+	<Item Name="n_samples" Type="Integer">52</Item>
+	<Item Name="SeriesTitle" Type="String"></Item>
+	<Item Name="PlatformTitle" Type="String"></Item>
+	<Item Name="PlatformTaxa" Type="String"></Item>
+	<Item Name="SamplesTaxa" Type="String"></Item>
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">38977261</Item>
+	</Item>
+	<Item Name="Projects" Type="List"></Item>
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE272nnn/GSE272137/</Item>
+	<Item Name="GEO2R" Type="String">no</Item>
+</DocSum>
+
+<DocSum>
+	<Id>200272133</Id>
+	<Item Name="Accession" Type="String">GSE272133</Item>
+	<Item Name="GDS" Type="String"></Item>
+	<Item Name="title" Type="String">Different effects of bariatric surgery on epigenetic plasticity in skeletal muscle of individuals with and without type 2 diabetes</Item>
+	<Item Name="summary" Type="String">Bariatric surgery is highly effective for the treatment of obesity in individuals without (OB ) and in those with type 2 diabetes (T2D ). However, whether bariatric surgery triggers similar or distinct molecular changes in OB and T2D remains unknown. Given that individuals with type 2 diabetes often exhibit more severe metabolic deterioration, we hypothesized that bariatric surgery induces distinct molecular adaptations in skeletal muscle, the major site of glucose uptake, of OB and T2D after surgery-induced weight loss. All participants (OB, n=13; T2D, n=13) underwent detailed anthropometry before and one year after the surgery. Skeletal muscle biopsies were isolated at both time points and subjected to transcriptome and methylome analyses using a comprehensive bioinformatic pipeline.</Item>
+	<Item Name="GPL" Type="String">28038</Item>
+	<Item Name="GSE" Type="String">272133</Item>
+	<Item Name="taxon" Type="String">Homo sapiens</Item>
+	<Item Name="entryType" Type="String">GSE</Item>
+	<Item Name="gdsType" Type="String">Expression profiling by high throughput sequencing</Item>
+	<Item Name="ptechType" Type="String"></Item>
+	<Item Name="valType" Type="String"></Item>
+	<Item Name="SSInfo" Type="String"></Item>
+	<Item Name="subsetInfo" Type="String"></Item>
+	<Item Name="PDAT" Type="String">2024/07/17</Item>
+	<Item Name="suppFile" Type="String">TSV</Item>
+	<Item Name="Samples" Type="List">
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393780</Item>
+			<Item Name="Title" Type="String">OB_Participant_12_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393800</Item>
+			<Item Name="Title" Type="String">T2D_Participant_6_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393783</Item>
+			<Item Name="Title" Type="String">T2D_Participant_2_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393757</Item>
+			<Item Name="Title" Type="String">OB_Participant_2_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393803</Item>
+			<Item Name="Title" Type="String">T2D_Participant_9_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393760</Item>
+			<Item Name="Title" Type="String">OB_Participant_5_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393777</Item>
+			<Item Name="Title" Type="String">OB_Participant_9_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393797</Item>
+			<Item Name="Title" Type="String">T2D_Participant_3_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393791</Item>
+			<Item Name="Title" Type="String">T2D_Participant_10_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393771</Item>
+			<Item Name="Title" Type="String">OB_Participant_3_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393794</Item>
+			<Item Name="Title" Type="String">T2D_Participant_13_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393774</Item>
+			<Item Name="Title" Type="String">OB_Participant_6_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393768</Item>
+			<Item Name="Title" Type="String">OB_Participant_13_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393772</Item>
+			<Item Name="Title" Type="String">OB_Participant_4_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393792</Item>
+			<Item Name="Title" Type="String">T2D_Participant_11_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393775</Item>
+			<Item Name="Title" Type="String">OB_Participant_7_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393795</Item>
+			<Item Name="Title" Type="String">T2D_Participant_1_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393778</Item>
+			<Item Name="Title" Type="String">OB_Participant_10_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393798</Item>
+			<Item Name="Title" Type="String">T2D_Participant_4_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393789</Item>
+			<Item Name="Title" Type="String">T2D_Participant_8_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393763</Item>
+			<Item Name="Title" Type="String">OB_Participant_8_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393766</Item>
+			<Item Name="Title" Type="String">OB_Participant_11_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393769</Item>
+			<Item Name="Title" Type="String">OB_Participant_1_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393773</Item>
+			<Item Name="Title" Type="String">OB_Participant_5_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393786</Item>
+			<Item Name="Title" Type="String">T2D_Participant_5_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393806</Item>
+			<Item Name="Title" Type="String">T2D_Participant_12_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393790</Item>
+			<Item Name="Title" Type="String">T2D_Participant_9_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393793</Item>
+			<Item Name="Title" Type="String">T2D_Participant_12_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393801</Item>
+			<Item Name="Title" Type="String">T2D_Participant_7_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393787</Item>
+			<Item Name="Title" Type="String">T2D_Participant_6_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393767</Item>
+			<Item Name="Title" Type="String">OB_Participant_12_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393804</Item>
+			<Item Name="Title" Type="String">T2D_Participant_10_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393781</Item>
+			<Item Name="Title" Type="String">OB_Participant_13_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393770</Item>
+			<Item Name="Title" Type="String">OB_Participant_2_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393807</Item>
+			<Item Name="Title" Type="String">T2D_Participant_13_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393762</Item>
+			<Item Name="Title" Type="String">OB_Participant_7_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393784</Item>
+			<Item Name="Title" Type="String">T2D_Participant_3_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393764</Item>
+			<Item Name="Title" Type="String">OB_Participant_9_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393782</Item>
+			<Item Name="Title" Type="String">T2D_Participant_1_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393758</Item>
+			<Item Name="Title" Type="String">OB_Participant_3_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393785</Item>
+			<Item Name="Title" Type="String">T2D_Participant_4_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393805</Item>
+			<Item Name="Title" Type="String">T2D_Participant_11_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393788</Item>
+			<Item Name="Title" Type="String">T2D_Participant_7_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393761</Item>
+			<Item Name="Title" Type="String">OB_Participant_6_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393765</Item>
+			<Item Name="Title" Type="String">OB_Participant_10_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393756</Item>
+			<Item Name="Title" Type="String">OB_Participant_1_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393802</Item>
+			<Item Name="Title" Type="String">T2D_Participant_8_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393776</Item>
+			<Item Name="Title" Type="String">OB_Participant_8_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393759</Item>
+			<Item Name="Title" Type="String">OB_Participant_4_w0</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393779</Item>
+			<Item Name="Title" Type="String">OB_Participant_11_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393799</Item>
+			<Item Name="Title" Type="String">T2D_Participant_5_w52</Item>
+		</Item>
+		<Item Name="Sample" Type="Structure">
+			<Item Name="Accession" Type="String">GSM8393796</Item>
+			<Item Name="Title" Type="String">T2D_Participant_2_w52</Item>
+		</Item>
+	</Item>
+	<Item Name="Relations" Type="List"></Item>
+	<Item Name="ExtRelations" Type="List"></Item>
+	<Item Name="n_samples" Type="Integer">52</Item>
+	<Item Name="SeriesTitle" Type="String"></Item>
+	<Item Name="PlatformTitle" Type="String"></Item>
+	<Item Name="PlatformTaxa" Type="String"></Item>
+	<Item Name="SamplesTaxa" Type="String"></Item>
+	<Item Name="PubMedIds" Type="List">
+		<Item Name="int" Type="Integer">38977261</Item>
+	</Item>
+	<Item Name="Projects" Type="List"></Item>
+	<Item Name="FTPLink" Type="String">ftp://ftp.ncbi.nlm.nih.gov/geo/series/GSE272nnn/GSE272133/</Item>
+	<Item Name="GEO2R" Type="String">yes</Item>
+</DocSum>
+
+</eSummaryResult>

@@ -1,0 +1,242 @@
+[
+  {
+    "run_ts": "2026-06-12T07:56:48.632028+00:00",
+    "sequence_label": "synthetic_20mer",
+    "sequence_len": 20,
+    "sequence_first_30": "ACGTACGTACGTACGTACGT",
+    "meta": {
+      "status_code": 200,
+      "elapsed_s": 1.544,
+      "content_type": "application/json"
+    },
+    "structure": [
+      "sequence: str (len=10)",
+      "logits: list[10]",
+      "sampled_probs: list[10] (numeric)",
+      "elapsed_ms: int = 666",
+      "elapsed_ms_per_token: null"
+    ],
+    "logits_summary": {
+      "positions": 10,
+      "per_position": [
+        {
+          "position": 0,
+          "len": 512,
+          "min": -22.5,
+          "max": 2.9688,
+          "mean": -22.0494,
+          "argmax_idx": 65,
+          "argmax_value": 2.9688
+        },
+        {
+          "position": 1,
+          "len": 512,
+          "min": -22.0,
+          "max": 2.5312,
+          "mean": -21.5541,
+          "argmax_idx": 67,
+          "argmax_value": 2.5312
+        },
+        {
+          "position": 2,
+          "len": 512,
+          "min": -22.0,
+          "max": 2.3594,
+          "mean": -21.5597,
+          "argmax_idx": 71,
+          "argmax_value": 2.3594
+        },
+        {
+          "position": 3,
+          "len": 512,
+          "min": -23.0,
+          "max": 3.1094,
+          "mean": -22.5346,
+          "argmax_idx": 84,
+          "argmax_value": 3.1094
+        },
+        {
+          "position": 4,
+          "len": 512,
+          "min": -23.375,
+          "max": 3.1406,
+          "mean": -22.7724,
+          "argmax_idx": 65,
+          "argmax_value": 3.1406
+        },
+        {
+          "position": 5,
+          "len": 512,
+          "min": -22.625,
+          "max": 2.6406,
+          "mean": -22.0345,
+          "argmax_idx": 67,
+          "argmax_value": 2.6406
+        },
+        {
+          "position": 6,
+          "len": 512,
+          "min": -22.5,
+          "max": 2.5469,
+          "mean": -21.9218,
+          "argmax_idx": 71,
+          "argmax_value": 2.5469
+        },
+        {
+          "position": 7,
+          "len": 512,
+          "min": -23.375,
+          "max": 3.25,
+          "mean": -22.8866,
+          "argmax_idx": 84,
+          "argmax_value": 3.25
+        },
+        {
+          "position": 8,
+          "len": 512,
+          "min": -23.5,
+          "max": 3.3438,
+          "mean": -23.0057,
+          "argmax_idx": 65,
+          "argmax_value": 3.3438
+        },
+        {
+          "position": 9,
+          "len": 512,
+          "min": -22.375,
+          "max": 2.8438,
+          "mean": -21.8993,
+          "argmax_idx": 67,
+          "argmax_value": 2.8438
+        }
+      ]
+    },
+    "sampled_probs_preview": [
+      0.9282200932502747,
+      0.8660669326782227,
+      0.8140712976455688,
+      0.943250834941864,
+      0.9420714974403381
+    ]
+  },
+  {
+    "run_ts": "2026-06-12T07:56:48.632028+00:00",
+    "sequence_label": "nampt_promoter_flank",
+    "sequence_len": 77,
+    "sequence_first_30": "TGGGGTGGGGAGGGGTGGGGTGGGGAGGGG",
+    "meta": {
+      "status_code": 200,
+      "elapsed_s": 2.483,
+      "content_type": "application/json"
+    },
+    "structure": [
+      "sequence: str (len=10)",
+      "logits: list[10]",
+      "sampled_probs: list[10] (numeric)",
+      "elapsed_ms: int = 1676",
+      "elapsed_ms_per_token: null"
+    ],
+    "logits_summary": {
+      "positions": 10,
+      "per_position": [
+        {
+          "position": 0,
+          "len": 512,
+          "min": -19.5,
+          "max": 4.0312,
+          "mean": -19.0971,
+          "argmax_idx": 71,
+          "argmax_value": 4.0312
+        },
+        {
+          "position": 1,
+          "len": 512,
+          "min": -19.75,
+          "max": 4.0312,
+          "mean": -19.3384,
+          "argmax_idx": 71,
+          "argmax_value": 4.0312
+        },
+        {
+          "position": 2,
+          "len": 512,
+          "min": -19.625,
+          "max": 3.6875,
+          "mean": -19.2148,
+          "argmax_idx": 71,
+          "argmax_value": 3.6875
+        },
+        {
+          "position": 3,
+          "len": 512,
+          "min": -20.0,
+          "max": 2.7031,
+          "mean": -19.5873,
+          "argmax_idx": 67,
+          "argmax_value": 2.7031
+        },
+        {
+          "position": 4,
+          "len": 512,
+          "min": -19.25,
+          "max": 3.9531,
+          "mean": -18.7341,
+          "argmax_idx": 71,
+          "argmax_value": 3.9531
+        },
+        {
+          "position": 5,
+          "len": 512,
+          "min": -19.25,
+          "max": 4.1562,
+          "mean": -18.8515,
+          "argmax_idx": 71,
+          "argmax_value": 4.1562
+        },
+        {
+          "position": 6,
+          "len": 512,
+          "min": -19.375,
+          "max": 4.1562,
+          "mean": -18.9749,
+          "argmax_idx": 71,
+          "argmax_value": 4.1562
+        },
+        {
+          "position": 7,
+          "len": 512,
+          "min": -19.5,
+          "max": 3.7969,
+          "mean": -18.9782,
+          "argmax_idx": 71,
+          "argmax_value": 3.7969
+        },
+        {
+          "position": 8,
+          "len": 512,
+          "min": -19.75,
+          "max": 2.8125,
+          "mean": -19.3397,
+          "argmax_idx": 67,
+          "argmax_value": 2.8125
+        },
+        {
+          "position": 9,
+          "len": 512,
+          "min": -19.0,
+          "max": 4.0312,
+          "mean": -18.6054,
+          "argmax_idx": 71,
+          "argmax_value": 4.0312
+        }
+      ]
+    },
+    "sampled_probs_preview": [
+      0.9830603003501892,
+      0.9835025668144226,
+      0.9728407263755798,
+      0.9143936634063721,
+      0.9800910353660583
+    ]
+  }
+]

@@ -1,0 +1,122 @@
+[
+  {
+    "accession": "GSE312393",
+    "label": "24h_exercise_tpm",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE312nnn/GSE312393/suppl/GSE312393_human_gene_24H_exercise_tpm.tsv.gz",
+    "local_path": "data_audit\\downloads\\geo_processed\\GSE312393\\GSE312393_human_gene_24H_exercise_tpm.tsv.gz",
+    "size_bytes": 872510,
+    "sha256": "4dffcf942e3de64550a8207841fce88975afa74c7976774e1e9a43a3346efbe3",
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "accession": "GSE312393",
+    "label": "6weeks_tpm",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE312nnn/GSE312393/suppl/GSE312393_human_gene_6weeks_tpm.tsv.gz",
+    "local_path": "data_audit\\downloads\\geo_processed\\GSE312393\\GSE312393_human_gene_6weeks_tpm.tsv.gz",
+    "size_bytes": 1311353,
+    "sha256": "2dd7d65f900e8f7185d0d9a417f71f6e27024d9d379af8d5f1c2ded033c84917",
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "accession": "GSE318937",
+    "label": "gene_per_sample_order",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE318nnn/GSE318937/suppl/GSE318937_genePerSampleOrder_FortitudeUnil.csv.gz",
+    "local_path": "data_audit\\downloads\\geo_processed\\GSE318937\\GSE318937_genePerSampleOrder_FortitudeUnil.csv.gz",
+    "size_bytes": 4771485,
+    "sha256": "858a8b76b8d89fc733de24dfc2011148129afb32c15a2f358c5a32ae8980e31f",
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "accession": "GSE305038",
+    "label": "inactive_post_vs_pre_edger",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE305nnn/GSE305038/suppl/GSE305038_20250714_M008795_edgeRglm_Counts_Inactive_Post-Inactive_Pre.xlsx",
+    "local_path": "data_audit\\downloads\\geo_processed\\GSE305038\\GSE305038_20250714_M008795_edgeRglm_Counts_Inactive_Post-Inactive_Pre.xlsx",
+    "size_bytes": 1350323,
+    "sha256": "e024e61a5e511f0eb693849c9afc85cfc2e21f863e3968bfe7ebcfcf3ad462ce",
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "accession": "GSE305038",
+    "label": "normal_post_vs_pre_edger",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE305nnn/GSE305038/suppl/GSE305038_20250714_M008795_edgeRglm_Counts_Normal_Post-Normal_Pre.xlsx",
+    "local_path": "data_audit\\downloads\\geo_processed\\GSE305038\\GSE305038_20250714_M008795_edgeRglm_Counts_Normal_Post-Normal_Pre.xlsx",
+    "size_bytes": 1245596,
+    "sha256": "5dacbdfcad1e8188461bb70dc73cdf5d895af9994dbee406c653b1ea5b1bbbcc",
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "accession": "GSE292369",
+    "label": "transcript_counts",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE292nnn/GSE292369/suppl/GSE292369_Partek_KE_recovery_transcript_counts.txt.gz",
+    "local_path": "data_audit\\downloads\\geo_processed\\GSE292369\\GSE292369_Partek_KE_recovery_transcript_counts.txt.gz",
+    "size_bytes": 22894650,
+    "sha256": "5802d475d8584f3b6bfa178d890b6a239d398cf9aa1f95ec7e696292179d17ae",
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "accession": "GSE292369",
+    "label": "deseq2_normalized",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE292nnn/GSE292369/suppl/GSE292369_Partek_KE_recovery_Normalization_Outliers_Removed_Deseq2.txt.gz",
+    "local_path": "data_audit\\downloads\\geo_processed\\GSE292369\\GSE292369_Partek_KE_recovery_Normalization_Outliers_Removed_Deseq2.txt.gz",
+    "size_bytes": 4083667,
+    "sha256": "5f7f02dad25ba9c73f19fc650d286d817648f7a33bd97b858720b915cc9860bc",
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "accession": "GSE32575",
+    "label": "non_normalized",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE32nnn/GSE32575/suppl/GSE32575_non-normalized.txt.gz",
+    "local_path": "data_audit\\downloads\\geo_processed\\GSE32575\\GSE32575_non-normalized.txt.gz",
+    "size_bytes": 16198634,
+    "sha256": "6dcd2a3cf6478cc7c37ed8e24f300806f048c87b6370c4ad0595af5a3221e148",
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "accession": "GSE272133",
+    "label": "processed_rnaseq",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE272nnn/GSE272133/suppl/GSE272133_processed_data_RNASeq.tsv.gz",
+    "local_path": "data_audit\\downloads\\geo_processed\\GSE272133\\GSE272133_processed_data_RNASeq.tsv.gz",
+    "size_bytes": 2362653,
+    "sha256": "574870c46ab039a9c314ed4c41539b6e7e1ad978cb8cbc06acf6183b45eb7906",
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "accession": "GSE294150",
+    "label": "expression_grch38_gene",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE294nnn/GSE294150/suppl/GSE294150_Expression_Profile.GRCh38.gene.txt.gz",
+    "local_path": "data_audit\\downloads\\geo_processed\\GSE294150\\GSE294150_Expression_Profile.GRCh38.gene.txt.gz",
+    "size_bytes": 13069205,
+    "sha256": "f44a38757a5a98ac051663a9dba7c78cf8da878c71ffb21557208e6116459a11",
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "accession": "GSE282850",
+    "label": "vst_counts",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE282nnn/GSE282850/suppl/GSE282850_tovar-nishino_rnaseq_vst_counts.txt.gz",
+    "local_path": "data_audit\\downloads\\geo_processed\\GSE282850\\GSE282850_tovar-nishino_rnaseq_vst_counts.txt.gz",
+    "size_bytes": 1716839,
+    "sha256": "a932170f4c8a1cdbc053e190a1ec31bcf39b2a6aef0c4c17fe8981a76dc1af65",
+    "status": "downloaded",
+    "error": ""
+  },
+  {
+    "accession": "GSE282850",
+    "label": "raw_counts",
+    "url": "https://ftp.ncbi.nlm.nih.gov/geo/series/GSE282nnn/GSE282850/suppl/GSE282850_tovar-nishino_rnaseq_raw_counts.txt.gz",
+    "local_path": "data_audit\\downloads\\geo_processed\\GSE282850\\GSE282850_tovar-nishino_rnaseq_raw_counts.txt.gz",
+    "size_bytes": 473166,
+    "sha256": "f639497119d19ebdfe0024080c791e5e1fd60d5eab9719e6b6fcd63981abc1ae",
+    "status": "downloaded",
+    "error": ""
+  }
+]

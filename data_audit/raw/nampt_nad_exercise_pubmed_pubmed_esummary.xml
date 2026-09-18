@@ -1,0 +1,1841 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE eSummaryResult PUBLIC "-//NLM//DTD esummary v1 20041029//EN" "https://eutils.ncbi.nlm.nih.gov/eutils/dtd/20041029/esummary-v1.dtd">
+<eSummaryResult>
+<DocSum>
+	<Id>28068222</Id>
+	<Item Name="PubDate" Type="Date">2016 Dec 13</Item>
+	<Item Name="EPubDate" Type="Date">2016 Oct 27</Item>
+	<Item Name="Source" Type="String">Cell Metab</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Mills KF</Item>
+		<Item Name="Author" Type="String">Yoshida S</Item>
+		<Item Name="Author" Type="String">Stein LR</Item>
+		<Item Name="Author" Type="String">Grozio A</Item>
+		<Item Name="Author" Type="String">Kubota S</Item>
+		<Item Name="Author" Type="String">Sasaki Y</Item>
+		<Item Name="Author" Type="String">Redpath P</Item>
+		<Item Name="Author" Type="String">Migaud ME</Item>
+		<Item Name="Author" Type="String">Apte RS</Item>
+		<Item Name="Author" Type="String">Uchida K</Item>
+		<Item Name="Author" Type="String">Yoshino J</Item>
+		<Item Name="Author" Type="String">Imai SI</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Imai SI</Item>
+	<Item Name="Title" Type="String">Long-Term Administration of Nicotinamide Mononucleotide Mitigates Age-Associated Physiological Decline in Mice.</Item>
+	<Item Name="Volume" Type="String">24</Item>
+	<Item Name="Issue" Type="String">6</Item>
+	<Item Name="Pages" Type="String">795-806</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">101233170</Item>
+	<Item Name="ISSN" Type="String">1550-4131</Item>
+	<Item Name="ESSN" Type="String">1932-7420</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+		<Item Name="PubType" Type="String">Research Support, N.I.H., Extramural</Item>
+		<Item Name="PubType" Type="String">Research Support, Non-U.S. Gov't</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">28068222</Item>
+		<Item Name="mid" Type="String">NIHMS914373</Item>
+		<Item Name="pmc" Type="String">PMC5668137</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC5668137;manuscript-id: NIHMS914373;</Item>
+		<Item Name="doi" Type="String">10.1016/j.cmet.2016.09.013</Item>
+		<Item Name="pii" Type="String">S1550-4131(16)30495-8</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1016/j.cmet.2016.09.013</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2015/12/04 00:00</Item>
+		<Item Name="revised" Type="Date">2016/07/05 00:00</Item>
+		<Item Name="accepted" Type="Date">2016/09/24 00:00</Item>
+		<Item Name="entrez" Type="Date">2017/01/10 06:00</Item>
+		<Item Name="pubmed" Type="Date">2017/01/10 06:00</Item>
+		<Item Name="medline" Type="Date">2017/06/27 06:00</Item>
+		<Item Name="pmc-release" Type="Date">2017/12/13 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">45</Item>
+	<Item Name="FullJournalName" Type="String">Cell metabolism</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1016/j.cmet.2016.09.013</Item>
+	<Item Name="SO" Type="String">2016 Dec 13;24(6):795-806</Item>
+</DocSum>
+
+<DocSum>
+	<Id>38908209</Id>
+	<Item Name="PubDate" Type="Date">2024 Aug</Item>
+	<Item Name="EPubDate" Type="Date">2024 Jun 21</Item>
+	<Item Name="Source" Type="String">Biomed Pharmacother</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Yang L</Item>
+		<Item Name="Author" Type="String">Liu D</Item>
+		<Item Name="Author" Type="String">Jiang S</Item>
+		<Item Name="Author" Type="String">Li H</Item>
+		<Item Name="Author" Type="String">Chen L</Item>
+		<Item Name="Author" Type="String">Wu Y</Item>
+		<Item Name="Author" Type="String">Essien AE</Item>
+		<Item Name="Author" Type="String">Opoku M</Item>
+		<Item Name="Author" Type="String">Naranmandakh S</Item>
+		<Item Name="Author" Type="String">Liu S</Item>
+		<Item Name="Author" Type="String">Ru Q</Item>
+		<Item Name="Author" Type="String">Li Y</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Li Y</Item>
+	<Item Name="Title" Type="String">SIRT1 signaling pathways in sarcopenia: Novel mechanisms and potential therapeutic targets.</Item>
+	<Item Name="Volume" Type="String">177</Item>
+	<Item Name="Issue" Type="String"></Item>
+	<Item Name="Pages" Type="String">116917</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">8213295</Item>
+	<Item Name="ISSN" Type="String">0753-3322</Item>
+	<Item Name="ESSN" Type="String">1950-6007</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+		<Item Name="PubType" Type="String">Review</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">38908209</Item>
+		<Item Name="doi" Type="String">10.1016/j.biopha.2024.116917</Item>
+		<Item Name="pii" Type="String">S0753-3322(24)00801-1</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1016/j.biopha.2024.116917</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2024/03/26 00:00</Item>
+		<Item Name="revised" Type="Date">2024/05/29 00:00</Item>
+		<Item Name="accepted" Type="Date">2024/06/09 00:00</Item>
+		<Item Name="medline" Type="Date">2024/07/28 14:48</Item>
+		<Item Name="pubmed" Type="Date">2024/06/23 00:42</Item>
+		<Item Name="entrez" Type="Date">2024/06/22 18:06</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">Biomedicine &amp; pharmacotherapy = Biomedecine &amp; pharmacotherapie</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1016/j.biopha.2024.116917</Item>
+	<Item Name="SO" Type="String">2024 Aug;177:116917</Item>
+</DocSum>
+
+<DocSum>
+	<Id>29570999</Id>
+	<Item Name="PubDate" Type="Date">2018 Mar 22</Item>
+	<Item Name="EPubDate" Type="Date"></Item>
+	<Item Name="Source" Type="String">Cell</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Das A</Item>
+		<Item Name="Author" Type="String">Huang GX</Item>
+		<Item Name="Author" Type="String">Bonkowski MS</Item>
+		<Item Name="Author" Type="String">Longchamp A</Item>
+		<Item Name="Author" Type="String">Li C</Item>
+		<Item Name="Author" Type="String">Schultz MB</Item>
+		<Item Name="Author" Type="String">Kim LJ</Item>
+		<Item Name="Author" Type="String">Osborne B</Item>
+		<Item Name="Author" Type="String">Joshi S</Item>
+		<Item Name="Author" Type="String">Lu Y</Item>
+		<Item Name="Author" Type="String">Treviño-Villarreal JH</Item>
+		<Item Name="Author" Type="String">Kang MJ</Item>
+		<Item Name="Author" Type="String">Hung TT</Item>
+		<Item Name="Author" Type="String">Lee B</Item>
+		<Item Name="Author" Type="String">Williams EO</Item>
+		<Item Name="Author" Type="String">Igarashi M</Item>
+		<Item Name="Author" Type="String">Mitchell JR</Item>
+		<Item Name="Author" Type="String">Wu LE</Item>
+		<Item Name="Author" Type="String">Turner N</Item>
+		<Item Name="Author" Type="String">Arany Z</Item>
+		<Item Name="Author" Type="String">Guarente L</Item>
+		<Item Name="Author" Type="String">Sinclair DA</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Sinclair DA</Item>
+	<Item Name="Title" Type="String">Impairment of an Endothelial NAD(+)-H(2)S Signaling Network Is a Reversible Cause of Vascular Aging.</Item>
+	<Item Name="Volume" Type="String">173</Item>
+	<Item Name="Issue" Type="String">1</Item>
+	<Item Name="Pages" Type="String">74-89.e20</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">0413066</Item>
+	<Item Name="ISSN" Type="String">0092-8674</Item>
+	<Item Name="ESSN" Type="String">1097-4172</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+		<Item Name="PubType" Type="String">Research Support, N.I.H., Extramural</Item>
+		<Item Name="PubType" Type="String">Research Support, Non-U.S. Gov't</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">29570999</Item>
+		<Item Name="mid" Type="String">NIHMS952930</Item>
+		<Item Name="pmc" Type="String">PMC5884172</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC5884172;manuscript-id: NIHMS952930;</Item>
+		<Item Name="doi" Type="String">10.1016/j.cell.2018.02.008</Item>
+		<Item Name="pii" Type="String">S0092-8674(18)30152-1</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1016/j.cell.2018.02.008</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2017/10/09 00:00</Item>
+		<Item Name="revised" Type="Date">2017/12/25 00:00</Item>
+		<Item Name="accepted" Type="Date">2018/01/31 00:00</Item>
+		<Item Name="entrez" Type="Date">2018/03/24 06:00</Item>
+		<Item Name="pubmed" Type="Date">2018/03/24 06:00</Item>
+		<Item Name="medline" Type="Date">2019/02/01 06:00</Item>
+		<Item Name="pmc-release" Type="Date">2019/03/22 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List">
+		<Item Name="Comment in" Type="String">Cell. 2018 Mar 22;173(1):8-10. doi: 10.1016/j.cell.2018.03.011. PMID: 29571000</Item>
+		<Item Name="Erratum in" Type="String">Cell. 2019 Feb 7;176(4):944-945. doi: 10.1016/j.cell.2019.01.026. PMID: 30735637</Item>
+	</Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">83</Item>
+	<Item Name="FullJournalName" Type="String">Cell</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1016/j.cell.2018.02.008</Item>
+	<Item Name="SO" Type="String">2018 Mar 22;173(1):74-89.e20</Item>
+</DocSum>
+
+<DocSum>
+	<Id>40311622</Id>
+	<Item Name="PubDate" Type="Date">2025 Jul 1</Item>
+	<Item Name="EPubDate" Type="Date">2025 Apr 30</Item>
+	<Item Name="Source" Type="String">Cell Metab</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Chubanava S</Item>
+		<Item Name="Author" Type="String">Karavaeva I</Item>
+		<Item Name="Author" Type="String">Ehrlich AM</Item>
+		<Item Name="Author" Type="String">Justicia RM</Item>
+		<Item Name="Author" Type="String">Basse AL</Item>
+		<Item Name="Author" Type="String">Kulik I</Item>
+		<Item Name="Author" Type="String">Dalbram E</Item>
+		<Item Name="Author" Type="String">Ahwazi D</Item>
+		<Item Name="Author" Type="String">Heaselgrave SR</Item>
+		<Item Name="Author" Type="String">Trošt K</Item>
+		<Item Name="Author" Type="String">Stocks B</Item>
+		<Item Name="Author" Type="String">Hodek O</Item>
+		<Item Name="Author" Type="String">Rodrigues RN</Item>
+		<Item Name="Author" Type="String">Havelund JF</Item>
+		<Item Name="Author" Type="String">Schlabs FL</Item>
+		<Item Name="Author" Type="String">Larsen S</Item>
+		<Item Name="Author" Type="String">Yonamine CY</Item>
+		<Item Name="Author" Type="String">Henriquez-Olguín C</Item>
+		<Item Name="Author" Type="String">Giustarini D</Item>
+		<Item Name="Author" Type="String">Rossi R</Item>
+		<Item Name="Author" Type="String">Gerhart-Hines Z</Item>
+		<Item Name="Author" Type="String">Moritz T</Item>
+		<Item Name="Author" Type="String">Zierath JR</Item>
+		<Item Name="Author" Type="String">Sakamoto K</Item>
+		<Item Name="Author" Type="String">Jensen TE</Item>
+		<Item Name="Author" Type="String">Færgeman NJ</Item>
+		<Item Name="Author" Type="String">Lavery GG</Item>
+		<Item Name="Author" Type="String">Deshmukh AS</Item>
+		<Item Name="Author" Type="String">Treebak JT</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Treebak JT</Item>
+	<Item Name="Title" Type="String">NAD depletion in skeletal muscle does not compromise muscle function or accelerate aging.</Item>
+	<Item Name="Volume" Type="String">37</Item>
+	<Item Name="Issue" Type="String">7</Item>
+	<Item Name="Pages" Type="String">1460-1481.e17</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">101233170</Item>
+	<Item Name="ISSN" Type="String">1550-4131</Item>
+	<Item Name="ESSN" Type="String">1932-7420</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">40311622</Item>
+		<Item Name="doi" Type="String">10.1016/j.cmet.2025.04.002</Item>
+		<Item Name="pii" Type="String">S1550-4131(25)00212-8</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1016/j.cmet.2025.04.002</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2024/10/08 00:00</Item>
+		<Item Name="revised" Type="Date">2025/02/27 00:00</Item>
+		<Item Name="accepted" Type="Date">2025/04/08 00:00</Item>
+		<Item Name="medline" Type="Date">2025/07/03 00:27</Item>
+		<Item Name="pubmed" Type="Date">2025/05/02 00:27</Item>
+		<Item Name="entrez" Type="Date">2025/05/01 18:42</Item>
+	</Item>
+	<Item Name="References" Type="List">
+		<Item Name="Erratum in" Type="String">Cell Metab. 2025 Dec 2;37(12):2468. doi: 10.1016/j.cmet.2025.10.020. PMID: 41197628</Item>
+	</Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">Cell metabolism</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1016/j.cmet.2025.04.002</Item>
+	<Item Name="SO" Type="String">2025 Jul 1;37(7):1460-1481.e17</Item>
+</DocSum>
+
+<DocSum>
+	<Id>19262508</Id>
+	<Item Name="PubDate" Type="Date">2009 Apr 23</Item>
+	<Item Name="EPubDate" Type="Date"></Item>
+	<Item Name="Source" Type="String">Nature</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Cantó C</Item>
+		<Item Name="Author" Type="String">Gerhart-Hines Z</Item>
+		<Item Name="Author" Type="String">Feige JN</Item>
+		<Item Name="Author" Type="String">Lagouge M</Item>
+		<Item Name="Author" Type="String">Noriega L</Item>
+		<Item Name="Author" Type="String">Milne JC</Item>
+		<Item Name="Author" Type="String">Elliott PJ</Item>
+		<Item Name="Author" Type="String">Puigserver P</Item>
+		<Item Name="Author" Type="String">Auwerx J</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Auwerx J</Item>
+	<Item Name="Title" Type="String">AMPK regulates energy expenditure by modulating NAD+ metabolism and SIRT1 activity.</Item>
+	<Item Name="Volume" Type="String">458</Item>
+	<Item Name="Issue" Type="String">7241</Item>
+	<Item Name="Pages" Type="String">1056-60</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">0410462</Item>
+	<Item Name="ISSN" Type="String">0028-0836</Item>
+	<Item Name="ESSN" Type="String">1476-4687</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+		<Item Name="PubType" Type="String">Research Support, N.I.H., Extramural</Item>
+		<Item Name="PubType" Type="String">Research Support, Non-U.S. Gov't</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">19262508</Item>
+		<Item Name="mid" Type="String">EMS52526</Item>
+		<Item Name="pmc" Type="String">PMC3616311</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC3616311;manuscript-id: EMS52526;</Item>
+		<Item Name="doi" Type="String">10.1038/nature07813</Item>
+		<Item Name="pii" Type="String">nature07813</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1038/nature07813</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2008/10/22 00:00</Item>
+		<Item Name="accepted" Type="Date">2009/01/22 00:00</Item>
+		<Item Name="entrez" Type="Date">2009/03/06 09:00</Item>
+		<Item Name="pubmed" Type="Date">2009/03/06 09:00</Item>
+		<Item Name="medline" Type="Date">2009/06/11 09:00</Item>
+		<Item Name="pmc-release" Type="Date">2013/04/04 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">39</Item>
+	<Item Name="FullJournalName" Type="String">Nature</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1038/nature07813</Item>
+	<Item Name="SO" Type="String">2009 Apr 23;458(7241):1056-60</Item>
+</DocSum>
+
+<DocSum>
+	<Id>40349105</Id>
+	<Item Name="PubDate" Type="Date">2025 Jul 2</Item>
+	<Item Name="EPubDate" Type="Date">2025 May 9</Item>
+	<Item Name="Source" Type="String">Mol Ther</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Yao W</Item>
+		<Item Name="Author" Type="String">Liu M</Item>
+		<Item Name="Author" Type="String">Li Z</Item>
+		<Item Name="Author" Type="String">Qu L</Item>
+		<Item Name="Author" Type="String">Sui S</Item>
+		<Item Name="Author" Type="String">Xiang C</Item>
+		<Item Name="Author" Type="String">Jiang L</Item>
+		<Item Name="Author" Type="String">Wang S</Item>
+		<Item Name="Author" Type="String">Liu G</Item>
+		<Item Name="Author" Type="String">Chen Y</Item>
+		<Item Name="Author" Type="String">Yang L</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Yang L</Item>
+	<Item Name="Title" Type="String">CD38(hi) macrophages promote fibrotic transition following acute kidney injury by modulating NAD(+) metabolism.</Item>
+	<Item Name="Volume" Type="String">33</Item>
+	<Item Name="Issue" Type="String">7</Item>
+	<Item Name="Pages" Type="String">3434-3452</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">100890581</Item>
+	<Item Name="ISSN" Type="String">1525-0016</Item>
+	<Item Name="ESSN" Type="String">1525-0024</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">40349105</Item>
+		<Item Name="pmc" Type="String">PMC12266028</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC12266028;embargo-date: 2026/07/02;</Item>
+		<Item Name="doi" Type="String">10.1016/j.ymthe.2025.04.039</Item>
+		<Item Name="pii" Type="String">S1525-0016(25)00318-1</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1016/j.ymthe.2025.04.039</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2025/02/24 00:00</Item>
+		<Item Name="revised" Type="Date">2025/04/05 00:00</Item>
+		<Item Name="accepted" Type="Date">2025/04/25 00:00</Item>
+		<Item Name="pmc-release" Type="Date">2026/07/02 00:00</Item>
+		<Item Name="medline" Type="Date">2025/07/04 00:28</Item>
+		<Item Name="pubmed" Type="Date">2025/05/11 18:58</Item>
+		<Item Name="entrez" Type="Date">2025/05/11 01:36</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">63</Item>
+	<Item Name="FullJournalName" Type="String">Molecular therapy : the journal of the American Society of Gene Therapy</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1016/j.ymthe.2025.04.039</Item>
+	<Item Name="SO" Type="String">2025 Jul 2;33(7):3434-3452</Item>
+</DocSum>
+
+<DocSum>
+	<Id>35815363</Id>
+	<Item Name="PubDate" Type="Date">2023 Aug 1</Item>
+	<Item Name="EPubDate" Type="Date">2022 Jul 30</Item>
+	<Item Name="Source" Type="String">Hepatology</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Guo X</Item>
+		<Item Name="Author" Type="String">Tan S</Item>
+		<Item Name="Author" Type="String">Wang T</Item>
+		<Item Name="Author" Type="String">Sun R</Item>
+		<Item Name="Author" Type="String">Li S</Item>
+		<Item Name="Author" Type="String">Tian P</Item>
+		<Item Name="Author" Type="String">Li M</Item>
+		<Item Name="Author" Type="String">Wang Y</Item>
+		<Item Name="Author" Type="String">Zhang Y</Item>
+		<Item Name="Author" Type="String">Yan Y</Item>
+		<Item Name="Author" Type="String">Dong Z</Item>
+		<Item Name="Author" Type="String">Yan L</Item>
+		<Item Name="Author" Type="String">Yue X</Item>
+		<Item Name="Author" Type="String">Wu Z</Item>
+		<Item Name="Author" Type="String">Li C</Item>
+		<Item Name="Author" Type="String">Yamagata K</Item>
+		<Item Name="Author" Type="String">Gao L</Item>
+		<Item Name="Author" Type="String">Ma C</Item>
+		<Item Name="Author" Type="String">Li T</Item>
+		<Item Name="Author" Type="String">Liang X</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Liang X</Item>
+	<Item Name="Title" Type="String">NAD + salvage governs mitochondrial metabolism, invigorating natural killer cell antitumor immunity.</Item>
+	<Item Name="Volume" Type="String">78</Item>
+	<Item Name="Issue" Type="String">2</Item>
+	<Item Name="Pages" Type="String">468-485</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">8302946</Item>
+	<Item Name="ISSN" Type="String">0270-9139</Item>
+	<Item Name="ESSN" Type="String">1527-3350</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+		<Item Name="PubType" Type="String">Research Support, Non-U.S. Gov't</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">35815363</Item>
+		<Item Name="doi" Type="String">10.1002/hep.32658</Item>
+		<Item Name="pii" Type="String">01515467-202308000-00013</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1002/hep.32658</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2022/02/20 00:00</Item>
+		<Item Name="accepted" Type="Date">2022/07/06 00:00</Item>
+		<Item Name="medline" Type="Date">2023/07/19 06:42</Item>
+		<Item Name="pubmed" Type="Date">2022/07/12 06:00</Item>
+		<Item Name="entrez" Type="Date">2022/07/11 04:32</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">Hepatology (Baltimore, Md.)</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1002/hep.32658</Item>
+	<Item Name="SO" Type="String">2023 Aug 1;78(2):468-485</Item>
+</DocSum>
+
+<DocSum>
+	<Id>29719225</Id>
+	<Item Name="PubDate" Type="Date">2018 May 1</Item>
+	<Item Name="EPubDate" Type="Date"></Item>
+	<Item Name="Source" Type="String">Cell Metab</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Tarragó MG</Item>
+		<Item Name="Author" Type="String">Chini CCS</Item>
+		<Item Name="Author" Type="String">Kanamori KS</Item>
+		<Item Name="Author" Type="String">Warner GM</Item>
+		<Item Name="Author" Type="String">Caride A</Item>
+		<Item Name="Author" Type="String">de Oliveira GC</Item>
+		<Item Name="Author" Type="String">Rud M</Item>
+		<Item Name="Author" Type="String">Samani A</Item>
+		<Item Name="Author" Type="String">Hein KZ</Item>
+		<Item Name="Author" Type="String">Huang R</Item>
+		<Item Name="Author" Type="String">Jurk D</Item>
+		<Item Name="Author" Type="String">Cho DS</Item>
+		<Item Name="Author" Type="String">Boslett JJ</Item>
+		<Item Name="Author" Type="String">Miller JD</Item>
+		<Item Name="Author" Type="String">Zweier JL</Item>
+		<Item Name="Author" Type="String">Passos JF</Item>
+		<Item Name="Author" Type="String">Doles JD</Item>
+		<Item Name="Author" Type="String">Becherer DJ</Item>
+		<Item Name="Author" Type="String">Chini EN</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Chini EN</Item>
+	<Item Name="Title" Type="String">A Potent and Specific CD38 Inhibitor Ameliorates Age-Related Metabolic Dysfunction by Reversing Tissue NAD(+) Decline.</Item>
+	<Item Name="Volume" Type="String">27</Item>
+	<Item Name="Issue" Type="String">5</Item>
+	<Item Name="Pages" Type="String">1081-1095.e10</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">101233170</Item>
+	<Item Name="ISSN" Type="String">1550-4131</Item>
+	<Item Name="ESSN" Type="String">1932-7420</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">29719225</Item>
+		<Item Name="mid" Type="String">NIHMS957145</Item>
+		<Item Name="pmc" Type="String">PMC5935140</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC5935140;manuscript-id: NIHMS957145;</Item>
+		<Item Name="doi" Type="String">10.1016/j.cmet.2018.03.016</Item>
+		<Item Name="pii" Type="String">S1550-4131(18)30194-3</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1016/j.cmet.2018.03.016</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2017/04/27 00:00</Item>
+		<Item Name="revised" Type="Date">2018/01/10 00:00</Item>
+		<Item Name="accepted" Type="Date">2018/02/24 00:00</Item>
+		<Item Name="entrez" Type="Date">2018/05/03 06:00</Item>
+		<Item Name="pubmed" Type="Date">2018/05/03 06:00</Item>
+		<Item Name="medline" Type="Date">2019/09/29 06:00</Item>
+		<Item Name="pmc-release" Type="Date">2019/05/01 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">62</Item>
+	<Item Name="FullJournalName" Type="String">Cell metabolism</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1016/j.cmet.2018.03.016</Item>
+	<Item Name="SO" Type="String">2018 May 1;27(5):1081-1095.e10</Item>
+</DocSum>
+
+<DocSum>
+	<Id>40169574</Id>
+	<Item Name="PubDate" Type="Date">2025 Apr 1</Item>
+	<Item Name="EPubDate" Type="Date">2025 Apr 1</Item>
+	<Item Name="Source" Type="String">Nat Commun</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Zhu JY</Item>
+		<Item Name="Author" Type="String">Chen M</Item>
+		<Item Name="Author" Type="String">Mu WJ</Item>
+		<Item Name="Author" Type="String">Luo HY</Item>
+		<Item Name="Author" Type="String">Li Y</Item>
+		<Item Name="Author" Type="String">Li S</Item>
+		<Item Name="Author" Type="String">Yan LJ</Item>
+		<Item Name="Author" Type="String">Li RY</Item>
+		<Item Name="Author" Type="String">Yin MT</Item>
+		<Item Name="Author" Type="String">Li X</Item>
+		<Item Name="Author" Type="String">Chen HM</Item>
+		<Item Name="Author" Type="String">Guo L</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Guo L</Item>
+	<Item Name="Title" Type="String">Exercise-induced anti-obesity effects in male mice generated by a FOXO1-KLF10 reinforcing loop promoting adipose lipolysis.</Item>
+	<Item Name="Volume" Type="String">16</Item>
+	<Item Name="Issue" Type="String">1</Item>
+	<Item Name="Pages" Type="String">3111</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">101528555</Item>
+	<Item Name="ISSN" Type="String"></Item>
+	<Item Name="ESSN" Type="String">2041-1723</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">40169574</Item>
+		<Item Name="pmc" Type="String">PMC11961606</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC11961606;</Item>
+		<Item Name="doi" Type="String">10.1038/s41467-025-58467-1</Item>
+		<Item Name="pii" Type="String">10.1038/s41467-025-58467-1</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1038/s41467-025-58467-1</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2024/04/02 00:00</Item>
+		<Item Name="accepted" Type="Date">2025/03/21 00:00</Item>
+		<Item Name="medline" Type="Date">2025/04/02 00:26</Item>
+		<Item Name="pubmed" Type="Date">2025/04/02 00:25</Item>
+		<Item Name="entrez" Type="Date">2025/04/01 23:25</Item>
+		<Item Name="pmc-release" Type="Date">2025/04/01 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">70</Item>
+	<Item Name="FullJournalName" Type="String">Nature communications</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1038/s41467-025-58467-1</Item>
+	<Item Name="SO" Type="String">2025 Apr 1;16(1):3111</Item>
+</DocSum>
+
+<DocSum>
+	<Id>40835003</Id>
+	<Item Name="PubDate" Type="Date">2026 May</Item>
+	<Item Name="EPubDate" Type="Date">2025 Aug 18</Item>
+	<Item Name="Source" Type="String">J Adv Res</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Wang C</Item>
+		<Item Name="Author" Type="String">Chen WG</Item>
+		<Item Name="Author" Type="String">Chen H</Item>
+		<Item Name="Author" Type="String">Zhao J</Item>
+		<Item Name="Author" Type="String">He J</Item>
+		<Item Name="Author" Type="String">Hu Y</Item>
+		<Item Name="Author" Type="String">He M</Item>
+		<Item Name="Author" Type="String">Zhang Y</Item>
+		<Item Name="Author" Type="String">Lin CS</Item>
+		<Item Name="Author" Type="String">Chang J</Item>
+		<Item Name="Author" Type="String">Liu X</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Liu X</Item>
+	<Item Name="Title" Type="String">Exercise improves hypobaric hypoxia-induced skeletal muscle dysfunction via Sirt1-Mediated myotube and mitochondrial remodeling.</Item>
+	<Item Name="Volume" Type="String">83</Item>
+	<Item Name="Issue" Type="String"></Item>
+	<Item Name="Pages" Type="String">423-437</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">101546952</Item>
+	<Item Name="ISSN" Type="String">2090-1232</Item>
+	<Item Name="ESSN" Type="String">2090-1224</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">40835003</Item>
+		<Item Name="pmc" Type="String">PMC13131521</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC13131521;</Item>
+		<Item Name="doi" Type="String">10.1016/j.jare.2025.08.022</Item>
+		<Item Name="pii" Type="String">S2090-1232(25)00636-8</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1016/j.jare.2025.08.022</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2025/04/19 00:00</Item>
+		<Item Name="revised" Type="Date">2025/07/11 00:00</Item>
+		<Item Name="accepted" Type="Date">2025/08/16 00:00</Item>
+		<Item Name="medline" Type="Date">2026/04/25 00:34</Item>
+		<Item Name="pubmed" Type="Date">2025/08/21 00:29</Item>
+		<Item Name="entrez" Type="Date">2025/08/20 19:32</Item>
+		<Item Name="pmc-release" Type="Date">2025/08/18 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">56</Item>
+	<Item Name="FullJournalName" Type="String">Journal of advanced research</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1016/j.jare.2025.08.022</Item>
+	<Item Name="SO" Type="String">2026 May;83:423-437</Item>
+</DocSum>
+
+<DocSum>
+	<Id>30692222</Id>
+	<Item Name="PubDate" Type="Date">2019 Mar 27</Item>
+	<Item Name="EPubDate" Type="Date">2019 Jan 28</Item>
+	<Item Name="Source" Type="String">J Neurosci</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">El Hayek L</Item>
+		<Item Name="Author" Type="String">Khalifeh M</Item>
+		<Item Name="Author" Type="String">Zibara V</Item>
+		<Item Name="Author" Type="String">Abi Assaad R</Item>
+		<Item Name="Author" Type="String">Emmanuel N</Item>
+		<Item Name="Author" Type="String">Karnib N</Item>
+		<Item Name="Author" Type="String">El-Ghandour R</Item>
+		<Item Name="Author" Type="String">Nasrallah P</Item>
+		<Item Name="Author" Type="String">Bilen M</Item>
+		<Item Name="Author" Type="String">Ibrahim P</Item>
+		<Item Name="Author" Type="String">Younes J</Item>
+		<Item Name="Author" Type="String">Abou Haidar E</Item>
+		<Item Name="Author" Type="String">Barmo N</Item>
+		<Item Name="Author" Type="String">Jabre V</Item>
+		<Item Name="Author" Type="String">Stephan JS</Item>
+		<Item Name="Author" Type="String">Sleiman SF</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Sleiman SF</Item>
+	<Item Name="Title" Type="String">Lactate Mediates the Effects of Exercise on Learning and Memory through SIRT1-Dependent Activation of Hippocampal Brain-Derived Neurotrophic Factor (BDNF).</Item>
+	<Item Name="Volume" Type="String">39</Item>
+	<Item Name="Issue" Type="String">13</Item>
+	<Item Name="Pages" Type="String">2369-2382</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">8102140</Item>
+	<Item Name="ISSN" Type="String">0270-6474</Item>
+	<Item Name="ESSN" Type="String">1529-2401</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+		<Item Name="PubType" Type="String">Research Support, Non-U.S. Gov't</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">30692222</Item>
+		<Item Name="pmc" Type="String">PMC6435829</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC6435829;</Item>
+		<Item Name="doi" Type="String">10.1523/JNEUROSCI.1661-18.2019</Item>
+		<Item Name="pii" Type="String">JNEUROSCI.1661-18.2019</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1523/JNEUROSCI.1661-18.2019</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2018/07/02 00:00</Item>
+		<Item Name="revised" Type="Date">2018/12/14 00:00</Item>
+		<Item Name="accepted" Type="Date">2019/01/13 00:00</Item>
+		<Item Name="pubmed" Type="Date">2019/01/30 06:00</Item>
+		<Item Name="medline" Type="Date">2020/03/19 06:00</Item>
+		<Item Name="entrez" Type="Date">2019/01/30 06:00</Item>
+		<Item Name="pmc-release" Type="Date">2019/09/27 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">79</Item>
+	<Item Name="FullJournalName" Type="String">The Journal of neuroscience : the official journal of the Society for Neuroscience</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1523/JNEUROSCI.1661-18.2019</Item>
+	<Item Name="SO" Type="String">2019 Mar 27;39(13):2369-2382</Item>
+</DocSum>
+
+<DocSum>
+	<Id>23021039</Id>
+	<Item Name="PubDate" Type="Date">2012 Dec</Item>
+	<Item Name="EPubDate" Type="Date">2012 Sep 26</Item>
+	<Item Name="Source" Type="String">Metabolism</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Sahin-Efe A</Item>
+		<Item Name="Author" Type="String">Katsikeris F</Item>
+		<Item Name="Author" Type="String">Mantzoros CS</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Mantzoros CS</Item>
+	<Item Name="Title" Type="String">Advances in adipokines.</Item>
+	<Item Name="Volume" Type="String">61</Item>
+	<Item Name="Issue" Type="String">12</Item>
+	<Item Name="Pages" Type="String">1659-65</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">0375267</Item>
+	<Item Name="ISSN" Type="String">0026-0495</Item>
+	<Item Name="ESSN" Type="String">1532-8600</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Editorial</Item>
+		<Item Name="PubType" Type="String">Research Support, N.I.H., Extramural</Item>
+		<Item Name="PubType" Type="String">Research Support, U.S. Gov't, Non-P.H.S.</Item>
+		<Item Name="PubType" Type="String">Review</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">23021039</Item>
+		<Item Name="doi" Type="String">10.1016/j.metabol.2012.09.001</Item>
+		<Item Name="pii" Type="String">S0026-0495(12)00331-9</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1016/j.metabol.2012.09.001</Item>
+	<Item Name="History" Type="List">
+		<Item Name="entrez" Type="Date">2012/10/02 06:00</Item>
+		<Item Name="pubmed" Type="Date">2012/10/02 06:00</Item>
+		<Item Name="medline" Type="Date">2013/01/24 06:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">0</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">Metabolism: clinical and experimental</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1016/j.metabol.2012.09.001</Item>
+	<Item Name="SO" Type="String">2012 Dec;61(12):1659-65</Item>
+</DocSum>
+
+<DocSum>
+	<Id>40763272</Id>
+	<Item Name="PubDate" Type="Date">2026 Jan 13</Item>
+	<Item Name="EPubDate" Type="Date"></Item>
+	<Item Name="Source" Type="String">Blood Adv</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Tsykunova G</Item>
+		<Item Name="Author" Type="String">Holme PA</Item>
+		<Item Name="Author" Type="String">Tran HTT</Item>
+		<Item Name="Author" Type="String">Frederiksen H</Item>
+		<Item Name="Author" Type="String">Tjønnfjord E</Item>
+		<Item Name="Author" Type="String">Munthe LA</Item>
+		<Item Name="Author" Type="String">Drivet E</Item>
+		<Item Name="Author" Type="String">Kared H</Item>
+		<Item Name="Author" Type="String">Sørvoll IH</Item>
+		<Item Name="Author" Type="String">Ahlen MT</Item>
+		<Item Name="Author" Type="String">Mahévas M</Item>
+		<Item Name="Author" Type="String">Michel M</Item>
+		<Item Name="Author" Type="String">Bussel J</Item>
+		<Item Name="Author" Type="String">Kuter DJ</Item>
+		<Item Name="Author" Type="String">Anderson Tvedt TH</Item>
+		<Item Name="Author" Type="String">Ghanima W</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Ghanima W</Item>
+	<Item Name="Title" Type="String">Safety and efficacy of daratumumab in immune thrombocytopenia.</Item>
+	<Item Name="Volume" Type="String">10</Item>
+	<Item Name="Issue" Type="String">1</Item>
+	<Item Name="Pages" Type="String">143-154</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">101698425</Item>
+	<Item Name="ISSN" Type="String">2473-9529</Item>
+	<Item Name="ESSN" Type="String">2473-9537</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+		<Item Name="PubType" Type="String">Multicenter Study</Item>
+		<Item Name="PubType" Type="String">Clinical Trial, Phase II</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">40763272</Item>
+		<Item Name="pmc" Type="String">PMC12804108</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC12804108;</Item>
+		<Item Name="doi" Type="String">10.1182/bloodadvances.2025017279</Item>
+		<Item Name="pii" Type="String">546496</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1182/bloodadvances.2025017279</Item>
+	<Item Name="History" Type="List">
+		<Item Name="accepted" Type="Date">2025/07/02 00:00</Item>
+		<Item Name="received" Type="Date">2025/05/28 00:00</Item>
+		<Item Name="medline" Type="Date">2025/12/31 12:55</Item>
+		<Item Name="pubmed" Type="Date">2025/08/05 18:28</Item>
+		<Item Name="entrez" Type="Date">2025/08/05 15:13</Item>
+		<Item Name="pmc-release" Type="Date">2025/08/07 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">30</Item>
+	<Item Name="FullJournalName" Type="String">Blood advances</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1182/bloodadvances.2025017279</Item>
+	<Item Name="SO" Type="String">2026 Jan 13;10(1):143-154</Item>
+</DocSum>
+
+<DocSum>
+	<Id>32320732</Id>
+	<Item Name="PubDate" Type="Date">2020 Jun</Item>
+	<Item Name="EPubDate" Type="Date">2020 Apr 19</Item>
+	<Item Name="Source" Type="String">Mech Ageing Dev</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Pardo PS</Item>
+		<Item Name="Author" Type="String">Boriek AM</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Boriek AM</Item>
+	<Item Name="Title" Type="String">SIRT1 Regulation in Ageing and Obesity.</Item>
+	<Item Name="Volume" Type="String">188</Item>
+	<Item Name="Issue" Type="String"></Item>
+	<Item Name="Pages" Type="String">111249</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">0347227</Item>
+	<Item Name="ISSN" Type="String">0047-6374</Item>
+	<Item Name="ESSN" Type="String">1872-6216</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+		<Item Name="PubType" Type="String">Research Support, U.S. Gov't, Non-P.H.S.</Item>
+		<Item Name="PubType" Type="String">Review</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">32320732</Item>
+		<Item Name="doi" Type="String">10.1016/j.mad.2020.111249</Item>
+		<Item Name="pii" Type="String">S0047-6374(20)30045-2</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1016/j.mad.2020.111249</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2019/08/10 00:00</Item>
+		<Item Name="revised" Type="Date">2020/03/12 00:00</Item>
+		<Item Name="accepted" Type="Date">2020/04/05 00:00</Item>
+		<Item Name="pubmed" Type="Date">2020/04/23 06:00</Item>
+		<Item Name="medline" Type="Date">2021/09/28 06:00</Item>
+		<Item Name="entrez" Type="Date">2020/04/23 06:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">Mechanisms of ageing and development</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1016/j.mad.2020.111249</Item>
+	<Item Name="SO" Type="String">2020 Jun;188:111249</Item>
+</DocSum>
+
+<DocSum>
+	<Id>40215896</Id>
+	<Item Name="PubDate" Type="Date">2025 May</Item>
+	<Item Name="EPubDate" Type="Date">2025 Apr 3</Item>
+	<Item Name="Source" Type="String">Atherosclerosis</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Wang YJ</Item>
+		<Item Name="Author" Type="String">Gaul DS</Item>
+		<Item Name="Author" Type="String">Gorica E</Item>
+		<Item Name="Author" Type="String">Pahla J</Item>
+		<Item Name="Author" Type="String">Wang Z</Item>
+		<Item Name="Author" Type="String">Mohammed SA</Item>
+		<Item Name="Author" Type="String">Dahlby T</Item>
+		<Item Name="Author" Type="String">Dietrich E</Item>
+		<Item Name="Author" Type="String">Osto E</Item>
+		<Item Name="Author" Type="String">Gariani K</Item>
+		<Item Name="Author" Type="String">Costantino S</Item>
+		<Item Name="Author" Type="String">Winnik S</Item>
+		<Item Name="Author" Type="String">Stein S</Item>
+		<Item Name="Author" Type="String">Hazen SL</Item>
+		<Item Name="Author" Type="String">Ruschitzka F</Item>
+		<Item Name="Author" Type="String">Auwerx J</Item>
+		<Item Name="Author" Type="String">Matter CM</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Matter CM</Item>
+	<Item Name="Title" Type="String">NAD(+) boosting increases atherosclerotic plaques and inflammation in Apoe knockout mice.</Item>
+	<Item Name="Volume" Type="String">404</Item>
+	<Item Name="Issue" Type="String"></Item>
+	<Item Name="Pages" Type="String">119188</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">0242543</Item>
+	<Item Name="ISSN" Type="String">0021-9150</Item>
+	<Item Name="ESSN" Type="String">1879-1484</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+		<Item Name="PubType" Type="String">Research Support, N.I.H., Extramural</Item>
+		<Item Name="PubType" Type="String">Research Support, Non-U.S. Gov't</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">40215896</Item>
+		<Item Name="mid" Type="String">NIHMS2112546</Item>
+		<Item Name="pmc" Type="String">PMC12512467</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC12512467;manuscript-id: NIHMS2112546;</Item>
+		<Item Name="doi" Type="String">10.1016/j.atherosclerosis.2025.119188</Item>
+		<Item Name="pii" Type="String">S0021-9150(25)00086-3</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1016/j.atherosclerosis.2025.119188</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2024/09/09 00:00</Item>
+		<Item Name="revised" Type="Date">2025/03/07 00:00</Item>
+		<Item Name="accepted" Type="Date">2025/04/02 00:00</Item>
+		<Item Name="medline" Type="Date">2025/04/27 06:28</Item>
+		<Item Name="pubmed" Type="Date">2025/04/12 00:42</Item>
+		<Item Name="entrez" Type="Date">2025/04/11 18:09</Item>
+		<Item Name="pmc-release" Type="Date">2026/04/03 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">37</Item>
+	<Item Name="FullJournalName" Type="String">Atherosclerosis</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1016/j.atherosclerosis.2025.119188</Item>
+	<Item Name="SO" Type="String">2025 May;404:119188</Item>
+</DocSum>
+
+<DocSum>
+	<Id>27798264</Id>
+	<Item Name="PubDate" Type="Date">2016 Oct 19</Item>
+	<Item Name="EPubDate" Type="Date"></Item>
+	<Item Name="Source" Type="String">Sci Transl Med</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Ryu D</Item>
+		<Item Name="Author" Type="String">Zhang H</Item>
+		<Item Name="Author" Type="String">Ropelle ER</Item>
+		<Item Name="Author" Type="String">Sorrentino V</Item>
+		<Item Name="Author" Type="String">Mázala DA</Item>
+		<Item Name="Author" Type="String">Mouchiroud L</Item>
+		<Item Name="Author" Type="String">Marshall PL</Item>
+		<Item Name="Author" Type="String">Campbell MD</Item>
+		<Item Name="Author" Type="String">Ali AS</Item>
+		<Item Name="Author" Type="String">Knowels GM</Item>
+		<Item Name="Author" Type="String">Bellemin S</Item>
+		<Item Name="Author" Type="String">Iyer SR</Item>
+		<Item Name="Author" Type="String">Wang X</Item>
+		<Item Name="Author" Type="String">Gariani K</Item>
+		<Item Name="Author" Type="String">Sauve AA</Item>
+		<Item Name="Author" Type="String">Cantó C</Item>
+		<Item Name="Author" Type="String">Conley KE</Item>
+		<Item Name="Author" Type="String">Walter L</Item>
+		<Item Name="Author" Type="String">Lovering RM</Item>
+		<Item Name="Author" Type="String">Chin ER</Item>
+		<Item Name="Author" Type="String">Jasmin BJ</Item>
+		<Item Name="Author" Type="String">Marcinek DJ</Item>
+		<Item Name="Author" Type="String">Menzies KJ</Item>
+		<Item Name="Author" Type="String">Auwerx J</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Auwerx J</Item>
+	<Item Name="Title" Type="String">NAD+ repletion improves muscle function in muscular dystrophy and counters global PARylation.</Item>
+	<Item Name="Volume" Type="String">8</Item>
+	<Item Name="Issue" Type="String">361</Item>
+	<Item Name="Pages" Type="String">361ra139</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">101505086</Item>
+	<Item Name="ISSN" Type="String">1946-6234</Item>
+	<Item Name="ESSN" Type="String">1946-6242</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+		<Item Name="PubType" Type="String">Research Support, N.I.H., Extramural</Item>
+		<Item Name="PubType" Type="String">Research Support, Non-U.S. Gov't</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">27798264</Item>
+		<Item Name="mid" Type="String">NIHMS873041</Item>
+		<Item Name="pmc" Type="String">PMC5535761</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC5535761;manuscript-id: NIHMS873041;</Item>
+		<Item Name="doi" Type="String">10.1126/scitranslmed.aaf5504</Item>
+		<Item Name="pii" Type="String">8/361/361ra139</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1126/scitranslmed.aaf5504</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2016/02/26 00:00</Item>
+		<Item Name="accepted" Type="Date">2016/09/12 00:00</Item>
+		<Item Name="pubmed" Type="Date">2016/11/01 06:00</Item>
+		<Item Name="medline" Type="Date">2017/12/20 06:00</Item>
+		<Item Name="entrez" Type="Date">2016/11/01 06:00</Item>
+		<Item Name="pmc-release" Type="Date">2017/10/19 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">60</Item>
+	<Item Name="FullJournalName" Type="String">Science translational medicine</Item>
+	<Item Name="ELocationID" Type="String"></Item>
+	<Item Name="SO" Type="String">2016 Oct 19;8(361):361ra139</Item>
+</DocSum>
+
+<DocSum>
+	<Id>40505662</Id>
+	<Item Name="PubDate" Type="Date">2025 Jun 19</Item>
+	<Item Name="EPubDate" Type="Date">2025 Jun 11</Item>
+	<Item Name="Source" Type="String">Mol Cell</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Zu Y</Item>
+		<Item Name="Author" Type="String">Wu C</Item>
+		<Item Name="Author" Type="String">Li F</Item>
+		<Item Name="Author" Type="String">Yao H</Item>
+		<Item Name="Author" Type="String">Xia Y</Item>
+		<Item Name="Author" Type="String">Zhang R</Item>
+		<Item Name="Author" Type="String">Li L</Item>
+		<Item Name="Author" Type="String">Chen S</Item>
+		<Item Name="Author" Type="String">Shi Q</Item>
+		<Item Name="Author" Type="String">Xi S</Item>
+		<Item Name="Author" Type="String">Pang H</Item>
+		<Item Name="Author" Type="String">Liu M</Item>
+		<Item Name="Author" Type="String">Wang L</Item>
+		<Item Name="Author" Type="String">Terpack S</Item>
+		<Item Name="Author" Type="String">Wang W</Item>
+		<Item Name="Author" Type="String">Chen S</Item>
+		<Item Name="Author" Type="String">Zhang H</Item>
+		<Item Name="Author" Type="String">Wang Y</Item>
+		<Item Name="Author" Type="String">Yang M</Item>
+		<Item Name="Author" Type="String">Huang S</Item>
+		<Item Name="Author" Type="String">Zhou F</Item>
+		<Item Name="Author" Type="String">Tang Y</Item>
+		<Item Name="Author" Type="String">Hu Z</Item>
+		<Item Name="Author" Type="String">Fan S</Item>
+		<Item Name="Author" Type="String">Tang Y</Item>
+		<Item Name="Author" Type="String">Lee YS</Item>
+		<Item Name="Author" Type="String">Wang G</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Wang G</Item>
+	<Item Name="Title" Type="String">The NAMPT enzyme employs a switch that directly senses AMP/ATP and regulates cellular responses to energy stress.</Item>
+	<Item Name="Volume" Type="String">85</Item>
+	<Item Name="Issue" Type="String">12</Item>
+	<Item Name="Pages" Type="String">2271-2286.e6</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">9802571</Item>
+	<Item Name="ISSN" Type="String">1097-2765</Item>
+	<Item Name="ESSN" Type="String">1097-4164</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">40505662</Item>
+		<Item Name="doi" Type="String">10.1016/j.molcel.2025.05.022</Item>
+		<Item Name="pii" Type="String">S1097-2765(25)00461-7</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1016/j.molcel.2025.05.022</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2023/04/25 00:00</Item>
+		<Item Name="revised" Type="Date">2024/09/20 00:00</Item>
+		<Item Name="accepted" Type="Date">2025/05/20 00:00</Item>
+		<Item Name="medline" Type="Date">2025/06/24 13:14</Item>
+		<Item Name="pubmed" Type="Date">2025/06/13 00:27</Item>
+		<Item Name="entrez" Type="Date">2025/06/12 18:42</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">Molecular cell</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1016/j.molcel.2025.05.022</Item>
+	<Item Name="SO" Type="String">2025 Jun 19;85(12):2271-2286.e6</Item>
+</DocSum>
+
+<DocSum>
+	<Id>38271281</Id>
+	<Item Name="PubDate" Type="Date">2024 Mar 14</Item>
+	<Item Name="EPubDate" Type="Date"></Item>
+	<Item Name="Source" Type="String">Cardiovasc Res</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Peclat TR</Item>
+		<Item Name="Author" Type="String">Agorrody G</Item>
+		<Item Name="Author" Type="String">Colman L</Item>
+		<Item Name="Author" Type="String">Kashyap S</Item>
+		<Item Name="Author" Type="String">Zeidler JD</Item>
+		<Item Name="Author" Type="String">Chini CCS</Item>
+		<Item Name="Author" Type="String">Warner GM</Item>
+		<Item Name="Author" Type="String">Thompson KL</Item>
+		<Item Name="Author" Type="String">Dalvi P</Item>
+		<Item Name="Author" Type="String">Beckedorff F</Item>
+		<Item Name="Author" Type="String">Ebtehaj S</Item>
+		<Item Name="Author" Type="String">Herrmann J</Item>
+		<Item Name="Author" Type="String">van Schooten W</Item>
+		<Item Name="Author" Type="String">Chini EN</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Chini EN</Item>
+	<Item Name="Title" Type="String">Ecto-CD38-NADase inhibition modulates cardiac metabolism and protects mice against doxorubicin-induced cardiotoxicity.</Item>
+	<Item Name="Volume" Type="String">120</Item>
+	<Item Name="Issue" Type="String">3</Item>
+	<Item Name="Pages" Type="String">286-300</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">0077427</Item>
+	<Item Name="ISSN" Type="String">0008-6363</Item>
+	<Item Name="ESSN" Type="String">1755-3245</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+		<Item Name="PubType" Type="String">Research Support, N.I.H., Extramural</Item>
+		<Item Name="PubType" Type="String">Research Support, Non-U.S. Gov't</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">38271281</Item>
+		<Item Name="pmc" Type="String">PMC10953800</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC10953800;</Item>
+		<Item Name="doi" Type="String">10.1093/cvr/cvae025</Item>
+		<Item Name="pii" Type="String">7589532</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1093/cvr/cvae025</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2023/06/28 00:00</Item>
+		<Item Name="revised" Type="Date">2023/11/02 00:00</Item>
+		<Item Name="accepted" Type="Date">2023/11/30 00:00</Item>
+		<Item Name="medline" Type="Date">2024/03/21 12:46</Item>
+		<Item Name="pubmed" Type="Date">2024/01/25 18:42</Item>
+		<Item Name="entrez" Type="Date">2024/01/25 13:13</Item>
+		<Item Name="pmc-release" Type="Date">2025/01/25 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">34</Item>
+	<Item Name="FullJournalName" Type="String">Cardiovascular research</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1093/cvr/cvae025</Item>
+	<Item Name="SO" Type="String">2024 Mar 14;120(3):286-300</Item>
+</DocSum>
+
+<DocSum>
+	<Id>32320006</Id>
+	<Item Name="PubDate" Type="Date">2020 Aug 1</Item>
+	<Item Name="EPubDate" Type="Date"></Item>
+	<Item Name="Source" Type="String">Am J Clin Nutr</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Remie CME</Item>
+		<Item Name="Author" Type="String">Roumans KHM</Item>
+		<Item Name="Author" Type="String">Moonen MPB</Item>
+		<Item Name="Author" Type="String">Connell NJ</Item>
+		<Item Name="Author" Type="String">Havekes B</Item>
+		<Item Name="Author" Type="String">Mevenkamp J</Item>
+		<Item Name="Author" Type="String">Lindeboom L</Item>
+		<Item Name="Author" Type="String">de Wit VHW</Item>
+		<Item Name="Author" Type="String">van de Weijer T</Item>
+		<Item Name="Author" Type="String">Aarts SABM</Item>
+		<Item Name="Author" Type="String">Lutgens E</Item>
+		<Item Name="Author" Type="String">Schomakers BV</Item>
+		<Item Name="Author" Type="String">Elfrink HL</Item>
+		<Item Name="Author" Type="String">Zapata-Pérez R</Item>
+		<Item Name="Author" Type="String">Houtkooper RH</Item>
+		<Item Name="Author" Type="String">Auwerx J</Item>
+		<Item Name="Author" Type="String">Hoeks J</Item>
+		<Item Name="Author" Type="String">Schrauwen-Hinderling VB</Item>
+		<Item Name="Author" Type="String">Phielix E</Item>
+		<Item Name="Author" Type="String">Schrauwen P</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Schrauwen P</Item>
+	<Item Name="Title" Type="String">Nicotinamide riboside supplementation alters body composition and skeletal muscle acetylcarnitine concentrations in healthy obese humans.</Item>
+	<Item Name="Volume" Type="String">112</Item>
+	<Item Name="Issue" Type="String">2</Item>
+	<Item Name="Pages" Type="String">413-426</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">0376027</Item>
+	<Item Name="ISSN" Type="String">0002-9165</Item>
+	<Item Name="ESSN" Type="String">1938-3207</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+		<Item Name="PubType" Type="String">Randomized Controlled Trial</Item>
+		<Item Name="PubType" Type="String">Research Support, Non-U.S. Gov't</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">32320006</Item>
+		<Item Name="pmc" Type="String">PMC7398770</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC7398770;</Item>
+		<Item Name="doi" Type="String">10.1093/ajcn/nqaa072</Item>
+		<Item Name="pii" Type="String">S0002-9165(22)00810-3</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1093/ajcn/nqaa072</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2019/10/25 00:00</Item>
+		<Item Name="accepted" Type="Date">2020/03/23 00:00</Item>
+		<Item Name="pubmed" Type="Date">2020/04/23 06:00</Item>
+		<Item Name="medline" Type="Date">2020/10/07 06:00</Item>
+		<Item Name="entrez" Type="Date">2020/04/23 06:00</Item>
+		<Item Name="pmc-release" Type="Date">2020/04/22 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List">
+		<Item Name="Comment in" Type="String">Am J Clin Nutr. 2020 Aug 1;112(2):243-244. doi: 10.1093/ajcn/nqaa109. PMID: 32412605</Item>
+	</Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">52</Item>
+	<Item Name="FullJournalName" Type="String">The American journal of clinical nutrition</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1093/ajcn/nqaa072</Item>
+	<Item Name="SO" Type="String">2020 Aug 1;112(2):413-426</Item>
+</DocSum>
+
+<DocSum>
+	<Id>41021357</Id>
+	<Item Name="PubDate" Type="Date">2025 Nov</Item>
+	<Item Name="EPubDate" Type="Date">2025 Sep 29</Item>
+	<Item Name="Source" Type="String">Aging Cell</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Kosugi S</Item>
+		<Item Name="Author" Type="String">Yamaguchi S</Item>
+		<Item Name="Author" Type="String">Nishioka K</Item>
+		<Item Name="Author" Type="String">Nagahisa T</Item>
+		<Item Name="Author" Type="String">Watanabe Y</Item>
+		<Item Name="Author" Type="String">Kojima D</Item>
+		<Item Name="Author" Type="String">Kaneko K</Item>
+		<Item Name="Author" Type="String">Mitsuno R</Item>
+		<Item Name="Author" Type="String">Nakamichi R</Item>
+		<Item Name="Author" Type="String">Kawano Y</Item>
+		<Item Name="Author" Type="String">Kinouchi K</Item>
+		<Item Name="Author" Type="String">Homma K</Item>
+		<Item Name="Author" Type="String">Kanda T</Item>
+		<Item Name="Author" Type="String">Irie J</Item>
+		<Item Name="Author" Type="String">Miyashita K</Item>
+		<Item Name="Author" Type="String">Monkawa T</Item>
+		<Item Name="Author" Type="String">Yoshino J</Item>
+		<Item Name="Author" Type="String">Itoh H</Item>
+		<Item Name="Author" Type="String">Hayashi K</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Hayashi K</Item>
+	<Item Name="Title" Type="String">Vascular Endothelial NAMPT-Mediated NAD(+) Biosynthesis Regulates Angiogenesis and Cardiometabolic Functions in Male Mice.</Item>
+	<Item Name="Volume" Type="String">24</Item>
+	<Item Name="Issue" Type="String">11</Item>
+	<Item Name="Pages" Type="String">e70222</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">101130839</Item>
+	<Item Name="ISSN" Type="String">1474-9718</Item>
+	<Item Name="ESSN" Type="String">1474-9726</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">41021357</Item>
+		<Item Name="pmc" Type="String">PMC12608088</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC12608088;</Item>
+		<Item Name="doi" Type="String">10.1111/acel.70222</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1111/acel.70222</Item>
+	<Item Name="History" Type="List">
+		<Item Name="revised" Type="Date">2025/08/07 00:00</Item>
+		<Item Name="received" Type="Date">2025/03/15 00:00</Item>
+		<Item Name="accepted" Type="Date">2025/08/31 00:00</Item>
+		<Item Name="medline" Type="Date">2025/11/13 18:30</Item>
+		<Item Name="pubmed" Type="Date">2025/09/29 22:46</Item>
+		<Item Name="entrez" Type="Date">2025/09/29 12:43</Item>
+		<Item Name="pmc-release" Type="Date">2025/09/29 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">45</Item>
+	<Item Name="FullJournalName" Type="String">Aging cell</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1111/acel.70222</Item>
+	<Item Name="SO" Type="String">2025 Nov;24(11):e70222</Item>
+</DocSum>
+
+<DocSum>
+	<Id>29306019</Id>
+	<Item Name="PubDate" Type="Date">2018 Apr 1</Item>
+	<Item Name="EPubDate" Type="Date">2018 Jan 4</Item>
+	<Item Name="Source" Type="String">Cancer Lett</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Yu Q</Item>
+		<Item Name="Author" Type="String">Dong L</Item>
+		<Item Name="Author" Type="String">Li Y</Item>
+		<Item Name="Author" Type="String">Liu G</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Liu G</Item>
+	<Item Name="Title" Type="String">SIRT1 and HIF1α signaling in metabolism and immune responses.</Item>
+	<Item Name="Volume" Type="String">418</Item>
+	<Item Name="Issue" Type="String"></Item>
+	<Item Name="Pages" Type="String">20-26</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">7600053</Item>
+	<Item Name="ISSN" Type="String">0304-3835</Item>
+	<Item Name="ESSN" Type="String">1872-7980</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+		<Item Name="PubType" Type="String">Research Support, Non-U.S. Gov't</Item>
+		<Item Name="PubType" Type="String">Review</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">29306019</Item>
+		<Item Name="doi" Type="String">10.1016/j.canlet.2017.12.035</Item>
+		<Item Name="pii" Type="String">S0304-3835(18)30008-9</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1016/j.canlet.2017.12.035</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2017/10/12 00:00</Item>
+		<Item Name="revised" Type="Date">2017/12/11 00:00</Item>
+		<Item Name="accepted" Type="Date">2017/12/22 00:00</Item>
+		<Item Name="pubmed" Type="Date">2018/01/07 06:00</Item>
+		<Item Name="medline" Type="Date">2019/01/31 06:00</Item>
+		<Item Name="entrez" Type="Date">2018/01/07 06:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">Cancer letters</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1016/j.canlet.2017.12.035</Item>
+	<Item Name="SO" Type="String">2018 Apr 1;418:20-26</Item>
+</DocSum>
+
+<DocSum>
+	<Id>39596482</Id>
+	<Item Name="PubDate" Type="Date">2024 Nov 19</Item>
+	<Item Name="EPubDate" Type="Date">2024 Nov 19</Item>
+	<Item Name="Source" Type="String">Int J Mol Sci</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Zheng L</Item>
+		<Item Name="Author" Type="String">Rao Z</Item>
+		<Item Name="Author" Type="String">Wu J</Item>
+		<Item Name="Author" Type="String">Ma X</Item>
+		<Item Name="Author" Type="String">Jiang Z</Item>
+		<Item Name="Author" Type="String">Xiao W</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Xiao W</Item>
+	<Item Name="Title" Type="String">Resistance Exercise Improves Glycolipid Metabolism and Mitochondrial Biogenesis in Skeletal Muscle of T2DM Mice via miR-30d-5p/SIRT1/PGC-1α Axis.</Item>
+	<Item Name="Volume" Type="String">25</Item>
+	<Item Name="Issue" Type="String">22</Item>
+	<Item Name="Pages" Type="String"></Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">101092791</Item>
+	<Item Name="ISSN" Type="String"></Item>
+	<Item Name="ESSN" Type="String">1422-0067</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">39596482</Item>
+		<Item Name="pmc" Type="String">PMC11595072</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC11595072;</Item>
+		<Item Name="doi" Type="String">10.3390/ijms252212416</Item>
+		<Item Name="pii" Type="String">ijms252212416</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.3390/ijms252212416</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2024/10/11 00:00</Item>
+		<Item Name="revised" Type="Date">2024/11/10 00:00</Item>
+		<Item Name="accepted" Type="Date">2024/11/15 00:00</Item>
+		<Item Name="medline" Type="Date">2024/11/27 12:34</Item>
+		<Item Name="pubmed" Type="Date">2024/11/27 06:18</Item>
+		<Item Name="entrez" Type="Date">2024/11/27 01:24</Item>
+		<Item Name="pmc-release" Type="Date">2024/11/19 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">56</Item>
+	<Item Name="FullJournalName" Type="String">International journal of molecular sciences</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.3390/ijms252212416</Item>
+	<Item Name="SO" Type="String">2024 Nov 19;25(22)</Item>
+</DocSum>
+
+<DocSum>
+	<Id>40416964</Id>
+	<Item Name="PubDate" Type="Date">2025</Item>
+	<Item Name="EPubDate" Type="Date">2025 May 9</Item>
+	<Item Name="Source" Type="String">Front Immunol</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Xie J</Item>
+		<Item Name="Author" Type="String">Che S</Item>
+		<Item Name="Author" Type="String">Liu J</Item>
+		<Item Name="Author" Type="String">Long X</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Long X</Item>
+	<Item Name="Title" Type="String">SIRT1: potential target in glucocorticoid-resistant diseases.</Item>
+	<Item Name="Volume" Type="String">16</Item>
+	<Item Name="Issue" Type="String"></Item>
+	<Item Name="Pages" Type="String">1514745</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">101560960</Item>
+	<Item Name="ISSN" Type="String"></Item>
+	<Item Name="ESSN" Type="String">1664-3224</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+		<Item Name="PubType" Type="String">Review</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String"></Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">40416964</Item>
+		<Item Name="pmc" Type="String">PMC12098067</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC12098067;</Item>
+		<Item Name="doi" Type="String">10.3389/fimmu.2025.1514745</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.3389/fimmu.2025.1514745</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2024/10/21 00:00</Item>
+		<Item Name="accepted" Type="Date">2025/04/15 00:00</Item>
+		<Item Name="medline" Type="Date">2025/05/26 12:38</Item>
+		<Item Name="pubmed" Type="Date">2025/05/26 12:37</Item>
+		<Item Name="entrez" Type="Date">2025/05/26 06:08</Item>
+		<Item Name="pmc-release" Type="Date">2025/01/01 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">75</Item>
+	<Item Name="FullJournalName" Type="String">Frontiers in immunology</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.3389/fimmu.2025.1514745</Item>
+	<Item Name="SO" Type="String">2025;16:1514745</Item>
+</DocSum>
+
+<DocSum>
+	<Id>40879949</Id>
+	<Item Name="PubDate" Type="Date">2025</Item>
+	<Item Name="EPubDate" Type="Date"></Item>
+	<Item Name="Source" Type="String">Adv Exp Med Biol</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Ji LL</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Ji LL</Item>
+	<Item Name="Title" Type="String">Protein Acetylation and NAD+ Homeostasis in Aging Muscle.</Item>
+	<Item Name="Volume" Type="String">1478</Item>
+	<Item Name="Issue" Type="String"></Item>
+	<Item Name="Pages" Type="String">421-443</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">0121103</Item>
+	<Item Name="ISSN" Type="String">0065-2598</Item>
+	<Item Name="ESSN" Type="String"></Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+		<Item Name="PubType" Type="String">Review</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">40879949</Item>
+		<Item Name="doi" Type="String">10.1007/978-3-031-88361-3_17</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1007/978-3-031-88361-3_17</Item>
+	<Item Name="History" Type="List">
+		<Item Name="medline" Type="Date">2025/08/29 12:49</Item>
+		<Item Name="pubmed" Type="Date">2025/08/29 12:48</Item>
+		<Item Name="entrez" Type="Date">2025/08/29 11:24</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">Advances in experimental medicine and biology</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1007/978-3-031-88361-3_17</Item>
+	<Item Name="SO" Type="String">2025;1478:421-443</Item>
+</DocSum>
+
+<DocSum>
+	<Id>39500416</Id>
+	<Item Name="PubDate" Type="Date">2025 Jan</Item>
+	<Item Name="EPubDate" Type="Date">2024 Nov 3</Item>
+	<Item Name="Source" Type="String">Brain Behav Immun</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Walzik D</Item>
+		<Item Name="Author" Type="String">Joisten N</Item>
+		<Item Name="Author" Type="String">Schenk A</Item>
+		<Item Name="Author" Type="String">Trebing S</Item>
+		<Item Name="Author" Type="String">Schaaf K</Item>
+		<Item Name="Author" Type="String">Metcalfe AJ</Item>
+		<Item Name="Author" Type="String">Spiliopoulou P</Item>
+		<Item Name="Author" Type="String">Hiefner J</Item>
+		<Item Name="Author" Type="String">McCann A</Item>
+		<Item Name="Author" Type="String">Watzl C</Item>
+		<Item Name="Author" Type="String">Ueland PM</Item>
+		<Item Name="Author" Type="String">Gehlert S</Item>
+		<Item Name="Author" Type="String">Worthmann A</Item>
+		<Item Name="Author" Type="String">Brenner C</Item>
+		<Item Name="Author" Type="String">Zimmer P</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Zimmer P</Item>
+	<Item Name="Title" Type="String">Acute exercise boosts NAD(+) metabolism of human peripheral blood mononuclear cells.</Item>
+	<Item Name="Volume" Type="String">123</Item>
+	<Item Name="Issue" Type="String"></Item>
+	<Item Name="Pages" Type="String">1011-1023</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">8800478</Item>
+	<Item Name="ISSN" Type="String">0889-1591</Item>
+	<Item Name="ESSN" Type="String">1090-2139</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+		<Item Name="PubType" Type="String">Randomized Controlled Trial</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">39500416</Item>
+		<Item Name="doi" Type="String">10.1016/j.bbi.2024.11.004</Item>
+		<Item Name="pii" Type="String">S0889-1591(24)00687-1</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1016/j.bbi.2024.11.004</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2024/07/24 00:00</Item>
+		<Item Name="revised" Type="Date">2024/10/27 00:00</Item>
+		<Item Name="accepted" Type="Date">2024/11/02 00:00</Item>
+		<Item Name="medline" Type="Date">2024/12/06 06:23</Item>
+		<Item Name="pubmed" Type="Date">2024/11/06 00:22</Item>
+		<Item Name="entrez" Type="Date">2024/11/05 19:15</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">Brain, behavior, and immunity</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1016/j.bbi.2024.11.004</Item>
+	<Item Name="SO" Type="String">2025 Jan;123:1011-1023</Item>
+</DocSum>
+
+<DocSum>
+	<Id>35203360</Id>
+	<Item Name="PubDate" Type="Date">2022 Feb 17</Item>
+	<Item Name="EPubDate" Type="Date">2022 Feb 17</Item>
+	<Item Name="Source" Type="String">Cells</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Ji LL</Item>
+		<Item Name="Author" Type="String">Yeo D</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Yeo D</Item>
+	<Item Name="Title" Type="String">Maintenance of NAD+ Homeostasis in Skeletal Muscle during Aging and Exercise.</Item>
+	<Item Name="Volume" Type="String">11</Item>
+	<Item Name="Issue" Type="String">4</Item>
+	<Item Name="Pages" Type="String"></Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">101600052</Item>
+	<Item Name="ISSN" Type="String"></Item>
+	<Item Name="ESSN" Type="String">2073-4409</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+		<Item Name="PubType" Type="String">Research Support, Non-U.S. Gov't</Item>
+		<Item Name="PubType" Type="String">Review</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">35203360</Item>
+		<Item Name="pmc" Type="String">PMC8869961</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC8869961;</Item>
+		<Item Name="doi" Type="String">10.3390/cells11040710</Item>
+		<Item Name="pii" Type="String">cells11040710</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.3390/cells11040710</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2022/01/10 00:00</Item>
+		<Item Name="revised" Type="Date">2022/02/07 00:00</Item>
+		<Item Name="accepted" Type="Date">2022/02/12 00:00</Item>
+		<Item Name="entrez" Type="Date">2022/02/25 01:01</Item>
+		<Item Name="pubmed" Type="Date">2022/02/26 06:00</Item>
+		<Item Name="medline" Type="Date">2022/04/09 06:00</Item>
+		<Item Name="pmc-release" Type="Date">2022/02/17 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">154</Item>
+	<Item Name="FullJournalName" Type="String">Cells</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.3390/cells11040710</Item>
+	<Item Name="SO" Type="String">2022 Feb 17;11(4)</Item>
+</DocSum>
+
+<DocSum>
+	<Id>39676853</Id>
+	<Item Name="PubDate" Type="Date">2024</Item>
+	<Item Name="EPubDate" Type="Date">2024 Nov 29</Item>
+	<Item Name="Source" Type="String">Front Immunol</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Sun H</Item>
+		<Item Name="Author" Type="String">Li D</Item>
+		<Item Name="Author" Type="String">Wei C</Item>
+		<Item Name="Author" Type="String">Liu L</Item>
+		<Item Name="Author" Type="String">Xin Z</Item>
+		<Item Name="Author" Type="String">Gao H</Item>
+		<Item Name="Author" Type="String">Gao R</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Gao R</Item>
+	<Item Name="Title" Type="String">The relationship between SIRT1 and inflammation: a systematic review and meta-analysis.</Item>
+	<Item Name="Volume" Type="String">15</Item>
+	<Item Name="Issue" Type="String"></Item>
+	<Item Name="Pages" Type="String">1465849</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">101560960</Item>
+	<Item Name="ISSN" Type="String"></Item>
+	<Item Name="ESSN" Type="String">1664-3224</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Systematic Review</Item>
+		<Item Name="PubType" Type="String">Meta-Analysis</Item>
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String"></Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">39676853</Item>
+		<Item Name="pmc" Type="String">PMC11638041</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC11638041;</Item>
+		<Item Name="doi" Type="String">10.3389/fimmu.2024.1465849</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.3389/fimmu.2024.1465849</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2024/07/17 00:00</Item>
+		<Item Name="accepted" Type="Date">2024/11/07 00:00</Item>
+		<Item Name="medline" Type="Date">2024/12/16 17:26</Item>
+		<Item Name="pubmed" Type="Date">2024/12/16 17:25</Item>
+		<Item Name="entrez" Type="Date">2024/12/16 06:16</Item>
+		<Item Name="pmc-release" Type="Date">2024/01/01 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">74</Item>
+	<Item Name="FullJournalName" Type="String">Frontiers in immunology</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.3389/fimmu.2024.1465849</Item>
+	<Item Name="SO" Type="String">2024;15:1465849</Item>
+</DocSum>
+
+<DocSum>
+	<Id>39059204</Id>
+	<Item Name="PubDate" Type="Date">2024 Sep</Item>
+	<Item Name="EPubDate" Type="Date">2024 Jul 22</Item>
+	<Item Name="Source" Type="String">Redox Biol</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Zhou Y</Item>
+		<Item Name="Author" Type="String">Pang N</Item>
+		<Item Name="Author" Type="String">Li W</Item>
+		<Item Name="Author" Type="String">Li Q</Item>
+		<Item Name="Author" Type="String">Luo J</Item>
+		<Item Name="Author" Type="String">Gu Y</Item>
+		<Item Name="Author" Type="String">Hu Q</Item>
+		<Item Name="Author" Type="String">Ding YJ</Item>
+		<Item Name="Author" Type="String">Sun Y</Item>
+		<Item Name="Author" Type="String">Pan J</Item>
+		<Item Name="Author" Type="String">Gao M</Item>
+		<Item Name="Author" Type="String">Xiao Y</Item>
+		<Item Name="Author" Type="String">Ma S</Item>
+		<Item Name="Author" Type="String">Hao Y</Item>
+		<Item Name="Author" Type="String">Xing H</Item>
+		<Item Name="Author" Type="String">Fang EF</Item>
+		<Item Name="Author" Type="String">Ling W</Item>
+		<Item Name="Author" Type="String">Zhang Z</Item>
+		<Item Name="Author" Type="String">Yang L</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Yang L</Item>
+	<Item Name="Title" Type="String">Inhibition of ethanol-induced eNAMPT secretion attenuates liver ferroptosis through BAT-Liver communication.</Item>
+	<Item Name="Volume" Type="String">75</Item>
+	<Item Name="Issue" Type="String"></Item>
+	<Item Name="Pages" Type="String">103274</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">101605639</Item>
+	<Item Name="ISSN" Type="String"></Item>
+	<Item Name="ESSN" Type="String">2213-2317</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">39059204</Item>
+		<Item Name="pmc" Type="String">PMC11327441</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC11327441;</Item>
+		<Item Name="doi" Type="String">10.1016/j.redox.2024.103274</Item>
+		<Item Name="pii" Type="String">S2213-2317(24)00252-0</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1016/j.redox.2024.103274</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2024/06/25 00:00</Item>
+		<Item Name="revised" Type="Date">2024/07/15 00:00</Item>
+		<Item Name="accepted" Type="Date">2024/07/18 00:00</Item>
+		<Item Name="medline" Type="Date">2024/08/22 00:42</Item>
+		<Item Name="pubmed" Type="Date">2024/07/27 10:42</Item>
+		<Item Name="entrez" Type="Date">2024/07/26 18:07</Item>
+		<Item Name="pmc-release" Type="Date">2024/07/22 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">61</Item>
+	<Item Name="FullJournalName" Type="String">Redox biology</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1016/j.redox.2024.103274</Item>
+	<Item Name="SO" Type="String">2024 Sep;75:103274</Item>
+</DocSum>
+
+<DocSum>
+	<Id>37679377</Id>
+	<Item Name="PubDate" Type="Date">2023 Sep 7</Item>
+	<Item Name="EPubDate" Type="Date">2023 Sep 7</Item>
+	<Item Name="Source" Type="String">Sci Rep</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Juan CG</Item>
+		<Item Name="Author" Type="String">Matchett KB</Item>
+		<Item Name="Author" Type="String">Davison GW</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Davison GW</Item>
+	<Item Name="Title" Type="String">A systematic review and meta-analysis of the SIRT1 response to exercise.</Item>
+	<Item Name="Volume" Type="String">13</Item>
+	<Item Name="Issue" Type="String">1</Item>
+	<Item Name="Pages" Type="String">14752</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">101563288</Item>
+	<Item Name="ISSN" Type="String"></Item>
+	<Item Name="ESSN" Type="String">2045-2322</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Meta-Analysis</Item>
+		<Item Name="PubType" Type="String">Systematic Review</Item>
+		<Item Name="PubType" Type="String">Journal Article</Item>
+		<Item Name="PubType" Type="String">Research Support, Non-U.S. Gov't</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">37679377</Item>
+		<Item Name="pmc" Type="String">PMC10485048</Item>
+		<Item Name="pmcid" Type="String">pmc-id: PMC10485048;</Item>
+		<Item Name="doi" Type="String">10.1038/s41598-023-38843-x</Item>
+		<Item Name="pii" Type="String">10.1038/s41598-023-38843-x</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1038/s41598-023-38843-x</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2023/01/28 00:00</Item>
+		<Item Name="accepted" Type="Date">2023/07/16 00:00</Item>
+		<Item Name="medline" Type="Date">2023/09/11 06:43</Item>
+		<Item Name="pubmed" Type="Date">2023/09/08 00:42</Item>
+		<Item Name="entrez" Type="Date">2023/09/07 23:22</Item>
+		<Item Name="pmc-release" Type="Date">2023/09/07 00:00</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">75</Item>
+	<Item Name="FullJournalName" Type="String">Scientific reports</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1038/s41598-023-38843-x</Item>
+	<Item Name="SO" Type="String">2023 Sep 7;13(1):14752</Item>
+</DocSum>
+
+<DocSum>
+	<Id>40343797</Id>
+	<Item Name="PubDate" Type="Date">2025 May 27</Item>
+	<Item Name="EPubDate" Type="Date">2025 May 8</Item>
+	<Item Name="Source" Type="String">Cell Rep</Item>
+	<Item Name="AuthorList" Type="List">
+		<Item Name="Author" Type="String">Wang Z</Item>
+		<Item Name="Author" Type="String">Guo W</Item>
+		<Item Name="Author" Type="String">Zhang X</Item>
+		<Item Name="Author" Type="String">Wei Y</Item>
+		<Item Name="Author" Type="String">Zhang W</Item>
+		<Item Name="Author" Type="String">Du N</Item>
+		<Item Name="Author" Type="String">Li C</Item>
+		<Item Name="Author" Type="String">Wu X</Item>
+		<Item Name="Author" Type="String">Yi F</Item>
+		<Item Name="Author" Type="String">Zhou T</Item>
+		<Item Name="Author" Type="String">Dong X</Item>
+		<Item Name="Author" Type="String">Guo Q</Item>
+		<Item Name="Author" Type="String">Xu H</Item>
+		<Item Name="Author" Type="String">Wang E</Item>
+		<Item Name="Author" Type="String">Li N</Item>
+		<Item Name="Author" Type="String">Cheng R</Item>
+		<Item Name="Author" Type="String">Li Z</Item>
+		<Item Name="Author" Type="String">Song X</Item>
+		<Item Name="Author" Type="String">Sun Y</Item>
+		<Item Name="Author" Type="String">Sun X</Item>
+		<Item Name="Author" Type="String">Cao L</Item>
+	</Item>
+	<Item Name="LastAuthor" Type="String">Cao L</Item>
+	<Item Name="Title" Type="String">Tumor microenvironment-associated oxidative stress impairs SIRT1 secretion to suppress anti-tumor immune response.</Item>
+	<Item Name="Volume" Type="String">44</Item>
+	<Item Name="Issue" Type="String">5</Item>
+	<Item Name="Pages" Type="String">115679</Item>
+	<Item Name="LangList" Type="List">
+		<Item Name="Lang" Type="String">English</Item>
+	</Item>
+	<Item Name="NlmUniqueID" Type="String">101573691</Item>
+	<Item Name="ISSN" Type="String"></Item>
+	<Item Name="ESSN" Type="String">2211-1247</Item>
+	<Item Name="PubTypeList" Type="List">
+		<Item Name="PubType" Type="String">Journal Article</Item>
+	</Item>
+	<Item Name="RecordStatus" Type="String">PubMed - indexed for MEDLINE</Item>
+	<Item Name="PubStatus" Type="String">ppublish+epublish</Item>
+	<Item Name="ArticleIds" Type="List">
+		<Item Name="pubmed" Type="String">40343797</Item>
+		<Item Name="doi" Type="String">10.1016/j.celrep.2025.115679</Item>
+		<Item Name="pii" Type="String">S2211-1247(25)00450-4</Item>
+	</Item>
+	<Item Name="DOI" Type="String">10.1016/j.celrep.2025.115679</Item>
+	<Item Name="History" Type="List">
+		<Item Name="received" Type="Date">2024/05/15 00:00</Item>
+		<Item Name="revised" Type="Date">2024/11/10 00:00</Item>
+		<Item Name="accepted" Type="Date">2025/04/16 00:00</Item>
+		<Item Name="medline" Type="Date">2025/06/02 12:30</Item>
+		<Item Name="pubmed" Type="Date">2025/05/09 18:32</Item>
+		<Item Name="entrez" Type="Date">2025/05/09 13:02</Item>
+	</Item>
+	<Item Name="References" Type="List"></Item>
+	<Item Name="HasAbstract" Type="Integer">1</Item>
+	<Item Name="PmcRefCount" Type="Integer">0</Item>
+	<Item Name="FullJournalName" Type="String">Cell reports</Item>
+	<Item Name="ELocationID" Type="String">doi: 10.1016/j.celrep.2025.115679</Item>
+	<Item Name="SO" Type="String">2025 May 27;44(5):115679</Item>
+</DocSum>
+
+</eSummaryResult>

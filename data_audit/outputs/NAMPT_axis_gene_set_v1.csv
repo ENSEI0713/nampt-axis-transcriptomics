@@ -1,0 +1,60 @@
+gene_symbol,module,score_group,rationale
+NAMPT,nad_salvage_core,both,Core enzyme of NAD salvage and focal gene for iNAMPT/eNAMPT biology
+NMNAT1,nad_salvage_core,repair,Nuclear NMN adenylyltransferase supporting NAD synthesis
+NMNAT2,nad_salvage_core,repair,Cytosolic/Golgi-associated NMN adenylyltransferase and stress-response NAD biology
+NMNAT3,nad_salvage_core,repair,Mitochondrial-associated NMN adenylyltransferase linked to mitochondrial NAD pools
+NAPRT,nad_salvage_core,repair,Nicotinic acid phosphoribosyltransferase and alternative NAD precursor pathway
+NADSYN1,nad_salvage_core,repair,NAD synthetase and terminal NAD biosynthesis step
+QPRT,nad_de_novo,repair,De novo NAD pathway from tryptophan/kynurenine metabolism
+KYNU,nad_de_novo,inflammatory,Tryptophan-kynurenine pathway enzyme often coupled to inflammatory metabolism
+IDO1,nad_de_novo,inflammatory,Inflammation-inducible tryptophan metabolism node upstream of NAD-related pathways
+CD38,nad_consumption_inflammation,inflammatory,NAD-consuming ectoenzyme linked to inflammation and metabolic dysfunction
+BST1,nad_consumption_inflammation,inflammatory,CD38 paralogue and immune ectoenzyme with NAD-related activity
+PARP1,nad_consumption_repair,both,NAD-consuming DNA damage response enzyme; repair marker and NAD consumer
+PARP2,nad_consumption_repair,both,NAD-consuming DNA damage response enzyme; repair marker and NAD consumer
+SIRT1,sirtuin_repair,repair,NAD-dependent deacetylase linked to mitochondrial biogenesis and inflammatory restraint
+SIRT3,sirtuin_repair,repair,NAD-dependent mitochondrial deacetylase and oxidative metabolism regulator
+SIRT6,sirtuin_repair,repair,NAD-dependent chromatin and DNA repair regulator
+PRKAA1,ampk_mitochondria_repair,repair,AMPK catalytic subunit alpha1; energy stress and exercise adaptation
+PRKAA2,ampk_mitochondria_repair,repair,AMPK catalytic subunit alpha2; skeletal-muscle energy adaptation
+PPARGC1A,ampk_mitochondria_repair,repair,PGC-1alpha mitochondrial biogenesis and endurance adaptation regulator
+TFAM,mitochondrial_biogenesis,repair,Mitochondrial transcription factor and mtDNA maintenance marker
+NRF1,mitochondrial_biogenesis,repair,Nuclear respiratory factor involved in mitochondrial biogenesis
+NFE2L2,oxidative_stress_repair,repair,NRF2 antioxidant and stress-adaptation regulator
+SOD2,oxidative_stress_repair,repair,Mitochondrial antioxidant defense marker
+CAT,oxidative_stress_repair,repair,Antioxidant enzyme relevant to oxidative stress resolution
+GPX1,oxidative_stress_repair,repair,Glutathione peroxidase and oxidative damage protection marker
+NFKB1,nfkb_inflammation,inflammatory,NF-kB transcription factor subunit linked to chronic inflammatory signalling
+RELA,nfkb_inflammation,inflammatory,NF-kB p65 subunit and inflammatory transcriptional activation
+TNF,nfkb_inflammation,inflammatory,Canonical inflammatory cytokine relevant to obesity inflammation
+IL6,nfkb_inflammation,inflammatory,Exercise-responsive and inflammation-associated cytokine with context dependence
+IL1B,nfkb_inflammation,inflammatory,Inflammasome-related inflammatory cytokine
+CCL2,nfkb_inflammation,inflammatory,Monocyte recruitment chemokine relevant to adipose inflammation
+CXCL8,nfkb_inflammation,inflammatory,Neutrophil/innate immune chemokine and inflammatory activation marker
+TLR4,innate_immune_inflammation,inflammatory,Innate immune receptor linked to lipid-induced inflammation
+NLRP3,innate_immune_inflammation,inflammatory,Inflammasome component relevant to metabolic inflammation
+CASP1,innate_immune_inflammation,inflammatory,Inflammasome effector supporting IL1B maturation
+ITGAM,monocyte_macrophage,inflammatory,Myeloid/macrophage marker useful for immune-cell infiltration context
+CD14,monocyte_macrophage,inflammatory,Monocyte marker and LPS co-receptor
+CD68,monocyte_macrophage,inflammatory,Macrophage marker used for tissue inflammatory burden
+ADGRE1,monocyte_macrophage,inflammatory,Macrophage marker; human ortholog context should be checked per dataset
+MRC1,macrophage_resolution,repair,Macrophage alternative activation/resolution marker
+ARG1,macrophage_resolution,repair,Resolution/repair-associated macrophage marker; human tissue context should be interpreted carefully
+PPARG,adipose_metabolism_resolution,repair,Adipose metabolism and anti-inflammatory transcriptional regulator
+ADIPOQ,adipose_metabolism_resolution,repair,Adipocyte metabolic health marker often reduced in obesity inflammation
+LEP,adipose_metabolism_inflammation,inflammatory,Adiposity-linked hormone and inflammatory-metabolic signal
+INSR,insulin_metabolism,repair,Insulin signalling receptor and metabolic health marker
+IRS1,insulin_metabolism,repair,Insulin signalling adaptor relevant to skeletal muscle and adipose metabolism
+SLC2A4,insulin_metabolism,repair,GLUT4 glucose transport and exercise/metabolic adaptation marker
+AKT2,insulin_metabolism,repair,Insulin signalling kinase relevant to glucose metabolism
+MTOR,nutrient_sensing,both,Nutrient-sensing kinase; context-dependent growth/adaptation signal
+FOXO3,stress_repair,repair,Stress resistance and mitochondrial/autophagy-related transcription factor
+ATM,dna_damage_repair,repair,DNA damage response kinase linked to repair signalling
+XRCC1,dna_damage_repair,repair,Base excision repair marker
+OGG1,dna_damage_repair,repair,Oxidative DNA damage repair enzyme
+ATG5,autophagy_repair,repair,Autophagy machinery marker relevant to exercise adaptation and repair
+BECN1,autophagy_repair,repair,Autophagy initiation marker
+MAP1LC3B,autophagy_repair,repair,Autophagosome marker and cellular repair process indicator
+SQSTM1,autophagy_repair,both,Autophagy adaptor; accumulation may indicate stress or altered flux
+UCP2,mitochondrial_stress,both,Mitochondrial uncoupling and metabolic stress/adaptation marker
+UCP3,mitochondrial_stress,repair,Skeletal muscle mitochondrial fatty acid handling and exercise adaptation marker
