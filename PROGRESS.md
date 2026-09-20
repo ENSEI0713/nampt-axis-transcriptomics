@@ -115,12 +115,19 @@
 - **checklist** ✅ 已同步：Title 8 词 / Abstract 141 词 / 软件版本（Python 3.14.5 + NumPy 2.4.6 + SciPy 1.18.0）/ 图注完整 / 补充材料清单 8 份源文件核实
 - **参考文献 bib** ✅ 已补全：5 条 GEO 文献作者展开（0 占位）、Gries 卷期页+DOI、cronbach 类型修正为 @article
 - **待办（投稿前需用户/作者完成，非代码可做）**：
-  1. 代码归档后填 [repository URL] 与 Zenodo/OSF DOI（正文 Code/Data Availability 3 处占位）
+  1. 代码归档后填 [GitHub repository URL] 与 Zenodo/OSF DOI（正文 Code/Data Availability 占位）
   2. 8 个 Supplementary Data xlsx 上传 + 图件（tiff/png ≥300 dpi）随稿提交
   3. Reporting Summary 官方 PDF 模板转填（草稿在 submission_pack/）
   4. Cover letter 作者签名与日期确认（草稿在 submission_pack/）
   5. 作者单位/邮箱最终核对（头部已写 CUPES，投稿系统填写时确认）
-  6. 模拟审稿复检（可选最后一遍，M1 措辞已收敛）
+- **最后一轮审稿复检** ✅（2026-09-20 三线：写作/数字/格式）全部通过，修复项已闭环：
+  - 数字核验：meta（+0.85/0.53–1.17/p=1.8e-7/I²=64%、balance −0.62、k=4 +0.965、LODO 全正）、Evo2 Tier（A=0/B=0/C=97/Ext=9/Excl=326）、median|delta|=1.118、≥2=174/≥4=94、strand 65%、α 值（0.79/0.82/0.83/0.91/0.86）、免疫负荷 r（0.77–0.89；0.75/0.91）全部与落盘 CSV 一致
+  - 样本数口径：346 rows（9 单元，GSE312393 双计 13）→ 337 unique samples（去重后），L132 已补说明
+  - 3 处 dataset n 值统一为表格值（GSE272133 52 / GSE32575 48 / GSE318937 119）
+  - 104 shortlist = 94+12−2（2 个 NAMPT 变体 |delta|≥4 重叠）已验证并注明
+  - GSE294150 未发表 → 正文注明按数据集引用（Data Availability）
+  - 12 处缩写首现定义补齐（GWAS/eQTL/GTEx/TSS/MPRA/CRISPRi/DAMP/MoTrPAC/PBMC/GEO/OB/q）
+  - 标点空格修正 3 处；Fig.4a 图注补 p 值；L96 措辞歧义修正
 - 可选：Evo2 全量强制重跑（约 30-60 分钟 API）、GTEx LD 代理把 C 类与常见变异连接
 
 ## 4. 关键论断边界（写作用红线）
