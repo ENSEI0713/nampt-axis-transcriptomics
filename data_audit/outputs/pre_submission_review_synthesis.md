@@ -71,3 +71,4 @@ Generated: 2026-09-19
 - CB-3：肥胖层已明确为 3 个预设对照比较（k=3），仅作方向性证据。
 - CB-5：已区分 Cronbach α（内部一致性指标）与显著性 alpha/FDR；未补写未核验的校正方法。
 - R2-M3：标题、Introduction、Abstract 已收敛为 NAMPT 轴转录程序，eNAMPT 蛋白与 NAD 代谢物继续标为待验证预测。
+- R1-M5：Results/logic 已明确 macro/mono 是与轴基因重叠的负荷代理而非细胞去卷积；相关结果仅作轴内基因共变描述，不作为独立细胞比例或因果证据。
