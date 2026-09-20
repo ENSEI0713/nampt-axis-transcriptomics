@@ -34,7 +34,7 @@
 
 急性运动后 NAMPT_z 普遍上调。NAMPT 上升**并非自动等于修复**：repair_score 未显著上升（−0.33，p=0.05，CI 含 0）。但"轴平衡系统性转负"需谨慎：12 个对照嵌套在 4 个数据集（GSE318937 单独贡献 8 个），按数据集为有效独立单元重估后 balance_score 汇总 −0.47（95%CI −1.25–+0.32，p=0.24）失去显著性（见 `outputs/meta/meta_sensitivity_report.md`）。NAMPT_z 上调在数据集级（k=4，+0.965，95%CI 0.45–1.49，p=2.8e-4）与 leave-one-dataset-out（全部 4 次为正）下均稳健。高 I²（64–98%）提示效应方向一致但幅度随背景变化；balance 方向性为弱证据，状态依赖性解读需 moderator 检验而非仅凭 I²。
 
-**轴内免疫负荷（新）。** 在 GSE318937（n=118）与 GSE305038 中，数据集内全样本的 inflammatory_score 与轴内单核/巨噬基因负荷代理高度相关（r=0.77–0.89，落在 0.7–0.9 范围）。该代理是与 NAMPT 轴重叠的 marker-gene burden，不是细胞类型去卷积；因此相关结果反映轴内基因共变，不能作为独立细胞比例或因果证据。该结果与 Phase 1b 中急性炎症样信号主要由 NF-κB/细胞因子模块驱动的观察一致。该急性信号在 24 h 后回落（GSE318937 即时 vs 24h balance 差异）。相关计算基于数据集内全样本，未按运动后时间点子集拆分。
+**轴内免疫负荷（新）。** 在 GSE318937（n=118）与 GSE305038 中，数据集内全样本的 inflammatory_score 与轴内单核/巨噬基因负荷代理高度相关（r=0.77–0.89，落在 0.7–0.9 范围）。该代理是与 NAMPT 轴重叠的 marker-gene burden，不是细胞类型去卷积；因此相关结果反映轴内基因共变，不能作为独立细胞比例或因果证据。该结果与 Phase 1b（预设对照敏感性分析，见 `outputs/phase1b_sensitivity/`）中急性炎症样信号主要由 NF-κB/细胞因子模块驱动的观察一致。该急性信号在 24 h 后回落（GSE318937 即时 vs 24h balance 差异）。相关计算基于数据集内全样本，未按运动后时间点子集拆分。
 
 ---
 
@@ -64,7 +64,7 @@
 
 **Score A（allele surprisal，全量完成）。** 432/432 候选打分（flank 200 bp，Evo2-40B generate logits）。|delta| 中位 1.12；|delta|≥4 有 94 条。高扰动集中在 IL6 / SIRT1 / TNF 窗口（观察，非因果）。
 
-**Score B（pseudo-likelihood，短名单完成）。** 对 104 条短名单（|delta|≥4 的 94 条 + NAMPT 全窗口 12 条）做下游 8 bp 双链传播。Score A↔B 符号一致 87%；strand 一致 65%，fwd/rc 相关性低（r≈0.13），是稳定性局限。
+**Score B（pseudo-likelihood，短名单完成）。** 对 104 条短名单（|delta|≥4 的 94 条 + NAMPT 全窗口 12 条）做下游 8 bp 双链传播。Score A↔B 符号一致 87%；strand 一致 65%，fwd/rc 相关性低（r≈0.13），是稳定性局限。Tier C 的 97 个候选中有 68 个位于 strand 一致子集（70%）；由于双链一致性本身有限，C 类候选应视为待验证假设集，而非按稳定信号排序的清单。
 
 **Score C（多 seed 稳定性）实证退化。** 10×5 seeds 全 sd=0：该 hosted 端点 logits 不随 seed 变化，多 seed 稳定性无信息。以 strand 一致性替代稳定性证据。
 
