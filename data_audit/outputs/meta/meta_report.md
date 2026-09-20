@@ -1,6 +1,6 @@
 # NAMPT-axis random-effects meta-analysis
 
-Generated: 2026-09-18T03:03:00+00:00
+Generated: 2026-09-20T00:12:47+00:00
 
 Model: DerSimonian-Laird random effects on within-dataset standardized mean deltas (paired designs only). Directional pooling only; raw cross-platform expression values are never merged.
 

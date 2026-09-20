@@ -1,6 +1,6 @@
 # NAMPT-axis module internal-consistency analysis
 
-Generated: 2026-09-18T03:08:05+00:00
+Generated: 2026-09-20T00:12:48+00:00
 
 Cronbach's alpha (standardized) measures whether the genes within a
 module move together across samples. A value >0.7 is commonly read as
