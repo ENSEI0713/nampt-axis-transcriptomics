@@ -146,7 +146,7 @@ def score_one(fasta: dict, variant: dict, key: str, flank: int,
         "gene_window": variant["gene"],
         "rsid": variant["rsid"],
         "chromosome": variant["chrom"],
-        "position": variant["start"] + offset,
+        "position": int(variant["start"]) + offset,
         "ref_allele": ref_allele,
         "alt_allele": alt_allele,
         "variant_class": variant.get("variant_class", ""),
@@ -165,6 +165,178 @@ def first_alt(alt: str) -> str:
     return alt.split(",")[0].strip().upper()
 
 
+def revcomp(seq: str) -> str:
+    comp = {"A": "T", "C": "G", "G": "C", "T": "A", "N": "N"}
+    return "".join(comp.get(b, "N") for b in reversed(seq))
+
+
+def next_base_probs(prompt: str, key: str, seed: int | None) -> dict[str, float] | None:
+    """One-token call; return DNA-normalized probabilities for the next base."""
+    res = call_endpoint(prompt, key, num_tokens=1, random_seed=seed)
+    logits = res.get("logits")
+    if not logits or not isinstance(logits, list) or len(logits) < 1:
+        return None
+    pos = logits[0]
+    if not isinstance(pos, list) or len(pos) < max(BASE_TO_IDX.values()) + 1:
+        return None
+    return dna_softmax(pos)
+
+
+def pseudo_ll(prefix: str, allele: str, downstream: str, key: str,
+              seed: int | None) -> float | None:
+    """PLL = sum_i log P(downstream[i] | prefix + allele + downstream[:i])."""
+    import math
+    total = 0.0
+    ctx = prefix + allele
+    for b in downstream:
+        probs = next_base_probs(ctx, key, seed)
+        if probs is None or b not in probs:
+            return None
+        total += math.log(probs[b])
+        ctx += b
+    return total
+
+
+def score_B_one(fasta: dict, variant: dict, key: str, flank: int,
+                downstream_len: int, seed: int | None) -> dict | None:
+    """Score B: local pseudo-likelihood propagation on forward + reverse strand.
+
+    delta_PLL(strand) = PLL(alt window) - PLL(ref window) on that strand.
+    The observed downstream sequence is taken from the ref window so both
+    alleles are scored against the identical downstream context.
+    """
+    name = f"{variant['rsid']}_ref_{variant['gene']}"
+    alt_name = f"{variant['rsid']}_alt_{variant['gene']}"
+    ref_seq = fasta.get(name)
+    alt_seq = fasta.get(alt_name)
+    if not ref_seq or not alt_seq:
+        return None
+    ref_allele = variant["ref_allele"].upper()
+    alt_allele = first_alt(variant["alt_allele"])
+    half = len(ref_seq) // 2
+    center_hit = ref_seq.find(ref_allele, max(0, half - 200), half + 200)
+    if center_hit < 0:
+        center_hit = ref_seq.find(ref_allele)
+    if center_hit < 0:
+        return None
+    offset = center_hit
+    prompt = ref_seq[max(0, offset - flank):offset]
+    if not prompt:
+        return None
+    alen = len(ref_allele)
+    downstream = ref_seq[offset + alen:offset + alen + downstream_len]
+    if len(downstream) < downstream_len:
+        return None
+
+    # Forward strand
+    pll_ref_fwd = pseudo_ll(prompt, ref_allele, downstream, key, seed)
+    pll_alt_fwd = pseudo_ll(prompt, alt_allele, downstream, key, seed)
+
+    # Reverse-complement strand: rebuild prompt/downstream on rc windows
+    rc_ref = revcomp(ref_seq)
+    rc_alt = revcomp(alt_seq)
+    rc_ref_allele = revcomp(ref_allele)
+    rc_alt_allele = revcomp(alt_allele)
+    half_rc = len(rc_ref) // 2
+    off_rc = rc_ref.find(rc_ref_allele, max(0, half_rc - 200), half_rc + 200)
+    if off_rc < 0:
+        off_rc = rc_ref.find(rc_ref_allele)
+    if off_rc < 0:
+        return None
+    rc_prompt = rc_ref[max(0, off_rc - flank):off_rc]
+    rc_downstream = rc_ref[off_rc + len(rc_ref_allele):off_rc + len(rc_ref_allele) + downstream_len]
+    if len(rc_downstream) < downstream_len:
+        return None
+    pll_ref_rc = pseudo_ll(rc_prompt, rc_ref_allele, rc_downstream, key, seed)
+    pll_alt_rc = pseudo_ll(rc_prompt, rc_alt_allele, rc_downstream, key, seed)
+
+    def d(alt, ref):
+        return None if (alt is None or ref is None) else alt - ref
+
+    delta_fwd = d(pll_alt_fwd, pll_ref_fwd)
+    delta_rc = d(pll_alt_rc, pll_ref_rc)
+    if delta_fwd is None or delta_rc is None:
+        return None
+    import math
+    return {
+        "gene_window": variant["gene"],
+        "rsid": variant["rsid"],
+        "chromosome": variant["chrom"],
+        "position": int(variant["start"]) + offset,
+        "ref_allele": ref_allele,
+        "alt_allele": alt_allele,
+        "flank_bp": flank,
+        "downstream_bp": downstream_len,
+        "pll_ref_fwd": round(pll_ref_fwd, 6),
+        "pll_alt_fwd": round(pll_alt_fwd, 6),
+        "delta_pll_fwd": round(delta_fwd, 6),
+        "pll_ref_rc": round(pll_ref_rc, 6),
+        "pll_alt_rc": round(pll_alt_rc, 6),
+        "delta_pll_rc": round(delta_rc, 6),
+        "delta_pll_mean": round((delta_fwd + delta_rc) / 2, 6),
+        "strand_consistent": (delta_fwd > 0) == (delta_rc > 0) if delta_fwd != 0 and delta_rc != 0 else True,
+        "seed": seed,
+        "ts": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+    }
+
+
+def score_C_one(fasta: dict, variant: dict, key: str, flank: int,
+                seeds: list[int], temperature: float) -> dict | None:
+    """Score C: perturbation stability — repeat Score A across random seeds.
+
+    Temperature does not change logits, so stability is probed with multiple
+    seeds (endpoint-level repeatability of the ref/alt difference), not a
+    temperature scan.
+    """
+    import math
+    deltas = []
+    rows = []
+    for s in seeds:
+        r = score_one(fasta, variant, key, flank, seed=s)
+        if r:
+            deltas.append(r["delta_surprisal"])
+            rows.append(r)
+    if not deltas:
+        return None
+    mean = sum(deltas) / len(deltas)
+    sd = (sum((x - mean) ** 2 for x in deltas) / len(deltas)) ** 0.5
+    return {
+        "gene_window": variant["gene"],
+        "rsid": variant["rsid"],
+        "chromosome": variant["chrom"],
+        "position": int(variant["start"]),
+        "ref_allele": variant["ref_allele"].upper(),
+        "alt_allele": first_alt(variant["alt_allele"]),
+        "variant_class": variant.get("variant_class", ""),
+        "flank_bp": flank,
+        "n_seeds": len(deltas),
+        "seeds": ",".join(str(s) for s in seeds),
+        "temperature": temperature,
+        "delta_mean": round(mean, 6),
+        "delta_sd": round(sd, 6),
+        "delta_min": round(min(deltas), 6),
+        "delta_max": round(max(deltas), 6),
+        "delta_range": round(max(deltas) - min(deltas), 6),
+        "sign_consistent_all": len({1 if x > 0 else (-1 if x < 0 else 0) for x in deltas}) <= 1,
+        "deltas": ",".join(f"{x:.4f}" for x in deltas),
+        "ts": datetime.now(timezone.utc).isoformat(timespec="seconds"),
+    }
+
+
+def load_shortlist(min_abs: float, keep_genes: set[str]) -> set[str]:
+    """rsids with |Score A delta| >= min_abs OR gene in keep_genes."""
+    out = set()
+    p = os.path.join(OUT_DIR, "scores.csv")
+    if not os.path.exists(p):
+        return out
+    with open(p, newline="", encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            if abs(float(row["delta_surprisal"])) >= min_abs or row["gene_window"] in keep_genes:
+                out.add(row["rsid"])
+    return out
+
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=20,
@@ -173,6 +345,16 @@ def main() -> None:
     ap.add_argument("--seed", type=int, default=None)
     ap.add_argument("--resume", action="store_true",
                     help="skip rsids already present in scores.csv")
+    ap.add_argument("--mode", choices=["A", "B", "C"], default="A",
+                    help="A: allele surprisal; B: pseudo-likelihood; C: stability (multi-seed)")
+    ap.add_argument("--downstream", type=int, default=32,
+                    help="Score B: number of downstream bases to propagate (default 32)")
+    ap.add_argument("--seeds", type=int, default=5,
+                    help="Score C: number of random seeds (default 5)")
+    ap.add_argument("--temperature", type=float, default=0.7,
+                    help="Score C: temperature (logits are temperature-independent)")
+    ap.add_argument("--shortlist", action="store_true",
+                    help="restrict to |Score A| >= 4 or NAMPT window (Tier-A shortlist)")
     args = ap.parse_args()
 
     key = get_key()
@@ -187,52 +369,84 @@ def main() -> None:
     with open(WINDOWS_BED, newline="", encoding="utf-8") as f:
         variants = list(csv.DictReader(f, delimiter="\t"))
 
-    # Existing scores for resume
+    if args.mode in ("B", "C"):
+        out_csv = os.path.join(OUT_DIR, f"scores_{args.mode}.csv")
+        log_path = os.path.join(OUT_DIR, f"scoring_{args.mode}_log.jsonl")
+    else:
+        out_csv = os.path.join(OUT_DIR, "scores.csv")
+        log_path = os.path.join(OUT_DIR, "scoring_log.jsonl")
+
+    if args.shortlist:
+        keep = load_shortlist(min_abs=4.0, keep_genes={"NAMPT"})
+        variants = [v for v in variants if v["rsid"] in keep]
+        print(f"Shortlist: {len(variants)} variants (|Score A| >= 4 or NAMPT)")
+
+    # Existing scores for resume (keyed by rsid)
     done = set()
-    scores_csv = os.path.join(OUT_DIR, "scores.csv")
-    if args.resume and os.path.exists(scores_csv):
-        with open(scores_csv, newline="", encoding="utf-8") as f:
+    if args.resume and os.path.exists(out_csv):
+        with open(out_csv, newline="", encoding="utf-8") as f:
             for row in csv.DictReader(f):
                 done.add(row["rsid"])
-
     todo = [v for v in variants if v["rsid"] not in done]
     if args.limit and args.limit > 0:
         todo = todo[: args.limit]
-    print(f"Scoring {len(todo)} variants (flank={args.flank}bp)...")
+    print(f"Scoring {len(todo)} variants (mode={args.mode}, flank={args.flank}bp)...")
 
-    log_path = os.path.join(OUT_DIR, "scoring_log.jsonl")
+    seeds_list = [random.randint(0, 1_000_000) for _ in range(args.seeds)]
     results = []
     for i, v in enumerate(todo, 1):
         try:
-            row = score_one(fasta, v, key, args.flank, args.seed)
+            if args.mode == "A":
+                row = score_one(fasta, v, key, args.flank, args.seed)
+            elif args.mode == "B":
+                row = score_B_one(fasta, v, key, args.flank, args.downstream, args.seed)
+            else:
+                row = score_C_one(fasta, v, key, args.flank, seeds_list, args.temperature)
         except Exception as e:
             row = None
             print(f"  [{i}/{len(todo)}] {v['rsid']} ERROR {type(e).__name__}: {str(e)[:120]}")
         if row:
             results.append(row)
             with open(log_path, "a", encoding="utf-8") as f:
-                # log metadata only, NEVER the key
-                log = {k: row[k] for k in row if k != "seed"}
+                log = {k: row[k] for k in row if k not in ("seed", "seeds", "deltas")}
                 f.write(json.dumps(log) + "\n")
-            print(f"  [{i}/{len(todo)}] {v['rsid']} delta={row['delta_surprisal']:+.4f} "
-                  f"(p_ref={row['p_ref']:.4f} p_alt={row['p_alt']:.4f})")
+            if args.mode == "A":
+                print(f"  [{i}/{len(todo)}] {v['rsid']} delta={row['delta_surprisal']:+.4f} "
+                      f"(p_ref={row['p_ref']:.4f} p_alt={row['p_alt']:.4f})")
+            elif args.mode == "B":
+                print(f"  [{i}/{len(todo)}] {v['rsid']} dPLL_fwd={row['delta_pll_fwd']:+.4f} "
+                      f"dPLL_rc={row['delta_pll_rc']:+.4f} mean={row['delta_pll_mean']:+.4f} "
+                      f"consistent={row['strand_consistent']}")
+            else:
+                print(f"  [{i}/{len(todo)}] {v['rsid']} delta_mean={row['delta_mean']:+.4f} "
+                      f"sd={row['delta_sd']:.4f} range={row['delta_range']:.4f} "
+                      f"sign_all_same={row['sign_consistent_all']}")
         time.sleep(0.5)
 
-    # Append to scores.csv
-    write_header = not os.path.exists(scores_csv) or os.path.getsize(scores_csv) == 0
-    with open(scores_csv, "a", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=[
-            "gene_window", "rsid", "chromosome", "position", "ref_allele",
-            "alt_allele", "variant_class", "flank_bp", "log_p_ref", "log_p_alt",
-            "delta_surprisal", "p_ref", "p_alt", "ts",
-        ])
+    fieldnames = {
+        "A": ["gene_window", "rsid", "chromosome", "position", "ref_allele",
+              "alt_allele", "variant_class", "flank_bp", "log_p_ref", "log_p_alt",
+              "delta_surprisal", "p_ref", "p_alt", "ts"],
+        "B": ["gene_window", "rsid", "chromosome", "position", "ref_allele",
+              "alt_allele", "flank_bp", "downstream_bp", "pll_ref_fwd", "pll_alt_fwd",
+              "delta_pll_fwd", "pll_ref_rc", "pll_alt_rc", "delta_pll_rc",
+              "delta_pll_mean", "strand_consistent", "ts"],
+        "C": ["gene_window", "rsid", "chromosome", "position", "ref_allele",
+              "alt_allele", "variant_class", "flank_bp", "n_seeds", "seeds",
+              "temperature", "delta_mean", "delta_sd", "delta_min", "delta_max",
+              "delta_range", "sign_consistent_all", "deltas", "ts"],
+    }[args.mode]
+
+    write_header = not os.path.exists(out_csv) or os.path.getsize(out_csv) == 0
+    with open(out_csv, "a", newline="", encoding="utf-8") as f:
+        w = csv.DictWriter(f, fieldnames=fieldnames)
         if write_header:
             w.writeheader()
         for r in results:
-            w.writerow({k: r.get(k) for k in w.fieldnames})
+            w.writerow({k: r.get(k) for k in fieldnames})
 
-    print(f"Scored {len(results)} new variants. Total in scores.csv now "
-          f"{_count_lines(scores_csv)} rows (incl header).")
+    print(f"Scored {len(results)} new variants (mode {args.mode}). "
+          f"Total in {os.path.basename(out_csv)} now {_count_lines(out_csv)} rows (incl header).")
 
 
 def _count_lines(p: str) -> int:

@@ -1,0 +1,4 @@
+# 忽略规则以仓库根 .gitignore 为准（覆盖 __pycache__/、_quick_test.py、.env、data_audit/downloads/）
+__pycache__/
+_quick_test.py
+.env
