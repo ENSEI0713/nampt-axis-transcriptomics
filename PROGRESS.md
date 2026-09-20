@@ -1,6 +1,6 @@
 # PROGRESS — NAMPT-NAD 炎症-修复轴项目接续索引
 
-> 最后更新：2026-09-19 15:00 UTC+8
+> 最后更新：2026-09-20 10:58 UTC+8
 > 用途：本文件是任何新对话接续本项目的唯一索引。新对话先读本文件，再按需读列出的产物。
 
 ## 1. 项目是什么
@@ -74,6 +74,7 @@
 - ~~MoTrPAC 公共释放的蛋白/代谢组覆盖检查~~ **done** → `data_audit/outputs/motrpac_coverage_check.md`
   - 结论：MoTrPAC 确有蛋白/代谢组（论文级事实），但人类数据受控（dbGaP phs002292）、门户 API 不可程序化、NAD 通路分析物覆盖未人工核验 → **eNAMPT 继续保持在"可检验预测"，不升核心结论**
 - ~~投稿前模拟审稿（3 路盲审）~~ **done** → `data_audit/outputs/pre_submission_review_synthesis.md`
+- ~~按审稿建议修订 CB-2/CB-3/CB-5/R2-M3~~ **done** → `data_audit/outputs/meta/moderator_feasibility_report.md`；新增 moderator 覆盖与可行性报告，肥胖层/多重比较/NAMPT 轴转录程序边界已同步，未伪造跨研究元回归
   - 共识优势：Tier A/B=0 诚实报告、边界纪律、概念框架、跨数据集设计
   - 共识 blocking：meta 12 配对对照未处理聚类(CB-1)、高 I² 误当状态依赖证据(CB-2)、肥胖层 k=3 不足(CB-3)、细胞模型 p=3.2e-10 精度虚高(CB-4)、无多重比较控制(CB-5)
   - 其他：balance 两腿不显著但措辞过强(R2-M1)、"NAMPT-NAD"过度承诺(R2-M3)、免疫负荷相关机械性(R1-M5)、C 类改 strand 一致子集(R1-M7)

@@ -1,0 +1,6 @@
+field,n_nonempty,n_total,missing_pct
+timepoint,243,346,29.77
+exercise_type,119,346,65.61
+nutrition_or_treatment,119,346,65.61
+intervention,259,346,25.14
+treatment,178,346,48.55

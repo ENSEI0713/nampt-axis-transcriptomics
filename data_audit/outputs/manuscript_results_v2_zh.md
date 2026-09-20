@@ -12,7 +12,7 @@
 
 **做法。** 构建 59 个 NAMPT 轴基因（repair 34 / inflammatory 19 / both 6），覆盖 NAD salvage、NAD 消耗、NF-κB 炎症、单核/巨噬、线粒体、自噬、DNA 修复等 20 个模块。每个表达矩阵内部按基因 z-score，计算 `NAMPT_z`、`inflammatory_score`、`repair_score`、`balance_score`（= repair − inflammatory）。9 个公共矩阵、337 个样本，多数数据集轴基因覆盖率 100%。
 
-**结构验证（新）。** 对每个数据集计算模块内 Cronbach α 与模块间相关：
+**结构验证（新）。** 对每个数据集计算模块内 Cronbach α（内部一致性指标，不作为组间差异的显著性检验）与模块间相关：
 - 大队列支持双程序框架：GSE272133 骨骼肌（n=51）中 nad_salvage_core α=0.79、sirtuin_repair α=0.82、ampk_mitochondria_repair α=0.83、oxidative_stress_repair α=0.91、dna_damage_repair α=0.86；GSE305038（n=24）模块 α 均值 0.78；GSE32575 单核细胞（n=47）α 均值 0.60。
 - 小样本队列 α 不稳定（GSE312393、GSE282850 出现负 α），故模块一致性证据优先引自大队列；小样本的模块 α 不可靠。
 
@@ -43,8 +43,8 @@
 **做法。** 整合单核细胞（GSE32575）、骨骼肌（GSE272133）、内脏脂肪（GSE294150）。
 
 **发现。**
-- meta 肥胖层（k=3）：NAMPT_z 汇总 +0.14（I²=0%）、inflammatory_score 汇总 +0.57（方向一致 67%，高异质性），仅作方向性。
-- GSE32575 单核细胞：肥胖 vs 瘦 NAMPT_z +0.92（CI 0.33–1.51）；术后 inflammatory_score +0.82（q=0.007）与 repair_score +0.61 **同时**上升；减重不能简单解释为"炎症必然下降"，需结合时间点、药物与免疫细胞重塑。
+- 肥胖层包含 3 个预设对照比较（k=3）：NAMPT_z 汇总 +0.14（I²=0%）；inflammatory_score 汇总 +0.57，方向一致率为 67%，异质性较高。由于比较数少且组织/疾病背景不同，本层结果仅作方向性证据。
+- GSE32575 单核细胞：肥胖 vs 瘦 NAMPT_z +0.92（CI 0.33–1.51）；术后 inflammatory_score +0.82（当前记录的 q=0.007）与 repair_score +0.61 **同时**上升；具体多重比较校正方法与比较家族需在统计方法中明确；减重不能简单解释为"炎症必然下降"，需结合时间点、药物与免疫细胞重塑。
 - 轴内免疫负荷：GSE32575 中 NAMPT_z 与 macro/mono 负荷 r=+0.75，inflammatory_score r=+0.91；肥胖免疫细胞中 NAMPT 炎症轴与免疫基因强共变（因果不可分）。
 - 代谢病背景：GSE272133 中 T2D 术后 repair_score +0.30（非 T2D 无此效应），提示代谢病状态改变减重后骨骼肌适应方向。
 
