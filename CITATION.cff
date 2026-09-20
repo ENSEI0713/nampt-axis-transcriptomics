@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "State-dependent NAMPT-axis transcriptional programs in obesity and exercise (analysis code)"
+authors:
+  - family-names: Chen
+    given-names: Yanjing
+    affiliation: "Capital University of Physical Education and Sports"
+  - family-names: Shao
+    given-names: Zhenyu
+    affiliation: "Capital University of Physical Education and Sports"
+  - family-names: Zhang
+    given-names: Min
+    affiliation: "Capital University of Physical Education and Sports"
+  - family-names: Zhang
+    given-names: Yan
+    affiliation: "Capital University of Physical Education and Sports"
+keywords:
+  - NAMPT
+  - NAD metabolism
+  - transcriptomics
+  - exercise
+  - obesity
+  - meta-analysis
+  - Evo2
+  - regulatory variants
+license: MIT
+date-released: "2026-09-20"

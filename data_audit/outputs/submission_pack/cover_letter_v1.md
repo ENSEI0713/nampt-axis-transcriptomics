@@ -12,7 +12,7 @@ We are pleased to submit our manuscript, "State-dependent NAMPT-axis transcripti
 
 **Suitability for Nature Communications.** The study is a fully reproducible, public-data, secondary-analysis contribution — no new wet experiments — that reframes a widely used single-marker biomarker as a context-dependent transcriptional state, with a clear and honest validation path (protein/metabolite measurements, prospective exercise cohorts, targeted variant experiments). We believe this fits the journal's interest in reproducible, boundary-respecting quantitative biology.
 
-All authors approved the manuscript and declare no competing interests. This work has not been submitted elsewhere.
+All authors approved the manuscript and declare no competing interests. This work has not been submitted elsewhere. We confirm that no related manuscript is under consideration at another journal. Should you find the scope better suited to a sister journal (e.g. Communications Biology), we would welcome transfer consideration.
 
 Sincerely,
 Yanjing Chen (corresponding author, chenyanjing@cupes.edu.cn)

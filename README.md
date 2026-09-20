@@ -43,10 +43,42 @@ evo2-40b/
 public_data_audit → download_geo_processed → profile_geo_processed
 → extract_geo_metadata → extract_geo_sample_table
 → build_nampt_axis_scores → formal_nampt_axis_statistics → phase1b_nampt_axis_sensitivity
-→ plot_nampt_axis_figures_py
+→ plot_nampt_axis_figures_py（备用：plot_nampt_axis_figures.R）
 → meta_nampt_axis → axis_structure_analysis → cell_composition_sensitivity
+→ moderator_feasibility_report
 → build_variant_candidates → build_ref_alt_windows → run_evo2_scoring（需 NVIDIA_API_KEY）
+→ merge_qtl_gwas → test_evo2_endpoint（可选）
+→ plot_figure1_framework → plot_meta_forest → plot_evo2_figure（论文图件渲染）
 ```
+
+## 环境与依赖
+
+- Python >= 3.10（实测 3.14.5），依赖见 `requirements.txt`（numpy/scipy/pandas/matplotlib/seaborn/statsmodels/requests/biopython/openpyxl）
+- R >= 4.2（可选，仅备用渲染器 `plot_nampt_axis_figures.R` 需要）
+- Evo2-40B 打分走 NVIDIA 托管 generate endpoint（需 `NVIDIA_API_KEY` / `NVCF_RUN_KEY`），无需本地权重
+
+## 数据来源（全部公共数据）
+
+| 类型 | 来源 | 说明 |
+| --- | --- | --- |
+| 表达矩阵 | GEO | GSE312393 / GSE305038 / GSE292369 / GSE318937 / GSE32575 / GSE272133 / GSE294150 / GSE282850（下载日期见 Supplementary Data 1） |
+| eQTL | GTEx REST v2 | Muscle_Skeletal / Adipose_Subcutaneous / Adipose_Visceral_Omentum / Whole_Blood |
+| GWAS | GWAS Catalog REST | 按 rsid 逐条查询 |
+| 注释/变异 | Ensembl REST / ClinVar | 候选构建与功能注释 |
+
+原始矩阵不入库（`data_audit/downloads/` 已 gitignore）；本仓库不重新分发第三方数据，仅保存处理结果与 API 存档（`data_audit/raw/`）。
+
+## 复现步骤
+
+1. `git clone <repo>` 后 `pip install -r requirements.txt`
+2. 按"运行顺序"从 (1) 依次执行（步骤 13-15 需先配置 `NVIDIA_API_KEY`）
+3. 论文图件由 `plot_figure1_framework.py` / `plot_meta_forest.py` / `plot_evo2_figure.py` 输出至 `data_audit/outputs/figures_phase2/`
+4. 关键结果表：`meta/meta_results.csv`、`axis_structure/module_alpha.csv`、`cell_composition/cell_scores.csv`、`evo2/tiers.csv` 等（正文数字均对照这些落盘文件核验）
+5. 投稿资产：`data_audit/outputs/submission_pack/`（Supplementary Data xlsx、cover letter、reporting summary 草稿）
+
+## 归档说明
+
+见 `ARCHIVE_README.md`（Zenodo 归档使用）；引用元数据见 `CITATION.cff` 与 `.zenodo.json`；代码许可 MIT（`LICENSE`）。
 
 ## Evo2 密钥
 

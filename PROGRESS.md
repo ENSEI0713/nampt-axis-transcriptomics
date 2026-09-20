@@ -128,6 +128,14 @@
   - GSE294150 未发表 → 正文注明按数据集引用（Data Availability）
   - 12 处缩写首现定义补齐（GWAS/eQTL/GTEx/TSS/MPRA/CRISPRi/DAMP/MoTrPAC/PBMC/GEO/OB/q）
   - 标点空格修正 3 处；Fig.4a 图注补 p 值；L96 措辞歧义修正
+- **自动化收尾** ✅（2026-09-20 第二轮，用户指示"能完成的都完成"）：
+  - 正文微调：缩写清单补 NAMPT/NAD 词源 + CI 定义；作者行 `\* ,` 空格修复（F10 通读 2 处微调）
+  - **代码归档就绪**：新增 LICENSE(MIT) / requirements.txt / ARCHIVE_README.md / .zenodo.json / CITATION.cff（Zenodo 硬性要求）；README 对齐 21 个脚本 + 补环境/数据来源/复现/归档章节
+  - **Reporting Summary 转填稿**：`submission_pack/reporting_summary_formatted.pdf`（2 页，可直接对照官方模板）
+  - **投稿系统文本**：`submission_pack/submission_system_texts.md`（Title/Abstract/Keywords/分类/COI/贡献/Data-Code 字段复制粘贴）
+  - **Cover letter** 补 transfer 意向句（NC→Comms Biol 顺延）
+  - **zip 重建**：`NAMPT_manuscript_submission_pack_2026-09-20.zip`（56 条目，9 分类 + 09_Archive 归档件）
+  - 待办清单更新：F1-F10 全部 ✅；D1/D2/E1 代理完成；剩余仅 A 核对 / B 归档 / C 上传 / D3 / E2-E6
 - 可选：Evo2 全量强制重跑（约 30-60 分钟 API）、GTEx LD 代理把 C 类与常见变异连接
 
 ## 4. 关键论断边界（写作用红线）

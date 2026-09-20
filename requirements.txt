@@ -1,0 +1,12 @@
+# Python environment for evo2-40b NAMPT-axis analysis
+# Python 3.14.5 (tested) / >=3.10
+numpy>=2.0
+scipy>=1.10
+pandas>=2.0
+matplotlib>=3.8
+seaborn>=0.13
+statsmodels>=0.14
+requests>=2.31
+biopython>=1.81          # GRCh38 ref/alt window building
+openpyxl>=3.1            # Supplementary Data xlsx packaging
+# Optional: R (>=4.2) for plot_nampt_axis_figures.R fallback renderer

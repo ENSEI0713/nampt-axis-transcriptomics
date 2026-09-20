@@ -1,6 +1,6 @@
 # State-dependent NAMPT-axis transcriptional programs in obesity and exercise
 
-**Yanjing Chen¹,²,³\* , Zhenyu Shao³, Min Zhang³, Yan Zhang³,⁴\***
+**Yanjing Chen¹,²,³\*, Zhenyu Shao³, Min Zhang³, Yan Zhang³,⁴\***
 
 ¹ Laboratory and State-Owned Assets Management Division, Capital University of Physical Education and Sports, Beijing 100191, China.
 ² Precision Omics Laboratory for Sport Medicine & Engineering, Beijing, China (affiliated to Beijing Key Laboratory of Interdisciplinary Intelligent Technologies in Sports Medicine and Engineering).
@@ -19,7 +19,7 @@ Obesity combines low-grade inflammation with reduced mitochondrial function, and
 
 Obesity is commonly accompanied by low-grade chronic inflammation, insulin resistance and reduced mitochondrial function. For people with obesity, the challenge of exercise is not simply "whether to exercise", but how to tell whether a given bout produces a recoverable adaptive stress or an additional load superimposed on an already inflamed background. The two situations are difficult to separate with a single marker at the level of sample, time point and tissue, a long-standing tension in metabolic-exercise research.
 
-Abbreviations used throughout: T2D, type 2 diabetes; MICE, moderate-intensity continuous exercise; SIE, sprint-interval exercise; GRCh38, Genome Reference Consortium Human Build 38; LODO, leave-one-dataset-out; BH-FDR, Benjamini–Hochberg false discovery rate.
+Abbreviations used throughout: NAMPT, nicotinamide phosphoribosyltransferase; NAD, nicotinamide adenine dinucleotide; T2D, type 2 diabetes; MICE, moderate-intensity continuous exercise; SIE, sprint-interval exercise; GRCh38, Genome Reference Consortium Human Build 38; LODO, leave-one-dataset-out; BH-FDR, Benjamini–Hochberg false discovery rate; CI, confidence interval.
 
 NAMPT-related biology connects NAD salvage, cellular repair, and immune and metabolic stress. Intracellular NAMPT (iNAMPT) supports NAD salvage and the SIRT/AMPK/PGC1A axis, mitochondrial function, DNA repair and autophagy; extracellular NAMPT (eNAMPT/visfatin/PBEF) is frequently discussed within NF-κB, monocyte/macrophage activation and low-grade inflammation. These objects are not equivalent, and studies often treat NAMPT-related expression or protein signals as a single-direction marker. This study focuses on what can be assessed from public transcriptomic data: **NAMPT-axis gene-expression programs**, and whether they behave as more inflammation-like or repair-like transcriptional states across tissue, time point and metabolic background. eNAMPT protein and NAD-metabolite directionality remain testable predictions rather than measured results here.
 
