@@ -89,13 +89,11 @@
   - 10 节：数据来源与纳入 / 基因集与评分 / 预设对照与统计（含 DL meta + 聚类感知 + LODO + BH-FDR 口径）/ 模块一致性 / 轴内免疫负荷 / Phase 1b 敏感性 / moderator 可行性 / Evo2 管线（Score A/B/C、GTEx+GWAS Catalog、Tier 规则）/ 可复现性 / 数字来源对照表
   - 所有数字已对照落盘（meta_results.csv、module_alpha.csv、scores.csv、tiers.csv 等）核验
 - **转英文全文** ✅ v2（含完整 Discussion）→ `data_audit/outputs/manuscript_full_en_v1.md`
-  - Abstract/Introduction/Results 1-5/Methods/Discussion（完整 5 段）/边界；Abstract 143 词、0 em dash；
+  - Abstract/Introduction/Results 1-5/Methods/Discussion（完整 5 段）/边界；Abstract 141 词（NC "Here, we show" 结尾）、无 em dash
   - 中英数字已逐项抽检一致（EN 内部两处舍入精度 0.445–1.485、1.118 已统一）
-- **定期刊**：用户指示升级为"顶刊/能力范围内最顶" → 评估见 `data_audit/outputs/target_journal_assessment.md`
-  - 分档：T0 Nature/Science/Cell（无新实验风险极高）；T1 Nat Metab/Nat Commun/Genome Biology（需机制或大规模验证）；T2 npj Syst Biol Appl / iScience / CSBJ；T3 学科刊
-  - 建议：维持现稿先投 **Nature Communications 或 Genome Biology**（T1 中最顶合理接收面），被拒转 T2；
-    若补 MoTrPAC 蛋白/代谢物或 MPRA/CRISPRi 实验 → 可够 Nature Metabolism
-  - ⏳ 待用户拍板：①是否加码补证据 ②先投哪个期刊 ③作者单位/邮箱
+- **定期刊** ✅ 定案：**第一目标 Nature Communications，第二 Genome Biology，保底 Communications Biology**（用户指示）
+  - 已按 **NC 作者指南**核对：Title ≤15 词无标点 ✅（现 8 词）、Abstract ≤150 词 ✅（141，Here we show 结尾）、参考文献编号制 ≤70 条 ✅（16 条）、主文 ≤6000 词 ✅、图 ≤10 ✅（6 图）、Data/Code Availability ✅、Reporting Summary 投稿即需
+  - 湿实验决策：用户明确不做 MoTrPAC/MPRA/CRISPRi（本篇作研究基石，另备综述+meta 分析形成系列）
 - **参考文献** ✅ v2 → `data_audit/outputs/references_v1.bib`（15 条：6 基础 + 6 GEO 原论文 + 3 eNAMPT/NAD 综述，已核验）
   - GSE32575 原论文 ✅ 已核验补入（Hulsmans 2012, PLoS ONE 7(1):e30414；三源一致）
   - GSE294150（未发表）投稿时按数据集引用（Data Availability 引用 accession）
@@ -103,11 +101,26 @@
   - 邮箱：chenyanjing@cupes.edu.cn（一作）、zhangyan2021@cupes.edu.cn（通讯）
   - 单位：①Laboratory and State-Owned Assets Management Division, Capital University of Physical Education and Sports, Beijing 100191 ②Sports & Medicine Integrative Innovation Center, CUPES ③Beijing Key Laboratory of Interdisciplinary Intelligent Technologies in Sports Medicine and Engineering ④Precision Omics Laboratory for Sport Medicine & Engineering（隶属③）
   - 关系：Yanjing Chen 为 Yan Zhang 教授团队老师（不同部门同一团队）；Zhenyu Shao 硕士研究生、Min Zhang 博士研究生
-- **Title**：暂用顶刊风格占位（≤15 词候选见 target_journal_assessment §4），全文完成后润色
-- **EN 稿投稿清理** ✅（读稿审稿 blocking 项已清）：backtick 文件路径、审稿代号（CB/R1-M/R2-M）、§8 内部核数表、占位符已清除；章节重排为 Abstract→Intro→Results→Discussion→Methods→Data/Code Availability→References→End Notes；已补 Data Availability / Code Availability / References（编号制 1-16）/ End Notes（Acknowledgements + Author contributions + Competing interests）
+- **Title** ✅ 已定稿：**"State-dependent NAMPT-axis transcriptional programs in obesity and exercise"**（8 词，≤15 达标；无标点）— 2026-09-20 定稿
+- **EN 稿投稿清理** ✅（读稿审稿 blocking 项已清）：backtick 文件路径、审稿代号（CB/R1-M/R2-M）、§8 内部核数表、占位符已清除；章节重排为 Abstract→Intro→Results→Discussion→Methods→Data/Code Availability→References→Figure Legends→End Notes；已补 Data Availability / Code Availability / References（编号制 1-16）/ End Notes（Acknowledgements + Author contributions + Competing interests）
 - **GSE32575 引用** ✅ 已核验补入 bib（Hulsmans 2012, PLoS ONE 7(1):e30414；三源核验）
 - **湿实验决策**：用户明确不做 MoTrPAC/MPRA/CRISPRi 湿实验（后续有经费再补）；本篇作为研究基石，另备综述 + meta 分析各一篇
-- **待办（下一步）**：①参考文献转编号制并按正文出现顺序重排 → ②Title 压缩 ≤15 词 → ③补 Data/Code Availability → ④END NOTES 声明 → ⑤Reporting Checklist → 模拟审稿复检 → 投稿
+- **引用编号重排** ✅（2026-09-20）：正文 16 条引用严格按首次出现顺序 1→16 递增；References 同步重排；GEO 数据集条目（Beiter/Gries/Mosquera-Lopez/Lanfranchi/Kovac/Hulsmans/Nishino）编号 5-12 且正文带 <sup> 标注；Gries 2025 补卷期页 330, E26–E37 (2026)（Crossref 核验）
+- **缩写定义** ✅（审稿 M5）：Intro 增加 "Abbreviations used throughout: T2D…MICE…SIE…GRCh38…LODO…BH-FDR"；正文首次出现处展开全称
+- **图件引用** ✅（审稿 M6）：Figure 1 已在 Result 1 引用；Figure Legends 节已插入正文（6 图图注，figure_legends_supp_data.md 审定版）
+- **投稿资产** ✅（2026-09-20 生成，`data_audit/outputs/submission_pack/`）：
+  - Supplementary Data 1-8（xlsx，源 CSV 全部核实存在）
+  - cover_letter_v1.md（NC 投稿信草稿）
+  - reporting_summary_draft_v1.md（Reporting Summary 草稿，待转填官方 PDF 模板）
+- **checklist** ✅ 已同步：Title 8 词 / Abstract 141 词 / 软件版本（Python 3.14.5 + NumPy 2.4.6 + SciPy 1.18.0）/ 图注完整 / 补充材料清单 8 份源文件核实
+- **参考文献 bib** ✅ 已补全：5 条 GEO 文献作者展开（0 占位）、Gries 卷期页+DOI、cronbach 类型修正为 @article
+- **待办（投稿前需用户/作者完成，非代码可做）**：
+  1. 代码归档后填 [repository URL] 与 Zenodo/OSF DOI（正文 Code/Data Availability 3 处占位）
+  2. 8 个 Supplementary Data xlsx 上传 + 图件（tiff/png ≥300 dpi）随稿提交
+  3. Reporting Summary 官方 PDF 模板转填（草稿在 submission_pack/）
+  4. Cover letter 作者签名与日期确认（草稿在 submission_pack/）
+  5. 作者单位/邮箱最终核对（头部已写 CUPES，投稿系统填写时确认）
+  6. 模拟审稿复检（可选最后一遍，M1 措辞已收敛）
 - 可选：Evo2 全量强制重跑（约 30-60 分钟 API）、GTEx LD 代理把 C 类与常见变异连接
 
 ## 4. 关键论断边界（写作用红线）

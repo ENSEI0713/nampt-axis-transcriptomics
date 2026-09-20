@@ -11,7 +11,7 @@
 | 数据来源 | ✅ | 8 个 GEO accession（9 分析单元），全部公开可下载，accession 见 Data Availability |
 | 数据可用性声明 | ✅ | 已写入 EN 稿 Data Availability 节 |
 | 代码可用性声明 | ✅ | 已写入 EN 稿 Code Availability 节（[repository URL] 与 Zenodo DOI 待填） |
-| 补充材料清单 | ⚠ | 8 个 Supplementary Data 文件（1-8）需按编号整理并上传（见下） |
+| 补充材料清单 | ✅ | 8 个 Supplementary Data 源文件已核实存在（figure_legends_supp_data.md manifest）；打包待执行 |
 | 原始数据是否可获取 | ✅ | GEO 原始/处理矩阵均公开 |
 
 ## 2. 实验模型与统计（Experimental models & Statistics）
@@ -24,7 +24,7 @@
 | 随机化/盲法 | ⚠ | 公共数据二次分析，无干预随机化；注明"不适用" |
 | 统计方法 | ✅ | DL 随机效应 meta[4]、BH-FDR[5]、Cronbach α[6]、聚类感知数据集级 + LODO |
 | 多重比较控制 | ✅ | q 值（BH-FDR）按比较家族报告；α 与显著性 α 区分 |
-| 软件版本 | ⚠ | Python 3 + NumPy/SciPy（具体版本号投稿时补） |
+| 软件版本 | ✅ | Python 3.14.5 + NumPy 2.4.6 + SciPy 1.18.0（分析环境实测） |
 
 ## 3. 具体分析（按结果逐项）
 
@@ -44,11 +44,11 @@
 | 利益冲突声明 | ✅ | 已写入 End Notes（no competing interests） |
 | 作者贡献 | ✅ | 已写入 End Notes（Y.C. 一作分析写作；Y.Z. 通讯指导；Z.S./M.Z. 解读修订） |
 | 伦理/同意 | ⚠ | 公共数据二次分析——注明"本研究为公共数据二次分析，无需伦理审批"（投稿时在 Methods 或 cover letter 说明） |
-| 图注完整性 | ⚠ | 6 图需逐图补标题 + 面板描述 + 误差棒定义（s.d./s.e.m.）+ scale bar |
+| 图注完整性 | ✅ | 6 图图注已写入正文 Figure Legends 节（figure_legends_supp_data.md 审定版） |
 | 图 ≤10 显示项 | ✅ | 6 图 0 表（补充材料不计入） |
-| Title ≤15 词 | ⚠ | 现 17 词占位，定稿时压缩（候选见 target_journal_assessment §4） |
-| Abstract ≤150 词 | ✅ | 现 143 词 |
-| 参考文献编号制 | ✅ | 已转编号制（1-16），正文已插 [n] 标记 |
+| Title ≤15 词 | ✅ | 现 8 词（"State-dependent NAMPT-axis transcriptional programs in obesity and exercise"） |
+| Abstract ≤150 词 | ✅ | 现 141 词（NC "Here, we show" 结尾） |
+| 参考文献编号制 | ✅ | 已转编号制（1-16），正文已插 [n] 标记，按首次出现顺序重排 |
 
 ## 5. 投稿前待填占位（TODO）
 
