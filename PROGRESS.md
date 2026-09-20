@@ -1,13 +1,13 @@
 # PROGRESS — NAMPT-NAD 炎症-修复轴项目接续索引
 
-> 最后更新：2026-09-20 12:10 UTC+8
+> 最后更新：2026-09-20 12:20 UTC+8
 > 用途：本文件是任何新对话接续本项目的唯一索引。新对话先读本文件，再按需读列出的产物。
 
 ## 1. 项目是什么
 
-用公共人类多组学（GEO 表达矩阵）与 Evo2-40B 序列模型，解析肥胖和运动适应中**状态依赖的 NAMPT-NAD 炎症-修复轴**：慢性代谢压力下 NAMPT 更接近免疫/脂肪炎症负荷，运动/训练背景下转向 NAD 代谢与适应性修复。论文主轴单一：NAMPT-NAD 炎症-修复轴的状态依赖性。
+用公共人类多组学（GEO 表达矩阵）与 Evo2-40B 序列模型，解析肥胖和运动适应中**状态依赖的 NAMPT 轴转录程序**（审稿后由"NAMPT-NAD 炎症-修复轴"收敛而来，eNAMPT/NAD 代谢物为待验证预测）。论文主轴单一：NAMPT 轴转录程序的状态依赖性。
 
-## 2. 已完成（git 提交 018c0f1 → e241d5f，共 15 次，工作区干净）
+## 2. 已完成（git 提交 018c0f1 → 44a1f66，工作区干净，工作区干净）
 
 ### Phase A 基线化
 - `.gitignore`（排除 downloads/、__pycache__、_quick_test.py、.env）
@@ -22,7 +22,7 @@
 - **轴结构一致性**：`scripts/axis_structure_analysis.py` → `data_audit/outputs/axis_structure/`
   - 大队列 repair 模块 α 0.79–0.91（GSE272133 n=51）；GSE305038 均值 0.78；GSE32575 均值 0.61；小样本负 α（如实披露）
 - **轴内免疫负荷代理**：`scripts/cell_composition_sensitivity.py` → `data_audit/outputs/cell_composition/`
-  - 明确不是细胞去卷积；炎症分数与轴内单核/巨噬基因高相关（r=0.7–0.9）→ 独立印证 Phase 1b"NF-κB 驱动急性炎症信号"
+  - 明确不是细胞去卷积（macro/mono 是与轴基因重叠的 marker burden proxy）；炎症分数与轴内单核/巨噬基因代理高相关（r=0.7–0.9），仅作轴内共变描述，不作独立细胞比例或因果证据
 - `manuscript_logic_v1_zh.md` 已更新（Result 1-3 补入新证据）
 
 ### Phase C Evo2 管线（Score A + B 完成；C 退化；eQTL/GWAS 合并完成）
@@ -52,6 +52,7 @@
 
 ### Phase F 写作
 - `data_audit/outputs/manuscript_results_v2_zh.md`：Results 1-5 草案（全部数字有落盘支撑）
+- `data_audit/outputs/manuscript_frontmatter_v1_zh.md`：Introduction/Abstract/Title 中文草稿（Title 首选 State-dependent NAMPT-axis transcriptional programs...）
 
 ## 3. 待办（按优先级）
 
@@ -80,6 +81,14 @@
   - 其他：balance 两腿不显著但措辞过强(R2-M1)、"NAMPT-NAD"过度承诺(R2-M3)、免疫负荷相关机械性(R1-M5)、C 类改 strand 一致子集(R1-M7)
   - 不改变结论，需改统计呈现与标题/摘要对象收敛
   - CB-1 已修：聚类感知敏感性（数据集级 DL + leave-one-dataset-out）→ `meta_sensitivity_dataset_level.csv`/`lodo.csv`/`report.md`；NAMPT_z 稳健（k=4 +0.965 p=2.8e-4），balance 在聚类感知下失去显著性（p=0.24），Results/Abstract/Result 4 已如实降级
+- ~~R1-M5 / R1-M7 / Phase 1b 定义~~ **done**：免疫负荷代理边界已写清（非去卷积）；Tier C 97 个中 68 个（70%）在 strand 一致子集，标为假设集；Phase 1b 首次出现处已给定义
+- **审稿遗留全部闭环**（CB-1~CB-5、R1-M5/M7、R2-M1/M3、样本数口径、Abstract 限定）——见 `data_audit/outputs/pre_submission_review_synthesis.md` §7 与各 commit
+
+### P2 投稿推进（下一步）
+- 写 Methods（目前完全没有，审稿明确点出）
+- 转英文全文（frontmatter 的 English sketch 是占位，需正式成稿）
+- 定期刊（logic §10：Nature-family 子刊/计算代谢方向），投稿前按目标期刊核对格式
+- 可选：Evo2 全量强制重跑（约 30-60 分钟 API）、GTEx LD 代理把 C 类与常见变异连接
 
 ## 4. 关键论断边界（写作用红线）
 
