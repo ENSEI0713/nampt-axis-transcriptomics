@@ -1,6 +1,6 @@
 # PROGRESS — NAMPT-NAD 炎症-修复轴项目接续索引
 
-> 最后更新：2026-09-20 12:20 UTC+8
+> 最后更新：2026-09-20 13:40 UTC+8
 > 用途：本文件是任何新对话接续本项目的唯一索引。新对话先读本文件，再按需读列出的产物。
 
 ## 1. 项目是什么
@@ -88,11 +88,16 @@
 - **写 Methods** ✅ 中文草稿完成 → `data_audit/outputs/manuscript_methods_v1_zh.md`
   - 10 节：数据来源与纳入 / 基因集与评分 / 预设对照与统计（含 DL meta + 聚类感知 + LODO + BH-FDR 口径）/ 模块一致性 / 轴内免疫负荷 / Phase 1b 敏感性 / moderator 可行性 / Evo2 管线（Score A/B/C、GTEx+GWAS Catalog、Tier 规则）/ 可复现性 / 数字来源对照表
   - 所有数字已对照落盘（meta_results.csv、module_alpha.csv、scores.csv、tiers.csv 等）核验
-- **转英文全文** ✅ 初稿完成 → `data_audit/outputs/manuscript_full_en_v1.md`
-  - Abstract/Introduction/Results 1-5/Methods/边界；数字逐项与中文稿一致；Discussion 为工作骨架（待补全文）
-- **定期刊**：主选 **Communications Biology**（Nature 家族，logic §10 定位）；备选 npj Syst Biol Appl / iScience / CSBJ。**尚未核对字数与格式**（待 Discussion 完成后按期刊作者指南核对）
-- **参考文献** ✅ v1 完成 → `data_audit/outputs/references_v1.bib`（Evo2/GTEx/GWAS Catalog/DL1986/BH1995/Cronbach 1951 已核验；GEO 数据集原论文与 eNAMPT 综述待补）
-- **待办（下一步）**：写 Discussion 全文 → 按目标期刊核对格式/字数 → 补 GEO 数据集引用与 eNAMPT 综述 → 模拟审稿复检 → 投稿
+- **转英文全文** ✅ v2（含完整 Discussion）→ `data_audit/outputs/manuscript_full_en_v1.md`
+  - Abstract/Introduction/Results 1-5/Methods/Discussion（完整 5 段）/边界；Abstract 143 词、0 em dash；
+  - 中英数字已逐项抽检一致（EN 内部两处舍入精度 0.445–1.485、1.118 已统一）
+- **定期刊**：主选 **Communications Biology**；备选 npj Syst Biol Appl / iScience / CSBJ
+  - ✅ 已按官方 checklist 核对 → `data_audit/outputs/commbiol_format_check.md`
+  - 差距：①参考文献需改**编号制**（现为 author-year）；②Title 需压到 ≤15 词（现 17 词）；
+    ③补 Data/Code Availability 独立小节；④END NOTES 三声明；⑤投稿前填 Reporting Checklist
+- **参考文献** ✅ v2 → `data_audit/outputs/references_v1.bib`（15 条：6 基础 + 6 GEO 原论文 + 3 eNAMPT/NAD 综述，已核验）
+  - GSE32575 原论文（GEO 页 reCAPTCHA）与 GSE294150（未发表）仅 TODO 标注，提交前补或改数据引用
+- **待办（下一步）**：①参考文献转编号制并按正文出现顺序重排 → ②Title 压缩 ≤15 词 → ③补 Data/Code Availability → ④END NOTES 声明 → ⑤Reporting Checklist → 模拟审稿复检 → 投稿
 - 可选：Evo2 全量强制重跑（约 30-60 分钟 API）、GTEx LD 代理把 C 类与常见变异连接
 
 ## 4. 关键论断边界（写作用红线）
