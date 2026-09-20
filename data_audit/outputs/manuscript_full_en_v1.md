@@ -1,10 +1,15 @@
 # State-dependent NAMPT-axis transcriptional programs in obesity and exercise adaptation: public transcriptomic and Evo2 sequence-model evidence
 
-> Full-manuscript working draft (EN, v1). Translated and consolidated from the Chinese working drafts
+**Yanjing Chen¹\* , Zhenyu Shao², Min Zhang³, Yan Zhang⁴\*** 
+¹ First author affiliation (to be completed). ² Second author affiliation (to be completed). ³ Third author affiliation (to be completed). ⁴ Corresponding author affiliation (to be completed).
+\* Correspondence: Yan Zhang (corresponding author; email to be completed). Yanjing Chen (first author).
+
+> Full-manuscript working draft (EN, v2). Translated and consolidated from the Chinese working drafts
 > (`manuscript_frontmatter_v1_zh.md`, `manuscript_results_v2_zh.md`, `manuscript_methods_v1_zh.md`,
 > `manuscript_logic_v1_zh.md`). All numbers verified against the on-disk outputs listed in the
 > Methods source table; claim boundaries (PROGRESS §4) preserved verbatim in scope.
-> Journal: target under decision (default *Communications Biology*; format check pending, Step 4).
+> Journal: target under decision (top-tier Nature-family journal, see `target_journal_assessment.md`; format check per journal at submission).
+> Authors: Yanjing Chen (first), Zhenyu Shao, Min Zhang, Yan Zhang (corresponding).
 
 ---
 

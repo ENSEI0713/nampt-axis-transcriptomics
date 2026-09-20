@@ -1,6 +1,6 @@
 # PROGRESS — NAMPT-NAD 炎症-修复轴项目接续索引
 
-> 最后更新：2026-09-20 13:40 UTC+8
+> 最后更新：2026-09-20 15:20 UTC+8
 > 用途：本文件是任何新对话接续本项目的唯一索引。新对话先读本文件，再按需读列出的产物。
 
 ## 1. 项目是什么
@@ -91,12 +91,16 @@
 - **转英文全文** ✅ v2（含完整 Discussion）→ `data_audit/outputs/manuscript_full_en_v1.md`
   - Abstract/Introduction/Results 1-5/Methods/Discussion（完整 5 段）/边界；Abstract 143 词、0 em dash；
   - 中英数字已逐项抽检一致（EN 内部两处舍入精度 0.445–1.485、1.118 已统一）
-- **定期刊**：主选 **Communications Biology**；备选 npj Syst Biol Appl / iScience / CSBJ
-  - ✅ 已按官方 checklist 核对 → `data_audit/outputs/commbiol_format_check.md`
-  - 差距：①参考文献需改**编号制**（现为 author-year）；②Title 需压到 ≤15 词（现 17 词）；
-    ③补 Data/Code Availability 独立小节；④END NOTES 三声明；⑤投稿前填 Reporting Checklist
+- **定期刊**：用户指示升级为"顶刊/能力范围内最顶" → 评估见 `data_audit/outputs/target_journal_assessment.md`
+  - 分档：T0 Nature/Science/Cell（无新实验风险极高）；T1 Nat Metab/Nat Commun/Genome Biology（需机制或大规模验证）；T2 npj Syst Biol Appl / iScience / CSBJ；T3 学科刊
+  - 建议：维持现稿先投 **Nature Communications 或 Genome Biology**（T1 中最顶合理接收面），被拒转 T2；
+    若补 MoTrPAC 蛋白/代谢物或 MPRA/CRISPRi 实验 → 可够 Nature Metabolism
+  - ⏳ 待用户拍板：①是否加码补证据 ②先投哪个期刊 ③作者单位/邮箱
 - **参考文献** ✅ v2 → `data_audit/outputs/references_v1.bib`（15 条：6 基础 + 6 GEO 原论文 + 3 eNAMPT/NAD 综述，已核验）
-  - GSE32575 原论文（GEO 页 reCAPTCHA）与 GSE294150（未发表）仅 TODO 标注，提交前补或改数据引用
+  - GSE32575 原论文 ✅ 已核验补入（Hulsmans 2012, PLoS ONE 7(1):e30414；三源一致）
+  - GSE294150（未发表）投稿时按数据集引用（Data Availability 引用 accession）
+- **作者** ✅ 已写入 EN 稿头部：Yanjing Chen（一作）/ Zhenyu Shao / Min Zhang / Yan Zhang（通讯）；单位/邮箱留占位待补
+- **Title**：暂用顶刊风格占位（陈述式 ≤15 词候选见 target_journal_assessment §4），全文完成后润色
 - **待办（下一步）**：①参考文献转编号制并按正文出现顺序重排 → ②Title 压缩 ≤15 词 → ③补 Data/Code Availability → ④END NOTES 声明 → ⑤Reporting Checklist → 模拟审稿复检 → 投稿
 - 可选：Evo2 全量强制重跑（约 30-60 分钟 API）、GTEx LD 代理把 C 类与常见变异连接
 
