@@ -99,8 +99,14 @@
 - **参考文献** ✅ v2 → `data_audit/outputs/references_v1.bib`（15 条：6 基础 + 6 GEO 原论文 + 3 eNAMPT/NAD 综述，已核验）
   - GSE32575 原论文 ✅ 已核验补入（Hulsmans 2012, PLoS ONE 7(1):e30414；三源一致）
   - GSE294150（未发表）投稿时按数据集引用（Data Availability 引用 accession）
-- **作者** ✅ 已写入 EN 稿头部：Yanjing Chen（一作）/ Zhenyu Shao / Min Zhang / Yan Zhang（通讯）；单位/邮箱留占位待补
-- **Title**：暂用顶刊风格占位（陈述式 ≤15 词候选见 target_journal_assessment §4），全文完成后润色
+- **作者** ✅ 已写入 EN 稿头部：Yanjing Chen（一作）/ Zhenyu Shao / Min Zhang / Yan Zhang（通讯）
+  - 邮箱：chenyanjing@cupes.edu.cn（一作）、zhangyan2021@cupes.edu.cn（通讯）
+  - 单位：①Laboratory and State-Owned Assets Management Division, Capital University of Physical Education and Sports, Beijing 100191 ②Sports & Medicine Integrative Innovation Center, CUPES ③Beijing Key Laboratory of Interdisciplinary Intelligent Technologies in Sports Medicine and Engineering ④Precision Omics Laboratory for Sport Medicine & Engineering（隶属③）
+  - 关系：Yanjing Chen 为 Yan Zhang 教授团队老师（不同部门同一团队）；Zhenyu Shao 硕士研究生、Min Zhang 博士研究生
+- **Title**：暂用顶刊风格占位（≤15 词候选见 target_journal_assessment §4），全文完成后润色
+- **EN 稿投稿清理** ✅（读稿审稿 blocking 项已清）：backtick 文件路径、审稿代号（CB/R1-M/R2-M）、§8 内部核数表、占位符已清除；章节重排为 Abstract→Intro→Results→Discussion→Methods→Data/Code Availability→References→End Notes；已补 Data Availability / Code Availability / References（编号制 1-16）/ End Notes（Acknowledgements + Author contributions + Competing interests）
+- **GSE32575 引用** ✅ 已核验补入 bib（Hulsmans 2012, PLoS ONE 7(1):e30414；三源核验）
+- **湿实验决策**：用户明确不做 MoTrPAC/MPRA/CRISPRi 湿实验（后续有经费再补）；本篇作为研究基石，另备综述 + meta 分析各一篇
 - **待办（下一步）**：①参考文献转编号制并按正文出现顺序重排 → ②Title 压缩 ≤15 词 → ③补 Data/Code Availability → ④END NOTES 声明 → ⑤Reporting Checklist → 模拟审稿复检 → 投稿
 - 可选：Evo2 全量强制重跑（约 30-60 分钟 API）、GTEx LD 代理把 C 类与常见变异连接
 
