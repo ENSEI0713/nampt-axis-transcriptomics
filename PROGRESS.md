@@ -136,6 +136,12 @@
   - **Cover letter** 补 transfer 意向句（NC→Comms Biol 顺延）
   - **zip 重建**：`NAMPT_manuscript_submission_pack_2026-09-20.zip`（56 条目，9 分类 + 09_Archive 归档件）
   - 待办清单更新：F1-F10 全部 ✅；D1/D2/E1 代理完成；剩余仅 A 核对 / B 归档 / C 上传 / D3 / E2-E6
+- **首次上传支持** ✅（2026-09-20 第三轮，用户首次 GitHub/Zenodo）：
+  - 安全复核：全仓密钥零泄漏（git grep 433 跟踪文件 0 命中；key_status.txt 仅 "set"；脚本仅读环境变量）；.gitignore 完备
+  - 环境检查：git 2.54 已装；仓库内身份 yanji@local（需用户设全局真实邮箱）；gh CLI 未装（走浏览器授权）；无远程；33 commits；__pycache__ 已清
+  - 新手操作指南：`submission_pack/GITHUB_ZENODO_FIRST_TIME_GUIDE.md`（0-5 步：注册→建空仓库→设身份推送→检查→Zenodo 关联发 release 拿 DOI→填回正文；含 FAQ）
+  - 待办清单 v3：B1-B6 拆到按钮级；B6 完成后可交回代填 URL/DOI
+  - zip 重建 57 条目
 - 可选：Evo2 全量强制重跑（约 30-60 分钟 API）、GTEx LD 代理把 C 类与常见变异连接
 
 ## 4. 关键论断边界（写作用红线）
