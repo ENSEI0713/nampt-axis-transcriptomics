@@ -41,12 +41,12 @@ Y.C.: conception, analysis, drafting. Z.S.: data interpretation, manuscript revi
 
 ## Data availability（字段）
 
-All public datasets analysed are available from GEO: GSE312393, GSE305038, GSE292369, GSE318937, GSE32575, GSE272133, GSE294150, GSE282850. Derived data: Supplementary Data 1-8; archived at Zenodo (DOI to be provided upon archiving).
+All public datasets analysed are available from GEO: GSE312393, GSE305038, GSE292369, GSE318937, GSE32575, GSE272133, GSE294150, GSE282850. Derived data: Supplementary Data 1-8; archived at Zenodo (https://doi.org/10.5281/zenodo.22865789).
 
 ## Code availability（字段）
 
-All analysis code available at [GitHub repository URL to be provided upon archiving]; archived at Zenodo (DOI to be provided upon archiving).
+All analysis code available at https://github.com/ENSEI0713/nampt-axis-transcriptomics; archived at Zenodo (https://doi.org/10.5281/zenodo.22865789).
 
 ---
 
-*提交前把 URL/DOI 两处占位替换为实际归档链接。*
+*URL/DOI 已于 2026-09-21 填入。*

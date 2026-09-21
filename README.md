@@ -70,7 +70,7 @@ public_data_audit → download_geo_processed → profile_geo_processed
 
 ## 复现步骤
 
-1. `git clone <repo>` 后 `pip install -r requirements.txt`
+1. `git clone https://github.com/ENSEI0713/nampt-axis-transcriptomics` 后 `pip install -r requirements.txt`
 2. 按"运行顺序"从 (1) 依次执行（步骤 13-15 需先配置 `NVIDIA_API_KEY`）
 3. 论文图件由 `plot_figure1_framework.py` / `plot_meta_forest.py` / `plot_evo2_figure.py` 输出至 `data_audit/outputs/figures_phase2/`
 4. 关键结果表：`meta/meta_results.csv`、`axis_structure/module_alpha.csv`、`cell_composition/cell_scores.csv`、`evo2/tiers.csv` 等（正文数字均对照这些落盘文件核验）

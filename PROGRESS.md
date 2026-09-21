@@ -142,6 +142,13 @@
   - 新手操作指南：`submission_pack/GITHUB_ZENODO_FIRST_TIME_GUIDE.md`（0-5 步：注册→建空仓库→设身份推送→检查→Zenodo 关联发 release 拿 DOI→填回正文；含 FAQ）
   - 待办清单 v3：B1-B6 拆到按钮级；B6 完成后可交回代填 URL/DOI
   - zip 重建 57 条目
+- **GitHub + Zenodo 归档完成** ✅（2026-09-21，用户操作 + 代理收尾）：
+  - GitHub 仓库：https://github.com/ENSEI0713/nampt-axis-transcriptomics
+  - Zenodo DOI：10.5281/zenodo.22865789（https://doi.org/10.5281/zenodo.22865789）
+  - 正文 3 处占位已填（L185 计划措辞→已归档陈述；L193/L196 URL+DOI）；重跑自检：零占位、Title 8 / Abstract 141 / 引用 1→16 全部通过
+  - 归档元数据同步：.zenodo.json 补 doi + related_identifiers；CITATION.cff 补 doi/url；ARCHIVE_README 补实际 DOI/URL；README git clone 用实际 URL
+  - 新 zip：NAMPT_manuscript_submission_pack_2026-09-21.zip（57 条目；旧 09-20 版已删）
+  - 待办清单 v4：B 组全部 ✅；剩余 A 核对 / C 上传 / D3 / E2-E6
 - 可选：Evo2 全量强制重跑（约 30-60 分钟 API）、GTEx LD 代理把 C 类与常见变异连接
 
 ## 4. 关键论断边界（写作用红线）

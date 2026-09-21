@@ -28,4 +28,7 @@ MIT (see LICENSE). The MIT license covers the analysis code; third-party data re
 original terms.
 
 ## Zenodo metadata
-See `.zenodo.json` and `CITATION.cff` for citation metadata.
+
+This archive is deposited at Zenodo: https://doi.org/10.5281/zenodo.22865789
+GitHub repository: https://github.com/ENSEI0713/nampt-axis-transcriptomics
+Citation metadata: see `.zenodo.json` and `CITATION.cff`.

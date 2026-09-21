@@ -182,7 +182,7 @@ Sample-level file 346 rows, formal contrasts 76 rows, predefined contrasts 19. F
 
 ### 7. Software, reproducibility and ethical boundaries
 
-All analysis code is available at [GitHub repository URL to be provided upon archiving] and archived at Zenodo (DOI to be provided upon archiving). All public data are cited by GEO accession (Supplementary Data 1), with download dates recorded. Main computation: Python 3 (NumPy/SciPy-type z-score, paired statistics, DL meta); Cronbach α by standard formula (gene × sample matrix within dataset); Evo2 scoring via NVIDIA hosted endpoint. Planned archiving of processed matrices, score tables, figure-source data and code to Zenodo/OSF/Figshare (DOI); third-party raw data cited by accession, not redistributed. **Ethical/use boundary**: public-data secondary analysis, no individual intervention; public transcriptomic data must not be used for individual diagnosis or exercise prescription; NAMPT mRNA status ≠ eNAMPT protein or NAD metabolites; eNAMPT directionality is a testable prediction (obesity → inflammatory program; training → repair markers), pending protein/metabolite validation.
+All analysis code is available at https://github.com/ENSEI0713/nampt-axis-transcriptomics and archived at Zenodo (https://doi.org/10.5281/zenodo.22865789). All public data are cited by GEO accession (Supplementary Data 1), with download dates recorded. Main computation: Python 3 (NumPy/SciPy-type z-score, paired statistics, DL meta); Cronbach α by standard formula (gene × sample matrix within dataset); Evo2 scoring via NVIDIA hosted endpoint. Processed matrices, score tables and figure-source data are archived at Zenodo alongside the code (DOI: 10.5281/zenodo.22865789); third-party raw data are cited by accession and not redistributed. **Ethical/use boundary**: public-data secondary analysis, no individual intervention; public transcriptomic data must not be used for individual diagnosis or exercise prescription; NAMPT mRNA status ≠ eNAMPT protein or NAD metabolites; eNAMPT directionality is a testable prediction (obesity → inflammatory program; training → repair markers), pending protein/metabolite validation.
 
 
 
@@ -190,10 +190,10 @@ All analysis code is available at [GitHub repository URL to be provided upon arc
 
 ## Data Availability
 
-All public datasets analysed in this study are available from the Gene Expression Omnibus (GEO) under the following accessions: GSE312393, GSE305038, GSE292369, GSE318937, GSE32575, GSE272133, GSE294150 and GSE282850 (Supplementary Data 1). Derived score tables, module-level statistics and Evo2 candidate/scoring outputs that support the findings of this study are provided as Supplementary Data 1–8 and archived at Zenodo (DOI to be provided upon archiving). 
+All public datasets analysed in this study are available from the Gene Expression Omnibus (GEO) under the following accessions: GSE312393, GSE305038, GSE292369, GSE318937, GSE32575, GSE272133, GSE294150 and GSE282850 (Supplementary Data 1). Derived score tables, module-level statistics and Evo2 candidate/scoring outputs that support the findings of this study are provided as Supplementary Data 1–8 and archived at Zenodo (https://doi.org/10.5281/zenodo.22865789). 
 ## Code Availability
 
-All analysis code (public-data audit, NAMPT-axis scoring, meta-analysis, module-consistency, cell-composition proxy, Phase 1b sensitivity, Evo2-40B candidate construction/scoring and eQTL/GWAS merge) is available at [GitHub repository URL to be provided upon archiving] and archived at Zenodo (DOI to be provided upon archiving). Evo2-40B inference was performed through the NVIDIA-hosted generate endpoint; no custom model weights are required.
+All analysis code (public-data audit, NAMPT-axis scoring, meta-analysis, module-consistency, cell-composition proxy, Phase 1b sensitivity, Evo2-40B candidate construction/scoring and eQTL/GWAS merge) is available at https://github.com/ENSEI0713/nampt-axis-transcriptomics and archived at Zenodo (https://doi.org/10.5281/zenodo.22865789). Evo2-40B inference was performed through the NVIDIA-hosted generate endpoint; no custom model weights are required.
 
 ## References
 

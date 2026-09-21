@@ -1,3 +1,5 @@
+> ✅ **2026-09-21 更新：本指南的第 1-4 步已由作者完成**（仓库 https://github.com/ENSEI0713/nampt-axis-transcriptomics ；DOI 10.5281/zenodo.22865789）。剩余：把 URL/DOI 填回正文（已由代理完成，见正文 Code/Data Availability）。
+
 # GitHub 首次上传 + Zenodo DOI 创建 — 新手操作指南
 
 > 适用对象：第一次上传 GitHub、第一次创建 Zenodo DOI 的作者。
