@@ -73,6 +73,7 @@
   - 前置完成：Results 数字核验修正（337 样本、n=24/47、α 0.60、repair CI、补细胞层 inflammatory +0.55；"运动后"口径注明全样本相关）、Result 5 重写为 Evo2 完成态（Tier A/B=0 如实披露）
 - ~~用 ccf-humanization + ccf-paper-writer 技能打磨 Results~~ **done**
   - em dash 16→0（`check_prose_quality.py` PASS；负号/区间用 U+2212 不受影响）；删 3 处"如实披露/如实结果"流程旁白；科学边界（转录组证据、小样本方向性、Evo2 非因果）保留
+  - **t16 闭环（2026-09-22）**：`check_prose_quality.py`（ccf-paper-writer 官方脚本）已入库 `scripts/`；Results 与 frontmatter 两稿均 PASS（Results 1670 词 em dash 0/3；frontmatter 1394 词 em dash 0/3）；frontmatter 原 8 处 em dash（4 段落标签 `—`→`｜`、L14 破折号→冒号、L31 Abstract 破折号→句号）已清理，科学内容未变
 - ~~MoTrPAC 公共释放的蛋白/代谢组覆盖检查~~ **done** → `data_audit/outputs/motrpac_coverage_check.md`
   - 结论：MoTrPAC 确有蛋白/代谢组（论文级事实），但人类数据受控（dbGaP phs002292）、门户 API 不可程序化、NAD 通路分析物覆盖未人工核验 → **eNAMPT 继续保持在"可检验预测"，不升核心结论**
 - ~~投稿前模拟审稿（3 路盲审）~~ **done** → `data_audit/outputs/pre_submission_review_synthesis.md`
