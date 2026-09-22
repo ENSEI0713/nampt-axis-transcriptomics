@@ -1,6 +1,6 @@
 # PROGRESS — NAMPT-NAD 炎症-修复轴项目接续索引
 
-> 最后更新：2026-09-20 15:20 UTC+8
+> 最后更新：2026-09-22 23:01 UTC+8
 > 用途：本文件是任何新对话接续本项目的唯一索引。新对话先读本文件，再按需读列出的产物。
 
 ## 1. 项目是什么
@@ -63,6 +63,7 @@
    - C：实证退化（端点确定性，seed 不影响 logits，pilot 10×5 sd=0），不跑全量
 3. ~~eQTL（GTEx）+ GWAS（GWAS Catalog）合并 → Tier 分层~~ **done** → `tiers.csv`
    - A=0、B=0、C=97、External-only=9、Excluded=326（原因见 Phase C，如实披露）
+   - **验证通过（2026-09-22）**：432 行 = 432 unique rsid（0 重复）；抽查 rs1800629（Ext，gtex p≈7e-24 / gwas p=3e-28）、rs1800795（Ext，gtex p≈3e-100 / gwas p=2e-25）、rs1799724（Ext，gtex p≈7e-20）均非 Excluded
    - 若论文需要"Evo2 推荐 + 外部支持"重叠，可放宽 \|Score A\|≥2 (n=174) 或加 GTEx LD 代理——需在正文论证，不悄悄塞
 4. Figure 5：维持流程+候选构成面板；如需要可加补充图带打分面板，**不把裸 |delta| 排名做进主图**
 5. ~~更新 `evo2_variant_results_report.md` 主图判定~~ **done**（NOT MAIN FIGURE，Evo2 降为补充/探索）
