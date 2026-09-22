@@ -41,7 +41,7 @@ Generated: 2026-09-19
 - **R2-M3（高）**："NAMPT-NAD"对象过度承诺：只测了 NAMPT 转录本与部分 salvage 基因，无 NAD 通量、无 NMN/NR、无 eNAMPT 蛋白。MoTrPAC 检查也确认无公共资源已验证覆盖 NAD 分析物。修法：标题/主张收敛为"NAMPT 转录状态"，NAD 只作推断背景。
 - **R1-M5（中）**：轴内免疫负荷相关（r=0.75–0.91）部分是机械性的——inflammatory_score 与单核/巨噬代理共享基因。修法：独立白细胞标志物集或去卷积，并对整组 r 做 BH-FDR。
 - **R1-M7（中）**：Evo2 Score B strand 一致 65%、fwd/rc r≈0.13，削弱了 Tier C 候选的排序依据。修法：C 类候选改从 strand 一致子集挑选并报告数量，或明确"假设集非排序"。
-- **R3 细节**：logic 文档仍写"346 样本"（已改为 337 但 logic 未同步）；"Phase 1b"无定义；Abstract 细胞层未带 n=4 方向性限定；Abstract (iii)"运动模拟对应 NAD/修复背景"无显著统计支撑。修法：统一数字、定义 Phase 1b、Abstract 补限定。
+- **R3 细节**：logic 文档曾写"346 样本"，已统一为 337（logic/results/frontmatter 三稿均已同步）；"Phase 1b"已定义；Abstract 细胞层已补 n=4 方向性限定；Abstract (iii) 原"运动模拟对应 NAD/修复背景"已收敛为转录背景表述。修法（已完成）：统一数字、定义 Phase 1b、Abstract 补限定。
 
 ## 4. 评估边界声明
 
@@ -58,7 +58,7 @@ Generated: 2026-09-19
 7. **标题/主张收敛到"NAMPT 转录状态"**（R2-M3）。
 8. **免疫负荷相关性去机械化 + FDR**（R1-M5）。
 9. **Evo2 C 类改 strand 一致子集**（R1-M7）。
-10. **内部一致性：logic 346→337、定义 Phase 1b、Abstract 补限定**（R3）。
+10. **内部一致性：logic 346→337 已同步、Phase 1b 已定义、Abstract 已补限定**（R3，已处理）。
 
 ## 6. 与既有论断边界的关系
 
