@@ -85,6 +85,7 @@
   - CB-1 已修：聚类感知敏感性（数据集级 DL + leave-one-dataset-out）→ `meta_sensitivity_dataset_level.csv`/`lodo.csv`/`report.md`；NAMPT_z 稳健（k=4 +0.965 p=2.8e-4），balance 在聚类感知下失去显著性（p=0.24），Results/Abstract/Result 4 已如实降级
 - ~~R1-M5 / R1-M7 / Phase 1b 定义~~ **done**：免疫负荷代理边界已写清（非去卷积）；Tier C 97 个中 68 个（70%）在 strand 一致子集，标为假设集；Phase 1b 首次出现处已给定义
 - **审稿遗留全部闭环**（CB-1~CB-5、R1-M5/M7、R2-M1/M3、样本数口径、Abstract 限定）——见 `data_audit/outputs/pre_submission_review_synthesis.md` §7 与各 commit
+- **moderator 可行性审计复核（2026-09-22）**：`scripts/moderator_feasibility_report.py` 幂等重跑 exit=0；报告确认字段缺失率（timepoint 29.8% / exercise_type 65.6% / nutrition_or_treatment 65.6% / intervention 25.1% / treatment 48.6%）与 GSE318937/GSE305038/GSE312393 单数据集分层计数；**明确不可做统一跨研究元回归**（效应嵌套在数据集/受试者内、无统一 moderator 编码与效应协方差）；pre_submission_review_synthesis 中 R3 的"346→337、Phase 1b、Abstract 限定"已标记为已处理（正文三稿均 337）
 
 ### P2 投稿推进（进行中）
 - **写 Methods** ✅ 中文草稿完成 → `data_audit/outputs/manuscript_methods_v1_zh.md`
