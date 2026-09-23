@@ -145,7 +145,7 @@ Sample-level file contains 346 rows across 9 analysis units; after deduplication
 ### 3. Predefined contrasts and statistics
 
 **3.1 Contrasts.** 19 predefined contrasts (Supplementary Data 3), within-study controls preferred:
-- **exercise layer (12 paired contrasts nested in 4 datasets)**: GSE312393 (acute 24h; 6-week training), GSE305038 (active/inactive × pre/post), GSE292369 (exercise vs rest), GSE318937 (MICE/SIE × active/placebo × immediate/24h; 8 contrasts);
+- **exercise layer (12 paired contrasts nested in 4 datasets)**: GSE312393 (6-week training paired contrast; the acute-24h unit is an unpaired design, counted among the 19 predefined contrasts but not in the paired meta), GSE305038 (active/inactive × pre/post), GSE292369 (exercise vs rest), GSE318937 (MICE/SIE × active/placebo × immediate/24h; 8 paired contrasts);
 - **obesity layer (3 contrasts)**: GSE32575 (post vs pre surgery), GSE272133 (obese (OB) w52 vs w0; T2D w52 vs w0);
 - **cell-model layer (2 paired contrasts)**: GSE282850 (AICAR vs differentiated; palmitate vs differentiated).
 

@@ -78,7 +78,7 @@
 
 共定义 **19 个预设对照比较**（`nampt_axis_predefined_contrasts.csv`、`nampt_axis_formal_contrast_stats.csv`），全部优先采用研究内部对照：
 
-- **运动层（exercise，12 个配对对照，嵌套于 4 个数据集）**：GSE312393（急性 24h、6 周训练）、GSE305038（正常/低活动 × 运动前后）、GSE292369（运动 vs 静息）、GSE318937（MICE/SIE × 活性/安慰剂 × 即刻/24h，8 个对照）；
+- **运动层（exercise，12 个配对对照，嵌套于 4 个数据集）**：GSE312393（6 周训练配对对照；急性 24h 单元为非配对设计，计入 19 个预设对照但不进入配对 meta）、GSE305038（正常/低活动 × 运动前后）、GSE292369（运动 vs 静息）、GSE318937（MICE/SIE × 活性/安慰剂 × 即刻/24h，8 个配对对照）；
 - **肥胖层（obesity，3 个预设对照比较）**：GSE32575（肥胖术后 vs 术前）、GSE272133（OB w52 vs w0；T2D w52 vs w0）；
 - **细胞模型层（obesity_cell_model，2 个配对对照）**：GSE282850（AICAR vs 分化；palmitate vs 分化）。
 
@@ -108,7 +108,7 @@
 
 ### 3.5 轴内免疫负荷代理
 
-在 GSE318937（n=118 全样本）、GSE305038、GSE32575 中计算轴内单核/巨噬基因负荷代理（macro/mono marker burden，与 NAMPT 轴基因重叠的 marker 基因集）与炎症分数的相关（r=0.7–0.9 范围；GSE318937/GSE305038 r=0.77–0.89，GSE32575 中 NAMPT_z r=+0.75、inflammatory r=+0.91）：
+在 GSE318937（n=119 全样本）、GSE305038、GSE32575 中计算轴内单核/巨噬基因负荷代理（macro/mono marker burden，与 NAMPT 轴基因重叠的 marker 基因集）与炎症分数的相关（r=0.7–0.9 范围；GSE318937/GSE305038 r=0.77–0.89，GSE32575 中 NAMPT_z r=+0.75、inflammatory r=+0.91）：
 
 - 该代理**不是细胞类型去卷积**（未使用 CIBERSORT/xCell 类方法），结果仅反映轴内基因共变，**不能作为独立细胞比例或因果证据**（审稿 R1-M5 闭环口径）；
 - 相关计算基于数据集内全样本，未按运动后时间点子集拆分（"运动后"口径为全样本相关）。

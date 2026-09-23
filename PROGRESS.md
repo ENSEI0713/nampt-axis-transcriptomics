@@ -123,6 +123,7 @@
   3. Reporting Summary 官方 PDF 模板转填（草稿在 submission_pack/）
   4. Cover letter 作者签名与日期确认（草稿在 submission_pack/）
   5. 作者单位/邮箱最终核对（头部已写 CUPES，投稿系统填写时确认）
+- **P2 数字核验与口径修正** ✅（2026-09-23，计划 Step 2 执行）：逐项对照 `meta_results.csv`/`meta_sensitivity_dataset_level.csv`/`meta_sensitivity_lodo.csv`/`module_alpha.csv`/`scores.csv`/`scores_B.csv`/`tiers.csv`/`NAMPT_axis_gene_set_v1.csv` 复核 Methods 与 EN 稿全部数字（meta +0.85/0.53–1.17/1.8e-7/I²=64%、balance −0.62、k=4 +0.965、LODO 全正、Score A 432/432 中位 1.118/≥2=174/≥4=94、Score B 104/strand 65% (68/104)/−0.876、Tier A=0/B=0/C=97/Ext=9/Excl=326、α 0.79–0.91、r 0.77–0.89/0.75/0.91、基因 59/20 模块/repair 34/inflam 19/both 6、样本 346 行→337 唯一）；5 条写作红线全部无越界。**修正 2 处口径**：(1) 运动层 12 个配对对照归属——GSE312393 急性 24h 为非配对设计，计入 19 预设对照但不进配对 meta（Methods 中文稿 §3.1 + EN 稿 §3.1 已同步）；(2) GSE318937 免疫负荷 n 由 118 统一为 119（118 为 module_alpha 计算样本数，非数据集样本数；中文稿 §3.5 + EN 稿 §3.5 已同步）
 - **最后一轮审稿复检** ✅（2026-09-20 三线：写作/数字/格式）全部通过，修复项已闭环：
   - 数字核验：meta（+0.85/0.53–1.17/p=1.8e-7/I²=64%、balance −0.62、k=4 +0.965、LODO 全正）、Evo2 Tier（A=0/B=0/C=97/Ext=9/Excl=326）、median|delta|=1.118、≥2=174/≥4=94、strand 65%、α 值（0.79/0.82/0.83/0.91/0.86）、免疫负荷 r（0.77–0.89；0.75/0.91）全部与落盘 CSV 一致
   - 样本数口径：346 rows（9 单元，GSE312393 双计 13）→ 337 unique samples（去重后），L132 已补说明
