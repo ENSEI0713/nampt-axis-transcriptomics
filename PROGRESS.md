@@ -153,6 +153,14 @@
   - 归档元数据同步：.zenodo.json 补 doi + related_identifiers；CITATION.cff 补 doi/url；ARCHIVE_README 补实际 DOI/URL；README git clone 用实际 URL
   - 新 zip：NAMPT_manuscript_submission_pack_2026-09-21.zip（57 条目；旧 09-20 版已删）
   - 待办清单 v4：B 组全部 ✅；剩余 A 核对 / C 上传 / D3 / E2-E6
+- **收尾冲刺执行完成** ✅（2026-09-23，用户指示"把能做的都做了"）：
+  - **图件全部重跑**：`plot_figure1_framework.py`/`plot_meta_forest.py`/`plot_evo2_figure.py`/`plot_nampt_axis_figures_py.py` 四脚本重跑成功（exit=0），figures_phase2 与 submission_assets 六图（Figure1-6 × pdf/svg/png/tiff）时间戳全部更新为 09-23；包含 plot_meta_forest 新增的 dataset-level cluster-aware（k=4）+ domain 分组；图注数字（+0.85、k=4 +0.965、Tier A=0/B=0/C=97/Ext=9/Excl=326）与落盘一致
+  - **Evo2 引用升级**：`references_v1.bib` brixi2025evo2 改 journal=Nature、year=2026、doi=10.1038/s41586-026-10176-5（正式版，preprint 保留在 note）；bib 头待办注释同步清理
+  - **手稿格式补齐**：python-docx 生成 `submission_pack/manuscript_full_en_v1.docx`（128 段、标题结构完整）；xelatex 生成 `manuscript_full_en_v1.tex` + `.pdf`（17 页）
+  - **投稿包重建**：`NAMPT_manuscript_submission_pack_2026-09-23.zip`（60 条目、10 分类、**全部 ASCII 文件名**，修复旧 zip 中文名乱码）；纳入 09-23 手稿/图件/bib/docx/pdf/图注
+  - **新脚本入库**：`scripts/md_to_docx_converter.py`、`scripts/md_to_latex.py`、`scripts/rebuild_submission_pack.py`
+  - **git 清理**：提交 `8cd5bbd`（62 文件）并推送 origin/main，本地与远端同步；TIFF 60MB 超 GitHub 推荐 50MB（警告非阻塞，与旧版一致）
+  - **剩余仅作者操作**：A 作者核对、C1-C4 上传、D3 核对 cover letter、E2-E6 投稿系统填写
 - 可选：Evo2 全量强制重跑（约 30-60 分钟 API）、GTEx LD 代理把 C 类与常见变异连接
 
 ## 4. 关键论断边界（写作用红线）
