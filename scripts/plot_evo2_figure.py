@@ -1,15 +1,19 @@
 #!/usr/bin/env python3
-"""Figure 5 - Evo2-40B regulatory-variant prioritization pipeline.
+"""Figure 6 - Evo2-40B regulatory-variant prioritization pipeline.
 
 Panel a: workflow from public genetic resources through candidate
 collection (Ensembl/dbSNP), GRCh38 ref/alt window construction, Evo2-40B
 allele-surprisal scoring, to multi-evidence Tier A/B/C assignment.
 Panel b: composition of the current candidate set (432 functional variants
 by gene window and by consequence class).
+Panel c: tier distribution of the 432 candidates (A = 0, B = 0, C = 97,
+External-only = 9, Excluded = 326), read from evo2/tiers.csv.
 
-Note: actual Evo2 scores are pending the NVIDIA API key; this figure shows
-the pipeline and candidate composition, and will be updated with a scored
-variant panel once run_evo2_scoring.py has been executed.
+Note: Evo2 scoring is complete (Score A on all 432 candidates, Score B on
+the 104-variant shortlist); this figure shows the pipeline, candidate
+composition, and tier counts. Tier C is a hypothesis set, not a stable
+ranking, and the Evo2 module is reported as supplementary (not a main
+figure).
 
 Outputs:
   data_audit/outputs/figures_phase2/figure5_evo2_prioritization.{pdf,svg,png,tiff}
@@ -28,6 +32,8 @@ from matplotlib.patches import FancyBboxPatch, FancyArrowPatch
 ROOT = Path(__file__).resolve().parents[1]
 OUT_DIR = ROOT / "data_audit" / "outputs"
 CAND_CSV = OUT_DIR / "evo2" / "candidates_priority.csv"
+TIERS_CSV = OUT_DIR / "evo2" / "tiers.csv"
+TIERS_CSV = OUT_DIR / "evo2" / "tiers.csv"
 FIG_OUT = OUT_DIR / "figures_phase2"
 FIG_OUT.mkdir(parents=True, exist_ok=True)
 
@@ -56,8 +62,8 @@ def arrow(ax, x1, y1, x2, y2, color="#9A9A9A", lw=1.4):
 
 
 def main() -> None:
-    fig = plt.figure(figsize=(11.5, 5.0))
-    gs = fig.add_gridspec(1, 2, width_ratios=[1.0, 0.9], wspace=0.35)
+    fig = plt.figure(figsize=(14.5, 5.2))
+    gs = fig.add_gridspec(1, 3, width_ratios=[1.0, 0.62, 0.62], wspace=0.38)
 
     # ---------- Panel a: workflow ----------
     axA = fig.add_subplot(gs[0])
@@ -74,7 +80,8 @@ def main() -> None:
     # Evo2 scoring
     box(axA, 5.6, 5.4, 4.0, 1.7, "Evo2-40B\nallele surprisal\n(ref vs alt)", C_EVO, fs=8)
     # Tier assignment
-    box(axA, 5.6, 2.8, 4.0, 1.7, "Evidence tiers\nA: Evo2 + eQTL + trait + reg.\nB: Evo2 + 2 evidence types\nC: exploratory only", C_NAMPT, fs=7.2)
+    box(axA, 5.6, 2.8, 4.0, 1.7,
+        "Evidence tiers\nA: Evo2 + GTEx p<1e-4 + GWAS p<5e-8\nB: Evo2 + GTEx OR GWAS\nC: exploratory only", C_NAMPT, fs=7.5)
 
     arrow(axA, 2.65, 8.0, 2.65, 7.1)
     arrow(axA, 2.65, 5.4, 2.65, 4.5)
@@ -97,6 +104,22 @@ def main() -> None:
     for i, (g, c) in enumerate(zip(genes[::-1], counts[::-1])):
         axB.text(c + 2, i, str(c), va="center", fontsize=8, color=C_GREY)
     axB.spines[["top", "right"]].set_visible(False)
+
+    # ---------- Panel c: tier distribution ----------
+    axC = fig.add_subplot(gs[2])
+    axC.set_title("c  Tier distribution (n = 432)", fontsize=11, fontweight="bold", loc="left")
+    tier_rows = list(csv.DictReader(open(TIERS_CSV, encoding="utf-8")))
+    tier_counts = Counter(r["tier"] for r in tier_rows)
+    tier_order = ["A", "B", "C", "External-only", "Excluded"]
+    tier_labels = ["A", "B", "C", "External-only", "Excluded"]
+    tier_vals = [tier_counts.get(t, 0) for t in tier_order]
+    tier_colors = ["#b64342", "#e28e2c", "#2c7fb8", "#33b5a5", "#d8d8d8"]
+    axC.bar(tier_labels, tier_vals, color=tier_colors, alpha=0.9, width=0.62)
+    for xi, (t, v) in enumerate(zip(tier_labels, tier_vals)):
+        axC.text(xi, v + 8, str(v), ha="center", va="bottom", fontsize=8.5, color=C_GREY)
+    axC.set_ylabel("Variants")
+    axC.set_ylim(0, max(tier_vals) * 1.18)
+    axC.spines[["top", "right"]].set_visible(False)
 
     fig.suptitle("Evo2-40B regulatory-variant prioritization for the NAMPT-NAD axis",
                  fontsize=12, fontweight="bold", y=0.99)

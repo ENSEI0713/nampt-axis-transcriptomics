@@ -21,6 +21,7 @@ ROOT = Path(__file__).resolve().parents[1]
 OUT_DIR = ROOT / "data_audit" / "outputs"
 META_CSV = OUT_DIR / "meta" / "meta_results.csv"
 INPUT_CSV = OUT_DIR / "meta" / "meta_input_contrasts.csv"
+DATASET_LEVEL_CSV = OUT_DIR / "meta" / "meta_sensitivity_dataset_level.csv"
 FIG_OUT = OUT_DIR / "figures_phase2"
 FIG_OUT.mkdir(parents=True, exist_ok=True)
 
@@ -46,18 +47,30 @@ def main() -> None:
     meta = pd.read_csv(META_CSV)
     fig, axes = plt.subplots(1, 2, figsize=(9.5, 5.2), gridspec_kw={"width_ratios": [1.0, 1.25]})
 
-    # ---- left: pooled effect by stratum ----
+    # ---- left: pooled effect by stratum (grouped by domain) ----
     ax = axes[0]
+    DOMAIN_ORDER = ["exercise", "obesity", "obesity_cell_model"]
     rows = []
     for _, r in meta.iterrows():
         rows.append({
+            "domain": r["domain"],
             "label": f"{DOMAIN_LABELS.get(r['domain'], r['domain'])} · {METRIC_LABELS.get(r['metric'], r['metric'])}",
             "est": r["pooled_effect"], "lo": r["ci95_low"], "hi": r["ci95_high"],
             "p": r["p_value"], "k": int(r["k"]), "i2": r["I2_pct"],
         })
-    rows.sort(key=lambda x: x["est"], reverse=True)
+    rows.sort(key=lambda x: (DOMAIN_ORDER.index(x["domain"]), x["est"]))
     y = 0
+    prev_domain = None
     for row in rows:
+        if prev_domain is not None and row["domain"] != prev_domain:
+            # domain divider line
+            ax.axhline(y - 0.45, color="#9A9A9A", lw=0.6, ls=":", zorder=2)
+        if row["domain"] != prev_domain:
+            section = "directional" if row["domain"] != "exercise" else "contrast-level"
+            ax.text(-0.02, y + 0.42,
+                    f"{DOMAIN_LABELS[row['domain']]} ({section})",
+                    fontsize=7.5, fontweight="bold", color="#272727", ha="left", va="bottom")
+        prev_domain = row["domain"]
         ax.plot([row["lo"], row["hi"]], [y, y], color="#636363", lw=1.6, zorder=3)
         ax.plot(row["est"], y, marker="D", markersize=6.5, color="#2c7fb8", zorder=4)
         ax.axvline(0, color="#9A9A9A", lw=0.8, ls="--", zorder=1)
@@ -66,7 +79,7 @@ def main() -> None:
                 f"k={row['k']} · I²={row['i2']:.0f}% · p={row['p']:.1e}" if row["p"] < 0.05 else
                 f"{row['est']:+.2f} [{row['lo']:+.2f}, {row['hi']:+.2f}]\n"
                 f"k={row['k']} · I²={row['i2']:.0f}% · p={row['p']:.2f}",
-                va="center", fontsize=7.3)
+                va="center", fontsize=7.5)
         y += 1.0
     ax.set_yticks([])
     ax.set_ylim(-0.6, y - 0.4)
@@ -95,11 +108,22 @@ def main() -> None:
     ax2.text(meta_ex["ci95_high"] + 0.1, pool_y,
              f"POOLED {meta_ex['pooled_effect']:+.2f} (p={meta_ex['p_value']:.1e})",
              fontsize=7.5, fontweight="bold", color="#2c7fb8", va="center")
+    # dataset-level (cluster-aware) estimate, k=4
+    dslev = pd.read_csv(DATASET_LEVEL_CSV)
+    ds_ex = dslev[(dslev["domain"] == "exercise") & (dslev["metric"] == "NAMPT_z")].iloc[0]
+    ds_y = pool_y + 1
+    ax2.plot([ds_ex["lo"], ds_ex["hi"]], [ds_y, ds_y], color="#31a354", lw=3)
+    ax2.plot(ds_ex["pooled"], ds_y, marker="D", color="#31a354", markersize=9)
+    ax2.text(ds_ex["hi"] + 0.1, ds_y,
+             f"DATASET-LEVEL k=4 {ds_ex['pooled']:+.2f} (p={ds_ex['p']:.1e})\n"
+             f"LODO: positive in all 4 drops",
+             fontsize=7.5, fontweight="bold", color="#31a354", va="center")
     labels = [f"{r['dataset_id'].split('_')[0]}: {r['contrast'][:26]}" for _, r in ex_nampt.iterrows()]
     labels.append("Random-effects pooled")
-    ax2.set_yticks(list(ys) + [pool_y])
+    labels.append("Dataset-level (k=4)")
+    ax2.set_yticks(list(ys) + [pool_y, ds_y])
     ax2.set_yticklabels(labels, fontsize=6.8)
-    ax2.set_ylim(-0.8, pool_y + 0.8)
+    ax2.set_ylim(-0.8, ds_y + 0.8)
     ax2.set_xlabel("Effect size (Cohen dz)")
     ax2.set_title("Exercise / NAMPT_z: per-contrast forest", fontsize=10, fontweight="bold", loc="left")
     ax2.spines[["top", "right"]].set_visible(False)

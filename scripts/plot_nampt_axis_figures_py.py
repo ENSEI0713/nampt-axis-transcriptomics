@@ -230,9 +230,10 @@ def forest_plot(ax: plt.Axes, data: pd.DataFrame, metric: str, title: str, order
         color = STATUS_COLORS.get(status, COLORS["mid"])
         ax.hlines(idx, row.ci95_low, row.ci95_high, color=color, linewidth=1.2)
         size = 22 + 3.0 * float(row.analysis_n if pd.notna(row.analysis_n) else 1)
-        ax.scatter(row.mean_delta, idx, s=size, color=color, edgecolor="white", linewidth=0.5, zorder=3)
+        marker = "X" if str(getattr(row, "analysis_design", "")).lower() == "unpaired" else "o"
+        ax.scatter(row.mean_delta, idx, s=size, marker=marker, color=color, edgecolor="white", linewidth=0.5, zorder=3)
     ax.set_yticks(y)
-    ax.set_yticklabels(labels, fontsize=6.5)
+    ax.set_yticklabels(labels, fontsize=7.0)
     ax.invert_yaxis()
     ax.set_xlabel("Mean within-dataset change")
     ax.set_title(title, loc="left", fontsize=8.3, fontweight="bold")
@@ -250,9 +251,9 @@ def heatmap_plot(ax: plt.Axes, data: pd.DataFrame, title: str, order: list[str])
     vmax = max(abs(float(np.nanmin(finite))), abs(float(np.nanmax(finite)))) if finite.size else 1.0
     image = ax.imshow(values, aspect="auto", cmap="RdBu_r", vmin=-vmax, vmax=vmax)
     ax.set_xticks(np.arange(len(METRIC_ORDER)))
-    ax.set_xticklabels([METRIC_LABELS[m] for m in METRIC_ORDER], rotation=35, ha="right", fontsize=6.2)
+    ax.set_xticklabels([METRIC_LABELS[m] for m in METRIC_ORDER], rotation=35, ha="right", fontsize=7.0)
     ax.set_yticks(np.arange(len(pivot.index)))
-    ax.set_yticklabels([str(x) for x in pivot.index], fontsize=6.2)
+    ax.set_yticklabels([str(x) for x in pivot.index], fontsize=7.0)
     ax.set_title(title, loc="left", fontsize=8.3, fontweight="bold")
 
     fdr = plot_data[plot_data["q_value_metric"] < 0.10]
@@ -285,7 +286,7 @@ def plot_figure2(coverage: pd.DataFrame, stats_all: pd.DataFrame) -> None:
     colors = data["module_group"].map(GROUP_COLORS).fillna(COLORS["mid"])
     ax_a.scatter(data["axis_gene_coverage_pct"], y, s=sizes, color=colors, edgecolor="white", linewidth=0.5)
     ax_a.set_yticks(y)
-    ax_a.set_yticklabels(data["dataset_label"], fontsize=6.6)
+    ax_a.set_yticklabels(data["dataset_label"], fontsize=7.0)
     ax_a.set_xlim(0, 105)
     ax_a.set_xlabel("NAMPT-axis gene coverage")
     ax_a.set_title("Public transcriptomic evidence base", loc="left", fontsize=8.4, fontweight="bold")
@@ -313,10 +314,10 @@ def plot_figure2(coverage: pd.DataFrame, stats_all: pd.DataFrame) -> None:
     ax_c.bar(x - 0.18, ci_counts.values, width=0.34, color=COLORS["orange"], label="CI excludes 0")
     ax_c.bar(x + 0.18, fdr_counts.values, width=0.34, color=COLORS["blue"], label="FDR < 0.10")
     ax_c.set_xticks(x)
-    ax_c.set_xticklabels([METRIC_LABELS[m] for m in METRIC_ORDER], rotation=30, ha="right", fontsize=6)
+    ax_c.set_xticklabels([METRIC_LABELS[m] for m in METRIC_ORDER], rotation=30, ha="right", fontsize=7.0)
     ax_c.set_ylabel("Contrasts")
     ax_c.set_title("Evidence density by axis metric", loc="left", fontsize=8.4, fontweight="bold")
-    ax_c.legend(frameon=False, fontsize=6.2, loc="upper right")
+    ax_c.legend(frameon=False, fontsize=7.0, loc="upper right")
     ax_c.spines[["top", "right"]].set_visible(False)
     add_panel_label(ax_c, "c")
 
@@ -324,7 +325,7 @@ def plot_figure2(coverage: pd.DataFrame, stats_all: pd.DataFrame) -> None:
         Line2D([0], [0], marker="o", color="none", markerfacecolor=color, markeredgecolor="white", markersize=6, label=label)
         for label, color in GROUP_COLORS.items()
     ]
-    ax_a.legend(handles=group_handles, frameon=False, fontsize=6.2, loc="lower right")
+    ax_a.legend(handles=group_handles, frameon=False, fontsize=7.0, loc="lower right")
     save_all(fig, "figure2_public_data_framework")
 
 
@@ -364,7 +365,7 @@ def plot_figure3(exercise: pd.DataFrame) -> None:
     ax_b.set_xticklabels(["Immediate", "24 h"])
     ax_b.set_ylabel("Balance-score delta")
     ax_b.set_title("Immediate stress bias relaxes by 24 h", loc="left", fontsize=8.3, fontweight="bold")
-    ax_b.legend(frameon=False, fontsize=6.1)
+    ax_b.legend(frameon=False, fontsize=7.0)
     ax_b.spines[["top", "right"]].set_visible(False)
     add_panel_label(ax_b, "b")
 
@@ -397,7 +398,7 @@ def plot_figure4(obesity: pd.DataFrame) -> None:
         ax_b.vlines(idx, row.ci95_low, row.ci95_high, color=color, linewidth=1.25)
         ax_b.scatter(idx, row.mean_delta, color=color, edgecolor="white", linewidth=0.5, s=42)
     ax_b.set_xticks(x)
-    ax_b.set_xticklabels([METRIC_LABELS[str(m)].replace("\n", " ") for m in monocyte["metric"]], rotation=28, ha="right", fontsize=6)
+    ax_b.set_xticklabels([METRIC_LABELS[str(m)].replace("\n", " ") for m in monocyte["metric"]], rotation=28, ha="right", fontsize=7.0)
     ax_b.set_ylabel("Post vs pre mean delta")
     ax_b.set_title("Post-bariatric monocyte remodeling", loc="left", fontsize=8.3, fontweight="bold")
     ax_b.spines[["top", "right"]].set_visible(False)

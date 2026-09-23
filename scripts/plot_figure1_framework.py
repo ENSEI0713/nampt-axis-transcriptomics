@@ -102,7 +102,7 @@ def main() -> None:
     axC.set_title("c  Multi-layer public-data evidence", fontsize=11, fontweight="bold", loc="left")
 
     layers = [
-        ("Public GEO expression", "9 matrices / 346 samples", C_REPAIR),
+        ("Public GEO expression", "9 units / 337 samples", C_REPAIR),
         ("NAMPT-axis scores", "59-gene axis: NAMPT_z, infl, repair, balance", C_NAMPT),
         ("State contrasts + meta", "19 paired contrasts, random-effects meta", C_REPAIR),
         ("Evo2-40B regulatory variants", "ref/alt allele surprisal -> Tier A/B/C", C_EVO),
@@ -142,10 +142,10 @@ def main() -> None:
     axF.set_title("f  Balance score across states", fontsize=10, fontweight="bold", loc="left")
 
     states = [
-        ("Acute exercise (k=12)", -0.62, C_INFLAM),
-        ("Obesity (k=3)", -0.10, C_GREY),
-        ("Cell model (k=2)", -0.07, C_GREY),
-        ("6-wk training (n=3)", 0.27, C_REPAIR),
+        ("Acute exercise (k=12) †", -0.62, C_INFLAM),
+        ("Obesity (k=3) †", -0.10, C_GREY),
+        ("Cell model (k=2) †", -0.07, C_GREY),
+        ("6-wk training (n=3) †", 0.27, C_REPAIR),
     ]
     y = 8.4
     for name, val, col in states:
@@ -160,8 +160,10 @@ def main() -> None:
                  fontsize=8.5, color=C_GREY, va="center",
                  ha="left" if val >= 0 else "right")
         y -= 1.6
-    axF.text(4.5, 1.1, "repair-negative <- balance -> repair-positive", fontsize=8,
+    axF.text(4.5, 1.4, "repair-negative <- balance -> repair-positive", fontsize=8,
              color=C_GREY, ha="center")
+    axF.text(4.5, 0.5, "† directional summary (limited k/n); full CIs in Fig. 4–5",
+             fontsize=7.5, style="italic", color=C_GREY, ha="center")
 
     fig.suptitle("State-dependent NAMPT-NAD inflammatory-repair axis in obesity and exercise adaptation",
                  fontsize=13, fontweight="bold", y=0.98)
