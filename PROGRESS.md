@@ -162,6 +162,9 @@
   - **新脚本入库**：`scripts/md_to_docx_converter.py`、`scripts/md_to_latex.py`、`scripts/rebuild_submission_pack.py`
   - **git 清理**：提交 `8cd5bbd`（62 文件）并推送 origin/main，本地与远端同步；TIFF 60MB 超 GitHub 推荐 50MB（警告非阻塞，与旧版一致）
   - **剩余仅作者操作**：A 作者核对、C1-C4 上传、D3 核对 cover letter、E2-E6 投稿系统填写
+- **阶段 3 Figure 5 tidyplots 面板完成**（2026-09-25）：
+  - 新增 `scripts/plot_figure5_tidyplots.R`，主图仅保留 obesity/weight-loss/tissue/disease evidence：4 contrasts、monocyte remodeling、OB/T2D muscle response；cell-model 两个 contrasts 明确移出主图。
+  - 三个面板和矢量 composite 已导出，QC：panel a 16 rows/4 contrasts，panel b 4 rows，panel c 8 rows；`cell_model_moved_to_supplement=TRUE`。
 - **阶段 3 Figure 4 tidyplots 面板完成**（2026-09-25）：
   - 新增 `scripts/plot_figure4_tidyplots.R`，生成 contrast-level meta（12 行）、dataset-level cluster-aware（8 行）和 exercise LODO（16 行）三个统计面板；cell model 保留为单数据集方向性证据，不混入 dataset-level pooling。
   - 新增 `scripts/compose_figure4_svg.py`，三个 SVG 面板已组成矢量 composite；Figure 3 composite 也已完成。tidyplots 当前无 facet API，因此 composite 通过 SVG 保留矢量内容和真实标签。

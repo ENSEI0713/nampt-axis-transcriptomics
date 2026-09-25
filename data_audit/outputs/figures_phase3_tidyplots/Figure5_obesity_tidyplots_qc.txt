@@ -1,0 +1,8 @@
+status=panel_exports
+main_figure_scope=obesity/weight-loss/tissue/disease only
+panel_a_rows=16
+panel_a_contrasts=4
+panel_b_rows=4
+panel_c_rows=8
+cell_model_moved_to_supplement=TRUE
+render_backend=tidyplots 0.4.0
