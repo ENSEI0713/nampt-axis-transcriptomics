@@ -1,0 +1,8 @@
+status=panel_exports
+panel_a_rows=12
+panel_b_rows=8
+panel_c_rows=16
+render_backend=tidyplots 0.4.0
+panel_a_scope=contrast-level meta; cell-model retained as one dataset directional evidence
+panel_b_scope=exercise and obesity dataset-level sensitivity
+panel_c_scope=exercise LODO

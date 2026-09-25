@@ -162,6 +162,9 @@
   - **新脚本入库**：`scripts/md_to_docx_converter.py`、`scripts/md_to_latex.py`、`scripts/rebuild_submission_pack.py`
   - **git 清理**：提交 `8cd5bbd`（62 文件）并推送 origin/main，本地与远端同步；TIFF 60MB 超 GitHub 推荐 50MB（警告非阻塞，与旧版一致）
   - **剩余仅作者操作**：A 作者核对、C1-C4 上传、D3 核对 cover letter、E2-E6 投稿系统填写
+- **阶段 3 Figure 4 tidyplots 面板完成**（2026-09-25）：
+  - 新增 `scripts/plot_figure4_tidyplots.R`，生成 contrast-level meta（12 行）、dataset-level cluster-aware（8 行）和 exercise LODO（16 行）三个统计面板；cell model 保留为单数据集方向性证据，不混入 dataset-level pooling。
+  - 新增 `scripts/compose_figure4_svg.py`，三个 SVG 面板已组成矢量 composite；Figure 3 composite 也已完成。tidyplots 当前无 facet API，因此 composite 通过 SVG 保留矢量内容和真实标签。
 - **阶段 3 Figure 3 tidyplots 面板完成**（2026-09-25）：
   - 新增 `scripts/plot_figure3_tidyplots_final.R`，以真实 `figure3_exercise_axis_contrasts.csv` 构建 panel a（13 contrasts NAMPT_z forest）、panel b（8 条 immediate/24 h balance records，4 traces）和 panel c（13 contrasts × 4 metrics heatmap）。
   - 三个面板分别以 183 mm 投稿宽度导出 SVG，QC 通过；由于 tidyplots 0.4.0 S7 对象与 patchwork 组合器存在尺寸兼容问题，当前状态为 panel exports，复合 Figure 3 版式仍待处理，不把原型误标为最终图。
