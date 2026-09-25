@@ -11,7 +11,7 @@
 
 ### 2. Experimental Models & Statistics
 - **Samples**: Human-derived transcriptomic matrices (skeletal muscle, adipose, CD14+ monocytes, whole blood-derived cells, LHCN-M2 human muscle cells). No animals.
-- **Sample size**: 337 samples across 9 units; per-dataset sizes listed in Methods Table 1.
+- **Sample size**: 337 unique formal analysis samples across 9 units; the sample-level score table contains 346 analysis-unit records and the long-format metadata contains 351 provenance rows. Per-dataset sizes are listed in Methods Table 1.
 - **Inclusion/exclusion**: Predefined in Methods §1.1.
 - **Randomization / blinding**: Not applicable — public data secondary analysis; no intervention allocation.
 - **Replication**: Cross-dataset evidence ladder (9 units, 4 exercise cohorts); leave-one-dataset-out sensitivity.

@@ -153,6 +153,7 @@
   - 归档元数据同步：.zenodo.json 补 doi + related_identifiers；CITATION.cff 补 doi/url；ARCHIVE_README 补实际 DOI/URL；README git clone 用实际 URL
   - 新 zip：NAMPT_manuscript_submission_pack_2026-09-21.zip（57 条目；旧 09-20 版已删）
   - 待办清单 v4：B 组全部 ✅；剩余 A 核对 / C 上传 / D3 / E2-E6
+- **证据口径与图注重构启动**（2026-09-24）：建立 `data_audit/outputs/evidence_manifest.md`，固定 337 正式去重样本 / 346 分析记录 / 351 provenance 行、19/12/13 contrast 口径；同步英文手稿、中文 Methods、Figure legends 和 Reporting Summary；Figure 6 统一为实际 a–c 三面板。
 - **收尾冲刺执行完成** ✅（2026-09-23，用户指示"把能做的都做了"）：
   - **图件全部重跑**：`plot_figure1_framework.py`/`plot_meta_forest.py`/`plot_evo2_figure.py`/`plot_nampt_axis_figures_py.py` 四脚本重跑成功（exit=0），figures_phase2 与 submission_assets 六图（Figure1-6 × pdf/svg/png/tiff）时间戳全部更新为 09-23；包含 plot_meta_forest 新增的 dataset-level cluster-aware（k=4）+ domain 分组；图注数字（+0.85、k=4 +0.965、Tier A=0/B=0/C=97/Ext=9/Excl=326）与落盘一致
   - **Evo2 引用升级**：`references_v1.bib` brixi2025evo2 改 journal=Nature、year=2026、doi=10.1038/s41586-026-10176-5（正式版，preprint 保留在 note）；bib 头待办注释同步清理
@@ -161,6 +162,12 @@
   - **新脚本入库**：`scripts/md_to_docx_converter.py`、`scripts/md_to_latex.py`、`scripts/rebuild_submission_pack.py`
   - **git 清理**：提交 `8cd5bbd`（62 文件）并推送 origin/main，本地与远端同步；TIFF 60MB 超 GitHub 推荐 50MB（警告非阻塞，与旧版一致）
   - **剩余仅作者操作**：A 作者核对、C1-C4 上传、D3 核对 cover letter、E2-E6 投稿系统填写
+- **阶段 1/2 证据与 R 绘图基线完成** ✅（2026-09-25）：
+  - R 4.6.1 + tidyplots 0.4.0 + ggplot2 4.0.3 + patchwork 1.3.2 + readr 2.2.0 + svglite 2.2.2 + ragg 1.5.2 已验证；`scripts/plot_nampt_axis_figures.R` exit=0。
+  - 建立 `data_audit/outputs/evidence_manifest.md`，固定 337 正式去重样本 / 346 分析记录 / 351 provenance 行、19/12/13 contrast 与 Figure 6 a–c 口径。
+  - 生成 Supplementary Data 9–14：gene/module inventory、module structure、Phase 1b sensitivity atlas、432 候选 Evo2+GTEx/GWAS full table、样本级 trajectory records、76 条 formal statistics；全部为既有结果的透明重排，不新增统计模型。
+  - 新增 `requirements-r.txt` 与 `scripts/plot_tidyplots_exercise_forest.R`；tidyplots 原型成功导出 13 个 exercise NAMPT_z contrasts（183 × 118 mm SVG/TIFF），当前标记为 prototype，尚未替代全部最终主文图。
+  - **下一阶段**：Figure 1 机制图矢量化重构、Figure 3–5 R/tidyplots 正式重绘、Figure 6 主文/补充图拆分及 Supplementary Figures。
 - 可选：Evo2 全量强制重跑（约 30-60 分钟 API）、GTEx LD 代理把 C 类与常见变异连接
 
 ## 4. 关键论断边界（写作用红线）

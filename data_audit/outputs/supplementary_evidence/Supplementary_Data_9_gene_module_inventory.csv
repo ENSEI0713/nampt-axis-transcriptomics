@@ -1,0 +1,60 @@
+﻿gene_symbol,module,score_group,rationale,gene_count,table_scope
+NAMPT,nad_salvage_core,both,Core enzyme of NAD salvage and focal gene for iNAMPT/eNAMPT biology,1,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+NMNAT1,nad_salvage_core,repair,Nuclear NMN adenylyltransferase supporting NAD synthesis,5,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+NMNAT2,nad_salvage_core,repair,Cytosolic/Golgi-associated NMN adenylyltransferase and stress-response NAD biology,5,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+NMNAT3,nad_salvage_core,repair,Mitochondrial-associated NMN adenylyltransferase linked to mitochondrial NAD pools,5,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+NAPRT,nad_salvage_core,repair,Nicotinic acid phosphoribosyltransferase and alternative NAD precursor pathway,5,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+NADSYN1,nad_salvage_core,repair,NAD synthetase and terminal NAD biosynthesis step,5,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+QPRT,nad_de_novo,repair,De novo NAD pathway from tryptophan/kynurenine metabolism,1,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+KYNU,nad_de_novo,inflammatory,Tryptophan-kynurenine pathway enzyme often coupled to inflammatory metabolism,2,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+IDO1,nad_de_novo,inflammatory,Inflammation-inducible tryptophan metabolism node upstream of NAD-related pathways,2,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+CD38,nad_consumption_inflammation,inflammatory,NAD-consuming ectoenzyme linked to inflammation and metabolic dysfunction,2,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+BST1,nad_consumption_inflammation,inflammatory,CD38 paralogue and immune ectoenzyme with NAD-related activity,2,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+PARP1,nad_consumption_repair,both,NAD-consuming DNA damage response enzyme; repair marker and NAD consumer,2,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+PARP2,nad_consumption_repair,both,NAD-consuming DNA damage response enzyme; repair marker and NAD consumer,2,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+SIRT1,sirtuin_repair,repair,NAD-dependent deacetylase linked to mitochondrial biogenesis and inflammatory restraint,3,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+SIRT3,sirtuin_repair,repair,NAD-dependent mitochondrial deacetylase and oxidative metabolism regulator,3,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+SIRT6,sirtuin_repair,repair,NAD-dependent chromatin and DNA repair regulator,3,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+PRKAA1,ampk_mitochondria_repair,repair,AMPK catalytic subunit alpha1; energy stress and exercise adaptation,3,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+PRKAA2,ampk_mitochondria_repair,repair,AMPK catalytic subunit alpha2; skeletal-muscle energy adaptation,3,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+PPARGC1A,ampk_mitochondria_repair,repair,PGC-1alpha mitochondrial biogenesis and endurance adaptation regulator,3,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+TFAM,mitochondrial_biogenesis,repair,Mitochondrial transcription factor and mtDNA maintenance marker,2,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+NRF1,mitochondrial_biogenesis,repair,Nuclear respiratory factor involved in mitochondrial biogenesis,2,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+NFE2L2,oxidative_stress_repair,repair,NRF2 antioxidant and stress-adaptation regulator,4,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+SOD2,oxidative_stress_repair,repair,Mitochondrial antioxidant defense marker,4,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+CAT,oxidative_stress_repair,repair,Antioxidant enzyme relevant to oxidative stress resolution,4,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+GPX1,oxidative_stress_repair,repair,Glutathione peroxidase and oxidative damage protection marker,4,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+NFKB1,nfkb_inflammation,inflammatory,NF-kB transcription factor subunit linked to chronic inflammatory signalling,7,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+RELA,nfkb_inflammation,inflammatory,NF-kB p65 subunit and inflammatory transcriptional activation,7,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+TNF,nfkb_inflammation,inflammatory,Canonical inflammatory cytokine relevant to obesity inflammation,7,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+IL6,nfkb_inflammation,inflammatory,Exercise-responsive and inflammation-associated cytokine with context dependence,7,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+IL1B,nfkb_inflammation,inflammatory,Inflammasome-related inflammatory cytokine,7,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+CCL2,nfkb_inflammation,inflammatory,Monocyte recruitment chemokine relevant to adipose inflammation,7,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+CXCL8,nfkb_inflammation,inflammatory,Neutrophil/innate immune chemokine and inflammatory activation marker,7,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+TLR4,innate_immune_inflammation,inflammatory,Innate immune receptor linked to lipid-induced inflammation,3,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+NLRP3,innate_immune_inflammation,inflammatory,Inflammasome component relevant to metabolic inflammation,3,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+CASP1,innate_immune_inflammation,inflammatory,Inflammasome effector supporting IL1B maturation,3,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+ITGAM,monocyte_macrophage,inflammatory,Myeloid/macrophage marker useful for immune-cell infiltration context,4,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+CD14,monocyte_macrophage,inflammatory,Monocyte marker and LPS co-receptor,4,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+CD68,monocyte_macrophage,inflammatory,Macrophage marker used for tissue inflammatory burden,4,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+ADGRE1,monocyte_macrophage,inflammatory,Macrophage marker; human ortholog context should be checked per dataset,4,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+MRC1,macrophage_resolution,repair,Macrophage alternative activation/resolution marker,2,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+ARG1,macrophage_resolution,repair,Resolution/repair-associated macrophage marker; human tissue context should be interpreted carefully,2,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+PPARG,adipose_metabolism_resolution,repair,Adipose metabolism and anti-inflammatory transcriptional regulator,2,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+ADIPOQ,adipose_metabolism_resolution,repair,Adipocyte metabolic health marker often reduced in obesity inflammation,2,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+LEP,adipose_metabolism_inflammation,inflammatory,Adiposity-linked hormone and inflammatory-metabolic signal,1,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+INSR,insulin_metabolism,repair,Insulin signalling receptor and metabolic health marker,4,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+IRS1,insulin_metabolism,repair,Insulin signalling adaptor relevant to skeletal muscle and adipose metabolism,4,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+SLC2A4,insulin_metabolism,repair,GLUT4 glucose transport and exercise/metabolic adaptation marker,4,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+AKT2,insulin_metabolism,repair,Insulin signalling kinase relevant to glucose metabolism,4,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+MTOR,nutrient_sensing,both,Nutrient-sensing kinase; context-dependent growth/adaptation signal,1,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+FOXO3,stress_repair,repair,Stress resistance and mitochondrial/autophagy-related transcription factor,1,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+ATM,dna_damage_repair,repair,DNA damage response kinase linked to repair signalling,3,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+XRCC1,dna_damage_repair,repair,Base excision repair marker,3,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+OGG1,dna_damage_repair,repair,Oxidative DNA damage repair enzyme,3,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+ATG5,autophagy_repair,repair,Autophagy machinery marker relevant to exercise adaptation and repair,3,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+BECN1,autophagy_repair,repair,Autophagy initiation marker,3,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+MAP1LC3B,autophagy_repair,repair,Autophagosome marker and cellular repair process indicator,3,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+SQSTM1,autophagy_repair,both,Autophagy adaptor; accumulation may indicate stress or altered flux,1,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+UCP2,mitochondrial_stress,both,Mitochondrial uncoupling and metabolic stress/adaptation marker,1,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling
+UCP3,mitochondrial_stress,repair,Skeletal muscle mitochondrial fatty acid handling and exercise adaptation marker,1,gene-set annotation and per-dataset expression availability; no cross-platform expression pooling

@@ -115,7 +115,7 @@ This is a secondary analysis of public human transcriptomic data (observational,
 
 **1.1 Data screening.** Public datasets were identified in the Gene Expression Omnibus (GEO) by predefined queries (keywords covering exercise/training, skeletal muscle, blood/peripheral blood mononuclear cells (PBMC), obesity, adipose tissue, weight loss/metabolic surgery, muscle injury/recovery) and manually prioritized. Inclusion required: human samples or human-derived cell models; publicly downloadable processed expression matrices with sample-level metadata resolvable to condition, time point, tissue and intervention; tissue/cell types relevant to the question (skeletal muscle, adipose, whole blood, PBMC, CD14+ monocytes, macrophages, or human skeletal-muscle cells); explicit comparison structure (pre/post exercise or training, activity reduction, nutritional recovery, obesity/normal weight, pre/post weight-loss surgery, metabolic-state differences). Exclusion/downgrade: animal data as mechanism-only (not primary evidence ladder); cancer/severe infection/severe vascular disease cohorts; datasets whose sample conditions or metadata could not be resolved; NAMPT-mRNA-only data cannot support eNAMPT-protein claims.
 
-**1.2 Included datasets and samples.** Nine transcriptomic analysis units, 337 samples (8 GEO accessions; GSE312393 split into acute 24h and 6-week training units). Coverage of the 59-gene axis was 100% in most datasets (GSE305038 84.7%, GSE282850 79.7%; missing genes scored from available genes).
+**1.2 Included datasets and samples.** Nine transcriptomic analysis units, **337 unique formal analysis samples** (8 GEO accessions; GSE312393 split into acute 24h and 6-week training units). Coverage of the 59-gene axis was 100% in most datasets (GSE305038 84.7%, GSE282850 79.7%; missing genes scored from available genes). The sample-level score table contains 346 analysis-unit records because the 13 GSE312393 samples are represented in both split units; the long-format GEO metadata contains 351 provenance rows. These record counts are not additional biological samples.
 
 | Unit | Tissue/cells | Design | Samples |
 | --- | --- | --- | --- |
@@ -129,7 +129,7 @@ This is a secondary analysis of public human transcriptomic data (observational,
 | GSE294150_visceral_adipose | visceral adipose | severe obesity (surgery time point) | 40 |
 | GSE282850_muscle_cell_aicar_palmitate | human muscle cells (LHCN-M2) | differentiation vs AICAR vs palmitate | 15 |
 
-Sample-level file contains 346 rows across 9 analysis units; after deduplication GSE312393 contributes 13 unique samples to two units (7 acute + 6 training), giving 337 unique samples (units do not double-count GSE312393 samples). Sample-level scores are provided in Supplementary Data 1.
+The sample-level score file contains 346 analysis-unit records across 9 units. After deduplication, GSE312393 contributes 13 unique biological samples to two units (7 acute + 6 training), giving 337 unique formal analysis samples. The separate long-format GEO metadata file contains 351 provenance rows. Sample-level scores are provided in Supplementary Data 1.
 
 **1.3 Preprocessing.** Official processed matrices were downloaded from GEO (download dates in Supplementary Data 1). Expression values use each dataset's native units (counts/FPKM/CPM); **genes are z-scored within dataset only; raw values are never merged across platforms/datasets**. Per-dataset transformations (e.g. log2(x+1), or none if already log-like) are recorded in Supplementary Data 1.
 
@@ -144,7 +144,7 @@ Sample-level file contains 346 rows across 9 analysis units; after deduplication
 
 ### 3. Predefined contrasts and statistics
 
-**3.1 Contrasts.** 19 predefined contrasts (Supplementary Data 3), within-study controls preferred:
+**3.1 Contrasts.** 19 predefined contrasts (Supplementary Data 3), within-study controls preferred. Twelve paired exercise contrasts nested in four datasets enter the paired exercise meta-analysis; Figure 3 additionally displays one unpaired acute-24 h comparison for descriptive dynamics, so its plotted exercise display contains 13 contrasts:
 - **exercise layer (12 paired contrasts nested in 4 datasets)**: GSE312393 (6-week training paired contrast; the acute-24h unit is an unpaired design, counted among the 19 predefined contrasts but not in the paired meta), GSE305038 (active/inactive × pre/post), GSE292369 (exercise vs rest), GSE318937 (MICE/SIE × active/placebo × immediate/24h; 8 paired contrasts);
 - **obesity layer (3 contrasts)**: GSE32575 (post vs pre surgery), GSE272133 (obese (OB) w52 vs w0; T2D w52 vs w0);
 - **cell-model layer (2 paired contrasts)**: GSE282850 (AICAR vs differentiated; palmitate vs differentiated).
@@ -223,7 +223,7 @@ All analysis code (public-data audit, NAMPT-axis scoring, meta-analysis, module-
 **a**, NAMPT-axis gene coverage across the 9 analysis units (59-gene axis; most datasets 100%, GSE305038 84.7%, GSE282850 79.7%). **b**, Analysis design: predefined contrasts by layer (exercise, obesity, cell model). **c**, Evidence density by axis metric: number of contrasts with CI excluding 0 and with FDR < 0.10.
 
 ### Figure 3 | Exercise-induced NAMPT axis: acute stress and training adaptation.
-**a**, NAMPT_z, inflammatory, repair and balance scores across exercise cohorts (12 paired contrasts, 4 datasets). **b**, Immediate stress bias relaxes by 24 h (GSE318937 immediate vs 24h). **c**, Dataset-level summaries; acute inflammation-like signal mainly driven by NF-κB/cytokine modules (Phase 1b consistency).
+**a**, NAMPT_z, inflammatory, repair and balance scores across exercise cohorts (13 contrasts plotted: 12 paired contrasts plus one unpaired acute-24 h comparison; 4 datasets). The unpaired display contrast is descriptive and is not included in the paired meta-analysis. **b**, Immediate stress bias relaxes by 24 h (GSE318937 immediate vs 24h). **c**, Dataset-level summaries; acute inflammation-like signal mainly driven by NF-κB/cytokine modules (Phase 1b consistency).
 
 ### Figure 4 | Random-effects meta-analysis of the exercise NAMPT axis.
 **a**, Pooled effects by stratum and metric (contrast-level DerSimonian–Laird: NAMPT_z +0.85, 95% CI 0.53–1.17, p = 1.8e-7; balance −0.62, p = 0.016; inflammatory +0.28, ns; repair −0.33, p = 0.05) with I² and τ². **b**, Per-contrast forest plot for exercise/NAMPT_z (12 contrasts); cluster-aware dataset-level estimate (k = 4, +0.965) and leave-one-dataset-out sensitivity are shown.
@@ -232,7 +232,7 @@ All analysis code (public-data audit, NAMPT-axis scoring, meta-analysis, module-
 **a**, Obesity-layer meta (k = 3, directional): NAMPT_z +0.14; inflammatory +0.57. **b**, Post-bariatric monocyte remodeling (GSE32575): inflammatory and repair scores rise together post-surgery. **c**, Skeletal-muscle response by metabolic-disease status (GSE272133): T2D post-surgery repair score +0.30.
 
 ### Figure 6 | Evo2-40B regulatory-variant prioritization.
-**a**, Prioritization workflow: Ensembl REST candidate build (12,961 → 432 functional variants within TSS ±2 kb of NAMPT/CD38/BST1/SIRT1/SIRT3/SIRT6/IL6/TNF), GRCh38 (hg38) ref/alt 2 kb windows, Evo2-40B scoring (Score A allele surprisal; Score B pseudo-likelihood), GTEx/GWAS Catalog merge and Tier assignment. **b**, Candidate-set composition (n = 432 by gene window; NAMPT 12, CD38/BST1/SIRT1/SIRT3/SIRT6/IL6/TNF 60 each). Tier distribution (A = 0, B = 0, C = 97, External-only = 9, Excluded = 326) shown; Evo2 module is reported as supplementary (not a main figure).
+**a**, Prioritization workflow: Ensembl REST candidate build (12,961 → 432 functional variants within TSS ±2 kb of NAMPT/CD38/BST1/SIRT1/SIRT3/SIRT6/IL6/TNF), GRCh38 (hg38) ref/alt 2 kb windows, Evo2-40B scoring (Score A allele surprisal; Score B pseudo-likelihood), GTEx/GWAS Catalog merge and Tier assignment. **b**, Candidate-set composition (n = 432 by gene window; NAMPT 12, CD38/BST1/SIRT1/SIRT3/SIRT6/IL6/TNF 60 each). **c**, Tier distribution (A = 0, B = 0, C = 97, External-only = 9, Excluded = 326). Evo2 is reported as an exploratory supplementary module, not as a validated mechanistic main result.
 
 ## End Notes
 

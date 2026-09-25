@@ -24,7 +24,7 @@
 
 ### 1.2 纳入数据集与样本
 
-共纳入 **9 个转录组分析单元、337 个样本**（8 个 GEO accession；GSE312393 拆分为急性运动 24h 与 6 周训练两个分析单元）。多数数据集 59 基因轴覆盖率 100%（GSE305038 84.7%、GSE282850 79.7%，缺失基因在评分时按可用基因计算）。数据集清单：
+共纳入 **9 个转录组分析单元、337 个正式去重分析样本**（8 个 GEO accession；GSE312393 拆分为急性运动 24h 与 6 周训练两个分析单元）。多数数据集 59 基因轴覆盖率 100%（GSE305038 84.7%、GSE282850 79.7%，缺失基因在评分时按可用基因计算）。数据集清单：
 
 | 数据集单元 | 组织/细胞 | 设计背景 | 分析样本数 |
 | --- | --- | --- | --- |
@@ -39,7 +39,7 @@
 | GSE282850_muscle_cell_aicar_palmitate | 人骨骼肌细胞（LHCN-M2） | 分化 vs AICAR（运动模拟）vs palmitate（脂毒性） | 15 |
 
 > 说明：样本计数口径经投稿前审稿核验统一为 337（9 个分析单元合计；GSE312393 两单元样本不重复计数）。
-> 全部样本级评分表见 `nampt_axis_sample_scores.csv`（346 行含表头）。
+> 全部样本级评分表见 `nampt_axis_sample_scores.csv`（346 条分析记录，含表头；对应 337 个正式去重样本）。独立的长格式 GEO metadata 文件含 351 行 provenance 记录，不作为样本量。
 
 ### 1.3 数据下载与预处理
 
@@ -124,7 +124,7 @@
 
 ## 5. Moderator 可行性审计
 
-样本级文件 346 行、formal contrast 76 行、预定义对照 19 个。审计字段覆盖（`meta/moderator_coverage.csv`）：timepoint 非空 70.2%、exercise_type 34.4%、nutrition_or_treatment 34.4%、intervention 74.9%、treatment 51.5%。
+样本级评分文件 346 条分析记录、长格式 metadata 351 行、formal contrast 76 行、预定义对照 19 个；346 和 351 均为记录数，不是额外生物样本。审计字段覆盖（`meta/moderator_coverage.csv`）：timepoint 非空 70.2%、exercise_type 34.4%、nutrition_or_treatment 34.4%、intervention 74.9%、treatment 51.5%。
 
 **结论：不做跨研究 moderator 元回归**——效应量嵌套在数据集/受试者内，且无统一跨研究 moderator 编码与效应协方差。可在 GSE318937、GSE305038、GSE312393 内部做时间点/训练状态/干预背景的描述；不报告正式 moderator p 值，不把 I² 解释为状态依赖证据（`meta/moderator_feasibility_report.md`）。
 

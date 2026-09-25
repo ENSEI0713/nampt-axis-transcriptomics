@@ -1,0 +1,7 @@
+﻿supplementary_data,content,row_scope,boundary
+Supplementary Data 9,Gene/module inventory and expression-file availability,59 gene annotations; 9 expression inventories,inventory; no cross-platform pooling
+Supplementary Data 10,Module structure,149 alpha rows + 1831 correlation rows,structural description
+Supplementary Data 11,Phase 1b sensitivity atlas,36 summary rows,pre-specified variants only
+Supplementary Data 12,Evo2 + GTEx/GWAS full evidence table,432 priority candidates,exploratory; A/B=0
+Supplementary Data 13,Sample-level trajectory records,346 analysis-unit records,descriptive records; no new longitudinal model
+Supplementary Data 14,Formal contrast statistics,76 metric-level rows,19 contrasts x 4 metrics
