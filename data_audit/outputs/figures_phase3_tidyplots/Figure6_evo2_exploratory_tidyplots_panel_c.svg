@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='518.74pt' height='204.09pt' viewBox='0 0 518.74 204.09'>
+<g class='svglite'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+    .svglite g.glyphgroup path {
+      fill: inherit;
+      stroke: none;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHw1MTguNzR8MC4wMHwyMDQuMDk='>
+    <rect x='0.00' y='0.00' width='518.74' height='204.09' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw1MTguNzR8MC4wMHwyMDQuMDk=)'>
+</g>
+<defs>
+  <clipPath id='cpMTI0Ljk2fDM5My43OHwxMC44N3wxOTMuMjM='>
+    <rect x='124.96' y='10.87' width='268.83' height='182.36' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMTI0Ljk2fDM5My43OHwxMC44N3wxOTMuMjM=)'>
+<rect x='124.96' y='10.87' width='268.83' height='182.36' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+</g>
+<g clip-path='url(#cpMC4wMHw1MTguNzR8MC4wMHwyMDQuMDk=)'>
+</g>
+<defs>
+  <clipPath id='cpMTYxLjEwfDMwMi44M3wyOS4yNHwxNzAuOTg='>
+    <rect x='161.10' y='29.24' width='141.73' height='141.73' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMTYxLjEwfDMwMi44M3wyOS4yNHwxNzAuOTg=)'>
+<rect x='161.10' y='29.24' width='141.73' height='141.73' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='169.96' y='35.99' width='35.43' height='134.98' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #0072B2;' />
+<rect x='214.25' y='35.99' width='35.43' height='134.98' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #009E73;' />
+<rect x='258.54' y='35.99' width='35.43' height='134.98' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #D55E00;' />
+</g>
+<g clip-path='url(#cpMC4wMHw1MTguNzR8MC4wMHwyMDQuMDk=)'>
+<polyline points='161.10,170.98 161.10,29.24 ' style='stroke-width: 0.53; stroke-linecap: square;' />
+<text x='156.17' y='173.84' text-anchor='end' style='font-size: 8.00px; font-family: "Arial";' textLength='15.58px' lengthAdjust='spacingAndGlyphs'>0.00</text>
+<text x='156.17' y='140.09' text-anchor='end' style='font-size: 8.00px; font-family: "Arial";' textLength='15.58px' lengthAdjust='spacingAndGlyphs'>0.25</text>
+<text x='156.17' y='106.35' text-anchor='end' style='font-size: 8.00px; font-family: "Arial";' textLength='15.58px' lengthAdjust='spacingAndGlyphs'>0.50</text>
+<text x='156.17' y='72.60' text-anchor='end' style='font-size: 8.00px; font-family: "Arial";' textLength='15.58px' lengthAdjust='spacingAndGlyphs'>0.75</text>
+<text x='156.17' y='38.86' text-anchor='end' style='font-size: 8.00px; font-family: "Arial";' textLength='15.58px' lengthAdjust='spacingAndGlyphs'>1.00</text>
+<polyline points='158.36,170.98 161.10,170.98 ' style='stroke-width: 0.53; stroke-linecap: butt;' />
+<polyline points='158.36,137.23 161.10,137.23 ' style='stroke-width: 0.53; stroke-linecap: butt;' />
+<polyline points='158.36,103.48 161.10,103.48 ' style='stroke-width: 0.53; stroke-linecap: butt;' />
+<polyline points='158.36,69.74 161.10,69.74 ' style='stroke-width: 0.53; stroke-linecap: butt;' />
+<polyline points='158.36,35.99 161.10,35.99 ' style='stroke-width: 0.53; stroke-linecap: butt;' />
+<polyline points='161.10,170.98 302.83,170.98 ' style='stroke-width: 0.53; stroke-linecap: square;' />
+<polyline points='187.68,173.71 187.68,170.98 ' style='stroke-width: 0.53; stroke-linecap: butt;' />
+<polyline points='231.97,173.71 231.97,170.98 ' style='stroke-width: 0.53; stroke-linecap: butt;' />
+<polyline points='276.26,173.71 276.26,170.98 ' style='stroke-width: 0.53; stroke-linecap: butt;' />
+<text x='187.68' y='181.64' text-anchor='middle' style='font-size: 8.00px; font-family: "Arial";' textLength='5.78px' lengthAdjust='spacingAndGlyphs'>C</text>
+<text x='231.97' y='181.64' text-anchor='middle' style='font-size: 8.00px; font-family: "Arial";' textLength='46.73px' lengthAdjust='spacingAndGlyphs'>External-only</text>
+<text x='276.26' y='181.64' text-anchor='middle' style='font-size: 8.00px; font-family: "Arial";' textLength='32.94px' lengthAdjust='spacingAndGlyphs'>Excluded</text>
+<text transform='translate(136.17,100.11) rotate(-90)' text-anchor='middle' style='font-size: 8.00px; font-family: "Arial";' textLength='52.52px' lengthAdjust='spacingAndGlyphs'>Candidates (n)</text>
+<rect x='313.79' y='71.17' width='74.51' height='57.87' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<text x='319.27' y='83.23' style='font-size: 8.00px; font-family: "Arial";' textLength='11.12px' lengthAdjust='spacingAndGlyphs'>tier</text>
+<rect x='319.27' y='89.55' width='11.34' height='11.34' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='319.98' y='90.26' width='9.92' height='9.92' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #0072B2;' />
+<rect x='319.27' y='100.89' width='11.34' height='11.34' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='319.98' y='101.60' width='9.92' height='9.92' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #009E73;' />
+<rect x='319.27' y='112.23' width='11.34' height='11.34' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<rect x='319.98' y='112.93' width='9.92' height='9.92' style='stroke-width: 1.07; stroke: none; stroke-linecap: butt; stroke-linejoin: miter; fill: #D55E00;' />
+<text x='336.09' y='98.08' style='font-size: 8.00px; font-family: "Arial";' textLength='5.78px' lengthAdjust='spacingAndGlyphs'>C</text>
+<text x='336.09' y='109.42' style='font-size: 8.00px; font-family: "Arial";' textLength='46.73px' lengthAdjust='spacingAndGlyphs'>External-only</text>
+<text x='336.09' y='120.76' style='font-size: 8.00px; font-family: "Arial";' textLength='32.94px' lengthAdjust='spacingAndGlyphs'>Excluded</text>
+<text x='231.97' y='22.92' text-anchor='middle' style='font-size: 8.00px; font-family: "Arial";' textLength='113.03px' lengthAdjust='spacingAndGlyphs'>Exploratory Evo2 evidence gate</text>
+</g>
+</g>
+</svg>

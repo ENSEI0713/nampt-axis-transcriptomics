@@ -162,6 +162,9 @@
   - **新脚本入库**：`scripts/md_to_docx_converter.py`、`scripts/md_to_latex.py`、`scripts/rebuild_submission_pack.py`
   - **git 清理**：提交 `8cd5bbd`（62 文件）并推送 origin/main，本地与远端同步；TIFF 60MB 超 GitHub 推荐 50MB（警告非阻塞，与旧版一致）
   - **剩余仅作者操作**：A 作者核对、C1-C4 上传、D3 核对 cover letter、E2-E6 投稿系统填写
+- **阶段 3 Figure 6 exploratory 面板完成**（2026-09-25）：
+  - 新增 `scripts/plot_figure6_exploratory.R`，将 432 个 Evo2 候选的 Tier A/B/C/External-only/Excluded 透明呈现为探索性补充面板；QC 确认 A=0、B=0、C=97、External-only=9、Excluded=326。
+  - 主文 Figure 6 仍保持 workflow/候选构成的简洁计算扩展定位，详细 Score A/B、strand consistency、GTEx/GWAS 和 Tier full table 留在 Supplementary Data 12。
 - **阶段 3 Figure 5 tidyplots 面板完成**（2026-09-25）：
   - 新增 `scripts/plot_figure5_tidyplots.R`，主图仅保留 obesity/weight-loss/tissue/disease evidence：4 contrasts、monocyte remodeling、OB/T2D muscle response；cell-model 两个 contrasts 明确移出主图。
   - 三个面板和矢量 composite 已导出，QC：panel a 16 rows/4 contrasts，panel b 4 rows，panel c 8 rows；`cell_model_moved_to_supplement=TRUE`。
