@@ -1,0 +1,10 @@
+status=panel_exports; composite_layout_pending_due_to_tidyplots_patchwork_S7_incompatibility
+panel_a_rows=13
+panel_a_contrasts=13
+panel_b_rows=8
+panel_b_traces=4
+panel_c_rows=52
+panel_c_metrics=4
+panel_c_contrasts=13
+render_backend=tidyplots 0.4.0
+width_mm=183

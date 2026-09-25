@@ -162,6 +162,9 @@
   - **新脚本入库**：`scripts/md_to_docx_converter.py`、`scripts/md_to_latex.py`、`scripts/rebuild_submission_pack.py`
   - **git 清理**：提交 `8cd5bbd`（62 文件）并推送 origin/main，本地与远端同步；TIFF 60MB 超 GitHub 推荐 50MB（警告非阻塞，与旧版一致）
   - **剩余仅作者操作**：A 作者核对、C1-C4 上传、D3 核对 cover letter、E2-E6 投稿系统填写
+- **阶段 3 Figure 3 tidyplots 面板完成**（2026-09-25）：
+  - 新增 `scripts/plot_figure3_tidyplots_final.R`，以真实 `figure3_exercise_axis_contrasts.csv` 构建 panel a（13 contrasts NAMPT_z forest）、panel b（8 条 immediate/24 h balance records，4 traces）和 panel c（13 contrasts × 4 metrics heatmap）。
+  - 三个面板分别以 183 mm 投稿宽度导出 SVG，QC 通过；由于 tidyplots 0.4.0 S7 对象与 patchwork 组合器存在尺寸兼容问题，当前状态为 panel exports，复合 Figure 3 版式仍待处理，不把原型误标为最终图。
 - **阶段 1/2 证据与 R 绘图基线完成** ✅（2026-09-25）：
   - R 4.6.1 + tidyplots 0.4.0 + ggplot2 4.0.3 + patchwork 1.3.2 + readr 2.2.0 + svglite 2.2.2 + ragg 1.5.2 已验证；`scripts/plot_nampt_axis_figures.R` exit=0。
   - 建立 `data_audit/outputs/evidence_manifest.md`，固定 337 正式去重样本 / 346 分析记录 / 351 provenance 行、19/12/13 contrast 与 Figure 6 a–c 口径。
