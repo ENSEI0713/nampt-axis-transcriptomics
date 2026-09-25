@@ -1,0 +1,5 @@
+source_rows=13
+source_contrasts=13
+metric=NAMPT_z
+render_backend=tidyplots 0.4.0
+status=prototype; not final Figure 3
