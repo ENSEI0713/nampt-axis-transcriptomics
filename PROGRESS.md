@@ -162,6 +162,12 @@
   - **新脚本入库**：`scripts/md_to_docx_converter.py`、`scripts/md_to_latex.py`、`scripts/rebuild_submission_pack.py`
   - **git 清理**：提交 `8cd5bbd`（62 文件）并推送 origin/main，本地与远端同步；TIFF 60MB 超 GitHub 推荐 50MB（警告非阻塞，与旧版一致）
   - **剩余仅作者操作**：A 作者核对、C1-C4 上传、D3 核对 cover letter、E2-E6 投稿系统填写
+- **最终图件与投稿包收口** ✅（2026-09-26）：
+  - Figure 1 新增可编辑文字 SVG：`Figure1_NAMPT_axis_editable.svg`（54 个原生 text 节点、独立色块/箭头；不再使用 Matplotlib glyph-path 作为唯一编辑源）。
+  - Figure 3–5 composite SVG、Figure 6 exploratory Tier panel 已纳入最终 Phase 3 图件目录；图注已同步 Figure 4–6 的实际面板和统计层级。
+  - Supplementary Data 体系扩展为 1–14，9–14 已纳入投稿包；Data Availability、图例 manifest、submission checklist 已同步。
+  - 主文 DOCX/LaTeX/PDF 重新生成（17 页）；投稿包 `NAMPT_manuscript_submission_pack_2026-09-26.zip` 共 80 条目，最终质量门通过，包含 Figure 1 editable source、Phase 3 composites、QC 和 Supplementary Data 9–14。
+  - **仍需作者本人**：确认作者/单位/签名、在投稿系统上传最终 TIFF/PNG/PDF/SVG 与 Supplementary Data 1–14、完成 NC 系统字段填写；这些未由 EvoX 虚报完成。
 - **阶段 3 Figure 6 exploratory 面板完成**（2026-09-25）：
   - 新增 `scripts/plot_figure6_exploratory.R`，将 432 个 Evo2 候选的 Tier A/B/C/External-only/Excluded 透明呈现为探索性补充面板；QC 确认 A=0、B=0、C=97、External-only=9、Excluded=326。
   - 主文 Figure 6 仍保持 workflow/候选构成的简洁计算扩展定位，详细 Score A/B、strand consistency、GTEx/GWAS 和 Tier full table 留在 Supplementary Data 12。

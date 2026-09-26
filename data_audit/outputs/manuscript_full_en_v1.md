@@ -190,7 +190,7 @@ All analysis code is available at https://github.com/ENSEI0713/nampt-axis-transc
 
 ## Data Availability
 
-All public datasets analysed in this study are available from the Gene Expression Omnibus (GEO) under the following accessions: GSE312393, GSE305038, GSE292369, GSE318937, GSE32575, GSE272133, GSE294150 and GSE282850 (Supplementary Data 1). Derived score tables, module-level statistics and Evo2 candidate/scoring outputs that support the findings of this study are provided as Supplementary Data 1–8 and archived at Zenodo (https://doi.org/10.5281/zenodo.22865789). 
+All public datasets analysed in this study are available from the Gene Expression Omnibus (GEO) under the following accessions: GSE312393, GSE305038, GSE292369, GSE318937, GSE32575, GSE272133, GSE294150 and GSE282850 (Supplementary Data 1). Derived score tables, module-level statistics and Evo2 candidate/scoring outputs that support the findings of this study are provided as Supplementary Data 1–14 and archived at Zenodo (https://doi.org/10.5281/zenodo.22865789).
 ## Code Availability
 
 All analysis code (public-data audit, NAMPT-axis scoring, meta-analysis, module-consistency, cell-composition proxy, Phase 1b sensitivity, Evo2-40B candidate construction/scoring and eQTL/GWAS merge) is available at https://github.com/ENSEI0713/nampt-axis-transcriptomics and archived at Zenodo (https://doi.org/10.5281/zenodo.22865789). Evo2-40B inference was performed through the NVIDIA-hosted generate endpoint; no custom model weights are required.
@@ -225,14 +225,14 @@ All analysis code (public-data audit, NAMPT-axis scoring, meta-analysis, module-
 ### Figure 3 | Exercise-induced NAMPT axis: acute stress and training adaptation.
 **a**, NAMPT_z, inflammatory, repair and balance scores across exercise cohorts (13 contrasts plotted: 12 paired contrasts plus one unpaired acute-24 h comparison; 4 datasets). The unpaired display contrast is descriptive and is not included in the paired meta-analysis. **b**, Immediate stress bias relaxes by 24 h (GSE318937 immediate vs 24h). **c**, Dataset-level summaries; acute inflammation-like signal mainly driven by NF-κB/cytokine modules (Phase 1b consistency).
 
-### Figure 4 | Random-effects meta-analysis of the exercise NAMPT axis.
-**a**, Pooled effects by stratum and metric (contrast-level DerSimonian–Laird: NAMPT_z +0.85, 95% CI 0.53–1.17, p = 1.8e-7; balance −0.62, p = 0.016; inflammatory +0.28, ns; repair −0.33, p = 0.05) with I² and τ². **b**, Per-contrast forest plot for exercise/NAMPT_z (12 contrasts); cluster-aware dataset-level estimate (k = 4, +0.965) and leave-one-dataset-out sensitivity are shown.
+### Figure 4 | Cross-dataset validation of the NAMPT axis.
+**a**, Contrast-level random-effects estimates across exercise, obesity and cell-model strata; cell-model results are directional evidence from one dataset. **b**, Dataset-level cluster-aware estimates for exercise and obesity, with the number of independent datasets shown as k. **c**, Exercise leave-one-dataset-out robustness across the four NAMPT-axis metrics. Contrast-level exercise meta-analysis uses 12 paired contrasts; Figure 3 displays 13 contrasts for descriptive dynamics.
 
-### Figure 5 | Obesity and weight loss: tissue- and disease-background dependence of the NAMPT axis.
-**a**, Obesity-layer meta (k = 3, directional): NAMPT_z +0.14; inflammatory +0.57. **b**, Post-bariatric monocyte remodeling (GSE32575): inflammatory and repair scores rise together post-surgery. **c**, Skeletal-muscle response by metabolic-disease status (GSE272133): T2D post-surgery repair score +0.30.
+### Figure 5 | Obesity and weight-loss tissue and disease-background dependence.
+**a**, Four obesity/weight-loss contrasts across monocyte and skeletal-muscle units, shown with metric-specific estimates and confidence intervals. **b**, Post-bariatric monocyte remodeling (GSE32575). **c**, Skeletal-muscle responses in obese and T2D states (GSE272133). Cell-model AICAR/palmitate contrasts are reported separately as supplementary evidence.
 
-### Figure 6 | Evo2-40B regulatory-variant prioritization.
-**a**, Prioritization workflow: Ensembl REST candidate build (12,961 → 432 functional variants within TSS ±2 kb of NAMPT/CD38/BST1/SIRT1/SIRT3/SIRT6/IL6/TNF), GRCh38 (hg38) ref/alt 2 kb windows, Evo2-40B scoring (Score A allele surprisal; Score B pseudo-likelihood), GTEx/GWAS Catalog merge and Tier assignment. **b**, Candidate-set composition (n = 432 by gene window; NAMPT 12, CD38/BST1/SIRT1/SIRT3/SIRT6/IL6/TNF 60 each). **c**, Tier distribution (A = 0, B = 0, C = 97, External-only = 9, Excluded = 326). Evo2 is reported as an exploratory supplementary module, not as a validated mechanistic main result.
+### Figure 6 | Exploratory Evo2-40B regulatory-variant extension.
+**a**, Exploratory computational workflow from candidate construction through Evo2 scoring and external evidence integration. **b**, Candidate-set composition across 432 priority variants. **c**, Tier distribution (A = 0, B = 0, C = 97, External-only = 9, Excluded = 326), reported as exploratory evidence rather than a validated mechanism or causal ranking.
 
 ## End Notes
 

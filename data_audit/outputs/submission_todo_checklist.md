@@ -14,9 +14,9 @@
 - [x] B4. 无 key 泄露复核
 
 ## C. 图件与补充材料上传
-- [ ] C1. 6 图 tiff/png（>=300dpi）上传（02_Figures/submission_assets/）
+- [ ] C1. 6 图最终版 tiff/png/svg/pdf（以最终 QC 选定版本为准）（>=300dpi）上传（02_Figures/submission_assets/）
 - [ ] C2. figure_sources/ 随稿上传
-- [ ] C3. 8 个 Supplementary Data xlsx 上传（03_Supplementary_Data/）
+- [ ] C3. 14 个 Supplementary Data（1–14） 上传（03_Supplementary_Data/）
 - [ ] C4. 核对编号与 manifest 对应
 
 ## D. 投稿文书
@@ -36,3 +36,9 @@
 
 ---
 *剩余需作者操作：A 核对、C1-C4 上传、D3、E2-E6。*
+
+## H. Phase 3 evidence and figure QC
+- [ ] H1. Confirm Phase 3 Figure 3–6 composites replace or supplement the Phase 2 submission assets
+- [ ] H2. Confirm editable Figure 1 SVG text, labels and arrows
+- [ ] H3. Confirm Supplementary Data 9–14 file names, manifest and Data Availability text
+- [ ] H4. Recheck final figure dimensions, DPI, fonts and panel numbering

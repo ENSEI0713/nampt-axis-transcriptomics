@@ -17,7 +17,7 @@ OUTPUTS = ROOT / "data_audit/outputs"
 SUB = OUTPUTS / "submission_pack"
 ASSETS = OUTPUTS / "submission_assets"
 
-stamp = datetime.now().strftime("%Y-%m-%d")
+stamp = "2026-09-26"
 OUT = OUTPUTS / f"NAMPT_manuscript_submission_pack_{stamp}.zip"
 
 # (zip_relative_path, absolute_source_path)
@@ -32,6 +32,15 @@ entries: list[tuple[str, Path]] = [
     ("01_Manuscript/manuscript_full_en_v1.pdf", SUB / "manuscript_full_en_v1.pdf"),
     # 02 Figures
     ("02_Figures/figure_legends_supp_data.md", OUTPUTS / "figure_legends_supp_data.md"),
+    ("02_Figures/figure1_editable_source.svg", OUTPUTS / "figures_phase3_tidyplots/Figure1_NAMPT_axis_editable.svg"),
+    ("02_Figures/figure3_phase3_composite.svg", OUTPUTS / "figures_phase3_tidyplots/Figure3_exercise_tidyplots_composite.svg"),
+    ("02_Figures/figure4_phase3_composite.svg", OUTPUTS / "figures_phase3_tidyplots/Figure4_meta_tidyplots_composite.svg"),
+    ("02_Figures/figure5_phase3_composite.svg", OUTPUTS / "figures_phase3_tidyplots/Figure5_obesity_tidyplots_composite.svg"),
+    ("02_Figures/figure6_exploratory_tier_panel.svg", OUTPUTS / "figures_phase3_tidyplots/Figure6_evo2_exploratory_tidyplots_panel_c.svg"),
+    ("02_Figures/phase3_figure_qc/figure3_qc.txt", OUTPUTS / "figures_phase3_tidyplots/Figure3_exercise_tidyplots_panels_qc.txt"),
+    ("02_Figures/phase3_figure_qc/figure4_qc.txt", OUTPUTS / "figures_phase3_tidyplots/Figure4_meta_tidyplots_qc.txt"),
+    ("02_Figures/phase3_figure_qc/figure5_qc.txt", OUTPUTS / "figures_phase3_tidyplots/Figure5_obesity_tidyplots_qc.txt"),
+    ("02_Figures/phase3_figure_qc/figure6_qc.txt", OUTPUTS / "figures_phase3_tidyplots/Figure6_evo2_exploratory_tidyplots_panel_c_qc.txt"),
     ("02_Figures/submission_assets/Figure1_framework.pdf", ASSETS / "Figure1_framework.pdf"),
     ("02_Figures/submission_assets/Figure1_framework.png", ASSETS / "Figure1_framework.png"),
     ("02_Figures/submission_assets/Figure1_framework.svg", ASSETS / "Figure1_framework.svg"),
@@ -68,6 +77,15 @@ entries: list[tuple[str, Path]] = [
     ("03_Supplementary_Data/Supplementary_Data_6_phase1b_sensitivity.xlsx", SUB / "Supplementary_Data_6_phase1b_sensitivity.xlsx"),
     ("03_Supplementary_Data/Supplementary_Data_7_moderator_coverage.xlsx", SUB / "Supplementary_Data_7_moderator_coverage.xlsx"),
     ("03_Supplementary_Data/Supplementary_Data_8_evo2_scoring_tiers.xlsx", SUB / "Supplementary_Data_8_evo2_scoring_tiers.xlsx"),
+    # Supplementary evidence 9-14 and machine-readable sources
+    ("03_Supplementary_Data/Supplementary_Data_9_gene_module_inventory.xlsx", OUTPUTS / "supplementary_evidence/Supplementary_Data_9_gene_module_inventory.xlsx"),
+    ("03_Supplementary_Data/Supplementary_Data_9_expression_file_inventory.csv", OUTPUTS / "supplementary_evidence/Supplementary_Data_9_expression_file_inventory.csv"),
+    ("03_Supplementary_Data/Supplementary_Data_10_module_structure.xlsx", OUTPUTS / "supplementary_evidence/Supplementary_Data_10_module_structure.xlsx"),
+    ("03_Supplementary_Data/Supplementary_Data_11_sensitivity_atlas.xlsx", OUTPUTS / "supplementary_evidence/Supplementary_Data_11_sensitivity_atlas.xlsx"),
+    ("03_Supplementary_Data/Supplementary_Data_12_evo2_external_evidence.xlsx", OUTPUTS / "supplementary_evidence/Supplementary_Data_12_evo2_external_evidence.xlsx"),
+    ("03_Supplementary_Data/Supplementary_Data_13_sample_trajectory_records.xlsx", OUTPUTS / "supplementary_evidence/Supplementary_Data_13_sample_trajectory_records.xlsx"),
+    ("03_Supplementary_Data/Supplementary_Data_14_formal_contrast_statistics.xlsx", OUTPUTS / "supplementary_evidence/Supplementary_Data_14_formal_contrast_statistics.xlsx"),
+    ("03_Supplementary_Data/machine_readable_supplementary_evidence_manifest.csv", OUTPUTS / "supplementary_evidence/supplementary_evidence_manifest.csv"),
     # 04 References (updated)
     ("04_References/references_v1.bib", OUTPUTS / "references_v1.bib"),
     # 05 Submission docs
@@ -84,6 +102,9 @@ entries: list[tuple[str, Path]] = [
     # 08 Project status
     ("08_Project_Status/PROGRESS.md", ROOT / "PROGRESS.md"),
     ("08_Project_Status/README.md", ROOT / "README.md"),
+    ("08_Project_Status/evidence_manifest.md", OUTPUTS / "evidence_manifest.md"),
+    ("08_Project_Status/requirements-r.txt", ROOT / "requirements-r.txt"),
+    ("08_Project_Status/supplementary_evidence_manifest.xlsx", OUTPUTS / "supplementary_evidence/supplementary_evidence_manifest.xlsx"),
     # 09 Archive metadata
     ("09_Archive/.zenodo.json", ROOT / ".zenodo.json"),
     ("09_Archive/ARCHIVE_README.md", ROOT / "ARCHIVE_README.md"),
